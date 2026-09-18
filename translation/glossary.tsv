@@ -1,1 +1,23 @@
-id	term	variants	translation	stem	forms	note	category	status
+id	term	variants	translation	stem	forms	note	category	status	short_of
+environment	Environment					Нейтральна фракція об’єктів довкілля в переліку фракцій гри.	Фракції	new	
+renegades	Renegades					Ворожа людська фракція ренегатів у переліку фракцій гри.	Фракції	new	
+federation	Federation					Людська фракція Федерації в переліку фракцій гри.	Фракції	new	
+arachnid	Arachnid					Фракція арахнідів у переліку фракцій гри.	Фракції	new	
+rifle_trooper	Rifle Trooper	Rifle Troopers				Базовий стрілецький загін Мобільної піхоти, зазначений у розділі типів юнітів.	Юніти Федерації	new	
+morita_assault_rifle	Morita Assault Rifle	Morita assault rifles				Штатна штурмова гвинтівка стрілецьких загонів Мобільної піхоти.	Зброя і техніка	new	
+mobile_infantry	Mobile Infantry					Військове формування Федерації, до якого належать стрілецькі загони.	Фракції	new	
+warrior	Warrior					Базовий бойовий арахнід, зазначений у розділі типів юнітів.	Арахніди	new	
+radio_operator	Radio Operator					Юніт зв’язку Федерації, здатний викликати підкріплення на полі бою.	Юніти Федерації	new	
+radio_station	Radio Station					Споруда зв’язку, подана в розділі типів юнітів Федерації.	Юніти Федерації	new	
+steel_bunker	Steel Bunker					Оборонна споруда Федерації, подана в розділі типів юнітів.	Юніти Федерації	new	
+tac_fighter	TAC Fighter	TAC Fighters				Бойові літальні апарати Федерації, подані в розділі типів юнітів.	Зброя і техніка	new	
+hopper	Hopper					Летючий бойовий арахнід, зазначений у розділі типів юнітів.	Арахніди	new	
+intel_bug	Intel Bug	Intel Bugs				Спеціалізований тип арахнідів, пов’язаний із розвідданими та зазначений у розділі типів юнітів.	Арахніди	new	
+wavebreaker_mortar	Wavebreaker Mortar					Мінометний юніт Федерації, у розділі типів юнітів.	Юніти Федерації	new	
+hmg_turret	HMG Turret					Оборонна турель Федерації зі спареними кулеметами; HMG — heavy machine gun.	Юніти Федерації	new	
+powered_suit_trooper	Powered Suit Trooper	Powered Suit Troopers				Елітна піхота Федерації в силовій броні з важким озброєнням, у розділі типів юнітів.	Юніти Федерації	new	
+tiger	Tiger					Бойовий арахнід, у розділі типів юнітів.	Арахніди	new	
+tanker	Tanker					Важкий бойовий арахнід, у розділі типів юнітів.	Арахніди	new	
+scorpion_bug	Scorpion Bug					Арахнід касти скорпіонів, у розділі типів юнітів.	Арахніди	new	
+plasma_bug	Plasma Bug					Великий артилерійський арахнід, стріляє плазмою.	Арахніди	new	
+plasma_grenadier	Plasma Grenadier					Арахнід дальнього бою, метає плазмові снаряди.	Арахніди	new	

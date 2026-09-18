@@ -71,8 +71,9 @@ def extract_rows(rel: Path) -> list[dict[str, str]]:
             parts.append(section)
         if note:
             parts.append(note)
+        # entities/tone порожні = ще не аналізовано конвеєром («-» він ставить сам: проаналізовано, нічого немає)
         rows.append({"file": file, "key": r.tsv_key, "original": r.value, "translation": "", "status": "",
-                     "context": "; ".join(parts), "entities": "-", "tone": "-"})
+                     "context": "; ".join(parts), "entities": "", "tone": ""})
     return rows
 
 
