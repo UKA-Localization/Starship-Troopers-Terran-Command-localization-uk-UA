@@ -25,9 +25,10 @@ path = "translation/STYLE.md"
 
 [glossary]
 path = "translation/glossary.tsv"
-columns = { id = "id", term = "term", variants = "variants", target = "translation", note = "note", forms = "forms", category = "category", status = "status" }
+columns = { id = "id", term = "term", variants = "variants", target = "translation", note = "note", forms = "forms", category = "category", status = "status", short_of = "short_of" }
 list_separator = "|"
 # status: порожньо — затверджено; fuzzy — переклад не вичитано; new — перекладу ще нема.
+# short_of: id повного терміна, якщо цей — його скорочення (M.I. → mobile_infantry); у скорочення свій переклад (МП або латиницею).
 
 # --- Аналіз: категорії термінів і характер рядків ---------------------------------
 
@@ -35,6 +36,9 @@ list_separator = "|"
 # Термін — усе, що має перекладатися однаково в усій грі: імена, назви юнітів/ворогів/зброї/технологій/планет/фракцій,
 # абревіатури.
 entity_categories = ["Персонажі", "Фракції", "Юніти Федерації", "Арахніди", "Зброя і техніка", "Технології", "Здібності", "Локації", "Механіки", "Загальне"]
+# батчі аналізу: малі, щоб модель уважно читала кожен рядок з його контекстом
+max_rows = 10
+max_source_chars = 2000
 
 [analysis.tones]
 neutral = "нейтральний інформаційний тон"

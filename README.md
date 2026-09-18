@@ -39,7 +39,7 @@
 
 ## Глосарій
 
-Усталені переклади імен, термінів і назв — у [translation/glossary.tsv](translation/glossary.tsv). Терміни з глосарію перекладаються тільки так, як там зазначено. Глосарій наповнює конвеєр (`analyze entities` → `glossary suggest`), затверджує людина (очищає `status`).
+Усталені переклади імен, термінів і назв — у [translation/glossary.tsv](translation/glossary.tsv). Терміни з глосарію перекладаються тільки так, як там зазначено. Глосарій наповнює конвеєр (`analyze entities` → `glossary suggest`), затверджує людина (очищає `status`). Скорочення (`M.I.`, `HMG`, `D.I.M.`) — окремі рядки глосарія зі своїм перекладом (українська абревіатура або латиницею) і посиланням `short_of` на повний термін.
 
 ## Структура репозиторію
 
@@ -49,7 +49,7 @@ source/                  — оригінальні файли гри (en) за 
   Language/languages.txt — список мов гри
   Scenarios/*/text_english.csv — тексти місій (84 файли)
 translation/strings.tsv  — усі рядки для перекладу: file, key, original, translation, status, context, entities, tone
-translation/glossary.tsv — глосарій: id, term, variants, translation, note, forms, category, status
+translation/glossary.tsv — глосарій: id, term, variants, translation, note, forms, category, status, short_of (скорочення → id повного терміна)
 translation/STYLE.md     — правила стилю перекладу
 translation/pipeline.toml — опис проєкту для конвеєра перекладу (формати, плейсхолдери, групування рядків)
 assets/                  — ресурси, окрім тексту (зараз не потрібні: шрифти гри вже містять українські літери)
