@@ -1,0 +1,95 @@
+﻿// NAME,
+scenario_name,Stand for the Fallen
+,
+// DESCRIPTION,
+scenario_descr,"The Bug offensive against Mahanagar has encroached upon a treasured Federation war memorial, located in the center of the city.
+
+This monument is a lasting testament to the valor of the Mobile Infantry and the sacrifices of its heroes. It cannot be allowed to fall to the Arachnid hordes."
+,
+// OBJECTIVES,
+objective_2_0_title,Don't lose the Memorial Base
+objective_2_1_title,Clear all Bug Hives
+objective_2_3_title,Defeat the final attack
+objective_2_2_title,Destroy Hornet & Brood Nests
+objective_2_6_title,SCORE
+objective_2_7_title,Time
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_13,#Invasion Direction SW 2
+unit_52,#Invasion Direction NW
+unit_72,#Invasion Direction SW 1
+unit_230,#camera start
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/PRIMARY/HOLD THE BASE/TRIGGERS/NW INCOMING/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_101_text,The Arachnids have been unable to dent our defenses. Their hordes are now approaching from the northwest – no doubt in a feeble attempt to outflank our troopers.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/HOLD THE BASE/TRIGGERS/FAIL ============== ",
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/HOLD THE BASE/BRIEFING/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_234_text,The war memorial at the heart of Mahanagar - raised to honor those who gave their lives for the Federation - is now surrounded by Arachnids...
+briefing_trigger_107_text,"Endless hordes keep pouring over the Honshu Bridge, headed toward the site. But reinforcements and heavy firepower are en route to strengthen its defenses."
+briefing_trigger_235_text,"The war memorial must be preserved at all cost."
+briefing_trigger_308_text,"It is our duty to honor humanity’s fallen heroes."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/CLEAR OUT THE HIVES/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_289_text,With the arrival of substantial reinforcements begins a new phase of the operation: the purge of the Arachnid infestation around the memorial site.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/DEFEND AGAINST THE BIG ATTACK/TRIGGERS/SUCCESS ============== ",
+// 4.propagandist,
+briefing_trigger_252_text,"The names of many more heroes will be inscribed upon Mahanagar's war memorial in recognition of its stalwart defense. Their sacrifice has affirmed the momument's value as a place of commemoration, now and always!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/DEFEND AGAINST THE BIG ATTACK/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_128_text,Our troopers have just finished clearing the last Bug nests in the district. But now a report comes in about one more Arachnid attack wave - bigger than anything encountered so far!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECONDARY/DESTROY NESTS/BRIEF ============== ",
+// 4.propagandist,
+briefing_trigger_115_text,The Bugs have already built many nests across the district. Each nest destroyed represents another small step to the ultimate liberation of Mahanagar.
+,
+,
+,
+// TRIGGER TEXTS,
+timer_trigger_67_descr,Attack incoming
+,
+timer_trigger_72_descr,Attack incoming
+,
+,
+,
+,
+,
+,
+timer_trigger_129_descr,Large horde incoming
+,
+,
+speech_trigger_173,Park Base
+,
+,
+,
+,
+,

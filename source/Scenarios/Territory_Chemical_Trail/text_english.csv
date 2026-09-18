@@ -1,0 +1,22 @@
+﻿// NAME,
+scenario_name,Smoke Trail
+,
+// DESCRIPTION,
+scenario_descr,"The Hydra's whereabouts have been narrowed down. To lure it out, a new Mass Pheromone Emitter will be constructed in the sector. Unfortunately, a swarm of Acid Grenadiers downed the transport dropships, scattering the machine's modules across Bug territory. To keep the program on track, the lost cargo must be retrieved immediately."
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_14,$base_a
+unit_15,$base_b
+unit_265,$intro_hive
+unit_266,$intro_crash_site
+unit_267,$intro_grenadierA
+unit_268,$intro_grenadierB
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

@@ -1,0 +1,303 @@
+﻿// NAME,
+scenario_name,[19] Operation Guillotine
+,
+// DESCRIPTION,
+scenario_descr,"Following years of brutal struggle, our forces on Kwalasha have finally isolated and trapped the Brain Bug orchestrating the Arachnid hordes on the planet.
+
+A vicious battle still lies ahead but we must seize this opportunity to cut off the head of the monster and bring an end to its reign of terror."
+,
+// OBJECTIVES,
+objective_2_0_title,Clear Initial Hives
+objective_2_2_title,Secure Forward Base
+objective_2_3_title,Capture the Brain Bug
+objective_2_10_title,Advance to the north
+objective_2_1_title,Clear Hives
+objective_2_9_title,Help clearing the hive on the left flank
+objective_2_7_title,Secure Wavebreaker positions
+objective_2_6_title,Reach the Camera Crew to deploy an M11 Honor Guard
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_640,Wavebreaker Site
+unit_659,Wavebreaker Site
+unit_668,Wavebreaker Site
+unit_669,Wavebreaker Site
+unit_672,Wavebreaker Site
+unit_673,Honor Guard spawn
+unit_802,Brain Marker
+unit_811,Allied Spawn Point
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/CLEAR INITIAL HIVES/START BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_158_text,"OK you Apes, listen up! I can't say when this war with the Bugs will end -- that's up to Terran Command. But the war on Kwalasha... it ends today, and it's up to us. This is the final showdown."
+briefing_trigger_199_text,"5th division is providing support. They’ve got penal battalions mixed in with them, so we’ll have to put up with those criminals and deserters on our flank while we push uphill"
+briefing_trigger_200_text,Intel says the brain bug is holed up in a cave system on top the mountain. Drive up on the right and pry that sonufabitch out into daylight.
+briefing_trigger_201_text,"Capture it alive, kill every other bug on this hill. You get me?"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/FORWARD BASE/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_548_text,"Once we have broken through the outer ring of hives, we will push north and establish a new base in the abandoned outpost across the river."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CATCH THE BRAIN BUG/TRIGGERS, 1ST SIGHT/TIMELINE ============== ",
+// 2.ava cortez,
+briefing_trigger_163_text,Here they come! Bugs bursting out of the ground!
+//,
+// 3.victor yarrow,
+briefing_trigger_164_text,"I see this ambush as a positive sign. If the Brain Bug is willing to risk exposing itself in that fashion, the Bugs' situation must be desperate."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CATCH THE BRAIN BUG/OUTRO/BB CAUGHT, HAWTHORNE ============== ",
+// 2.ava cortez,
+briefing_trigger_298_text,"Brain bug’s in the bag. Good job, troopers."
+//,
+// 3.victor yarrow,
+briefing_trigger_299_text,"You just conquered a planet. Without leadership, any surviving bugs will be no match for us."
+//,
+// 2.ava cortez,
+briefing_trigger_300_text,"Hey, 5th division. Thanks for the backup."
+//,
+// 7.hawthorne private,
+briefing_trigger_302_text,"You’re welcome, ma'am. And thank you for pulling our asses out of the fire."
+//,
+// 2.ava cortez,
+briefing_trigger_303_text,Colonel Hawthorne? What are you doing here?
+//,
+// 7.hawthorne private,
+briefing_trigger_304_text,"It’s Private Hawthorne now. 16th Penal Battalion. Command offered me an Other than honorable discharge but I couldn’t sit around doing nothing, not while people were dying – so I re-enlisted."
+//,
+// 2.ava cortez,
+briefing_trigger_305_text,Good to hear your voice again… private.
+//,
+// 7.hawthorne private,
+briefing_trigger_306_text,"You too, ma'am."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CATCH THE BRAIN BUG/OUTRO/BB CAUGHT, NOHAWTHORNE ============== ",
+// 2.ava cortez,
+briefing_trigger_308_text,"Brain bug’s in the bag. Good job, troopers."
+//,
+// 3.victor yarrow,
+briefing_trigger_309_text,"You just conquered a planet. Without leadership, any surviving bugs will be no match for us."
+//,
+// 2.ava cortez,
+briefing_trigger_310_text,"Hey, 5th division. Thanks for the backup."
+//,
+// 3.victor yarrow,
+briefing_trigger_311_text,"You should know, your former CO, Samuel Hawthorne was among them."
+briefing_trigger_312_text,Colonel Hawthorne’s here?
+briefing_trigger_313_text,"Command gave him the option to retire, instead he took a demotion to keep on fighting. Couldn’t sit idle while the MI was still marching into danger. Private Hawthorne was reported KIA during your ascent."
+//,
+// 2.ava cortez,
+briefing_trigger_314_text,I could have saved him.
+//,
+// 3.victor yarrow,
+briefing_trigger_315_text,"He didn’t need saving. He died with his troops, a hero of the Federation. It’s what he wanted."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CATCH THE BRAIN BUG/BRIEFING, 1ST SIGHT ============== ",
+// 2.ava cortez,
+briefing_trigger_159_text,"The Brain Bug is in the open! Man, that thing is ugly!"
+//,
+// 3.victor yarrow,
+briefing_trigger_160_text,You realize this reeks of a trap.
+//,
+// 2.ava cortez,
+briefing_trigger_161_text,"When it comes to the Bugs, colonel, everything reeks. But we're going to be ready for them."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CATCH THE BRAIN BUG/BRIEFING, FINAL POS ============== ",
+// 3.victor yarrow,
+briefing_trigger_316_text,The brain bug has been detected to the north. This time there can be no escape
+//,
+// 2.ava cortez,
+briefing_trigger_317_text,"OK, surround the area, then get in there and finish this."
+//,
+// 3.victor yarrow,
+briefing_trigger_318_text,"Remember, the Brain Bug must be captured alive and unharmed. The scientists will be glad to have a fresh specimen, but their investigative methods can be quite... robust."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HELP ALLIES/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_188_text,"Flanking division’s getting overwhelmed. 5th division, come in, what’s the situation?"
+//,
+// 6.hidden_hawthorne,
+briefing_trigger_281_text,"We’re getting chopped up pretty bad here, Colonel."
+//,
+// 2.ava cortez,
+briefing_trigger_282_text,Roger that. Do you need support?
+//,
+// 6.hidden_hawthorne,
+briefing_trigger_283_text,You know how this works. Every bug on us is one less standing in your way. Get up that hill and finish the job.
+//,
+// 2.ava cortez,
+briefing_trigger_284_text,"What’s you name, officer?"
+//,
+// 6.hidden_hawthorne,
+briefing_trigger_285_text,Officers are all dead. We’re all that’s left. We’ll hold them as long as you need. Over and out . . .
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEPLOY WAVEBREAKERS/TRIGGERS/SUCCESS ============== ",
+// 2.ava cortez,
+briefing_trigger_186_text,Last turret has been deployed.  No way the Bugs are taking back this bit of Kwalasha.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEPLOY WAVEBREAKERS/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_179_text,Wavebreaker turrets are being sent down to secure the area we've taken.
+briefing_trigger_180_text,Secure the other Wavebreaker deployment locations and we can make this sector Bug proof.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HONOR GUARD/TRIGGERS/SUCCESS ============== ",
+// 2.ava cortez,
+briefing_trigger_291_text,M11 Honor Guard deployed!
+//,
+// 3.victor yarrow,
+briefing_trigger_216_text,"Thank you.  It does make for quite a sight, doesn't it."
+//,
+// 2.ava cortez,
+briefing_trigger_290_text,I'm just glad I'm not going to be the one to have to polish it up afterwards
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HONOR GUARD/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_215_text,FedNet is broadcasting the final assault. They'd like some footage of the Honor Guard Marauders on the battlefield.
+//,
+// 2.ava cortez,
+briefing_trigger_287_text,Aren't they just for parades and ceremonies?
+//,
+// 3.victor yarrow,
+briefing_trigger_288_text,"While these carry thinner armor than the production Marauders, the Honor Guard pilots are the cream of the crop. But they do mostly just look good on film."
+//,
+// 2.ava cortez,
+briefing_trigger_289_text,"If they think it's going to help, then we'll see what we can do.  But it can't get in the way of winning this fight"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT: LOST ALL UNITS/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_906_text,Inform Command that we're looking at a total loss.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: SUPPLY DEPOTS/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_435_text,The fleet is bringing in more supplies as fast as they can.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: SUPPLY DEPOTS/TIMELINE ============== ",
+// 2.ava cortez,
+briefing_trigger_439_text,"Supplies have been delivered, more are coming soon."
+briefing_trigger_447_text,More supplies have been delivered.
+briefing_trigger_448_text,All supply depots have been filled up!
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: BOMBING RUNS/TRIGGERS/TIMELINE ============== ",
+// 2.ava cortez,
+briefing_trigger_569_text,The TAC Fighters have arrived. I hope you like the smell of roasted bugs!
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: BOMBING RUNS/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_523_text,Fleet will commence bombing runs to weaken the final hives. Stay out of the fire zone and time your advance accordingly.
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_688,Clear Hive
+,
+// 5.ANNOUNCER,
+speech_trigger_689,Clear Hive
+,
+// 5.ANNOUNCER,
+speech_trigger_690,Clear Hive
+,
+// 5.ANNOUNCER,
+speech_trigger_716,Capture Wavebreaker Site
+,
+// 5.ANNOUNCER,
+speech_trigger_717,Capture Wavebreaker Site
+,
+// 5.ANNOUNCER,
+speech_trigger_718,Capture Wavebreaker Site
+,
+// 5.ANNOUNCER,
+speech_trigger_719,Capture Wavebreaker Site
+,
+// 5.ANNOUNCER,
+speech_trigger_720,Capture Wavebreaker Site
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_563,Reach the Camera Crew
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_698,Capture Brain Bug Hive
+,
+// 5.ANNOUNCER,
+speech_trigger_695,Capture Radio Station
+,
+// 5.ANNOUNCER,
+speech_trigger_696,Open the gate
+,
+timer_trigger_437_descr,SUPPLY DROP INCOMING
+,
+,
+timer_trigger_441_descr,SUPPLY DROP INCOMING
+,
+,
+,
+,
+timer_trigger_524_descr,AIR STRIKES INCOMING
+,
+timer_trigger_527_descr,AIR STRIKES IN PROGRESS
+,
+// 5.ANNOUNCER,
+speech_trigger_580,Air strike boundary
+,
+// 5.ANNOUNCER,
+speech_trigger_581,Air strike boundary
+,
+// 5.ANNOUNCER,
+speech_trigger_582,Air strike boundary
+,
+,
+,
+,

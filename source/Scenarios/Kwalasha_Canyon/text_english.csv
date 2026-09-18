@@ -1,0 +1,200 @@
+﻿// NAME,
+scenario_name,[10] Valley of Death
+,
+// DESCRIPTION,
+scenario_descr,"Already referred to as ""A Second Klendathu"" by some, our ambitious counter-offensive has turned into a disaster.
+
+Exact details and casualty numbers still remain unclear as isolated groups of survivors fight their way back to friendly territory."
+,
+// OBJECTIVES,
+objective_2_0_title,Capture a Radio Station
+objective_2_1_title,Contact HQ at Radio Post
+objective_2_2_title,Evacuate 15 soldiers to the Canyon Exit
+objective_2_4_title,Keep at least 15 soldiers alive
+objective_2_3_title,Ambush the Arachnid horde
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_126,Rocket Troopers
+unit_166,Damaged Radio Post
+unit_286,Exit Objective
+unit_310,Reinforcement Radius
+unit_311,Reinforcements Radius
+unit_320,Pursuit Spawn
+unit_326,Reinforcement Radius
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REACH RADIO/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1_text,"Is this all?  Is this everyone that’s made it?  Damn it, we lost a lot of good people."
+briefing_trigger_9_text,"This canyon’s the only way home. I don’t like it, but there’s no other choice."
+briefing_trigger_59_text,"After last night’s fiasco, this whole area is enemy territory."
+briefing_trigger_405_text,"The map shows some old bases up ahead. Abandoned a while ago, but they’re our best chance."
+briefing_trigger_60_text,...so stay sharp and keep a lookout for other survivors. We can’t be the only ones that got out.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REACH RADIO/DIALOG: GETTING CLOSE TO FIRST RADIO ============== ",
+// 0.hawthorne,
+briefing_trigger_89_text,"Hang in there, we're almost at the radio station. Might be a bit dusty, but they should have a functioning transmitter."
+briefing_trigger_90_text,Once we’re there we can take a breather and wait for pickup
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REACH RADIO/EVENT: FIRST RADIO BLOWS UP ============== ",
+// 0.hawthorne,
+briefing_trigger_329_text,"Damnit, guess we’re not using that radio."
+briefing_trigger_330_text,There should be another transmitter further on.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: AMBUSH ARACHNID PATROL/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_391_text,That was neatly done. But we've got to keep moving forward.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: AMBUSH ARACHNID PATROL/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_381_text,Can you hear that? Bugs are coming.
+briefing_trigger_384_text,Set up an ambush on the high ground. Hold fire until the bugs are square in the killzone!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: ESCAPE THE CANYON/CUTSCENE/CUTSCENE ============== ",
+// 1.ava advisor,
+briefing_trigger_111_text,We’re picking up your signal. Do you read me?
+//,
+// 0.hawthorne,
+briefing_trigger_187_text,"Loud and clear. Am I glad to hear your voice, major! Requesting immediate evac."
+//,
+// 1.ava advisor,
+briefing_trigger_366_text,"Negative, request denied. Based on your position, Command has new instructions. A large force of bugs is approaching. You have orders to hold your position and slow their advance."
+//,
+// 0.hawthorne,
+briefing_trigger_211_text,We won’t even be a speed bump for those bugs! That isn’t a fight we can win.
+//,
+// 2.ava cortez,
+briefing_trigger_319_text,"You don’t have to win, just keep the bugs busy for a bit."
+//,
+// 0.hawthorne,
+briefing_trigger_212_text,"Ava, I am not throwing these troopers’ lives away for nothing..."
+//,
+// 2.ava cortez,
+briefing_trigger_320_text,You need to follow orders. The Federation will remember your bravery.
+//,
+// 0.hawthorne,
+briefing_trigger_321_text,"Sorry, you’re breaking up. Repeat that please."
+//,
+// 2.ava cortez,
+briefing_trigger_322_text,"Sam, do you hear me?"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: ESCAPE THE CANYON/CUTSCENE/CONTINUE BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_323_text,Damn interference. Couldn’t hear what she was saying. Guess we should get outta here before the bugs arrive.
+briefing_trigger_324_text,"Listen, this is my call.  Command left us to die, but I am going to get you out of this.  Now let’s go kick some bug ass."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: ESCAPE THE CANYON/TRIGGERS/EXIT REACHED/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_222_text,We made it - No thanks to those a-holes at HQ.
+briefing_trigger_325_text,"Hey, do you read us? These confounded radios have been on the fritz all day."
+//,
+// 1.ava advisor,
+briefing_trigger_326_text,"I’m sending pickup, but don’t think your little stunt went unnoticed. There will be consequences for this..."
+//,
+// 0.hawthorne,
+briefing_trigger_327_text,Reckoned there might be...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: ESCAPE THE CANYON/TRIGGERS/EXIT REACHED/FAIL ============== ",
+// 1.ava advisor,
+briefing_trigger_596_text,Inform Command that we're looking at a total loss
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: ESCAPE THE CANYON/TRIGGERS/TIP: GET PAST BUG HIVE ============== ",
+// 0.hawthorne,
+briefing_trigger_421_text,We don't have the firepower to take that Hive out.  Just get past it and keep going.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: ESCAPE THE CANYON/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_28_text,"Transmitters online. Cross your fingers, let’s hope someone hears this."
+,
+,
+,
+,
+"// ============== /AI OPS/HILL ATTACK/BEGIN ATTACK ============== ",
+// 0.hawthorne,
+briefing_trigger_400_text,Look sharp. We got Bugs.
+,
+,
+,
+,
+"// ============== /AI OPS/PURSUIT BUGS/PURSUIT STARTER ============== ",
+// 0.hawthorne,
+briefing_trigger_344_text,"Keep your asses moving, and watch out for bugs behind us!"
+,
+,
+,
+,
+"// ============== /AI OPS/AMMO BASE ATTACK ============== ",
+// 0.hawthorne,
+briefing_trigger_328_text,"Watch your feet, bugs under the sand!"
+,
+,
+,
+,
+"// ============== /REINFORCEMENTS/CRASHED DROPSHIP/HEAVY TROOPERS CONTACT ============== ",
+// 0.hawthorne,
+briefing_trigger_8_text,"Found more survivors. Troopers, follow us if you want to stay alive."
+,
+,
+,
+,
+"// ============== /REINFORCEMENTS/BROKEN RADIO/BRIEFING: REINFORCEMENTS FOUND ============== ",
+// 0.hawthorne,
+briefing_trigger_429_text,"Looks like some of the others made it this far.  Fall in, troopers."
+,
+,
+,
+// TRIGGER TEXTS,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_593,Capture Radio Station
+,
+// 5.ANNOUNCER,
+speech_trigger_590,Radio Station destroyed!
+,
+// 5.ANNOUNCER,
+speech_trigger_389,Set an ambush
+,
+// 5.ANNOUNCER,
+speech_trigger_592,Capture Radio Station
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_580,Evacuate to the canyon exit!
+,
+,
+,

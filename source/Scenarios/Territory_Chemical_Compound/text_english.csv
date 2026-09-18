@@ -1,0 +1,33 @@
+﻿// NAME,
+scenario_name,Chemical Compound
+,
+// DESCRIPTION,
+scenario_descr,"The Hercules Program progresses with the field testing of the ‘Mass Pheromone Emitter’—a specialized device designed to lure the elusive Hydra specimen. Although the device is only in its initial test phase, the first low-yield runs are already attracting enough Arachnids to threaten the facility's defenses."
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_11,$base_a
+unit_12,$base_b
+unit_17,$allied_point
+unit_18,$allied_point
+unit_19,$lost_point
+unit_29,$central_station
+unit_53,$incursion_north
+unit_54,$incursion_south
+unit_99,$incursion_west
+unit_102,$battery_array
+unit_103,$epulse_position
+unit_104,$epulse_position
+unit_105,$turret
+unit_106,$turret
+unit_107,$turret
+unit_108,$turret
+unit_109,$hydra_mockup
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

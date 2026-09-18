@@ -1,0 +1,315 @@
+unit_157,Instant Spawn Marker
+unit_4000,Radio Station
+unit_4001,Radio Station
+unit_66_descr,"This M11 Honor Guard is a killing machine armed with both a howitzer and minigun. It has less armor than the standard Marauders, but moves slightly faster and can call in reinforcements."
+unit_35_descr,Snipers are trained to hit targets over a long range with impeccable accuracy. They excel against unarmored targets but can also serve effectively as scouts.
+unit_4010,M4A Grinder
+unit_4010_descr,This light weapon platform mounts quad machine guns to provide fire support against lightly armored ground targets. It is also particularly effective against airborne targets.
+unit_4045,M4A Grinder
+unit_4017,M9A Sledgehammer (Assault)
+unit_4017_descr,This biped mounts a heavy mortar to provide powerful indirect fire support. It excels at destroying enemies from long range but has a low rate of fire and cannot engage nearby targets.
+unit_4026,M9A Sledgehammer (Siege)
+unit_170,General
+unit_171,Wavebreaker Mortar (Damaged)
+unit_3215,Ravager (Raged)
+unit_2126,Immolator (Burning)
+unit_63,Drone Nest
+unit_93,Drone Nest (Collapsed)
+unit_4023,Sniper Turret
+unit_23_descr,"The Morita Mk II rifle provides excellent medium range fire support against light to medium armored targets with its underslung grenade launcher, but these units are vulnerable in close combat."
+unit_1100,Hunter-Killer Merc
+unit_1156,Hunter-Killer Merc
+unit_1100_descr,Long range marksman that fires incendiary bullets with impeccable accuracy. These explode on impact and cause a small fire pool which deals additional damage.
+unit_1101,E-Pulse Troopers
+unit_1101_descr,The E-Pulse 44 Rifle has a fairly short range but is effective against light to medium armored targets.
+unit_124,Fortis E-Pulse Troopers
+unit_1154,Fortis E-Pulse Troopers
+unit_124_descr,These troopers wear 'Fortis' powered armor suits which increase the chance of survival while keeping battlefield mobility on par with unarmored troopers. Their E-Pulse rifles are effective at short range against light to medium armored targets.
+unit_1102,M6A Jaeger
+unit_1102_descr,This lightly armored biped is equipped with a powerful anti-armor gun. It should be deployed to destroy armored opponents from a safe distance or while protected by other more resilient unit types.
+unit_1128,Kamikaze Drone
+unit_1129,Drop Turret
+unit_161,Power Core
+unit_300,Radio Station
+unit_301,Radio Station
+unit_302,Radio Station
+unit_303,Radio Station
+unit_304,Radio Station
+unit_305,Radio Station
+unit_306,Radio Station
+unit_307,Radio Station
+unit_308,Satellite Station
+unit_309,Satellite Station
+unit_102,Heavy Weapon Depot
+unit_2020,Flamethrower Turret
+unit_2020_descr,"These turrets have a limited firing range but are effective at stopping streams of enemy melee units, especially when positioned in choke points. They are vulnerable to long range attacks or simultaneous attacks from multiple directions."
+unit_2148,Engineering Biped (Disabled)
+unit_2149,Light Engineering Biped
+unit_2151,Light Engineering Biped
+unit_2149_descr,"This construction biped can be used to construct defensive structures and turrets, or to repair other mechanical units. Its light armor provides some protection against attacks but won't hold up against more powerful opponents."
+unit_2064,Heavy Drilling Biped
+unit_2064_descr,This heavy-duty mining vehicle can repair other mechanical units and construct defensive structures and turrets. It has also proven effective in front-line combat against armored opponents due to its sturdy build and powerful drilling arm.
+unit_3060,Heavy Drilling Biped
+unit_18_descr,"The M11 Marauder is a heavily armored killing machine. Equipped with dual flamethrowers, it possesses unmatched close-range firepower against large numbers of light to medium armored targets."
+unit_25_descr,The M11 Marauder is a heavily armored killing machine. Its Howitzer provides powerful long-range strike capabilities but has a slow rate-of-fire and is inefficient against heavily armored targets.
+unit_40_descr,The M11 Marauder is a heavily armored killing machine. Its Rotary Cannon is effective at medium range and can shred even heavily armored targets.
+unit_1152,Mercenary Camp
+unit_3332,Light (White)
+unit_85_descr,"Through a direct communication line to the Fleet, powerful air strikes and orbital bombardments can be called in.
+The Liaison also receives permanent air cover from a TAC Fighter escort that excels at suppressing and destroying armored targets."
+unit_1151,Field Barricade
+unit_3370,A-12 Pegasus
+unit_2146,Flame Trap
+unit_2147,Flame Trap
+unit_2080_descr,This seasoned mercenary leader leverages his extensive combat expertise to enhance the effectiveness of fellow troopers.
+unit_2063,Fleet Beacon
+unit_2067_descr,These mercenaries carry the nickname of their weapon: A portable minigun capable of shredding enemies to pieces. The weapon is effective against light to medium armored targets. It also performs well against airborne enemies.
+,
+population_points_type_materiel,Materiel
+,
+wiki_battle_tier_title,Battle Tier
+wiki_battle_tier_descr,"Unlocking a higher Battle Tier will give you access to more advanced units.
+
+To advance to a higher Battle Tier, you have to deploy at least one platform building of the current Battle Tier.
+When this requirement is fulfilled, the timed progression to the next Tier will commence automatically."
+,
+wiki_hover_hmg_traits,"• Cannot be stunned
+• Can be repaired
+• Cannot capture"
+wiki_mech_mortar_traits,"• Cannot be stunned
+• Can be repaired
+• Cannot capture"
+wiki_mech_at_traits,"• Cannot be stunned
+• Can be repaired
+• Cannot capture"
+wiki_e-shock_troopers_traits,• Can clear Hives
+,
+wiki_sniper_merc_traits,"• Does not block friendly fire,
+• Can fire through friendly units,
+• Never miss their target"
+,
+ability_marksman_bomb_drop_descr,Use the jump jet to quickly redeploy to a new location while dropping a powerful bomb in the middle of the flight curve.
+ability_mech_at_proximity_defense_title,Proximity Defense Barrage
+ability_mech_at_proximity_defense_descr,Fire a burst of proximity defense grenades. Effective against low to medium armored targets.
+ability_mech_mortar_firewall_title,Deploy Firewall
+ability_mech_mortar_firewall_descr,Launch a special incendiary shell that creates a temporary wall of fire on impact.
+ability_mech_mortar_turret_pod_title,Launch Drop Turret
+ability_mech_mortar_turret_pod_descr,Launch a auto-turret container at the target location that deploys on impact. The turret has a powerful auto-cannon but has a limited operational life-time due to its small battery capacity.
+ability_mech_at_elite_a_title,Flak Grenades
+ability_mech_at_elite_a_descr,Launch a salvo of air-burst grenades that damage air units in a medium-sized area.
+ability_mech_at_elite_b_title,Manual Kamikaze Drone
+ability_mech_at_elite_b_descr,Launch a manually controlled spotter drone carrying a high-explosive shell. It can be directed to detonate against specific targets but has a limited battery life.
+ability_hover_hmg_hover_title,Engine overcharge
+ability_hover_hmg_hover_descr,Elevate the vehicle for a short duration allowing it to see and fire over obstacles and making it safe from melee attacks. It cannot move while elevated.
+ability_hover_hmg_descend_title,Abort engine overcharge
+ability_hover_hmg_descend_descr,"Switch back to standard hovering height, allowing the Grinder to move again."
+ability_hover_hmg_elite_a_title,Indirect Fire Barrage
+ability_hover_hmg_elite_a_descr,"Pepper the target area with bullets, dealing damage and suppression."
+ability_hover_hmg_elite_a_requiresunittype,This ability cannot be used in overcharge mode.
+ability_hover_hmg_elite_b_title,Hellraiser
+ability_hover_hmg_elite_b_descr,Activate engine overcharge while dropping a pool of burning fuel below.
+ability_hover_hmg_elite_b_requiresunittype,This ability cannot be used in overcharge mode.
+ability_mech_mortar_deploy_title,Activate Siege Mode
+ability_mech_mortar_deploy_descr,Mark a target area for bombardment with heavy shells. Note that the Sledgehammer cannot move in this mode and that these shells have a large blast radius - keep your own troopers at a safe distance to avoid unnecessary casualties!
+ability_mech_mortar_undeploy_title,Activate Assault Mode
+ability_mech_mortar_undeploy_descr,In this mode the mortar will launch low yield projectiles that do not deal friendly fire. Use the biped in the frontline to absorb enemy projectiles with its thick armor plating.
+ability_mech_mortar_firewall_requiresunittype,This ability cannot be used in Siege Mode.
+ability_mech_mortar_barrel_bomb_requiresunittype,This ability cannot be used in Siege Mode.
+ability_merc_grenade_barrage_title,Rifle Grenade Barrage
+ability_merc_grenade_barrage_descr,Provide indirect fire support with a steady barrage of fragmentation grenades. Effective against light to medium armored targets.
+ability_mech_engineer_default_descr,"This ability will gradually repair damage to the biped, but disables its ability to attack and reduces its movement speed."
+ability_exosuit_bastion_deploy_title,Deploy Field Barricade
+ability_exosuit_bastion_deploy_descr,Deploy a field fortification that protects the troopers against melee attacks and reduces the damage taken from ranged attacks.
+ability_exosuit_bastion_undeploy_title,Disassemble Field Barricade
+ability_exosuit_bastion_undeploy_descr,Disassemble the field forticiations and allow the troopers to move again.
+ability_exosuit_electrocute_title,Electric Discharge
+ability_exosuit_electrocute_descr,Discharge electric shocks from the Fortis suits to stun nearby enemies.
+ability_battery_overload_title,Rifle Battery Overcharge
+ability_exosuit_battery_overload_title,Rifle Battery Overcharge
+ability_exosuit_battery_overload_descr,"Temporary increase weapon rate-of-fire, damage and armor-piercing capabilites."
+ability_gunship_deploy_title,Activate Overwatch Mode
+ability_gunship_deploy_descr,"Deploys into Overwatch mode. In this mode, the gunship cannot move but focuses powerful rocket barrages into the designated target area."
+ability_gunship_undeploy_title,Activate Mobile Mode
+ability_gunship_undeploy_descr,"Reverts to Mobile Mode. In this mode, the gunship can move and engages targets with its nose-mounted rotary cannon. This weapon quickly overheats, forcing short delays between its fire bursts."
+ability_gunship_reaper_missile_requiresunittype,This ability cannot be used in Overwatch Mode.
+ability_gunship_bomb_requiresunittype,This ability cannot be used in Overwatch Mode.
+ability_m11_jet_blast_title,MX-156 Plasma Drop Bomb
+ability_m11_jet_blast_descr,"Drop a high-tech plasma bomb that unleashes a powerful shockwave, dealing damage to everything around the Marauder."
+ability_m11_fire_blast_title,MX-113 Incendiary Drop Charge
+ability_m11_fire_blast_descr,Drop an incendiary charge that unleashes a devastating blast and sets the area around the Marauder ablaze.
+ability_m11_aa_barrage_title,Flak Grenades
+ability_m11_aa_barrage_descr,Launch a salvo of air-burst grenades that damage air units in a medium-sized area.
+ability_merc_decoy_flares_title,Proximity Defense
+ability_merc_decoy_flares_descr,Deploy a barrier of decoys to distract enemies. Switches to rapid fire mode to engage targets at reduced firing range.
+ability_sniper_merc_elite_a_title,Mercenary Captain
+ability_sniper_merc_elite_a_descr,Promote the contractor to allow calling in reinforcements.
+ability_sniper_merc_elite_b_title,Wolf Pack
+ability_sniper_merc_elite_b_descr,Deploys two extra companion drones for increased close range defense and combat strength.
+ability_mech_engineer_grenade_title,Throw Double-Charge Grenade
+ability_mech_engineer_grenade_descr,"This hand grenade has two charges: The first detonates on impact and is effective against armored targets, the second charge explodes shortly after and has a wider blast radius."
+ability_mech_engineer_drone_title,Repair Drone
+ability_mech_engineer_drone_descr,"Deploys a companion drone that automatically repairs the biped and other nearby vehicles and constructions. If the drone is destroyed, a replacement will be deployed after a short time delay."
+ability_hyper_metabolism_title,Afterburner
+ability_hyper_metabolism_descr,Increase movement speed
+ability_flame_trap_deploy_title,Deploy Flame Trap
+ability_flame_trap_deploy_descr,Place a long lasting trap that shoots out a powerful flame when triggered.
+ability_fire_grenade_descr,"Throw an incendiary grenade that sets the target area ablaze, slowing and burning everything caught in the flames."
+ability_fire_rocket_descr,"Launch an incendiary warhead that sets a large area ablaze, slowing and burning everything caught in the flames."
+,
+unitclass_electro_turret,Turret
+technologies_button_text,Technologies
+,
+threat_broodnestsmutation,Drone Nests
+,
+popup_scenarios_moved_button_understand,"I understand, don't show again."
+error_missing_dlc,You don't have the required DLC to load this scenario.
+camerashake_effectaction_start,Start
+camerashake_effectaction_stop,Stop
+notification_material_change,Materiel
+button_mode_campaigns,Story Campaigns
+button_mode_territory,Territory Mode
+button_mode_challenges,Challenge Missions
+planet_klendathu,Klendathu
+planet_kwalasha,Kwalasha
+planet_gehenna,Gehenna
+planet_varuna,Varuna
+planet_earth,Earth
+coming_soon,Coming soon
+you_are_here,You are here
+,
+achievement_silent_night_materiel_caches_title,Make 'em count!
+achievement_silent_night_materiel_caches_descr,Capture all Materiel Caches
+achievement_razor_run_kills_with_prox_defense_title,Hunter Killer
+achievement_razor_run_kills_with_prox_defense_descr,Kill 20 Bugs with the M6A Jaeger's Proximity Defense ability
+achievement_airfield_all_power_suits_title,A full suit
+achievement_airfield_all_power_suits_descr,Simultaneously deploy one of each Powered Suit Troopers' elite upgrade
+achievement_tide_breaker_hold_descr,Hold the First Line for 6 minutes
+achievement_tide_breaker_kill_scorpions_with_rocket_turrets_title,Rocket Retaliation
+achievement_tide_breaker_kill_scorpions_with_rocket_turrets_descr,Kill 5 Scorpions with Rocket Turrets
+achievement_perimeter_exosuit_ability_title,Personal space enforcement
+achievement_perimeter_exosuit_ability_descr,Total damage taken by Fortis E-Pulse Troopers’ Field Barricades: 500
+,
+tooltip_selected_unit_cannot_capture,The selected unit cannot capture.
+dialog_open_lava_url_title,Raising Hell DLC
+dialog_open_lava_url_text,Would you like to know more about the Raising Hell DLC?
+dialog_open_metro_url_title,Urban Onslaught DLC
+dialog_open_metro_url_text,Would you like to know more about the Urban Onslaught DLC?
+,
+options_data_sharing_title,Data sharing
+hotkey_scrollup,Up
+hotkey_scrollleft,Left
+hotkey_scrolldown,Down
+hotkey_scrollright,Right
+options_hotkeys_camera,Camera controls
+options_preferences,Preferences
+,
+//,NOTE: Line break in titles below are important to fit the titles on screen
+options_audio_golden_title,"STAY TUNED
+TO FEDNET"
+options_video_golden_title,"KEEP YOUR EYES
+ON THE PRIZE!"
+options_preferences_golden_title,"YOU DECIDE,
+WE PROVIDE!"
+options_controls_golden_title,ARE YOU IN CONTROL?
+,
+unit_control_groups_info_button,Unit control groups
+,
+load_error_scenario_outdated_title,Savegame saved against different scenario version
+load_error_scenario_outdated_descr,This savegame was saved against a different version of the currently available scenario. Scenario updates might be incompatible with the savegame. Do you wish to continue?
+load_error_scenario_dlc_unavailable_title,Required DLCs unavailable
+load_error_scenario_dlc_unavailable_descr,"Savegame was created while DLCs were active, which are currently not enabled in the application. Please re-enable the DLCs or restart the scenario."
+editor_create_new_scenario,Create New Scenario
+editor_dlc_required,This DLC is required to edit/play this scenario. Changing this after scenario creation is currently not supported.
+editor_dlc_active,DLC is not active in this scenario. Changing this after scenario creation is currently not supported.
+load_error_incompatible_outdated_title,Incompatible savegame
+load_error_incompatible_outdated_descr,This savegame is no longer compatible with the current version of the game. Would you like to restart this mission instead?
+,
+//,INFO: {0} is replaced with the DLC name
+editor_new_scenario_enable_dlc,"Enable {0} DLC for the new scenario.
+Only players that own this DLC will be able to play the new scenario on the Steam Workshop."
+//,INFO: {0} and {1} are replaced with version numbers
+save_error_newer_version,Savegame was made with a newer version of the game (likely on a beta branch). Switch back to this game version to load this save. Save version: v{0} vs game version: v{1}
+//,INFO: {0} are {1} are replaced with scenario name and type respectively
+save_error_scenario_missing,Savegame was made for a scenario which can no longer be found: {0} - {1}
+,
+editor_dlc_cannot_change,This can NOT be changed after creating the scenario.
+editor_scenario_launch_failed,Launch scenario failed.
+workshop_scenario_launch_failed,Unable to launch workshop scenario.
+workshop_show_incompatible_items,Show incompatible items
+workshop_show_incompatible_items_tooltip,Show workshop items for which you do not own all required DLCs
+workshop_item_missing_dlc,You do not own all DLCs required to play this workshop scenario
+workshop_item_dlc_required,DLC is required to play this workshop scenario.
+scenario_error_missing_dlc,You do not have all the required DLCs for this scenario.
+scenario_error_header_corrupt,Error reading scenario header file.
+scenario_error_newer_version,Scenario was saved with a newer version of the game. Likely this was created on a beta branch. \nSwitch back to the beta version or wait for the game to be updated.
+scenario_error_dlc_not_supported,This scenario uses DLCs. Editing DLC scenarios or playing custom scenarios is not supported.
+scenario_rename_error_opened_title,Rename failed
+scenario_rename_error_opened_descr,You can't rename the currently opened scenario. Load another scenario or rename it from the main menu.
+scenario_rename_popup_title,Rename scenario
+scenario_rename_popup_descr,Type a new name for the selected scenario
+error_loading_save,Error loading save
+save_error_download_incomplete,"Savegame was made for a Steam Workshop scenario, which is still being downloaded. Please wait until the scenario is downloaded before retrying to load the save."
+save_error_workshop_item_removed,"Savegame was made for a Steam Workshop scenario, which no longer exists. Can't load the save without having the scenario."
+save_error_workshop_item_unsubscribed,"Savegame was made for a Steam Workshop scenario, which you are no longer subscribed to. Do you wish to resubscribe and download the scenario?"
+save_error_official_overwriting,Saving over official scenarios is not permitted.
+scenario_delete_error_opened_title,Delete Failed
+scenario_delete_error_opened_descr,You can't delete the currently opened scenario. Load another scenario or delete it from the main menu.
+scenario_delete_confirm_title,Delete Warning
+scenario_delete_confirm_descr,Are you sure you want to permanently remove the selected scenario?
+,
+button_editor_delete_scenario,Delete
+button_editor_rename_scenario,Rename
+button_editor_create_new,Create New
+button_overwrite,Overwrite
+,
+dlc_name_base,Base Game
+dlc_name_lava,Raising Hell
+dlc_name_wip,WIP
+,
+news_banner_new_content,New content drop has arrived!
+news_2025_05_title,Major update - New content available
+news_2025_05_text,"<i>Listen up, troopers!
+
+A major update has been released, adding a ton of <color=#FFEBBB>improvements and (free) new content!</color>
+
+Many of the campaign and challenge missions have been updated and now include <color=#FFEBBB>new player units</color>. In particular the Kwalasha and Gehenna campaigns have seen significant changes and now use <color=#FFEBBB>the Materiel resource</color> as a requisite to deploying turrets and advanced units.
+
+In addition to all of the above, this update includes <color=#FFEBBB>significant performance improvements</color>, specifically targeting the slowdowns you may experience during long play sessions and on larger maps.
+
+Note that due to all these changes <color=#FFEBBB>savegames from previous versions are no longer compatible</color>. If you try to load an older savegame you will get a prompt to restart the scenario instead.
+
+Below is <color=#FFEBBB>a selection of missions that highlight these new units</color> as well as some of the units that have received significant design changes.</i>"
+news_2025_05_button_play,Play mission
+news_2025_05_button_buy,Buy DLC
+news_2025_05_mission,Mission
+news_2025_05_mission_1,"This light weapon platform provides deadly fire support against lightly armored ground targets.
+
+Its quad machine guns also excel against Hoppers and other airborne targets."
+news_2025_05_mission_2,"Deploy this biped when you are in need of long range fire support.
+
+Its heavy mortar can engage targets from a long distance, making it particularly effective against Plasma Grenadiers. "
+news_2025_05_mission_3,"The M6A Jaeger is equipped with a powerful anti-armor cannon, effective against heavy targets like Scorpion Bugs.
+
+It also deploys a spotter drone to distract nearby enemies."
+news_2025_05_mission_4,"Though bulkier than Powered Suits, E-Pulse Troopers offer strong frontline defense.
+
+Their heavy armor provides solid protection against high-tier Arachnids like Scorpions and Royal Guards."
+news_2025_05_mission_5,"The reworked mercenary squad is armed with a variety of weapons to deal with different target types.
+
+This mission also introduces the enlarged and up-armored “Drilling Biped”."
+news_2025_05_mission_6,"This specialist eliminates Arachnids from long range using incendiary rounds, while its companion drone provides spotting and close range fire support."
+news_2025_05_mission_7,"This variant of the M11 Marauder is now equipped with dual flamethrowers, resulting in unmatched close-range firepower.
+
+It also has the ability to drop an incendiary bomb that sets the surrounding area ablaze."
+news_2025_05_mission_8,"Now fully dedicated to its role as a ground-attack gunship, the Pegasus can no longer engage airborne targets.
+
+Instead, you can set it up to unleash relentless rocket barrages on a designated target area."
+,
+button_restart,Restart
+button_galaxymap,GO TO WAR!
+tooltip_galaxymap,Play campaign missions or challenge missions.
+,
+unit_2011,Mercenary Captain
+unit_2011_descr,This seasoned mercenary leader leverages his extensive combat expertise to enhance the effectiveness of fellow troopers.
+,
+ability_passive,Passive

@@ -1,0 +1,210 @@
+﻿// NAME,
+scenario_name,[18] Gatekeeper
+,
+// DESCRIPTION,
+scenario_descr,"Human bravery and tactical ingenuity has outmatched the Bug; a massive horde of Arachnids has been lured into a trap with no way to escape.
+
+While the Fleet begins to bomb the enemy out of existence through relentless airstrikes, the Mobile Infantry must keep the door shut and prevent any break-out attempts."
+,
+// OBJECTIVES,
+objective_2_0_title,Do not lose the main base
+objective_2_2_title,Prevent too many bugs from escaping
+objective_2_6_title,Clear the Bug Hive
+objective_2_7_title,Kill bugs for extra Material
+objective_2_14_title,Defeat 1 attack wave
+objective_2_13_title,Defeat 2 attack waves
+objective_2_9_title,Defeat 3 attack waves
+objective_2_10_title,Defeat 4 attack waves
+objective_2_11_title,Defeat 5 attack waves
+objective_2_12_title,Defeat 6 attack waves
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_411,Exit A
+unit_413,Exit C
+unit_437,Exit Point
+unit_438,Exit Point
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/DON'T LOSE BASE/TRIGGERS/OUTRO/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_378_text,Bombing run complete. Fleet turned the desert into a killing field.
+//,
+// 2.ava cortez,
+briefing_trigger_646_text,How many Bugs did they get out in the desert?
+//,
+// 3.victor yarrow,
+briefing_trigger_647_text,"We're still calculating their casualties, but even the lowest estimates suggest we've achieved a critical weakening of the Arachnid force on Kwalasha."
+//,
+// 2.ava cortez,
+briefing_trigger_648_text,Well that makes all this worth it.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DON'T LOSE BASE/TRIGGERS/FAIL ============== ",
+// 2.ava cortez,
+briefing_trigger_376_text,The base has fallen! It's over...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DON'T LOSE BASE/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_329_text,"Fleet’s about to drop the hammer, so those bugs are desperate to escape."
+//,
+// 2.ava cortez,
+briefing_trigger_330_text,It's not ideal.  Some of these fortifications are FUBAR . . . but we'll work with what we've got.
+briefing_trigger_331_text,We will hold them here while the TAC Fighters unleash hell on Earth.
+//,
+// 3.victor yarrow,
+briefing_trigger_333_text,You mean hell on Kwalasha. Not that this planet was any Eden to begin with.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PREVENT ESCAPEES/TRIGGERS/WARNING 1 ============== ",
+// 3.victor yarrow,
+briefing_trigger_489_text,Must I remind you to tighten your defenses?! We can't afford to let too many bugs escape.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PREVENT ESCAPEES/TRIGGERS/WARNING 2 ============== ",
+// 3.victor yarrow,
+briefing_trigger_488_text,Bugs keep slipping past. You need to get a grip on the situation before it's too late.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PREVENT ESCAPEES/TRIGGERS/FAIL ============== ",
+// 3.victor yarrow,
+briefing_trigger_484_text," Too many Bugs have escaped. The plan is failing!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PREVENT ESCAPEES/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_359_text,Fighter pilots have reported bugs slipping through the perimeter.
+briefing_trigger_363_text,"They have intercepted the threat, but tracking individual targets is not the Fleet's responsibility."
+briefing_trigger_364_text,"Make sure this does not happen again. If the bugs break through, the whole ruse was for nothing."
+//,
+// 2.ava cortez,
+briefing_trigger_644_text,The Sky Marshal came up with this plan?
+//,
+// 3.victor yarrow,
+briefing_trigger_645_text,I may have assisted the slightest bit.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/KILLS FOR MATERIEL/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_465_text,"The plan worked better than we could have hoped. But that does mean there are more bugs out there than had been anticipated.  "
+briefing_trigger_651_text,Command is increasing the resources available for your battle group
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR HIVE/TRIGGERS/SUCCESS ============== ",
+// 2.ava cortez,
+briefing_trigger_463_text,The cave is sealed. The bugs won't be slipping through there any more.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR HIVE/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_457_text,Bugs have infiltrated through the mountains.
+briefing_trigger_458_text,Clear that cave right now. I want that route sealed off.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT WAVES FOR WS/TRIGGERS/SUPPLY DEPOTS/FIRST SUPPLY DEPOT ============== ",
+// 2.ava cortez,
+briefing_trigger_650_text,"Supply base has been brought online.  Just in time, we need more boots on the ground."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT WAVES FOR WS/TRIGGERS/SUPPLY DEPOTS/SECOND SUPPLY DEPOT ============== ",
+// 2.ava cortez,
+briefing_trigger_505_text,Another supply base is up and running. Use it.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT WAVES FOR WS/WAVE 1 ============== ",
+// 3.victor yarrow,
+briefing_trigger_366_text,Airstrikes are launching now.
+//,
+// 2.ava cortez,
+briefing_trigger_367_text,That means things are about to get hairy. Every bug is going to swarm this way.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT WAVES FOR WS/WAVE 2 ============== ",
+// 3.victor yarrow,
+briefing_trigger_397_text," Another swarm of bugs is coming in."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT WAVES FOR WS/WAVE 3 ============== ",
+// 3.victor yarrow,
+briefing_trigger_435_text,The bugs are making another attempt at a breakthrough
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT WAVES FOR WS/WAVE 4 ============== ",
+// 2.ava cortez,
+briefing_trigger_443_text,"Heads up, more bugs incoming. You know the drill by now."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT WAVES FOR WS/WAVE 5 ============== ",
+// 2.ava cortez,
+briefing_trigger_445_text,"Heads up, more bugs incoming. You know the drill by now."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT WAVES FOR WS/WAVE 6 ============== ",
+// 2.ava cortez,
+briefing_trigger_576_text,"Heads up, more bugs incoming. You know the drill by now."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT WAVES FOR WS/WAVE 7 ============== ",
+// 3.victor yarrow,
+briefing_trigger_578_text,Bugs are making their final push. They're throwing everything they have into this one.
+,
+,
+,
+// TRIGGER TEXTS,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_716,Do not lose the main base
+,
+,
+,
+timer_trigger_424_descr,ARACHNID HORDE APPROACHING
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_629,Escape Route
+,
+// 5.ANNOUNCER,
+speech_trigger_630,Escape Route
+,
+,

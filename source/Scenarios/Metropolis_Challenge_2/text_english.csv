@@ -1,0 +1,80 @@
+﻿// NAME,
+scenario_name,Circuit Breaker
+,
+// DESCRIPTION,
+scenario_descr,"A power plant in the heart of Mahanagar has been infested by the Arachnids. It would take a lot of manpower and materiel to root them out.
+
+By disabling the network of power transformers, however, the plant's core is expected to overheat and explode - thus breaking the Bugs' foothold in the district."
+,
+// OBJECTIVES,
+objective_2_0_title,Destroy the Power Transformers
+objective_2_5_title,Hold out until the Power Core explodes
+objective_2_1_title,SCORE
+objective_2_2_title,Time
+objective_2_3_title,Destroy Nests
+objective_2_6_title,Clear the Bug Hive
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_62,#Starting Camera
+unit_69,Power Transformer
+unit_71,Power Transformer
+unit_72,Power Transformer
+unit_73,Power Transformer
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/DESTROY POWER TURBINES/TRIGGERS/POWER TRANSFORMERS/BRIEFINGS ============== ",
+// 4.propagandist,
+briefing_trigger_225_text,The Mobile Infantry has just disabled the first power transformer.
+briefing_trigger_226_text,Another power transformer has been shut down. We’re already halfway there!
+briefing_trigger_227_text,"One more power transformer remains in the district. Keep it up, Troopers!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DESTROY POWER TURBINES/BRIEFINGS ============== ",
+// 4.propagandist,
+briefing_trigger_63_text,"The Arachnids have infested one of Mahanagar’s power stations, turning it into a formidable stronghold."
+briefing_trigger_285_text,"A direct assault on the facility would take considerable time, resources and the lives of many brave troopers."
+briefing_trigger_64_text,"Instead, an ingenious plan has been concocted: By disabling the surrounding power transformers, the power core will overload. The resulting shockwave is expected to wipe out the entire Bug nest."
+briefing_trigger_228_text,Some of the M.I.’s best and most advanced assets have been assigned to this operation. Success is guaranteed!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HOLD OUT UNTIL THE POWER CORE EXPLODES/TRIGGERS/SUCCESS ============== ",
+// 4.propagandist,
+briefing_trigger_160_text,Human ingenuity prevails over Bug brutality once more. One power station is a cheap price to pay for the liberty and safety of our citizens!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HOLD OUT UNTIL THE POWER CORE EXPLODES/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_107_text,All transformers have been deactivated. The power core is rapidly overheating and is expected to reach critical levels within a few minutes.
+,
+,
+,
+// TRIGGER TEXTS,
+timer_trigger_43_descr,Attack incoming
+,
+,
+,
+,
+speech_trigger_215,Destroy
+,
+speech_trigger_216,Destroy
+,
+speech_trigger_217,Destroy
+,
+speech_trigger_218,Destroy
+,
+,
+,
+,
+timer_trigger_155_descr,Core overload
+,
+,

@@ -1,0 +1,339 @@
+﻿// NAME,
+scenario_name,[5] No Escape
+,
+// DESCRIPTION,
+scenario_descr,"The treacherous leader of the Miner's Union on Kwalasha - sentenced to death by electrocution - has repeatedly escaped custody through sheer luck or sabotage. Even with his latest recapture, carrying out his execution has hit a new snag.
+
+The union leader’s transport shuttle has come down just beyond the walls of his final destination. As keepers of justice for the Federation, a detachment of the Mobile Infantry has arrived on scene and will swifty track down the elusive criminal."
+,
+// OBJECTIVES,
+objective_2_0_title,Keep the prison secured
+objective_2_1_title,Protect the Prisoner Blocks
+objective_2_2_title,Capture the Rocket Depot
+objective_2_4_title,Find Thomas Rees
+objective_2_5_title,Deliver Thomas Rees alive to the prison
+objective_2_11_title,Defeat the Arachnid attack
+objective_2_9_title,Destroy the Tanker Bug
+objective_2_10_title,Clear Bug Hives
+objective_2_7_title,Crush the prison revolt
+objective_2_14_title,Hold until the execution is completed
+objective_2_6_title,Capture the Control Room
+objective_2_3_title,Position squads along the wall
+objective_2_8_title,Collect all Supply Caches
+objective_2_13_title,Deploy 2 Rocket Trooper squads
+objective_2_12_title,Kill Tanker Bugs
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_44,Cell Block B
+unit_46,Cell Block A
+unit_133,Fugitives
+unit_134,Fugitives
+unit_136,Fugitive Sniper
+unit_141,Prison Guards
+unit_142,Prison Guards
+unit_143,Objective
+unit_151,Subject 89
+unit_152,Subject 113
+unit_164,Fugitives
+unit_179,Cell Block C
+unit_182,Containment Gate
+unit_183,Containment Gate
+unit_184,Containment Gate
+unit_229,Man the Wall
+unit_230,Man the Wall
+unit_231,Man the Wall
+unit_232,Man the Wall
+unit_244,Security System
+unit_245,Control Mainframe
+unit_274,Metal Detector
+unit_312,Supply Drop A
+unit_328,Supply Drop B
+unit_358,Warden's Office
+unit_396,First Tanker Spawn
+unit_446,Revolt Objective
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: SUPPLY DROPS/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_1133_text,Bug activity is on the increase.  Fleet has dropped supplies to build up your force.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CRUSH PRISONER REVOLT/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_917_text,It’s over. The prison is pacified.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CRUSH PRISONER REVOLT/TRIGGERS/FAIL: LOSE ALL UNITS ============== ",
+// 0.hawthorne,
+briefing_trigger_1727_text,"Shit, this operation is a complete Charlie Foxtrot. Mission failed."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CRUSH PRISONER REVOLT/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_73_text,Got an alert from prison security. Inmates broke out of their cells during the attack. It’s a full-scale revolt.
+//,
+// 0.hawthorne,
+briefing_trigger_217_text,"Great, now we got hostiles on both sides of the wall. How should we respond?"
+//,
+// 1.ava advisor,
+briefing_trigger_1404_text,You’re authorized to use lethal force.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE CONTROL ROOM/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_1001_text,Control room secure. Cameras are back online.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE CONTROL ROOM/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_993_text,"We’re operating blind. Retake the control room, we can access the security system to get eyes on this place."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR HIVES/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1255_text,Those bug caves just keep brewing up trouble.  We've got to get out there and shut some of them down.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: KILL FIRST TANKER/SPOT TANKER ============== ",
+// 5.announcer,
+briefing_trigger_1143_text,Tanker bug!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEPLOY 2 ROCKET TROOPER SQUADS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1447_text,"With Tanker Bugs around, we're going to need an extra punch.  We'll have to get a Rocket Depot up and running."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: HOLD UNTIL EXECUTION/TRIGGERS/OUTRO TO VICTORY ============== ",
+// 4.propagandist,
+briefing_trigger_1413_text,You’re watching a FedNet special event: The death of a traitor.
+briefing_trigger_1414_text,"Thomas Rees betrayed humanity, and now he’ll pay the ultimate price."
+briefing_trigger_1415_text,"His crimes: sedition, unionizing, spreading discontent."
+briefing_trigger_1416_text,Many were led astray by this criminal mastermind.
+briefing_trigger_1417_text,"By sabotaging the war effort, he aided and abetted the bugs."
+briefing_trigger_1418_text,Kwalasha demands justice. This planet has no room for troublemakers.
+briefing_trigger_1419_text,"If you’re not with the Federation, you’re with the bugs."
+briefing_trigger_1420_text,"There it is – 2,000 volts of justice are now coursing through Rees’s body.  Justice has been served."
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: CAPTURE ZANDER/OBJECTIVE: FIND ZANDER/CRASH SITE/CHECK REACHED CRASH SITE ============== ",
+// 0.hawthorne,
+briefing_trigger_1400_text,"Hmm, they had a welcome party waiting for them."
+briefing_trigger_104_text,"They landed in one piece, but then the bugs got them. Now there are more pieces."
+briefing_trigger_105_text,"No sign of Rees, except for these tracks leading away from the crash. And the guards’ weapons are missing. These fugitives are armed."
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: CAPTURE ZANDER/OBJECTIVE: FIND ZANDER/INVESTIGATE TOWN/BUBBLES/BUGS ON ROAD KILLED ============== ",
+// 0.hawthorne,
+briefing_trigger_229_text,"The fugitives were in a rush. These tracks are easy enough to follow, even without the trail of bodies."
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: CAPTURE ZANDER/OBJECTIVE: FIND ZANDER/INVESTIGATE TOWN/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_109_text,Progress report?
+//,
+// 0.hawthorne,
+briefing_trigger_1406_text,We’re neck deep in bugs here.
+//,
+// 1.ava advisor,
+briefing_trigger_1407_text,"Keep searching. FedNet viewers were promised an execution, and Command does not want to disappoint."
+//,
+// 0.hawthorne,
+briefing_trigger_389_text,Copy that. The show must go on.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: CAPTURE ZANDER/OBJECTIVE: FIND ZANDER/BATTLE WITH FUGITIVES/TRIGGERS/FUGITIVES DETECTED ============== ",
+// 0.hawthorne,
+briefing_trigger_1408_text,"Look out, sniper!"
+briefing_trigger_111_text,We’ve spotted the fugitives. They’re holed up in a settlement ahead.
+//,
+// 1.ava advisor,
+briefing_trigger_1409_text,Only Rees matters - capture him alive. You’re authorized to neutralize anyone else who resists.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: CAPTURE ZANDER/OBJECTIVE: FIND ZANDER/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_99_text,"FedNet has an execution scheduled tonight, but the guest of honor has gone missing."
+briefing_trigger_100_text,Prison transport shuttle sent out a mayday before we lost contact. Made an emergency landing not too far from here.
+briefing_trigger_101_text,"Our mission is to investigate the crash site and find the prisoners. If Rees’s still alive, he’s gonna fry on live TV."
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: CAPTURE ZANDER/OBJECTIVE: FIND ZANDER/FAIL: LOST ALL UNITS ============== ",
+// 0.hawthorne,
+briefing_trigger_1779_text,"Shit, this operation is a complete Charlie Foxtrot. Mission failed."
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: CAPTURE ZANDER/OBJECTIVE: BRING ZANDER TO THE PRISON/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_113_text,We bagged Rees. He’s cooperating. I think he prefers us to the bugs.
+//,
+// 1.ava advisor,
+briefing_trigger_115_text,Just in time. Deliver him to prison before the broadcast starts.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: CAPTURE ZANDER/OBJECTIVE: BRING ZANDER TO THE PRISON/FAIL ============== ",
+// 0.hawthorne,
+briefing_trigger_166_text,"Godammnit, Rees has bought it."
+//,
+// 1.ava advisor,
+briefing_trigger_1411_text,Command won't be happy.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: WALL WAVE DEFENSE/OBJECTIVE: KEEP PRISON SECURED/VICTORY OR DEFEAT/FAIL: ALL LOST ============== ",
+// 0.hawthorne,
+briefing_trigger_1514_text,We have lost control over the prison!
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: WALL WAVE DEFENSE/OBJECTIVE: KEEP PRISON SECURED/INTRO: EXECUTION BROADCAST ============== ",
+// 1.ava advisor,
+briefing_trigger_1426_text,"The prison guards will take custody of Rees. Not much time left, they’ll have to rush him through hair and makeup."
+briefing_trigger_1427_text,20 minutes til showtime. They’re broadcasting the execution live on all channels.
+//,
+// 0.hawthorne,
+briefing_trigger_1428_text,Think I’ll skip this one. I see enough death in the field.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: WALL WAVE DEFENSE/OBJECTIVE: KEEP PRISON SECURED/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_979_text,You’ve been assigned to prison defense. Keep that place locked down tight. Command doesn’t want anything interrupting the broadcast.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: WALL WAVE DEFENSE/OBJECTIVE: DEFEAT FIRST WAVE/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1011_text,"Ok troopers, we’re prison guards for now! Get on those walls."
+//,
+// 1.ava advisor,
+briefing_trigger_1410_text,Proximity sensors lighting up. More bugs on the way.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENTS: WALL WAVE DEFENSE/ATTACK WAVES/ANNOUNCE ATTACK WAVE ============== ",
+// 1.ava advisor,
+briefing_trigger_1135_text,Bug attack wave on its way.  Get your teams ready.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: FINAL ATTACK WAVE/BRIEFING ============== ",
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_1785,Do not lose the prison Radio Station
+,
+// 5.ANNOUNCER,
+speech_trigger_103,Investigate the crash site
+,
+// 5.ANNOUNCER,
+speech_trigger_1782,Capture Rees
+,
+// 5.ANNOUNCER,
+speech_trigger_133,Rees arrested!
+,
+// 5.ANNOUNCER,
+speech_trigger_263,Escort Rees into the prison
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_205,Follow the trail
+,
+// 5.ANNOUNCER,
+speech_trigger_208,Follow the trail
+,
+// 5.ANNOUNCER,
+speech_trigger_210,Follow the trail
+,
+// 5.ANNOUNCER,
+speech_trigger_212,Investigate the town
+,
+// 5.ANNOUNCER,
+speech_trigger_1707,Clear the room
+,
+,
+,
+timer_trigger_1012_descr,ATTACK INCOMING
+,
+// 5.ANNOUNCER,
+speech_trigger_934,Man the wall
+,
+// 5.ANNOUNCER,
+speech_trigger_945,Man the wall
+,
+// 5.ANNOUNCER,
+speech_trigger_951,Man the wall
+,
+// 5.ANNOUNCER,
+speech_trigger_957,Man the wall
+,
+// 5.ANNOUNCER,
+speech_trigger_1777,Capture the Control Room
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_1269,Use Searchlights to reveal incoming attacks
+,
+,
+timer_trigger_1136_descr,ATTACK INCOMING
+,
+timer_trigger_1523_descr,ATTACK INCOMING
+,
+timer_trigger_1526_descr,ATTACK INCOMING
+,
+timer_trigger_1548_descr,ATTACK INCOMING
+,
+,
+timer_trigger_1717_descr,Execution countdown
+,
+,
+,
+,
+,
+,

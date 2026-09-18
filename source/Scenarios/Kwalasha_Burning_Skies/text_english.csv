@@ -1,0 +1,257 @@
+﻿// NAME,
+scenario_name,[9] Burning Skies
+,
+// DESCRIPTION,
+scenario_descr,"Following the fall of Fort Meru during the new Arachnid offensive, Terran Command has vowed to take back the initiative and recover all lost territory.
+
+A massive fleet of dropships has gathered and is now en route to carry our troopers back into the battlefield."
+,
+// OBJECTIVES,
+objective_2_13_title,Defend and secure the crash sites
+objective_2_0_title,Keep one unit of Rocket Troopers alive
+objective_2_7_title,Reach the Radio Station
+objective_2_8_title,Destroy the marked Plasma Bugs
+objective_2_9_title,Destroy the remaining Plasma Bugs
+objective_2_12_title,Capture bases to unlock additional unit types
+objective_2_10_title,Rescue Survivors
+objective_2_14_title,Kill the last Plasma Bug before the Death horde arrives
+objective_3_3_title,Victory
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_63,spawn position
+unit_64,spawn position
+unit_177,Spawn Point
+unit_417,East Stream Spawn
+unit_418,West Stream Spawn
+unit_423,Crash Site
+unit_424,Crash Site
+unit_490,cinematic plasma
+unit_498,#cam start
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/SURVIVE/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_15_text,"Come in, anybody. Any one? It’s a massacre out there."
+briefing_trigger_660_text,"Plasma bugs were waiting for us, blew our shuttles out of the sky."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ROCKETEERS/TRIGGERS/FAIL ============== ",
+// 0.hawthorne,
+briefing_trigger_264_text,Rocket troopers are down! We're done for.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ROCKETEERS/BRIEFING: ROCKETS FOUND ============== ",
+// 0.hawthorne,
+briefing_trigger_69_text,Use the rocket launchers and ammo crates from the dropship. You'll need their extra reach.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/REACH RADIO STATION/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_705_text,"Comms are shot to hell, we can't get through to request pickup."
+briefing_trigger_3_text,Our best chance is to fight our way west to a local relay station. From there we should be able to contact Fleet
+,
+,
+,
+,
+"// ============== /OBJECTIVES/LIFT AIR BLOCKADE/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_59_text,"Glad to hear your voice, colonel, I knew you’d pull through."
+//,
+// 0.hawthorne,
+briefing_trigger_661_text,I always do.
+//,
+// 1.ava advisor,
+briefing_trigger_662_text,What’s your status? Command’s upset the advance is behind schedule.
+//,
+// 0.hawthorne,
+briefing_trigger_663_text,There’s not going to be any advance! Do they have any idea what happened down here?
+//,
+// 1.ava advisor,
+briefing_trigger_664_text,Intel is still sketchy. Only a few of the drop teams have radioed us so far.
+//,
+// 0.hawthorne,
+briefing_trigger_665_text,Those might be the only ones left!
+briefing_trigger_666_text,It's bad out there. We need pick up.
+//,
+// 1.ava advisor,
+briefing_trigger_667_text,"That's a no-go on pick up. Plasma bugs to the South of your position are making the approach too hot for shuttles. You take them out, we'll find some pilots crazy enough to come get you."
+//,
+// 0.hawthorne,
+briefing_trigger_668_text,Roger that. Lets go take out those plasma bugs.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DESTROY ALL PLASMA BUGS/TRIGGERS/OUTRO BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_671_text,Looks like we've out stayed our welcome. Time to leave this party. Where are those shuttles?
+//,
+// 1.ava advisor,
+briefing_trigger_672_text,"Pick up is a no go. All hell's breaking loose in orbit, at least two ships have taken direct hits. You're going to have to try and make it out on foot."
+//,
+// 0.hawthorne,
+briefing_trigger_673_text,"This just gets better and better. Our only chance is to split into small groups, stay low and move fast. That way least some of us should see tomorrow."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DESTROY ALL PLASMA BUGS/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_548_text,Command has ordered a general retreat. Get your people ready for evacuation
+//,
+// 0.hawthorne,
+briefing_trigger_549_text,What about the other squads?
+//,
+// 1.ava advisor,
+briefing_trigger_733_text,"A lot of them are not going to make it. We have their locations, but heavy plasma bug fire means Command can’t risk the shuttles to make pick up. Your people are the lucky ones..."
+//,
+// 0.hawthorne,
+briefing_trigger_734_text,"Negative, we’re not leaving. The MI leaves no trooper behind. Send over the coordinates of those plasma bugs. We’ll take em out and clear a path for the shuttles."
+//,
+// 1.ava advisor,
+briefing_trigger_735_text,"That's a big call to make on your own, colonel. There's a hell of a lotta bugs guarding them. If this goes wrong, it's on your head."
+//,
+// 0.hawthorne,
+briefing_trigger_550_text,Wouldn’t have it any other way.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/RESCUE CLOSE SURVIVORS/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_669_text,We've reached some of the survivors.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/RESCUE CLOSE SURVIVORS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_482_text,"We've got a distress call coming in from another group of survivors. If you can get to them, we could sure use their help."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/RESCUE FAR SURVIVORS/TRIGGERS/RESCUE 2 ============== ",
+// 0.hawthorne,
+briefing_trigger_936_text,"Come on you apes, join a squad and get back into action!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/RESCUE FAR SURVIVORS/TRIGGERS/RESCUE 3 ============== ",
+// 0.hawthorne,
+briefing_trigger_937_text,You're with us now!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEATH HORDE/TRIGGERS/SUCCESS: BEFORE TIMER EXPIRES ============== ",
+// 2.ava cortez,
+briefing_trigger_498_text,Intel estimates must have been wrong. The Bugs are already here.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEATH HORDE/TRIGGERS/FAIL: TIMER EXPIRES ============== ",
+// 0.hawthorne,
+briefing_trigger_559_text,That horde of bugs is here. Destroy the last Plasmas and get out!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEATH HORDE/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_494_text,You're going to have to pick up the pace. We've got bug readings off the dial closing on your location
+//,
+// 0.hawthorne,
+briefing_trigger_495_text,"Great, as if we needed the extra motivation."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT: ALL UNITS LOST/ALL UNITS LOST ============== ",
+// 1.ava advisor,
+briefing_trigger_777_text,Inform Command that we're looking at a total loss.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: DOOMED SURVIVORS/BRIEFING: APPROACH SURVIVORS ============== ",
+// 0.hawthorne,
+briefing_trigger_22_text,More survivors up ahead!
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: DOOMED SURVIVORS/PLASMA LAUNCH ============== ",
+// 0.hawthorne,
+briefing_trigger_47_text,Take cover! Plasma strike incoming!
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: DOOMED SURVIVORS/SURVIVORS KILLED ============== ",
+// 0.hawthorne,
+briefing_trigger_670_text,Godammnit! How many more people are we going to lose today?
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_182,Capture the Radio Station
+,
+timer_trigger_144_descr,DEFEND THE CRASH SITES
+,
+// 5.ANNOUNCER,
+speech_trigger_646,Crash site
+,
+// 5.ANNOUNCER,
+speech_trigger_647,Crash site
+,
+// 5.ANNOUNCER,
+speech_trigger_716,Destroy Bug Lair
+,
+// 5.ANNOUNCER,
+speech_trigger_800,Destroy Plasma Bug
+,
+// 5.ANNOUNCER,
+speech_trigger_801,Destroy Plasma Bug
+,
+,
+,
+,
+timer_trigger_496_descr,DEATH HORDE INCOMING
+,
+// 5.ANNOUNCER,
+speech_trigger_802,Destroy Plasma Bug
+,
+// 5.ANNOUNCER,
+speech_trigger_803,Destroy Plasma Bug
+,
+// 5.ANNOUNCER,
+speech_trigger_804,Destroy Plasma Bug
+,
+// 5.ANNOUNCER,
+speech_trigger_740,Rescue survivors
+,
+// 5.ANNOUNCER,
+speech_trigger_741,Rescue survivors
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_902,Rescue survivors
+,
+,
+,

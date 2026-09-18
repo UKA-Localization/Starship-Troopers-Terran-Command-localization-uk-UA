@@ -1,0 +1,234 @@
+﻿// NAME,
+scenario_name,[5] Death from Above
+,
+// DESCRIPTION,
+scenario_descr,"The central district is now largely cut off from its surroundings by land, but the Arachnids have found a way to continue their advance: traveling underground through the metro system. Is there a Brain Bug orchestrating their movements?
+
+Sergeant Keys presents a plan to further reduce the stream of Bugs, with Verhaegen assigned to put it into action."
+,
+// OBJECTIVES,
+objective_2_8_title,Construct Sam Sites on the marked locations
+objective_2_2_title,Clear all the Bug Hives
+objective_2_1_title,Capture the Police HQ rooftop
+objective_2_11_title,Keep the Snipers or Rocket Troopers alive
+objective_2_6_title,Defend the Police HQ rooftop
+objective_2_10_title,Hold against the final attack waves
+objective_2_7_title,Destroy 2 Plasma Bugs with A-12 Pegasus Gunships
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_251,Police HQ
+unit_289,#Ground Middle Left
+unit_290,#round Middle Right
+unit_291,#Ground Right
+unit_292,#Ground Left
+unit_293,#Air Spawn Left
+unit_294,#Air Spawn Middle
+unit_295,#Air Spawn Right
+unit_325,#invasion marker
+unit_326,#invasion marker
+unit_413,#invasion marker
+unit_414,#invasion marker
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/CONSTRUCT AA TURRETS/TRIGGERS/TURRET CHECKS/DIALOGUE: TURRET LOST ============== ",
+// 12.senior,
+briefing_trigger_659_text,"A SAM site’s been knocked out! Get the techs here to get it firing again, ASAP!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CONSTRUCT AA TURRETS/TRIGGERS/DIALOGUES ============== ",
+// 12.senior,
+briefing_trigger_379_text,First SAM is up. Let's clear them skies!
+briefing_trigger_380_text,The flyboys better be thanking us -- 2nd SAM site has been deployed.
+briefing_trigger_709_text,SAM site operational!
+briefing_trigger_381_text,Another SAM site online -- one more should do it!
+briefing_trigger_704_text,Final SAM site is up!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CONSTRUCT AA TURRETS/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_331_text,Looks like we're late to the party -- Police HQ is already crawling with Bugs.
+//,
+// 12.senior,
+briefing_trigger_487_text,And you're sure this is the best way down to the maintenance tunnels?
+//,
+// 11.cop,
+briefing_trigger_332_text,"To keep us off the streets, yes. HQ will give us quick access into the heart of the water mains system. And candidly, I'd like to check on my colleagues, too."
+//,
+// 12.senior,
+briefing_trigger_480_text,"It ain't looking too good from where I'm sitting, Keys, but we'll do our best to support whoever's in there."
+briefing_trigger_333_text,"Hear that, troopers! I want this station locked down with an AA ring all the way around these rooftops! Go!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/TAKE THE POLICE BUILDING/TRIGGERS/FAIL ============== ",
+// 11.cop,
+briefing_trigger_438_text,We've failed to capture the Police HQ in time! The Bugs won't give us a second chance...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/TAKE THE POLICE BUILDING/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_425_text,Excellent. My assault task force has arrived right on cue.
+briefing_trigger_426_text,They will make their way to the police HQ and secure the comms satellite on the rooftop.
+//,
+// 11.cop,
+briefing_trigger_628_text,We've only got a small window for them to take control of the station's roof -- the Bugs will get wise soon!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/KEEP THE SNIPER OR ROCKET TEAM ALIVE/TRIGGERS: KEEP THE SNIPER OR ROCKET TEAM ALIVE/FAIL ============== ",
+// 11.cop,
+briefing_trigger_702_text,We've wasted our shot to take the HQ! The Bugs have us nailed now!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/KEEP THE SNIPER OR ROCKET TEAM ALIVE/BRIEFING: KEEP THE SNIPER OR ROCKET TEAM ALIVE ============== ",
+// 12.senior,
+briefing_trigger_592_text,"You heard 'er, task force -- the op's counting on you to reach that roof in one piece."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE POLICE BUILDING/TRIGGERS/OFFENSIVES/OFFENSIVES LOOP ============== ",
+// 11.cop,
+briefing_trigger_633_text,Bugs are heading for the police HQ. Prepare the defenses!
+//,
+// 12.senior,
+briefing_trigger_679_text,The Bugs have reached the HQ. Fire at will!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE POLICE BUILDING/TRIGGERS/OFFENSIVES/DIALOGUE: CONSTRUCT TURRETS ============== ",
+// 12.senior,
+briefing_trigger_658_text,"Quit slacking, We need more turrets on that rooftop!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE POLICE BUILDING/TRIGGERS/FAIL ============== ",
+// 12.senior,
+briefing_trigger_392_text,Argh! The roof is overrun! We're pulling out!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE POLICE BUILDING/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_197_text,HQ roof secured! Now for the fun part.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE POLICE BUILDING/BRIEFING PART 2 ============== ",
+// 11.cop,
+briefing_trigger_619_text,The Bugs will stop at nothing to take it back. Hope you've got your defenses ready!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HOLD AGAINST THE FINAL BIG BUG HORDE/TRIGGERS/SUCCESS ============== ",
+// 11.cop,
+briefing_trigger_311_text,That did it! They're pulling back!
+//,
+// 12.senior,
+briefing_trigger_705_text,Hope our slug friend is hurting with that one. He's got worse coming once we get down to his level...
+//,
+// 11.cop,
+briefing_trigger_706_text,Then let's not waste any time. Follow me inside -- you're on my op now.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HOLD AGAINST THE FINAL BIG BUG HORDE/BRIEFING ============== ",
+// 13.cop_vision,
+briefing_trigger_559_text,Ungh! I can feel it -- the Brain Bug isn't happy with that. The Bugs are sending everything this way!
+//,
+// 12.senior,
+briefing_trigger_561_text,"Heh. Bring it on, skin-sack. Not one of your stinkin' Bugs is getting to this roof alive!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DESTROY PLASMA BUGS/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_313_text,We've got Plasma Bugs covering the next SAM position. I'm trustin' in you flyboys to deal with that. Sic the Gunships on 'em!
+,
+,
+,
+,
+"// ============== /EVENTS/HOPPER ATTACKS/HOPPER ATTACK WEST ============== ",
+// 11.cop,
+briefing_trigger_632_text,Ugh. What's that awful buzzing sound?
+//,
+// 12.senior,
+briefing_trigger_703_text,Ah hell! Hoppers incoming! Keep low and blow those buzzards out the sky!
+,
+,
+,
+,
+"// ============== /EVENTS/HOPPER ATTACKS/HOPPER ATTACK EAST ============== ",
+// 11.cop,
+briefing_trigger_649_text,More Hoppers in the sky!
+,
+,
+,
+,
+"// ============== /MUTATIONS/GRENADIERS/GRENADIERS ============== ",
+// 12.senior,
+briefing_trigger_637_text,"Plasma Grenadiers have got us zeroed! Cowards are just of range, too -- get the Gunships to hunt 'em down!"
+,
+,
+,
+,
+"// ============== /MUTATIONS/GRENADIERS/MISSILE TURRETS VS GRENADIERS ============== ",
+// 12.senior,
+briefing_trigger_736_text,Missile turrets are now available for deployment. Position them on the police HQ to deal with Plasma Grenadiers!
+,
+,
+,
+// TRIGGER TEXTS,
+,
+,
+speech_trigger_326,Construct Turret
+,
+speech_trigger_327,Construct Turret
+,
+speech_trigger_328,Construct Turret
+,
+speech_trigger_329,Construct Turret
+,
+speech_trigger_465,Construct Turret
+,
+timer_trigger_433_descr,Capture the Police HQ
+,
+,
+speech_trigger_456,Construct Turret
+,
+timer_trigger_678_descr,Attack incoming
+,
+,
+,
+speech_trigger_525,Construct Turret
+,
+speech_trigger_535,Construct Turret
+,
+speech_trigger_545,Construct Turret
+,
+speech_trigger_555,Construct Turret
+,
+timer_trigger_563_descr,Attack incoming
+,
+,

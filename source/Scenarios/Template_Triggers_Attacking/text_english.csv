@@ -1,0 +1,27 @@
+﻿// NAME,
+scenario_name,Editor Demo Attack
+,
+// DESCRIPTION,
+scenario_descr,This is a scenario to demonstrate the scenario editor trigger system.
+,
+// OBJECTIVES,
+objective_2_0_title,Clear the Hive
+objective_2_1_title,Defeat the valley ambush
+,
+// UNIT NAMES,
+,
+// SPAWNED UNIT NAMES,
+,
+// TRIGGER TEXTS,
+// 1001.CAPTAIN CÉLINE,
+briefing_trigger_17_text,"Look out, ambush! Form up!"
+,
+// 1000.LEUTENANT LUC,
+briefing_trigger_15_text,"The hive has been cleared, good job soldiers!"
+,
+// 1000.LEUTENANT LUC,
+briefing_trigger_13_text,"Okay you apes, there is a vanguard nest just ahead of us. We'll have to clear the hive and exterminate all Bugs before they get the chance to set up shop. 
+Fall out soldiers, HOOAH!"
+,
+,
+,

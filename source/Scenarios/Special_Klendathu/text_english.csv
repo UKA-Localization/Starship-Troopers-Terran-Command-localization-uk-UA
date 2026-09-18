@@ -1,0 +1,174 @@
+﻿// NAME,
+scenario_name,Battle of Klendathu
+,
+// DESCRIPTION,
+scenario_descr,"<i>""We're in this war for the species, boys and girls. It's simple numbers. They have more.""</i>
+    - Col. Carl Jenkins
+
+Remember your training. Remember Klendathu."
+,
+// OBJECTIVES,
+objective_2_9_title,Advance to the flag
+objective_2_7_title,Defend the drop zone
+objective_2_5_title,Escort the Rocket Troopers toward the Plasma Bugs
+objective_2_0_title,Join with the main army
+objective_2_6_title,Hold the center of the main army
+objective_2_1_title,Try to make it back alive
+objective_2_10_title,Join the main army
+objective_2_11_title,Kill 10 Arachnid Warriors
+objective_2_12_title,Suffer less than 20 casualties
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_325,RespawnPoint
+unit_339,Squad Killer
+unit_355,Evac Point
+unit_385,Drop Zone
+unit_402,Rocketeers spawn
+unit_417,Defender spawn
+unit_418,Defender spawn
+unit_422,Tutorial move
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_973_text,"We now take you live to Klendathu, where the invasion has begun."
+briefing_trigger_985_text,"""Big K"" - as Cap Troopers like to call it - is an ugly planet, a bug planet, a planet hostile to life as we know it."
+briefing_trigger_1677_text,"To assure the safety of human civilization, the Arachnid home-world must be eliminated."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: MOVE TO FLAG/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_986_text,"As they touch down on Big K, each trooper - vigorously trained for battle - knows exactly what to do."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: DEFEND DROP ZONE/TRIGGERS/CONTINUE TO NEXT ============== ",
+// 4.propagandist,
+briefing_trigger_1637_text,"Through blood, sweat and determination, the dropzone has been secured."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: DEFEND DROP ZONE/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_1547_text,It appears the Arachnids have realized what’s coming for them. Their warriors are already bearing down on the drop zones in large quantities.
+,
+,
+,
+,
+"// ============== /OBJECTIVE: KILL PLASMAS/TRIGGERS/OUTRO ============== ",
+// 4.propagandist,
+briefing_trigger_1549_text,Rocket troopers unleash their deadly payload. The Bug has no answer to superior human firepower.
+,
+,
+,
+,
+"// ============== /OBJECTIVE: KILL PLASMAS/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_1126_text,"Meanwhile, gargantuan Plasma Bugs are harassing our Fleet as they launch enormous globs of plasma into orbit."
+briefing_trigger_1290_text,But the M.I. comes prepared and equipped to deal with this predicament. Rocket Troopers will swiftly nuke it out of existence.
+,
+,
+,
+,
+"// ============== /OBJECTIVE: JOIN THE MAIN ARMY/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_1613_text,"With the Plasma Bugs destroyed, the Mobile Infantry regroups for the next stage of the operation."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: HOLD THE MAIN ARMY/TRIGGERS/SPOT MASS BUG ATTACK ============== ",
+// 4.propagandist,
+briefing_trigger_594_text,Big K is spewing out seemingly endless hordes of Arachnids against the brave men and women of the Mobile Infantry.
+,
+,
+,
+,
+"// ============== /OBJECTIVE: HOLD THE MAIN ARMY/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_1624_text,"A well ordered battle line has been formed, ready for the next phase of the invasion."
+briefing_trigger_218_text,The objective: A large Bug Hive to the east. Terran Command wants it exterminated.
+briefing_trigger_1216_text,"As they advance upon this target, our troopers will wipe out any remaining Arachnid defenses."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: RETREAT/TRIGGERS/WARRIORS DIG OUT ============== ",
+// 4.propagandist,
+briefing_trigger_1323_text,Reports have come in of severe Arachnid counter attacks all across the planet.
+,
+,
+,
+,
+"// ============== /OBJECTIVE: RETREAT/TRIGGERS/WARRIORS DIG OUT (CLONE) ============== ",
+// 4.propagandist,
+briefing_trigger_1456_text,"As the Fleet is getting hammered by more Plasma Bugs, casualty predictions already mount in the tens of thousands."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: RETREAT/TRIGGERS/DROPSHIPS REACHED ============== ",
+// 4.propagandist,
+briefing_trigger_1457_text,It appears the Battle of Klendathu is over. Stay tuned to Fed Net for more news on the situation.
+,
+,
+,
+,
+"// ============== /OBJECTIVE: RETREAT/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_282_text,Fleet officials admit they may have underestimated the bugs' defensive capabilities.
+briefing_trigger_579_text,"Dropships have been sent in for a complete evacuation, as a strategic retreat appears necessary to re-evaluate the situation."
+,
+,
+,
+// TRIGGER TEXTS,
+,
+// 5.ANNOUNCER,
+speech_trigger_1780,RETREAT!
+,
+outcome_effect_1324_message,Broadcast Terminated
+,
+// 5.ANNOUNCER,
+speech_trigger_845,Hold this position
+,
+// 5.ANNOUNCER,
+speech_trigger_849,Reach the Dropships
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_1425,Escort Rocket Troopers toward the flag
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_1177,Left click to select this unit
+,
+// 5.ANNOUNCER,
+speech_trigger_1428,"Firing nuke, take cover!"
+,
+// 5.ANNOUNCER,
+speech_trigger_1639,Defend the drop zone
+,
+// 5.ANNOUNCER,
+speech_trigger_1540,Move to the flag
+,
+// 5.ANNOUNCER,
+speech_trigger_1799,Use the Grenade ability against groups of bugs
+,
+// 5.ANNOUNCER,
+speech_trigger_1819,Grenades equipped!
+,
+// 5.ANNOUNCER,
+speech_trigger_1179,Right click to move
+,
+// 5.ANNOUNCER,
+speech_trigger_1912,Green units cannot be controlled
+,
+,

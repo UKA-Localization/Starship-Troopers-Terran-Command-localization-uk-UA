@@ -1,0 +1,281 @@
+﻿// NAME,
+scenario_name,[1] Protect and Serve
+,
+// DESCRIPTION,
+scenario_descr,"Sergeant Kayla Keys, a promising police officer in Mahanagar’s northern district, is called up as negotiator for an armed robbery at a local bank.
+
+As she tries to bring the criminal into custody in a peaceful manner, an unexpected threat interrupts the intervention: Arachnids."
+,
+// OBJECTIVES,
+objective_2_6_title,Sgt. Keys must survive
+objective_2_1_title,Destroy all Bug Vents
+objective_2_10_title,Capture the Radio Post
+objective_2_0_title,Clear all Bug Hives
+objective_2_3_title,Sgt. Keys must reach the sewers entrance
+objective_2_4_title,Investigate the underground
+objective_2_5_title,Sgt. Keys must reach the Police Department
+objective_2_9_title,Defend the Police Department
+objective_2_7_title,Deploy a Peacekeeper Biped
+objective_2_2_title,Deploy a Riot Shield Squad
+objective_2_11_title,Collect all Materiel caches to construct 3 Autocannon Turrets
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_14,Police Department
+unit_121,Sewer Tunnel
+unit_135,Criminal
+unit_213,#underground
+unit_215,#brain encounter
+unit_225,#Invasion Marker A
+unit_226,#Invasion Marker B
+unit_244,#Offensive target
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/INTRO BRIEFINGS ============== ",
+// 4.propagandist,
+briefing_trigger_99_text,Citizens of Mahanagar have nothing to fear thanks to the men and women of the MPD!
+briefing_trigger_55_text,"They control troublesome situations, like this one! A foolish robbery attempt, now in the hands of our capable police negotiator!"
+//,
+// 11.cop,
+briefing_trigger_46_text,"Easy on those trigger fingers, guys. There's a way out of this for everyone."
+briefing_trigger_58_text,I’m Sergeant Keys. I’m here to make sure no one gets hurt.
+briefing_trigger_717_text,"Just let the hostages go, and I'll see to it that your concerns are heard by the Federation Judiciary."
+//,
+// 15.civilian,
+briefing_trigger_121_text,I’m not holding anyone hostage! All I wanted was to cash out my war bonds...
+briefing_trigger_751_text,This damn Bug War is taking forever - and they won’t give me my money back! I’ve got rent to pay - a family to feed!
+//,
+// 11.cop,
+briefing_trigger_704_text,"I know life in Mahanagar can be a struggle, but hurting innocents isn't going to solve any problems."
+//,
+// 15.civilian,
+briefing_trigger_705_text,"I never meant to hurt anyone - I just need MY money!
+"
+//,
+// 11.cop,
+briefing_trigger_53_text,Bugs!?
+briefing_trigger_114_text,"Wait! Check your fire! "
+,
+,
+,
+,
+"// ============== /INTRO/BRIEFING END ============== ",
+// 11.cop,
+briefing_trigger_122_text,"What a mess. Clear the scene of civvies, now!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DESTROY NESTS & VENTS/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_45_text,"Scratch that -- radio is going haywire with more Bug reports in the district.
+We've got to stop this from happening elsewhere tonight!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/COP MUST SURVIVE/FAIL ============== ",
+// 11.cop,
+briefing_trigger_482_text,Arrrgh!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE THE RADIO POST/RADIO STATION ATTACK/ATTACK DETECTED ============== ",
+// 11.cop,
+briefing_trigger_497_text,"Come this way, people! We'll keep the Bugs off you!
+"
+briefing_trigger_673_text,Get those civvies secured. More Bugs rushing from the garbage belt!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE THE RADIO POST/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_652_text,The rest of the district needs to be warned to get off the streets. We can send an emergency broadcast from the radio station ahead!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR HIVES/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_322_text,It's... not ending... Just breakout after breakout across all radio channels.
+briefing_trigger_706_text,Hope no one wanted an early night; we've got a lot more work to do.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PEACEKEEPER/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_302_text,"I want the Peacekeepers out on the streets, stat."
+briefing_trigger_504_text,Their tear gas launchers are effective for dispersing protesters; switching them for frag rounds will make quick work of any Bug.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/RIOT SHIELD SQUAD/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_390_text,Tankers!? Even the M.I. rarely see those brutes! This is serious! We'll need Riot Shield Squads!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ENTER THE BRAIN SEWER/TRIGGERS/MONOLOGUE 1 ============== ",
+// 11.cop,
+briefing_trigger_468_text,This is definitely what I saw... but it feels more familiar than that...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ENTER THE BRAIN SEWER/TRIGGERS/MONOLOGUE 2 ============== ",
+// 11.cop,
+briefing_trigger_469_text,I used to get in trouble as a kid for playing down here. Is that what I'm seeing now? But... Why?
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ENTER THE BRAIN SEWER/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_186_text,"Good job, team. Now let's re--"
+//,
+// 13.cop_vision,
+briefing_trigger_187_text,--argh... my head... What's... happening... to me...
+//,
+// 11.cop,
+briefing_trigger_191_text,Was that the underground? It felt like I was... there? And something else was with me...
+briefing_trigger_707_text,I need to check it out.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INVESTIGATE THE UNDERGROUND/TRIGGERS/SUCCESS ============== ",
+// 11.cop,
+briefing_trigger_220_text,A Brain Bug!? How is that... possible? This'll need to be called in right away. Many more lives are in danger!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INVESTIGATE THE UNDERGROUND/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_200_text,Keep watch out here. I'm going in.
+briefing_trigger_201_text,Dammit Kayla. What are you getting yourself into now...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/GET TO THE POLICE STATION/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_578_text,"Let's get back to the station, team! Federation brass need to know what's coming this way!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE POLICE STATION/TRIGGERS/TIMELINE ============== ",
+// 11.cop,
+briefing_trigger_560_text,Here they are! Let them have it!
+briefing_trigger_526_text,They're still coming! We have a duty to protect the civvies that came here for safety!
+briefing_trigger_540_text,They just won't let up! Fire anything you've got left!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE POLICE STATION/TRIGGERS/SUCCESS ============== ",
+// 11.cop,
+briefing_trigger_550_text,We'll only run down our ammo keeping the fight here all night!
+briefing_trigger_552_text,"Screw it. Get an emergency message to all civilians in the district -- we're opening an evac at the Railway Station. "
+briefing_trigger_551_text,I'm getting everyone off this damn island.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE POLICE STATION/TRIGGERS/FAIL ============== ",
+// 11.cop,
+briefing_trigger_640_text,The Station is overrun! We're done for!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE POLICE STATION/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_524_text,The Bugs are headed for the Police Station! Get up those walls!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/COLLECT MATERIAL CACHES/TRIGGERS/DIALOGUE: TURRETS FOCUS ON TIGERS ============== ",
+// 11.cop,
+briefing_trigger_688_text,"Set all turrets to focus their fire on those Tigers!
+"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/COLLECT MATERIAL CACHES/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_536_text,Tiger Bugs spotted on the move. Get turrets on the wall to slow them down!
+,
+,
+,
+,
+"// ============== /EVENTS/CIVILIANS/SPOT CIVS A ============== ",
+// 11.cop,
+briefing_trigger_495_text,"Civilians in trouble! Watch your fire this time!
+"
+,
+,
+,
+,
+"// ============== /EVENTS/COPS IN THE SUBURBS/FIELD COPS 1 ============== ",
+// 11.cop,
+briefing_trigger_506_text,Gunfire ahead! That must be our guys in need of help!
+,
+,
+,
+,
+"// ============== /EVENTS/COPS IN THE SUBURBS/FIELD COPS 2 ============== ",
+// 11.cop,
+briefing_trigger_509_text,More of ours! Let's back them up!
+,
+,
+,
+,
+"// ============== /MUTATIONS/TANKERS/DIALOGUE: RIOT SHIELDS VS TANKER ============== ",
+// 11.cop,
+briefing_trigger_684_text,"Tanker!! Riot Shields, up front! Bring down that beast!"
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_168,Destroy
+,
+speech_trigger_169,Destroy
+,
+speech_trigger_172,Clear Hive
+,
+speech_trigger_173,Clear Hive
+,
+speech_trigger_196,Sewers entrance
+,
+speech_trigger_265,Investigate
+,
+,
+speech_trigger_528,Use elevator
+,
+,
+speech_trigger_554,Use elevator
+,
+speech_trigger_573,Police Station
+,
+,
+speech_trigger_659,Capture
+,
+speech_trigger_723,Materiel Cache
+,
+speech_trigger_724,Materiel Cache
+,
+speech_trigger_725,Materiel Cache
+,
+,

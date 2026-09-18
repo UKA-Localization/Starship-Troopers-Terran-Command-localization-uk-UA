@@ -1,0 +1,28 @@
+﻿// NAME,
+scenario_name,Central Centrifuge
+,
+// DESCRIPTION,
+scenario_descr,"An abandoned plant serves as the foundation for the construction of the new Mass Pheromone Emitter. To accommodate the machine's massive power requirements, old turbines must be secured and repaired. Once the power grid has been restored, Doctor Kraus will have all he needs to lure in the elusive Hydra."
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_0,$base_c
+unit_1,$base_a
+unit_2,$base_b
+unit_3,$central_station
+unit_17,$hive_c
+unit_18,$hive_a
+unit_126,$incursion_b
+unit_127,$incursion_b
+unit_128,$incursion_a
+unit_163,$hive_b
+unit_175,$battery_array
+unit_176,$turret_north
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

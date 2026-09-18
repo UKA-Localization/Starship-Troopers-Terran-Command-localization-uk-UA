@@ -1,0 +1,359 @@
+faction_gaia,Environment
+faction_renegades,Renegades
+faction_federation,Federation
+faction_arachnid,Arachnid
+,
+// UNIT TYPES,
+unit_0,Rifle Troopers
+unit_0_descr,"Armed with Morita assault rifles, these squads form the backbone of the Mobile Infantry. They are effective in close to medium range combat against unarmored targets."
+unit_1,Warrior
+unit_2,Radio Operator
+unit_2_descr,Radio communications are vital to the operations of the Federation Army. These units can call in reinforcements to strengthen any position on the battlefield they are deployed in.
+unit_3,Radio Station *
+unit_4,Steel Bunker
+unit_5,TAC Fighters
+unit_6,Hopper
+unit_7,Intel Bugs
+unit_8,Wavebreaker Mortar
+unit_9,HMG Turret
+unit_9_descr,"This turret's twin machine guns are effective against lightly armored targets. The barrels tend to overheat from sustained fire however, resulting in a substantial cooldown time."
+unit_10,Powered Suit Troopers
+unit_10_descr,"These elite troopers are wearing powered armor suits, which offer excellent protection, mobility and the capacity to carry various types of heavy weapons."
+unit_11,Tiger
+unit_12,Tanker
+unit_13,Scorpion Bug
+unit_14,Plasma Bug
+unit_15,Plasma Grenadier
+unit_16,Bombardier
+unit_17,Brain Bug
+unit_18,M11 Marauder (Flamethrower)
+unit_25,M11 Marauder (Howitzer)
+unit_40,M11 Marauder (Gatling Gun)
+unit_18_descr,"The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Equipped with a M2A 5-2 Flamethrower and Morita Cross Heavy Machine Gun, it possesses unmatched close-range firepower."
+unit_25_descr,The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Its M779 Ultralight-weight Howitzer complements its Morita Cross Heavy Machine Gun with long-range strike capability against heavily armored targets.
+unit_40_descr,The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Its M648 Vulcan Rotary Cannon can suppress and eradicate a wide range of adversaries while its Morita Cross Heavy Machine gun provides additional firepower.
+unit_19,Royal Guard
+unit_20,Capture Site
+unit_21,Rocket Troopers
+unit_21_descr,"To counter heavily armored threats, the M55 Rocket Launcher is armed standard with an armor-piercing warhead. Additional types of warheads are also available to experienced 'Rocket Troopers'."
+unit_22,Powered Suit Troopers (Rocket)
+unit_23,Mk II Troopers
+unit_23_descr,"The Morita Mk II rifle provides excellent medium to long range fire support against light to medium armored targets with its underslung grenade launcher, but these units must be kept out of close combat engagements."
+unit_24,Powered Suit Troopers (Rocket)
+unit_27,Marker Flare
+unit_29,Drop Site
+unit_30,GK-16 MLAS
+unit_31,Satellite Station *
+unit_32,GK-22 Heavy Gecko
+unit_33,Powered Suit Troopers (SAW)
+unit_34,Sensor Array
+unit_35,Snipers
+unit_35_descr,Snipers are trained to hit targets over a long range with impeccable accuracy. They excel against fragile targets such as Spitters and Hoppers but can also serve effectively as scouts.
+unit_36,Powered Suit Troopers (SAW)
+unit_37,Powered Suit Troopers
+unit_38,DR-4 Viking
+unit_42,Combat Engineers
+unit_42_descr,"Combat Engineers can construct various defensive structures and weapons. For personal defense and offensive tasks, they wield a short range flamethrower that can stun and burn anything in its path."
+unit_43,Powered Suit Troopers (ENG)
+unit_44,Personnel
+unit_45,Bug Hive
+unit_46,Scientists
+unit_47,Psi Ops
+unit_48,Elite Guard
+unit_49,Cargo Truck
+unit_50,Chariot Bug
+unit_51,Proximity Mines
+unit_52,Barricade
+unit_53,Wavebreaker (Destroyed)
+unit_54,Collapsed Hive
+unit_55,God Bug
+unit_56,Bug Hive
+unit_57,Collapsed Hive
+unit_58,Militia
+unit_59,Civilians
+unit_61,Demolition Charge
+unit_62,Bug Tunnel
+unit_63,Brood Nest
+unit_64,Colonists
+unit_65,Camera Crew
+unit_66,M11 Honor Guard
+unit_67,Rocket Launcher Turret
+unit_67_descr,This turret-mounted rocket launch is effective against heavily armored targets but has a low rate of fire.
+unit_68,Grenade Launcher Turret
+unit_68_descr,This turret-mounted grenade launcher is effective against tightly packed groups of light to medium armored targets.
+unit_69,Drop Pod
+unit_70,TAC Bombers
+unit_71,Spider Cluster Mines
+unit_72,Explosive Barrels
+unit_73,Searchlight
+unit_74,Tunnel Exit
+unit_75,Flag
+unit_76,Capture Point
+unit_77,Drone
+unit_78,Invisible Carrier
+unit_79,Noise Maker
+unit_80,Gate (Destroyed)
+unit_81,Laser Squad
+unit_82,Infested Trooper
+unit_83,Tactical Officer
+unit_83_descr,"Thoroughly trained in military leadership and the values of the Federation, an officer of the Mobile Infantry can boost the performance of other troopers."
+unit_86,Bug Lair
+unit_87,Collapsed Tunnel
+unit_88,Gate (Closed)
+unit_89,Gate (Open)
+unit_90,Powered Suit Troopers (ENG)
+unit_91,Door (Closed)
+unit_92,Door (Open)
+unit_93,Brood Nest (Collapsed)
+unit_94,Scorpion Bugs (Burrowed)
+unit_95,HMG Tower
+unit_98,HMG Tower (Destroyed)
+unit_28,Spitter Bugs
+unit_41,Proximity Mines
+unit_26,Fire Small
+unit_96,Fire Medium
+unit_97,Fire Large
+unit_99,TAC Fighter
+unit_100,Delivery Platform
+unit_103,Wavebreaker Battery
+unit_104,DR-4 Viking
+unit_106,DR-4 Viking
+unit_107,Marker
+unit_108,Supply Depot
+unit_110,Ammunition Cache
+unit_111,Supplies Cache
+unit_112,Radio Post *
+unit_113,DR-8 Skyhook
+unit_114,Marines
+unit_118,Battery Bomb
+unit_119,Traffic Gate (Open)
+unit_120,Traffic Gate (Closed)
+unit_121,DR-4 Viking
+unit_122,Sensor
+unit_123,Invasion Direction
+unit_124,E-Pulse Troopers
+unit_124_descr,The E-Pulse 44 Rifle design cannot fully replace the trusted Morita designs but troopers armed with it are significantly more effective at very short range against light to medium armored targets.
+unit_125,Radio Bunker *
+unit_126,Mining Drill
+unit_127,Drone
+unit_84,HMG Turret
+unit_85,Fleet Liaison
+unit_85_descr,"With a direct communication line to the Fleet, this officer can call for reinforcements, air strikes, and various other means of Fleet support."
+unit_60,Searchlight
+unit_128,Power Core (Destroyed)
+unit_129,Prisoners
+unit_130,Rioters
+unit_131,Camera
+unit_132,Prison Guards
+unit_133,Steel Bunker (Destroyed)
+unit_134,Power Turbine
+unit_135,Power Turbine (Destroyed)
+unit_136,Shock Node
+unit_136_descr,Electric shockwaves deal limited permanent damage but stun everything in its blast radius.
+unit_137,Bug Hive
+unit_138,Collapsed Hive
+unit_139,Terminal
+unit_140,Power Turbine
+unit_141,Baka Bug
+unit_142,ADR-4 Thor
+unit_143,RDR-4 Odin
+unit_144,TAC Fighter
+unit_145,Terminal
+unit_146,Thorn Bush
+unit_147,Thorn Hedge
+unit_149,Bug Tunnel
+unit_148,Demolition Charge [ACTIVE]
+unit_149,Demolition Charge [ACTIVE]
+unit_150,Sensor Array
+unit_151,Miners
+unit_152,Bug Tunnel
+unit_153,Bug Lair (Collapsed)
+unit_154,Supply Depot (Empty)
+unit_155,Power Core
+unit_156,Ammunition Dropship
+unit_157,Ammunition Dropship
+unit_158,Ammunition Dropship
+unit_159,Alarm
+unit_160,Royal Guard (Raged)
+,
+// Platform buildings & abilities,
+,
+unit_39,Fleet Relay
+unit_39_descr,"Allows deployment of:"
+unit_101,Ammo Dump
+unit_101_descr,"Allows deployment of:"
+unit_102,Rocket Depot
+unit_102_descr,"Allows deployment of:"
+unit_105,Sector Headquarters
+unit_105_descr,"Allows deployment of:"
+unit_109,Support Center
+unit_109_descr,"Allows deployment of:"
+unit_115,Power Plant
+unit_115_descr,"Allows deployment of:"
+unit_116,Machine Bay
+unit_116_descr,"Allows deployment of:"
+unit_117,Command Center
+unit_117_descr,"Allows deployment of:"
+,
+unit_5000,Field LZ
+unit_5001,Hidden LZ
+,
+// Characters,
+unit_202,Thomas Rees
+unit_204,Victor Yarrow
+,
+// Debug units,
+unit_1000,DPS Tester
+unit_1001,Air Tester
+unit_1002,Legacy Infantry
+unit_1003,Carrier Tester
+,
+// THREAT TYPES,
+threat_tigersmutation,Tiger Bugs
+threat_tankersmutation,Tanker Bugs
+threat_hoppersmutation,Hopper Bugs
+threat_spittersmutation,Spitter Bugs
+threat_guardsmutation,Royal Guards
+threat_plasmamutation,Plasma Bugs
+threat_scorpionsmutation,Scorpion Bugs
+threat_bombardiersmutation,Bombardiers
+threat_grenadiersmutation,Plasma Grenadiers
+threat_impostermutation,Terrorists
+threat_chariotsmutation,Infestation
+threat_popgrowthmutation,Hive Growth
+,
+ability_gate_open_title,Open gate
+ability_gate_open_descr,Open the gate so units can pass through (including enemies).
+ability_gate_close_title,Close gate
+ability_gate_close_descr,Close the gate to prevent units from passing through.
+ability_tactical_grenade_title,Rifle Grenade
+ability_tactical_grenade_descr,Fire a rifle grenade at the target location.
+ability_tactical_command_title,Aggressive Tactics
+ability_tactical_command_descr,"Temporarily boost the performance of a friendly unit:
+ • Experience gain x3
+ • Movement speed increased
+ • Firing accuracy increased
+ • Armor piercing damage increased"
+ability_inspiring_command_title,Defensive Tactics
+ability_inspiring_command_descr,"Temporarily boost the performance of a friendly unit:
+ • Experience gain x3
+ • Movement speed reduced
+ • Rate of fire increased
+ • Resistance to suppression increased"
+ability_crippling_shot_title,Crippling Shot
+ability_crippling_shot_descr,Hit an enemy weakspot to deal high damage and periodically stun the target.
+ability_grenade_title,MX-90 Grenade
+ability_grenade_descr,Toss a hand grenade with a small kill radius but a blast that will also daze and stun enemies in a wider area.
+ability_demolition_charge_title,Demolition Charge
+ability_demolition_charge_descr,Place a powerful demolition charge which can be manually set to explode after either 10 or 30 seconds.
+ability_sprint_title,Action mode
+ability_sprint_descr,"Increases movement speed and rate of fire, but significantly decreases range."
+ability_pre_aim_title,Aim at Target
+ability_pre_aim_descr,Rotate to aim in the direction of the targeted area.
+ability_shotgun_title,Shotgun Suppression
+ability_shotgun_descr,"Fire a sustained barrage of shells from the Morita's underslung shotgun. Such salvos can hold off an Arachnid charge, if not defeat it outright."
+ability_grenade_barrage_title,Fragmentation Barrage
+ability_grenade_barrage_descr,Provide indirect fire support with a steady barrage of fragmentation grenades. Effective against lightly armored targets.
+ability_self_destruct_title,Self-Destruct
+ability_self_destruct_descr,Explode on death after being killed.
+ability_m11_mortar_barrage_title,Mortar Barrage
+ability_m11_mortar_barrage_descr,Bombard the target area with dual shoulder-mounted mortars.
+ability_m11_jet_blast_title,MX-113 Incendiary Drop Charge
+ability_m11_jet_blast_descr,"Drop a high-tech demolition charge that unleashes a powerful incendiary blast, dealing high damage to everything around the Marauder."
+ability_orbital_strike_title,Orbital Strike
+ability_orbital_strike_descr,"Call in a long, powerful but inaccurate orbital bombardment of the target area."
+ability_reinforce_title,Place Drop Zone
+ability_reinforce_descr,Place a drop zone that can be used to call in reinforcements.
+ability_tac_strike_title,TAC Strike
+ability_tac_strike_descr,A squadron of TAC Fighters will be called in for a bombing run. Drag-click to set strike direction.
+ability_marines_drop_title,Marines Drop
+ability_marines_drop_descr,Deliver a squad of Marines on the target position.
+ability_disable_title,Abandon
+ability_disable_descr,Remove this device to recover its Supply Points cost
+ability_blazing_spear_title,Blazing Spear
+ability_blazing_spear_descr,"Stream a superheated, high-pressure flame, incinerating anything it passes through."
+ability_fire_grenade_title,M7 Incendiary Grenade
+ability_fire_grenade_descr,Throw an incendiary grenade that sets the target area on fire and blocks movement.
+ability_battery_bomb_title,Battery Flashbang
+ability_battery_bomb_descr,"Wire an E-pulse battery pack to short circuit, causing a bright flash bang to stun everything in the area."
+ability_battery_overload_title,Rifle Overcharge
+ability_battery_overload_descr,"Temporary increase weapon rate-of-fire, damage and armor-piercing capabilites. After the effect expires, the overheated weapons will not be able to fire for a short duration."
+ability_battery_light_title,Light the Way
+ability_battery_light_descr,Temporarily ignore any sight reduction effects at the cost of a 20% decrease in rate of fire.
+ability_sensor_flare_title,Sensor Flare
+ability_sensor_flare_descr,Fire a special sensor that relays the presence of nearby enemy units in the fog of war. The device also happens to attract and enrage nearby Arachnids.
+ability_dropship_strike_title,Dropship Fire Support
+ability_dropship_strike_descr,Call in a dropship to hover over the target area and provide defensive fire support.
+ability_tactical_drill_title,Tactical Drill
+ability_tactical_drill_descr,Reset all ability cooldowns of the target unit.
+ability_designate_target_title,Designate Target
+ability_designate_target_descr,Empower friendly units to deal more damage to enemies in the target area.
+ability_propaganda_broadcast_title,Inspiring Broadcast
+ability_propaganda_broadcast_descr,Boost the rate of fire of nearby friendly units and make them more resistant to suppression. Be aware that the loud volume also tends to attract enemies in a wide radius.
+ability_bomb_timer_short_title,Set timer: 10s
+ability_bomb_timer_short_descr,Set the charge to detonate after 10 seconds.
+ability_bomb_timer_long_title,Set timer: 30s
+ability_bomb_timer_long_descr,Set the charge to detonate after 30 seconds.
+ability_canister_rocket_title,Canister Warhead
+ability_canister_rocket_descr,Launch a deadly canister that showers a large area but is inefficient against armored targets.
+ability_fire_rocket_title,Firestorm Warhead
+ability_fire_rocket_descr,Launch an incendiary warhead that bursts into an impassable wall of blazing flames on impact.
+ability_he_rocket_title,High-Explosive Warhead
+ability_he_rocket_descr,Launch a rocket that deals high damage over a medium-sized area. Ineffective against armored targets.
+ability_bundled_grenades_title,Boom Bundle
+ability_bundled_grenades_descr,Toss an improvised bundle of grenades that has a very powerful blast but cannot be thrown very far. Better run before the short fuse runs out!
+ability_heavy_ar_title,"Morita Mk III ""SAW"""
+ability_heavy_ar_descr,Equip troopers with Morita Mk III “SAW” squad automatic weapons to punch through light to medium armored targets at the cost of mobility.
+ability_heavy_ar_descr_aternative,Equip troopers with Morita Mk III “SAW” squad automatic weapons to punch through light to medium armored targets at the cost of mobility.
+ability_engineering_tools_title,Engineering Tools
+ability_engineering_tools_descr,"Refit the troopers with combat engineer capabilities, adding a repair welding attachment to their gear as well as various other construction tools."
+ability_engineering_tools_descr_aternative,"Refit the troopers with combat engineer capabilities, adding a repair welding attachment to their gear as well as various other construction tools."
+ability_rocket_pack_title,Twin-Rocket Pack
+ability_rocket_pack_descr,Equip shoulder-mounted rocket launchers to increase lethality against heavily armored targets. Launchers require a clear line-of-fire to function.
+ability_activate_jetpack_title,Engage Hover Mode
+ability_activate_jetpack_descr,Engage enemies on the move and hover swiftly over the ground with this this jump jet built into the Powered Suit.
+ability_deactivate_jetpack_title,Disable Hover Mode
+ability_deactivate_jetpack_descr,Turn off jetpack.
+ability_demolish_title,Demolish
+ability_demolish_descr,Remove this unit to recover its War Support cost.
+ability_flak_grenades_title,Flak Grenades
+ability_flak_grenades_descr,Launch a salvo of air-burst grenades that damage air units in a medium-sized area.
+ability_ripper_barrage_title,Ripper Blast
+ability_ripper_barrage_descr,Fire a volley of cluster shot to sweep everything in an area clean. Very effective at close range against lightly armored targets but exercise caution, as friendly fire is a constant threat.
+,
+landscape_desert,Desert
+landscape_underground,Underground
+landscape_city,Desert City
+,
+terrain_sand,Sand
+terrain_grass,Grass
+terrain_rocks,Rocks
+terrain_pavement,Pavement
+terrain_dunes,Dunes
+terrain_swamp,Swamp
+terrain_forest,Forest
+terrain_tarmac,Tarmac
+terrain_tiles,Tiles
+terrain_rubble,Rubble
+terrain_beach,Beach
+terrain_platform,Platform
+terrain_dry_grass,Dry Grass
+terrain_small_dunes,Small Dunes
+terrain_hard_sand,Hard Sand
+terrain_rocky_sand,Rocky Sand
+terrain_cracked_rocks,Cracked Rocks
+terrain_cracked_sand,Cracked Sand
+terrain_sandy_concrete,Sandy Concrete
+,
+unlock_ability,Unlock Ability
+tooltip_choose_elite_ability,Choose Elite Ability
+tooltip_choose_elite_ability_descr,Elite abilities are available when a unit reaches experience level 3.
+,
+battle_tier,Battle Tier
+tooltip_battle_tier_progress,Progress to the next Battle Tier.
+tooltip_battle_tier_tip,Deploy a building of the current Battle Tier to begin progressing to the next tier.
+tooltip_battle_tier_max,Maximum Battle Tier for this mission has been reached.
+,
+tooltip_objective_reward,Objective reward (War Support)
+,
+skip_briefing_dialog,Press ESCAPE to skip

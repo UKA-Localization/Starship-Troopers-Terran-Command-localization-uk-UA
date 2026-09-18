@@ -1,0 +1,18 @@
+﻿// NAME,
+scenario_name,Fata Morgana
+,
+// DESCRIPTION,
+scenario_descr,scenario_descr
+,
+// OBJECTIVES,
+objective_2_1_title,Repair all Power Turbines
+objective_2_0_title,Rescue civilians on the marked locations
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

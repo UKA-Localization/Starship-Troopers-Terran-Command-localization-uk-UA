@@ -1,0 +1,199 @@
+﻿// NAME,
+scenario_name,[14] Federatsiyagrad
+,
+// DESCRIPTION,
+scenario_descr,"Kwalasha’s capital has been the recent focal point in the war against the Bug, leaving much of the city in ruins.
+
+While brave defenders hang on to a sliver of urban territory, the preparations for a powerful counter-attack are already underway."
+,
+// OBJECTIVES,
+objective_2_0_title,Do not lose the foothold
+objective_2_2_title,Clear all Bug Hives
+objective_2_3_title,Capture a Satellite Station
+objective_2_4_title,Capture the Traffic Control Center
+objective_2_6_title,Capture Radio Stations
+objective_2_7_title,Destroy the Metro attack waves
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_258,Foothold
+unit_325,Traffic Control Terminal
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: HOLD FOOTHOLD/TRIGGERS/FAIL ============== ",
+// 2.ava cortez,
+briefing_trigger_2_text,The bridgehead's been overrun!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: HOLD FOOTHOLD/TRIGGERS/EVENTS TIMELINE ============== ",
+// 3.victor yarrow,
+briefing_trigger_412_text,"Careful, they’re going to flank you"
+//,
+// 2.ava cortez,
+briefing_trigger_557_text,Where? I don’t see them.
+//,
+// 3.victor yarrow,
+briefing_trigger_558_text,Not yet. They’ll do it in the future.
+//,
+// 2.ava cortez,
+briefing_trigger_559_text,Watch our flank!
+briefing_trigger_413_text,That slimy son of a bitch was right.
+//,
+// 3.victor yarrow,
+briefing_trigger_560_text,You know you’re still on radio.
+//,
+// 2.ava cortez,
+briefing_trigger_561_text,I know.
+briefing_trigger_569_text,"Here they come again. Keep shooting, rinse and repeat."
+//,
+// 3.victor yarrow,
+briefing_trigger_565_text,Reinforcements just left the ships. They’ll be entering the atmosphere momentarily.
+//,
+// 2.ava cortez,
+briefing_trigger_568_text,"Hold on people, we’re almost through this. Tomorrow’s a new day to die."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: HOLD FOOTHOLD/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_1_text,"This bridgehead is the last line of defense. If it goes, there’s nothing between bugs and the refugee camps."
+//,
+// 3.victor yarrow,
+briefing_trigger_129_text,Please keep those civilians safe. We need them back in the factories when all this is over.
+//,
+// 2.ava cortez,
+briefing_trigger_550_text,"Reinforcements will come across when they can, but Command is keeping a tight rein on their supplies."
+//,
+// 3.victor yarrow,
+briefing_trigger_130_text,It’s all up to you. Don’t let those Arachnids get past.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE A CITY STATION/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_14_text,"Hell yes, here comes the cavalry! Counter-attacking troopers are dropping in behind enemy lines."
+briefing_trigger_54_text,We need to get one of those stations up and running...
+briefing_trigger_55_text,...then we can start taking this city back.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE A CITY STATION/REINFORCEMENTS ============== ",
+// 2.ava cortez,
+briefing_trigger_437_text,More reinforcements have arrived in the city.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DESTROY ALL HIVES/TRIGGERS/SUCCESS ============== ",
+// 2.ava cortez,
+briefing_trigger_21_text,"Well, that's the surface clear. But those tunnels are still full of Bugs. I pity whoever's going to have to go down there and clear them out..."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DESTROY ALL HIVES/TRIGGERS/MIDDLE HIVE WARNING ============== ",
+// 3.victor yarrow,
+briefing_trigger_453_text,The bug hive in the middle of the city is exceptionally powerful. I would advise not engaging it until you have secured the rest of the area.
+//,
+// 2.ava cortez,
+briefing_trigger_554_text,I'm not not one for backing down from a fight.
+//,
+// 3.victor yarrow,
+briefing_trigger_555_text,"An admirable quality in a warfighter, but trust me on this one.  Wait until the other hives have been taken out - then you'll get your chance."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DESTROY ALL HIVES/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_18_text,Base is online! Call down some backup.
+briefing_trigger_551_text,"Okay, let’s drive those bugs back to the river."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE TRAFFIC CONTROL/TRIGGERS/SUCCESS ============== ",
+// 2.ava cortez,
+briefing_trigger_231_text,We've taken the traffic control center. Cameras are coming online and we have access to all the city's traffic gates.  Makes it easier for us to get around and also means we can funnel the Bugs' movements.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE TRAFFIC CONTROL/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_229_text,"The city’s traffic control room is nearby. If we can reach it, we’ll gain remote access over the cameras and security gates. Might come in handy."
+//,
+// 3.victor yarrow,
+briefing_trigger_552_text,"Hm... yes, that could be advantageous."
+//,
+// 2.ava cortez,
+briefing_trigger_553_text,Seems like military intelligence doesn’t know everything.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: BLOCKADE ALL METRO ENTRANCES/BRIEFING 1 ============== ",
+// 3.victor yarrow,
+briefing_trigger_455_text,Sensors are picking up strong Bug activity in the metro tunnels beneath the city.  I'd suggest you organize your troops into defensive positions.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: BLOCKADE ALL METRO ENTRANCES/BRIEFING 2 ============== ",
+// 3.victor yarrow,
+briefing_trigger_472_text,Another strong reading from the underground sensors.
+//,
+// 2.ava cortez,
+briefing_trigger_556_text,Looks like the Bugs are pretty pissed we stomped one of their nests.  Get yourselves ready people!
+,
+,
+,
+,
+"// ============== /HIVE ACTIVATIONS/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_640_text,Another attack wave is heading for the foothold!
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_643,Defend the foothold
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_480,Traffic gate control accessed
+,
+// 5.ANNOUNCER,
+speech_trigger_481,Traffic gate control accessed
+,
+// 5.ANNOUNCER,
+speech_trigger_482,Traffic gate control accessed
+,
+// 5.ANNOUNCER,
+speech_trigger_483,Traffic gate control accessed
+,
+timer_trigger_418_descr,FOOTHOLD ATTACKS
+,
+,
+timer_trigger_466_descr,METRO ATTACK INCOMING
+,
+// 5.ANNOUNCER,
+speech_trigger_476,Underground attack incoming!
+,
+// 5.ANNOUNCER,
+speech_trigger_477,Underground attack incoming!
+,
+,
+,
+,
+,

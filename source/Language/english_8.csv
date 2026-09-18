@@ -1,0 +1,303 @@
+// Metropolis DLC,
+,
+scenario_category_metropolis,Campaign: Varuna
+scenario_category_metropolis_challenges,Challenges: Varuna
+landscape_metropolis,Metropolis
+landscape_metropolis_underground,Metropolis Underground
+dlc_name_metro,Urban Onslaught
+metropolis_campaign_name,Varuna
+metropolis_campaign_description,"A ferocious Arachnid onslaught is sweeping through the streets of Mahanagar, one of the Federation's greatest cities."
+tooltip_ability_restriction_too_high,Invalid destination: Jump is too high
+button_campaigns_v2,Campaigns
+campaign_screen_title_kwalasha,Kwalasha Campaign
+campaign_screen_title_gehenna,Gehenna Campaign
+campaign_screen_title_varuna,Varuna Campaign
+popup_scenarios_moved_title,Campaign scenarios moved
+popup_scenarios_moved_descr,"Campaign scenarios are no longer displayed in this screen. You can find them through the ""Campaigns"" button in the main menu."
+,
+dialog_open_gehenna_url_title,Raising Hell DLC
+dialog_open_gehenna_url_text,Would you like to know more about the Raising Hell DLC?
+dialog_open_varuna_url_title,Urban Onslaught DLC
+dialog_open_varuna_url_text,Would you like to know more about the Urban Onslaught DLC?
+,
+population_points_type_material,Materiel
+tooltip_materials,"Materiel (available / total)
+When losing a unit, this resource is recovered gradually."
+,
+unit_3000,Police Squad
+unit_3000_descr,"This unit operates a pair of detainer drones. These do not deal a lot of damage but are effective at distracting enemy attacks, thus offering indirect protection to more valuable units and assets."
+unit_3000_wiki,"Note that the larger Arachnid types such as Scorpions, Plasma Grenadiers and Tankers are known to ignore the detainer drones and will focus their attacks on the police officers or other targets in their range."
+unit_3251,Police Squad
+unit_20210,Technicians
+unit_20210_descr,This unit is not equipped with combat in mind but can construct defensive turrets and repair mechanical units.
+unit_20190,Autocannon Turret
+unit_20190_descr,"Effective against small amounts of light to medium armored targets. The cannons overheat quickly, making this turret ineffective against large numbers of enemies.
+The autocannons can also engage air targets."
+unit_20200,Mortar Turret
+unit_20200_descr,"Effective against concentrated groups of lightly armored targets. Ineffective against medium to heavily armored targets.
+The high projectile arc of the mortars allow firing over any obstacles but incapable of firing at targets that are too close to the turret."
+unit_20230,Heavy Gun Turret
+unit_20230_descr,"High velocity gun designed to take on heavily armored targets. Its slow reload makes the turret ineffective against large numbers of enemies. 
+Its tall understructure allows the weapon to fire over obstacles and elevations that are one level higher than the turret."
+unit_3257,Ballistic Missile Turret
+unit_3257_descr,"Very long range missile launcher, effective at countering long range enemies. Its slow reload and large minimum range make it unsuited to engage large numbers of enemies.
+The missiles can be fired over any obstacles or elevations but cannot engage aerial targets."
+unit_3002,Detainer Drone
+unit_3003,Sentinel Drone
+unit_2051,Bug Tunnel (Closed)
+unit_2121,Riot Shield Squad
+unit_2121_descr,The Riot Shield Squad is a heavily armored police unit designed to resist enemy attacks. Their grenade launchers can whittle down even the biggest enemy units but lack the rate of fire to effectively deal with large numbers of enemies.
+unit_2145,Riot Shield Squad (Braced)
+unit_2123,Tear Gas
+unit_3008,Peacekeeper Biped
+unit_3008_descr,"The Peacekeeper command vehicle is a lightly armored support unit that can call in reinforcements, boost the damage output of friendly units and provide indirect fire support with its dual grenade launchers."
+unit_3268,Peacekeeper Drone
+unit_3319,Peacekeeper
+unit_3256,Bomber Drone
+unit_3265,Sgt. Kayla Keys
+unit_3321,Sgt. Kayla Keys
+unit_3322,Sgt. Kayla Keys
+unit_3241,Hornet
+unit_3241_descr,"In small numbers these flying Arachnids lack significant destructive firepower. They are often encountered near their nests, however, which incessantly churn out a relentless swarm of Hornets. Swift action to eliminate these nest is thus an absolute necessity."
+unit_3001,Hornet Tanker
+unit_3001_descr,"The Hornet Tanker is not a distinct Arachnid subspecies but essentially a symbiotic pairing of a Tanker and a Hornet nest. These dorsal nests unleash an endless stream of Hornets that can overwhelm infantry and lightly armored vehicles. Despite their vulnerability to concentrated rifle fire and attacks from the M7 Cyclone, the Hornet Tanker’s ability to keep spawning additional Hornets from afar makes it a persistent threat. Reaching and neutralizing this monstrosity, while managing the Hornet swarms, requires a careful and strategic approach."
+unit_3214,Ravager
+unit_3214_descr,"This Arachnid is a formidable foe capable of launching explosive projectiles that inflict significant area damage to unarmored targets. Armored units should exercise extreme caution as well: When the Ravager loses its tail from battle damage, it will charge in with its massive pincers that can easily penetrate armor."
+unit_3214_wiki,"Due to its unique capacity to absorb hits, the calibre of the weapons to use against it is not the main importance, but the volume of fire is. These monstrocities should be countered with a combination of hard-hitters and high rate-of-fire units."
+unit_3215,Ravager
+unit_3252,Hornet Nest
+unit_3217,Hornet Nest (Collapsed)
+unit_3237,Burster
+unit_3237_descr,"Bursters eject a volatile substance that combusts after a short time delay. The resulting blast is devastating against infantry and armor alike.
+The dorsal sack of glands that produce this substance also tends to explode upon the creature’s death, causing an even more destructive shockwave."
+unit_3200,Criminals
+unit_3233,M7 Cyclone
+unit_3224,M7 Cyclone
+unit_3233_descr,"The M7 weapon platform provides highly mobile fire support. The Cyclone's autocannons can deal with medium armored ground and air targets, and it can use its jump ability to reach advantageous positions or extract itself from trouble."
+unit_3234,M23 Rainmaker
+unit_3234_descr,This mobile mechanized missile launcher excels at providing long range fire support. It is capable of providing a relentless missile bombardment to cripple even the toughest targets.
+unit_3234_wiki,"It can operate in mobile or deployed mode:
+Mobile Mode: 
+• Fire missiles in bursts
+• Can fire in any direction while standing still
+• Can fire over any units and elevations
+
+Deployed Mode: 
+• Fire missiles individually with increased range and rate of fire
+• Must rotate the missile pods to engage targets in different directions
+• Can fire only over 1 elevation level"
+unit_3249,M23 Rainmaker
+unit_3323,M23 Rainmaker
+unit_3227,M23 Rainmaker
+unit_3225,Rainmaker Drone
+unit_3236,A-12 Pegasus
+unit_3236_descr,"The A-12 Pegasus gunship is equipped with an array of weapon systems to deal with various ground targets. Its minigun provides reliable fire support while the rocket pods provide an extra punch against more resilient targets.
+The gunship can also engage air targets with its minigun, but it does not excel at this role."
+unit_3238,J.A.C. Trooper
+unit_3238_descr,"The ""Jumpjet Assault Cannon"" Troopers provides a flexible means to engage medium armored targets. While the recoilless rifle cannot be fired through friendly units, the jumpjet suit allows the operator to quickly redeploy to advantageous positions."
+unit_3240,Elevator Entrance
+unit_3300,Bug Tunnel
+unit_3301,Control Tower
+unit_3302,Drawbridge (Down)
+unit_3304,Drawbridge (Up)
+unit_3305,Explosives
+unit_3306,Explosives
+unit_2037,Bug Tunnel
+unit_3311,Materiel Cache
+unit_3308,Reinforcements Door
+unit_3318,Reinforcements Door
+unit_3315,Materiel Depot
+unit_3316,Materiel Depot (Destroyed)
+unit_3309,SAM Site
+unit_3310,SAM Site
+unit_3320,SAM Site
+unit_3299,SAM Site (Destroyed)
+unit_3312,Civilians
+unit_3270,Bug Tunnel (Collapsed)
+unit_71,Wavebreaker Mortar
+unit_166,E-Pulse Troopers
+unit_3317,Camera Drone
+unit_3324,Alarm
+unit_3253,Explosives
+unit_3325,Criminal
+unit_3250,Hostages
+unit_3326,Major Verhaegen
+,
+unitclass_hive,Hive
+,
+threat_crackersmutation,Bursters
+threat_doublersmutation,Ravagers
+threat_locustqueensmutation,Hornet Tankers
+threat_locustsmutation,Hornets
+threat_dronesmutation,Drone Hordes
+threat_broodnestsmutation,Drone Nests
+,
+ability_police_grenadev1_title,Limited-Lethality Grenade
+ability_police_grenadev1_descr,This grenade deals damage within a small blast radius.
+ability_police_grenade_title,Crowd Dispersal Grenade
+ability_police_grenade_descr,On activation this grenade triggers a sequence of explosions, releasing bursts of lethal shrapnel over a short period of time.
+ability_talkie_bomb_title,Whackie-Talkie
+ability_talkie_bomb_descr,"This make-shift device creates disruptive noise to attract enemies and then explodes after a short time delay. If the device is destroyed before the timer expires, it will not explode."
+ability_riot_brace_title,Shield Brace
+ability_riot_brace_descr,"By bracing their shields in a tight formation, the squad becomes temporarily immobile but virtually immune to all types of attacks and explosions."
+ability_riot_autoturret_deploy_title,Deploy Sentry Turret
+ability_riot_autoturret_deploy_descr,Launch a container at the target location that deploys an auto turret on impact. The auto turret cannot be controlled directly and will expire after a short duration.
+ability_riot_decoy_deploy_title,Deploy Holographic Decoy
+ability_riot_decoy_deploy_descr,Deploys a group of holographic decoys on the target location to attract enemy attention and attacks.
+ability_hover_tank_jump_title,Booster Jump
+ability_hover_tank_jump_descr,Jump over obstacles and elevations to reach the target location.
+ability_hover_tank_jump_bash_title,Booster Bash
+ability_hover_tank_jump_bash_descr,Jump to the target location while dealing explosive damage right before landing.
+ability_hover_tank_repairer_title,Repair Module
+ability_hover_tank_repairer_descr,Install a permanent repair module that allows the Cyclone to repair other mechanic units and constructions while also activating auto-repair for the Cyclone itself.
+ability_marksman_jump_title,Jumpjet
+ability_marksman_jump_descr,Use the J.A.C. Trooper's jumpjet to reach elevated positions with clear lines of fire or to extract the trooper from a dangerous situation.
+ability_marksman_bomb_drop_title,Parting Gift
+ability_marksman_bomb_drop_descr,Use the jumpjet to redeploy to the targeted location while leaving behind a short-fused explosive device.
+ability_low_velocity_round_title,Reduced Propellant Clip
+ability_low_velocity_round_descr,"Fire a volley of explosive shells at the target location. Unlike the J.A.C. Trooper's standard shot, these can be fired over any obstacles."
+ability_gunship_ability_title,Rocket Barrage
+ability_gunship_ability_descr,"Fire a full salvo of unguided rockets at the target area. This barrage is effective both against concentrated group of enemies and larger, more heavily armored opponents."
+ability_gunship_reaper_missile_title,Executioner Missile
+ability_gunship_reaper_missile_descr,"This long range missile must be fired at an enemy unit. It will home in on its target, guaranteeing a hit even against a moving enemy and deals a lot of damage on impact."
+ability_gunship_bomb_title,Showstopper Bomb
+ability_gunship_bomb_descr,Drop a heavy bomb at the target location that explodes after a short time delay.
+ability_rainmaker_deploy_title,Activate Deployed Mode
+ability_rainmaker_deploy_descr,"In this mode the Rainmaker is immobile and can only fire over a single elevation level, but it has a greatly increased range and rate of fire."
+ability_rainmaker_undeploy_title,Activate Mobile Mode
+ability_rainmaker_undeploy_descr,"In mobile mode, the Rainmaker can quickly reposition itself. Missiles will be launched vertically over any obstacle, but only when standing still."
+ability_rainmaker_shrapnel_title,Red Carpet Barrage
+ability_rainmaker_shrapnel_descr,Firing canister rounds from all the missile tubes in rapid succession will shower everything between the Rainmaker and the specified target location with deadly shrapnel.
+ability_rainmaker_shrapnel_requiresunittype,This ability can only be used in deployed mode.
+ability_rainmaker_drones_title,Drone Shield
+ability_rainmaker_drones_descr,This upgrade creates a permanent pack of aerial drones that protect the Rainmaker against enemy air and ground units. Destroyed drones will be replaced after a short delay.
+ability_rainmaker_drones_deployed_title,Drone Shield
+ability_rainmaker_drones_deployed_descr,This upgrade creates a permanent pack of aerial drones that protect the Rainmaker against enemy air and ground units. Destroyed drones will be replaced after a short delay.
+ability_peacekeeper_gas_title,Crowd Dispersion Gas
+ability_peacekeeper_gas_descr,Release a poison gas around the biped which gradually kills Arachnids. Humans and mechanical units are not affected by this insecticide gas.
+ability_peacekeeper_drone_deploy_title,Deploy Sentinel Drone
+ability_peacekeeper_drone_deploy_descr,"Deploy a flying drone that drops grenades on enemy units around the Peacekeeper. When destroyed, the drone will automatically be replaced after a short delay."
+ability_flash_bang_title,Flashbang
+ability_flash_bang_descr,Throw a Flashbang grenade that stuns enemies without dealing any lethal damage.
+ability_kamikaze_drone_title,Deploy Bomber Drone
+ability_kamikaze_drone_descr,Create a manually controlled detainer drone packed with explosives. It can be directed to explode against specific targets but has a limited battery life.
+ability_flame_trap_throw_title,Deploy Flame Trap
+ability_flame_trap_throw_descr,The flame trap will toast any enemy that walks over it.
+ability_e-pulse_welder_title,Welding Attachment
+ability_e-pulse_welder_descr,"Apply a welding attachment to E-Pulse 44 Rifles, allowing the squad to repair and construct mechanical units and defenses."
+ability_drone_kamikaze_title,Detonate Explosives
+ability_drone_kamikaze_descr,"The detonator have to be triggered manually - or the drone has to be ordered to attack a target - in order to set off the explosive charges. If the drone is destroyed before triggering, the explosives will not go off."
+,
+wiki_police_squad_traits,"• Can clear Hives
+• Deploys up to 2 'Police Detainment Drones'"
+,
+wiki_technicians_traits,"• Does not gain experience
+• Can repair vehicles and constructions"
+,
+wiki_peacekeeper_biped_traits,"• Cannot be stunned
+• Can be repaired
+• Cannot capture
+• Can fire over units and elevations
+• Cannot attack enemies within its minimum range"
+,
+wiki_riot_shield_squad_traits,"• Can clear Hives
+• Frag grenades cannot be fired from point blank range
+• Immune to all gas damage
+• Immune to damage from the Tanker's corrosive liquid pool
+• Higher resistance to being stunned"
+,
+wiki_jac_trooper_traits,"• Does not block friendly fire
+• Cannot fire through friendly units
+• Cannot capture
+• Can repair vehicles and constructions"
+,
+wiki_hover_autocannon_traits,"• Cannot be stunned
+• Can fire while moving
+• Can be repaired
+• Cannot capture
+• Projectiles can damage multiple enemies in a straight line"
+,
+wiki_pegasus_gunship_traits,"• Cannot be stunned
+• Automatically repairs over time
+• Line of sight is not affected by reduced lighting conditions"
+,
+wiki_missile_mech_traits,"• Cannot be stunned
+• Can be repaired
+• Missiles home in on moving targets
+• Cannot attack enemies within its minimum range"
+,
+wiki_burster_bug_traits,"• Can fire over units and elevations
+• Deals blast damage when killed"
+,
+wiki_hornet_bugs_traits,"• Flying
+• Cannot be stunned"
+,
+wiki_hornet_tanker_bug_traits,"• Periodically spawns Hornets
+• When killed it releases a final swarm of Hornets"
+,
+wiki_ravager_bug_traits,"• Can fire over other units
+• When its hit points are fully depleted, it will lose its tail and ability to make ranged attacks and become ""enraged""
+• When enraged, its hit points are reset once while gaining resistance to high single-target damage"
+,
+wiki_autocannon_turret_traits,"• Weapon overheats after sustained fire
+• Can fire through friendly units on the same elevation
+• Can be repaired
+• Does not gain experience"
+,
+wiki_priority_targeting_title,Target Priority
+wiki_priority_targeting_descr,"Units can be set to prioritize firing at specific enemy types instead of aiming for the nearest target.
+
+For example: To make your Snipers target Spitter Bugs even if there are other enemy types in their firing range, the target priority setting allows you to do so without having to micromanage their targets manually."
+,
+// NOTE: {0} is replaced by the required battle tier number,
+battle_tier_too_low,This unit requires battle tier {0}
+,
+// ACHIEVEMENTS,
+,
+achievement_slums_kamikaze_drone_kill_brood_nest_title,Deadly delivery service
+achievement_slums_kamikaze_drone_kill_brood_nest_descr,Kill 2 Brood Nests with the Police Squad’s Bomber Drone
+achievement_slums_riot_shields_kill_tankers_title,Out-tank the Tanker
+achievement_slums_riot_shields_kill_tankers_descr,Deliver the finishing blow to 2 Tankers with the Riot Shield Squad
+,
+achievement_railways_turrets_on_railway_title,Ticket puncher
+achievement_railways_turrets_on_railway_descr,Construct 6 turrets on the railway platforms
+achievement_railways_parting_gift_kill_burster_title,Go out with a bang
+achievement_railways_parting_gift_kill_burster_descr,Kill a Burster in one hit with the J.A.C. Trooper’s Parting Gift ability
+,
+achievement_retreat_clear_hives_rescue_civilians_title,No one left behind
+achievement_retreat_clear_hives_rescue_civilians_descr,Clear all hives and save all trapped civilians
+achievement_retreat_sentry_turret_kills_title,Please remain calm
+achievement_retreat_sentry_turret_kills_descr,Kill 20 Bugs with the Riot Shield Squad’s Sentry Turret
+,
+achievement_bridges_booster_bash_kills_title,Dead on arrival
+achievement_bridges_booster_bash_kills_descr,Kill 20 Bugs with M7 Cyclone’s Booster Bash ability
+achievement_bridges_construct_bridge_turrets_title,Toll Enforcement
+achievement_bridges_construct_bridge_turrets_descr,Construct 5 turrets on the final bridge
+,
+achievement_rooftops_showstopper_bomb_kills_title,Fly Swatter
+achievement_rooftops_showstopper_bomb_kills_descr,Kill 5 Hornets with the A-12 Pegasus’s Showstopper Bomb ability
+achievement_rooftops_missile_turret_kill_grenadiers_title,Counter-battery fire
+achievement_rooftops_missile_turret_kill_grenadiers_descr,Kill 15 Plasma Grenadiers with Ballistic Missile Turrets
+,
+achievement_police_station_storage_room_no_casualties_title,Self-preservation
+achievement_police_station_storage_room_no_casualties_descr,Get through the Storage Room without taking any casualties
+achievement_police_station_whackie_talkie_kills_title,Crowd-pleaser
+achievement_police_station_whackie_talkie_kills_descr,Kill 10 Bugs with a single blast from the Police Squad’s Whackie-Talkie
+,
+achievement_starport_drone_kills_title,Drone commander
+achievement_starport_drone_kills_descr,Kill 24 Bugs with M23 Rainmaker drones
+achievement_starport_deploy_holographic_decoys_title,Optimal Illusion
+achievement_starport_deploy_holographic_decoys_descr,Simultaneously deploy 9 Holographic Decoys (Riot Shield Squad elite ability)
+,
+achievement_city_center_executioner_missile_kill_hornet_tanker_title,Hard to miss
+achievement_city_center_executioner_missile_kill_hornet_tanker_descr,Kill a Hornet Tanker with the A-12 Pegasus Gunship’s Executioner Missile
+achievement_city_center_construct_missile_turrets_title,Missile maniac
+achievement_city_center_construct_missile_turrets_descr,Construct 3 Ballistic Missile Turrets within strike distance of the final Bug Hive
+,
+achievement_brain_lair_gas_kill_ravager_title,Chemical solution
+achievement_brain_lair_gas_kill_ravager_descr,Kill a Ravager with any type of poison gas
+achievement_brain_lair_capture_all_materiel_title,Gotta cache ‘em all
+achievement_brain_lair_capture_all_materiel_descr,Find and gather all Materiel Caches
+,
+achievement_global_finish_metropolis_campaign_title,Now grab a broom
+achievement_global_finish_metropolis_campaign_descr,Complete the Urban Onslaught campaign

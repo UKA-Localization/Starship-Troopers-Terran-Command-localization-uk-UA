@@ -1,0 +1,138 @@
+achievements,Achievements
+notification_achievement_unlocked,Achievement Unlocked
+button_editor_save_new,Save New
+achievements_unavailable_old_saves,"Achievements are not supported in old saves.
+Please restart the scenario to enable unlocking achievements."
+pause_menu_achievements,Achievements
+,
+achievement_klendathu_completed_title,It's an ugly planet
+achievement_klendathu_completed_descr,Complete the Battle of Klendathu mission
+achievement_klendathu_grenade_kills_title,Fire in the hole!
+achievement_klendathu_grenade_kills_descr,Kill 3 Bugs with MX-90 Grenades
+,
+achievement_foothold_engineer_kills_title,Roast 'em & toast 'em
+achievement_foothold_engineer_kills_descr,Kill 25 Bugs with Combat Engineers
+achievement_foothold_no_casualties_title,You wanna live forever?
+achievement_foothold_no_casualties_descr,Do not suffer any casualties
+,
+achievement_hole_patrol_sniper_kills_title,Aim for the nerve stem
+achievement_hole_patrol_sniper_kills_descr,Kill 20 Spitters with Snipers
+achievement_hole_patrol_turret_kills_title,Perimeter Defense
+achievement_hole_patrol_turret_kills_descr,Kill 100 Bugs with HMG Turrets
+,
+achievement_peace_mine_stations_title,Stay on the right frequency
+achievement_peace_mine_stations_descr,Capture all Radio Stations in 15 Minutes
+achievement_peace_mine_gunship_title,Death from above
+achievement_peace_mine_gunship_descr,"Kill 5 Bugs with the Radio Operator's ""Dropship Fire Support"" ability"
+,
+achievement_cave_cleaning_avoid_losses_title,They remembered their training
+achievement_cave_cleaning_avoid_losses_descr,Complete the mission with fewer than 10 casualties
+achievement_cave_cleaning_tanker_kills_title,Master chef
+achievement_cave_cleaning_tanker_kills_descr,Deliver the killing blow to a Tanker with the Combat Engineer’s flamethrower
+,
+achievement_prison_revolters_killed_by_bugs_title,The enemy of my enemy
+achievement_prison_revolters_killed_by_bugs_descr,Let the Bugs kill 5 rioters during the prison revolt
+achievement_prison_kills_with_rocket_turrets_title,It's not rocket science
+achievement_prison_kills_with_rocket_turrets_descr,Kill 5 Bugs with Rocket Launcher Turrets
+,
+achievement_power_struggle_all_hives_cleared_title,Eviction order
+achievement_power_struggle_all_hives_cleared_descr,Clear all Hives
+achievement_power_struggle_kills_with_ripper_barrage_title,Floor sweeper
+achievement_power_struggle_kills_with_ripper_barrage_descr,Kill 15 Bugs with the Mk.II Troopers' Ripper Blast ability
+,
+achievement_human_mine_tactical_officer_kills_title,Lead by example
+achievement_human_mine_tactical_officer_kills_descr,Kill 20 Bugs with Tactical Officers
+achievement_human_mine_limit_casualties_title,They want us alive
+achievement_human_mine_limit_casualties_descr,Complete the mission with fewer than 10 casualties
+,
+achievement_tide_breaker_hold_title,Hold what you've got!
+achievement_tide_breaker_hold_descr,Hold the First Line for 10 minutes
+achievement_tide_breaker_hives_title,Not on my watch!
+achievement_tide_breaker_hives_descr,Clear 2 Hives
+,
+achievement_burning_skies_hives_title,Homewrecker
+achievement_burning_skies_hives_descr,Clear all Hives
+achievement_burning_skies_plasma_kills_title,What you reap is what you sow
+achievement_burning_skies_plasma_kills_descr,Make sure 5 Bugs get killed by their own Plasma Bug strikes
+,
+achievement_canyon_clear_brood_nests_title,Kick the ant hills
+achievement_canyon_clear_brood_nests_descr,Destroy 3 Brood Nests
+achievement_canyon_grenadier_shotgun_barrage_kills_title,Dodge this
+achievement_canyon_grenadier_shotgun_barrage_kills_descr,Kill a Plasma Grenadier with the Rifle Troopers' Shotgun Suppression ability
+,
+achievement_silent_night_explosive_barrels_title,Fuel shortage
+achievement_silent_night_explosive_barrels_descr,Kill 20 Bugs with Explosive Barrels
+achievement_silent_night_ammo_crates_title,Make 'em count!
+achievement_silent_night_ammo_crates_descr,Capture all Ammo Caches
+,
+achievement_razor_run_kills_with_tac_strike_title,Fleet just does the flying
+achievement_razor_run_kills_with_tac_strike_descr,Kill 20 Bugs with the Fleet Liaison's TAC Strike ability
+achievement_razor_run_destroy_lairs_and_nests_title,Violence is the supreme authority
+achievement_razor_run_destroy_lairs_and_nests_descr,Destroy 15 Bug Lairs and Brood Nests
+,
+achievement_guardians_dont_lose_any_marauders_title,Immortal engines
+achievement_guardians_dont_lose_any_marauders_descr,Do not lose any Marauders
+achievement_guardians_take_all_supply_caches_title,Never pass up a good thing
+achievement_guardians_take_all_supply_caches_descr,Take all Supply Caches
+,
+achievement_federatsiyagrad_jet_blast_kills_title,Shock and awe
+achievement_federatsiyagrad_jet_blast_kills_descr,Kill 10 Bugs with the Marauder's MX-156 Plasma Drop Bomb ability
+achievement_federatsiyagrad_clear_hive_before_radio_station_title,Aggressive priorities
+achievement_federatsiyagrad_clear_hive_before_radio_station_descr,Clear a Hive before capturing a Radio Station
+,
+achievement_sewers_demolition_kills_title,Time for a bigger boom
+achievement_sewers_demolition_kills_descr,Kill 15 Bugs with the Combat Engineers' Demolition Charge ability
+achievement_sewers_boom_bundle_kills_title,Time for a big boom
+achievement_sewers_boom_bundle_kills_descr,Kill 10 Bugs with the Rifle Troopers' Boom Bundle ability
+,
+achievement_perimeter_marauder_howitzer_kills_title,Bring out the big guns
+achievement_perimeter_marauder_howitzer_kills_descr,Kill 100 Bugs with the M11 Marauder's howitzer
+achievement_perimeter_hopper_kills_with_flak_grenade_title,Sky sweeper
+achievement_perimeter_hopper_kills_with_flak_grenade_descr,Kill 10 Hoppers with the Mk.II Troopers' Flak Grenades ability
+,
+achievement_airfield_turret_kills_title,Tower defense
+achievement_airfield_turret_kills_descr,Kill 25 Bugs with any type of constructable turret
+achievement_airfield_kill_all_plasma_bugs_title,Go out with a bang
+achievement_airfield_kill_all_plasma_bugs_descr,Kill all the Plasma Bugs
+,
+achievement_gatekeeper_get_elite_engineers_title,Engineering solutions
+achievement_gatekeeper_get_elite_engineers_descr,Simultaneously deploy 3 Combat Engineers with experience level 3
+achievement_gatekeeper_dont_clear_the_hives_title,Live and let live policy
+achievement_gatekeeper_dont_clear_the_hives_descr,Do not clear the Hive
+,
+achievement_guillotine_get_all_marauders_title,An army of angels
+achievement_guillotine_get_all_marauders_descr,Simultaneously deploy all 3 Marauder types
+achievement_guillotine_kills_with_honor_guard_title,Killer Programming
+achievement_guillotine_kills_with_honor_guard_descr,Kill 50 Bugs with the M11 Honor Guard
+,
+achievement_global_create_scenario_title,Create & Destroy
+achievement_global_create_scenario_descr,Launch a scenario from the editor with at least one player unit and one enemy unit
+achievement_global_launch_workshop_title,Everyone does their part
+achievement_global_launch_workshop_descr,Launch a scenario from the Community Content screen
+achievement_global_finish_campaign_title,Service Guarantees Citizenship
+achievement_global_finish_campaign_descr,Complete the Kwalasha campaign
+achievement_global_medic_title,MEDIC!
+achievement_global_medic_descr,Kill some of your own troopers with an MX-90 Grenade
+achievement_global_kills_bronze_title,The only good bug is a dead bug
+achievement_global_kills_bronze_descr,Kill 2000 Arachnids
+achievement_global_kills_silver_title,The only good bug is a dead bug
+achievement_global_kills_silver_descr,Kill 8000 Arachnids
+achievement_global_kills_gold_title,The only good bug is a dead bug
+achievement_global_kills_gold_descr,Kill 20000 Arachnids
+achievement_global_kill_tankers_bronze_title,Anti-Tanker
+achievement_global_kill_tankers_bronze_descr,Kill 10 Tanker Bugs
+achievement_global_kill_tankers_silver_title,Anti-Tanker
+achievement_global_kill_tankers_silver_descr,Kill 50 Tanker Bugs
+achievement_global_kill_tankers_gold_title,Anti-Tanker
+achievement_global_kill_tankers_gold_descr,Kill 200 Tanker Bugs
+,
+ability_tactical_command_title,Direct Command
+ability_tactical_command_descr,"Target a friendly infantry unit to boost its performance:
+ • Reload time -90%
+ • Movement speed +50%"
+ability_inspiring_command_title,Local Command
+ability_inspiring_command_descr,"Boost the performance of all nearby friendly infantry:
+ • Reload time -50%
+ • Resistance to suppression increased"
+,
+ability_designate_target_descr,Enemy units in the target area take extra damage when they are hit by your units.

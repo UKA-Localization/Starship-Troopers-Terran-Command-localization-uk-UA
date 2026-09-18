@@ -1,0 +1,372 @@
+﻿// NAME,
+scenario_name,[7] Powder Keg
+,
+// DESCRIPTION,
+scenario_descr,"Fraser, facing the end of his endeavors on Gehenna, has planned one last job for his mercenary band. One last venture to catch some Bugs. But this time, they don't intend to share the profits."
+,
+// OBJECTIVES,
+objective_2_0_title,Clear Hives to capture Arachnids
+objective_2_9_title,Do not lose the Pheromone Carrier
+objective_2_11_title,Capture Bugs Before Timer Expires
+objective_2_12_title,Keep at least 5 sedated Arachnids alive.
+objective_2_1_title,Bring the sedated Arachnids to the Cargo Ship
+objective_2_6_title,Capture or kill all mercenaries
+objective_2_14_title,Defend the Beacon
+objective_2_15_title,Reach Fraser before the ash storm
+objective_2_13_title,Activate the pump to lure in the bugs
+objective_2_10_title,Capture radio stations
+objective_2_2_title,Clear Bug Hives
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_716,Lava Geyser
+unit_766,"0,0"
+unit_815,#Merc Kill Objective
+unit_816,#Rendezvous Objective
+unit_845,#Redeploy Marker
+unit_884,Landmine
+unit_885,Landmine
+unit_886,Landmine
+unit_887,Landmine
+unit_889,Landmine
+unit_890,Landmine
+unit_891,Landmine
+unit_892,Landmine
+unit_893,Landmine
+unit_912,Landmine
+unit_913,Landmine
+unit_941,#Crate Drop 1
+unit_942,#Crate Drop 2
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR HIVES TO CAPTURE BUGS/TRIGGERS/OBJECTIVE PART 2: WEST HIVE ============== ",
+// 10.merc,
+briefing_trigger_854_text,"They ain't biting us yet, so let's get on to the next hive while we still got the storm cover."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR HIVES TO CAPTURE BUGS/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_776_text,HephaeStar wants to burn us? Screw that. We'll burn them.
+briefing_trigger_1377_text,"We're getting off this damn rock, but not before scooping one last payout. Courtesy of the company's very own Bug catching tech."
+briefing_trigger_899_text,"Let's see what the competition will pay for your secret new tech, Director Patel..."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PUMP ACTIVATION/NEAR PUMP ============== ",
+// 10.merc,
+briefing_trigger_941_text,"Next hive is just ahead. Instead of going in, smart thing might be to activate that pump, to draw them out through here. "
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DON'T LOSE PHERMONE CARRIER/TRIGGERS/FAIL ============== ",
+// 10.merc,
+briefing_trigger_908_text,Carrier down! It's all gone to hell!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DON'T LOSE PHERMONE CARRIER/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_906_text,"Gotta hand it to HephaeStar, this ‘Bugnip’ is impressive stuff.  Gonna make us all more than enough to retire on."
+briefing_trigger_1380_text,"But that doesn't happen without our merch here, so keep our carrier protected."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE BUGS BEFORE TIMER EXPIRES/TRIGGERS/CHANGE TO LIGHT ASH ============== ",
+// 10.merc,
+briefing_trigger_855_text,"Ash storm is blowing over. We're gonna lose our cover from company eyes, so move it!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: KEEP AT LEAST 5 SEDATED ARACHNIDS ALIVE./TRIGGERS/FAIL: BUGS LOST ============== ",
+// 10.merc,
+briefing_trigger_1149_text,We’ve lost too many bugs! It's all gone to hell!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: BRING BUGS TO CENTER/TRIGGERS/SUCCESS ============== ",
+// 10.merc,
+briefing_trigger_868_text,Where's our ride? He should be here by now!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: BRING BUGS TO CENTER/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_790_text,"Aha! Here comes our retirement plans, people! Each of these bugs adds an extra coupla zeroes to your pay, so be real nice to 'em..."
+briefing_trigger_1381_text,"Alright, our ride outta this hellhole should be touching down right about now. Let's get to it!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: M.I. ARRIVES TO KILL MERCS/TRIGGERS/SUPPLY GROWTH ============== ",
+// 8.director,
+briefing_trigger_1441_text,"I’m sending more supplies to help bolster your unit, Captain. We can’t take any chances when it comes to these contractors."
+//,
+// 9.junior,
+briefing_trigger_1442_text,"Appreciate the support, Director, but we don’t have time to waste. We’re pressing on!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: M.I. ARRIVES TO KILL MERCS/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_775_text,"Sorry, Mister Fraser. Your escape plan's not happening."
+briefing_trigger_912_text,"Your pilot's been arrested for theft of company property, and will be handed over to the Federal judiciary."
+briefing_trigger_913_text,"It remains to be seen what's going to happen to you, though..."
+//,
+// 10.merc,
+briefing_trigger_792_text,"Everyone really is disposable to you people, huh? Get 'em to do a job then screw them over as soon as they're not needed."
+briefing_trigger_1382_text,You want us? Come and get us.
+//,
+// 8.director,
+briefing_trigger_1384_text,"HephaeStar Corp thanks you for your services, Mister Fraser."
+briefing_trigger_1385_text,"These security contractors won't listen to reason, Captain. They're now a threat to both HephaeStar and the Federation."
+briefing_trigger_1386_text,"With regret, we'll have to move to the last course of action: hunt them all down."
+//,
+// 9.junior,
+briefing_trigger_923_text,"Merc vermin showing their true colors at last. The M.I. will bring them to justice, ma'am."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR REMAINING HIVES/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_798_text,We'll have to clear these hives to get to the Mercs.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND THE FLEET BEACON/TRIGGERS/CENTRAL ATTACK WAVES/WAVE 1 TIMELINE ============== ",
+// 9.junior,
+briefing_trigger_1408_text,"I’m still hearing that pump, Director, which means the Bugs can too!"
+//,
+// 8.director,
+briefing_trigger_1410_text,"Our engineers are working on it, but the contractors have made a mess of our systems. Hang in there."
+//,
+// 9.junior,
+briefing_trigger_1411_text,Look alive troopers! More Bugs!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND THE FLEET BEACON/TRIGGERS/CENTRAL ATTACK WAVES/WAVE 2 TIMELINE ============== ",
+// 9.junior,
+briefing_trigger_1409_text,"Give me some good news on that pump, Director!"
+//,
+// 8.director,
+briefing_trigger_1412_text,We're almost through. Hang in there for just a little longer. Once the pumps are offline it should stop attracting Arachnids.
+//,
+// 9.junior,
+briefing_trigger_1444_text,"We’ll just have to keep holding the line then, troopers!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND THE FLEET BEACON/TRIGGERS/CENTRAL ATTACK WAVES/WAVE 3 TIMELINE ============== ",
+// 8.director,
+briefing_trigger_1227_text,Pumps are offline. Now clear out any remaining Bugs.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND THE FLEET BEACON/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_961_text,"We're at the LZ, but no sign of Fraser or his people."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND THE FLEET BEACON/BRIEFING P.2 ============== ",
+// 8.director,
+briefing_trigger_826_text,That pump station's active!
+//,
+// 9.junior,
+briefing_trigger_1014_text,It's a trap! Bugs incoming from the north!
+//,
+// 8.director,
+briefing_trigger_1173_text,"Hold on, Captain. We'll try to shut the pumps down from here, but it'll take some time."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: HUNT FRASER IN MOUNTAINS/TRIGGERS/FRASER CONFRONTATION & SUCCESS/BEGIN DIALOGUE ============== ",
+// 10.merc,
+briefing_trigger_1449_text,"Time to make a choice, Zhao. I can cut you in with what we’ve got here. We can both leave HephaeStar and the Federation behind."
+//,
+// 9.junior,
+briefing_trigger_1450_text,But...
+//,
+// 10.merc,
+briefing_trigger_1451_text,You’ll make more here than you ever will on an M.I. salary. The Federation don’t care about you anyway.
+//,
+// 9.junior,
+briefing_trigger_1452_text,"Wrong. The Federation looks after its citizens, and HephaeStar and the other corporations are our loyal partners in this war. You're nothing but a money-hungry criminal and liar..."
+briefing_trigger_1453_text,...and I've heard enough of your lies.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: HUNT FRASER IN MOUNTAINS/TRIGGERS/FRASER CONFRONTATION & SUCCESS/SUCCESS ============== ",
+// 9.junior,
+briefing_trigger_805_text,It's done. No survivors. You were right about Fraser; he wouldn't give up.
+//,
+// 8.director,
+briefing_trigger_1403_text,"Regrettable, but necessary. You've done well, captain. We need soldiers like you, and on my recommendation, the Sky Marshal has promoted you to permanent Garrison Commander here. "
+briefing_trigger_806_text,"To victory, captain! And, through you and I, a successful partnership between the Federation and HephaeStar in this war on the Bugs!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: HUNT FRASER IN MOUNTAINS/TRIGGERS/ASH STORM & FAIL/FAIL ============== ",
+// 8.director,
+briefing_trigger_1531_text,Fraser got away. This is unacceptable!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: HUNT FRASER IN MOUNTAINS/TRIGGERS/BRIEFING: AFTER FIRST AMBUSH ============== ",
+// 10.merc,
+briefing_trigger_1399_text,"Wake up, Zhao. It's always been about turning a buck. Fed. Patel. Us. It's why we're here catching Bugs for 'em."
+//,
+// 9.junior,
+briefing_trigger_1400_text,Vilon has thousands of Federation eyes on it. There’s no way the Director would get away with moving Bugs through it to illegal markets.
+//,
+// 10.merc,
+briefing_trigger_1401_text,"Ain’t you been paying attention? It’s not rogue buyers paying top dollar for those tame Bugs. It's your own Feds. I don't know why they want 'em, but I got some ideas...."
+//,
+// 9.junior,
+briefing_trigger_1402_text,You’re suggesting the Federation would knowingly operate from the shadows? Lie to its people? To...citizens!?
+briefing_trigger_956_text,This...can’t be right...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: HUNT FRASER IN MOUNTAINS/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_1011_text,"Tracking Fraser and his gang of criminals retreating into the mountains. They cannot be allowed to escape off Gehenna, Captain!"
+//,
+// 9.junior,
+briefing_trigger_1388_text,Don't worry. They won't.
+,
+,
+,
+,
+"// ============== /ENVIRONMENT & DIALOGUE/FIND MECH ENGINEER/MECH ACTIVATES ============== ",
+// 10.merc,
+briefing_trigger_886_text,HephaeStar really likes leaving their junk lying about.  Now we've got a Biped.
+,
+,
+,
+,
+"// ============== /ENVIRONMENT & DIALOGUE/FRASER & ZHAO/HIVE > RADIO/HIVE CLEARED ============== ",
+// 10.merc,
+briefing_trigger_1390_text,"So Patel's set her pet Fed dog on us. Figures. What's your orders, Fed man? Shoot to kill?"
+//,
+// 9.junior,
+briefing_trigger_1391_text,"You're responsible for the deaths of good soldiers. You could have surrendered and been given a fair trial, but now there's M.I. blood on your hands."
+//,
+// 10.merc,
+briefing_trigger_1392_text,"Ha! Don't know what's funnier - that you think Patel ever wanted us taken alive, or that the Federation would ever give anyone a fair trial."
+,
+,
+,
+,
+"// ============== /ENVIRONMENT & DIALOGUE/FRASER & ZHAO/HIVE > RADIO/RADIO CAPTURED ============== ",
+// 10.merc,
+briefing_trigger_1393_text,"Come on, Fed man. Don't you see you're being played?"
+//,
+// 9.junior,
+briefing_trigger_1394_text,I'm following orders and doing my duty. Something you know nothing about.
+//,
+// 10.merc,
+briefing_trigger_1395_text,Killing me because some corporate suit says so. That Fed duty now?
+//,
+// 9.junior,
+briefing_trigger_1457_text,That’s enough Fraser. Surrender and turn yourself in to Federal justice or deal with the consequences.
+,
+,
+,
+,
+"// ============== /ENVIRONMENT & DIALOGUE/FRASER & ZHAO/RADIO > HIVE/RADIO CAPTURED ============== ",
+// 10.merc,
+briefing_trigger_1589_text,"So Patel's set her pet Fed dog on us. Figures. What's your orders, Fed man? Shoot to kill?"
+//,
+// 9.junior,
+briefing_trigger_1590_text,"You're responsible for the deaths of good soldiers. You could have surrendered and been given a fair trial, but now there's M.I. blood on your hands."
+//,
+// 10.merc,
+briefing_trigger_1591_text,"Ha! Don't know what's funnier - that you think Patel ever wanted us taken alive, or that the Federation would ever give anyone a fair trial."
+,
+,
+,
+,
+"// ============== /ENVIRONMENT & DIALOGUE/FRASER & ZHAO/RADIO > HIVE/HIVE CLEARED ============== ",
+// 10.merc,
+briefing_trigger_1584_text,"Come on, Fed man. Don't you see you're being played?"
+//,
+// 9.junior,
+briefing_trigger_1585_text,I'm following orders and doing my duty. Something you know nothing about.
+//,
+// 10.merc,
+briefing_trigger_1586_text,Killing me because some corporate suit says so. That Fed duty now?
+//,
+// 9.junior,
+briefing_trigger_1596_text,That’s enough Fraser. Surrender and turn yourself in to Federal justice or deal with the consequences.
+,
+,
+,
+,
+"// ============== /MUTATIONS/BOMBERBEES ============== ",
+// 9.junior,
+briefing_trigger_1443_text,Bomberbees! Keep them at a distance!
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_817,Clear Hive
+,
+,
+,
+speech_trigger_816,Deal with the mercenaries
+,
+,
+speech_trigger_818,Clear Hive
+,
+speech_trigger_872,Landing Site
+,
+speech_trigger_890,Biped activated
+,
+speech_trigger_929,Protect Pheromone Carrier
+,
+,
+timer_trigger_938_descr,Capture Bugs
+,
+,
+,
+,
+speech_trigger_1570,Defend
+,
+,
+timer_trigger_1245_descr,Bugs Incoming
+,
+,
+,
+,
+,
+timer_trigger_1526_descr,Ash storm incoming
+,
+,
+speech_trigger_940,Pump Console
+,
+,

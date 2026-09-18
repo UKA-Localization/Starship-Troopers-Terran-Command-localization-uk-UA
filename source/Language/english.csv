@@ -1,0 +1,610 @@
+build_version,Beta Build
+,
+// SETTINGS,
+enable_pause_in_background,Pause game if window is not focused
+set_scroll_speed,Scroll
+set_zoom_speed,Zoom
+set_master_volume,Master
+set_music_volume,Music
+set_audio_volume,SFX
+set_speech_volume,Speech
+serial_error,CRC check failed. Please reinstall the game.
+screen_resolution,Screen Resolution
+screen_hertz,Hz
+resolution_change_title,Change Resolution
+resolution_change_text,Are you sure you want to change the screen resolution?
+quick_save_saved,Quicksave completed
+quick_save,Quick Save
+quick_load_title,Quick Load
+quick_load_text,Are you sure you want to load the Quick Save file?
+any,Any
+options,Options
+players,Players
+options_panel,Options
+select_group,Select control group
+mission_panel,Mission Overview
+color_panel,Color Picker
+editor_settings_panel,Settings
+new_scenario_panel,New Scenario
+colors_panel,Color Picker
+tab_editor_0,Settings
+tab_editor_1,Players
+tab_editor_2,Objectives
+tab_editor_3,Triggers
+tab_editor_4,AI
+enable_allow_focus_override,Manual movement cancels focus
+enable_free_camera,Allow free camera tilting
+enable_full_screen,Full screen mode
+enable_windowed_mode,Windowed mode
+enable_grid_hotkeys,Grid hotkeys
+enable_large_ui,Large UI scale
+enable_vertical_sync,Enable vertical sync
+completed,Completed
+file_name,Filename
+file_date,Date
+objectives_title,Objective Title
+objectives_details,Objective Details
+triggers,Triggers
+conditions,Conditions
+effects,Effects
+trigger_name,Trigger Name
+trigger_event,Trigger Event
+objective_status_open,Open
+objective_status_completed,Completed
+objective_status_failed,Failed
+outcome_unfinished,Unfinished
+outcome_victory,Victory
+outcome_draw,Draw
+outcome_defeat,Defeat
+ai_team,AI Team
+enable_overwrite_previous_briefings,Overwrite previous briefings
+unit_definitions,Unit Definitions
+unit_category,Category
+unit_class,Class
+unit_type,Type
+enable,Enable
+disable,Disable
+members,Members
+no_unit_selected,Nothing selected
+enter_filename,enter file name
+for_everyone,For everyone
+set_main_timer,Display as main timer
+construct_unit,Request unit deployment
+enable_unit_tooltips,Show tooltip for highlighted unit
+quality_lowest,Lowest
+quality_low,Low
+quality_medium,Medium
+quality_high,High
+quality_highest,Highest
+render_quality,Graphics quality
+variable_name,My Variable
+set_brush_size,Brush size
+variabletypes_scenario,Scenario variable
+variabletypes_campaign,Campaign variable
+objective_count_units,units
+key_control,CTRL
+key_alt,ALT
+key_shift,SHIFT
+requires,Requires:
+paused_mode,PLAYBACK SPEED: PAUSED
+slow_mo_mode,PLAYBACK SPEED: SLOW MOTION 
+new_objective_enabled,New objective
+new_threat_activated,New threat
+population_points_type_supply,Supplies
+population_points_type_support,War Support
+game_paused,Game paused
+singleton_unit_deployment_limit,You can only deploy one unit of this type.
+tooltip_campaign_save,Campaign saved game
+tooltip_scenario_save,Scenario saved game
+confirm_delete_save_title,Delete Saved Game
+confirm_delete_save_descr,Are you sure you want to delete this saved game?
+confirm_load_savegame_title,Load Game
+confirm_load_savegame_descr,Your current game has not been saved. Are you sure you want to load the selected saved game?
+savegame_type_scenario,Scenario
+save_trigger_checkpoint,Checkpoint
+save_trigger_quicksave,Quicksave
+save_trigger_autosave,Autosave
+save_trigger_test,Test
+savegame_type_campaign,Campaign
+game_saved_title,Game Saved
+game_saved_descr,The current game has been saved.
+,
+// EDITOR,
+enable_attack_move,Attack move
+enable_patrol,Patrol loop
+enable_capture_points,Take nearby Capture Points
+enable_stick_together,Stick together
+enable_instant_focus_camera,Instantly jump camera to location
+enable_warp_unit_spawn,Instantly warp new unit on location
+enable_allow_reasearch,Allow researching new technologies
+enable_play_battle_ambient,Enable distant battle sounds
+enable_share_allies_los,Allied players share LOS
+enable_research_all_units,Unlock all unit types
+enable_can_capture_capturables,Can this player capture capturable units?
+enable_no_change,No change
+button_add_alliance,Add Player
+folder_name,Folder Name
+sound_file_name,Sound File Name
+button_select_unit,Select Unit
+button_select_location,Select Location
+button_select_location_radius,Select location & radius
+button_select_location_facing,Select location & facing
+blackboard_empty,<insert blackboard name>
+decorations_group_all,All
+cursor_mode,Cursor Mode
+editor_cursor_mode_normal,Default
+editor_cursor_mode_deploy,Deploy
+editor_cursor_mode_terrain,Terrain
+editor_cursor_mode_unitSelect,Select unit
+editor_cursor_mode_locationSelect,Select location
+editor_cursor_mode_radiusSelect,Select location & radius
+editor_cursor_mode_facingSelect,Select location & facing
+editor_cursor_mode_unitTypeSelect,Select unit type
+editor_cursor_mode_aiTeamSet,Set unit AI team
+editor_cursor_mode_attachUnit,Attach unit to master
+dialog_change_unittype_title,Change Unit Type?
+dialog_change_unittype_descr,Do you want to change the unit type of the selected unit?
+dialog_change_ownership_title,Change Unit Owner?
+dialog_change_ownership_descr,Do you want to change the owner of the selected unit?
+ai_task_none,None
+enable_wait_until_scroll_completes,Complete camera scroll before displaying briefing
+,
+alliance_control_human,Human
+alliance_control_ai,AI
+,
+button_ok,OK
+button_yes,Yes
+button_no,No
+button_confirm,Confirm
+button_cancel,Cancel
+button_purchase,Purchase
+button_research,Research
+button_close,Close
+button_continue,Continue
+button_back,Back
+button_launch,Launch
+button_quit_menu,Exit to Menu
+button_quit_os,Exit to Desktop
+button_quit_editor,Exit to Editor
+button_save,Save
+button_load,Load
+button_create,Create
+button_add,Add
+button_remove,Remove
+button_clone,Clone
+button_campaigns,New Campaign
+button_options,Options
+button_scenarios,Scenarios
+button_editor,Editor
+button_wiki,Federal Archives
+button_exit,Exit
+button_quit,Quit
+button_select_unittype,Select Unit Type
+button_launch_campaign_mission,To war!
+button_go_back,Go back
+button_video_rewind,Restart broadcast
+button_load,Load
+button_delete_save,Delete saved game
+button_is_saving,Saving...
+,
+button_abort_scenario,Abort
+button_restart_scenario,Restart
+button_load_checkpoint,Load Autosave
+tooltip_abort_to_menu,Return to the main menu
+tooltip_restart_scenario,Restart the battle
+tooltip_load_checkpoint,Load the last Autosave
+,
+press_hotkey,<Press hotkey>
+hotkeys,Hotkeys
+hotkey_optionsdialog,Options Panel
+hotkey_quicksave,Quick Save
+hotkey_quickload,Quick Load
+hotkey_unitnext,Select next Unit
+hotkey_unitprev,Select previous Unit
+hotkey_unitnextfocused,Next focused unit
+hotkey_unitprevfocused,Previous focused Unit
+hotkey_takescreenshot,Take screenshot
+hotkey_jumptoping,Jump to notification ping
+hotkey_zoomin,Zoom in
+hotkey_zoomout,Zoom out
+hotkey_camerareset,Reset camera
+button_reset_hotkeys,Reset to Default
+options_reset_hotkeys_tooltip,Reset to Default
+options_key_waiting,waiting
+options_reset_hotkeys,Reset
+dialog_reset_hotkeys_title,Reset hotkeys
+dialog_reset_hotkeys_text,Are you sure you want to reset all hotkeys back to default?
+,
+tooltip_speed_paused,Pause
+tooltip_speed_normal,Normal speed
+tooltip_speed_slow,Slow motion
+tooltip_launch_mission,Launch mission
+tooltip_editor_launch,Launch scenario
+tooltip_editor_files,Open files
+tooltip_units_edit_mode,Units editing mode
+tooltip_terrain_edit_mode,Terrain editing mode
+tooltip_deployment_edit_mode,Deployment editing mode
+tooltip_levels_edit_mode,Height levels editing mode
+tooltip_decorations_edit_mode,Decorations editing mode
+tooltip_unit_halt,Stop
+tooltip_unit_halt_descr,Cancel the unit's current order
+tooltip_sort_name,Sort files by name
+tooltip_sort_date,Sort files by date
+tooltip_next_unit,Select next unit
+tooltip_prev_unit,Select previous unit
+tooltip_supply_current,Currently used Supply Points
+tooltip_supply_cap,Supply Cap
+tooltip_new_scenario,Create a new scenario
+tooltip_editor_settings,Open the scenario settings panel
+tooltip_change_alliance_color,Select a different color for this player
+tooltip_alliance_control_type,Toggle player control between human and AI
+tooltip_create_trigger,Create a new trigger
+tooltip_drag_into_folder,Drag from this button into the 
+tooltip_set_root_folder,Move selected trigger or folder into the root folder
+tooltip_clone_trigger,Clone the selected trigger
+tooltip_clone_folder,Clone the selected folder
+tooltip_create_folder,Create a new folder
+tooltip_add_ai_team,Add an AI team
+tooltip_remove_ai_team,Remove this AI team
+tooltip_objective_central_display,Display the state of this objective at the top of the screen
+tooltip_display_objectives,Toggle objectives display
+tooltip_remove_player,Remove player
+tooltip_construct_units,Request new units
+tooltip_construct_units_descr,Acquire new units
+tooltip_select_alliance,Select player
+tooltip_reinforce_unit,Request reinforcements
+tooltip_reinforce_unit_descr,Bring this unit back to full strength.
+tooltip_reinforce_unit_radius_required,Unit must be in radius of a radio or satellite station.
+tooltip_campaigns,Play a full campaign
+tooltip_scenarios,Play an individual scenario
+tooltip_options,"Options menu: Alter your preferences, video and audio settings"
+tooltip_editor,Create your own custom scenario
+tooltip_load,Load a prior save game
+tooltip_quit,Exit the game
+tooltip_launch_campaign_mission,Start mission
+tooltip_change_hotkey,Click to change this hotkey
+tooltip_attack_move,Attack Move
+tooltip_attack_move_descr,Order units to move to a location while attacking anything they encounter on the way. Alternatively use CTRL + right-click.
+tooltip_eject_cargo,Eject cargo
+tooltip_eject_cargo_descr,Eject all units that are currently being carried.
+tooltip_exit_carrier,Exit carrier
+tooltip_exit_carrier_descr,Exit the selected unit from its carrier
+tooltip_available_dropships,Available dropships
+tooltip_dropship_reinforcing,Reinforcing
+tooltip_dropship_delivering,Delivering
+tooltip_dropship_returning,Returning to base
+tooltip_dropship_supply_cap,Increasing Supply Point cap
+tooltip_dropship_constructing,Delivering
+tooltip_hold_fire,Hold fire
+tooltip_hold_fire_descr,Unit will not attack any targets automatically
+tooltip_fire_at_will,Fire at will
+tooltip_fire_at_will_descr,Unit will automatically fire at nearby enemies
+tooltip_delivery_platform_count,Delivery platforms (available / total)
+tooltip_delivery_platform_count_descr,Click to toggle through your Delivery Platforms
+tooltip_population_points_type_supply,Supplies (available / total)
+tooltip_population_points_type_support,War Support (available / total)
+tooltip_dropship_count,Dropships (available / total)
+tooltip_back_to_menu,Go back to the main menu
+tooltip_restart_campaign_video,Restart the mission video
+tooltip_deploy_from_orbit,Deploy unit
+tooltip_deploy_from_orbit_descr,Deploy the unit on a dropship landing site
+tooltip_edit_unit_name,Assign a custom name for this unit
+tooltip_load_panel,Load saved games
+tooltip_save_quit,Save the campaign and go back to the main menu
+,
+notification_unit_captured,captured
+notification_unit_cleared,cleared
+notification_unit_stolen,lost
+notification_construction_completed,Construction completed
+notification_new_unit,New unit arrived
+notification_checkpoint_save,Autosave completed
+notification_air_blockade_imposed,Air blockade imposed
+notification_air_blockade_lifted,Air blockade lifted
+notification_plasma_warning,Plasma launch detected
+notification_technology_unlocked,Technology unlocked
+notification_player_attacked,Unit under attack
+notification_ally_attacked,Ally under attack
+notification_level_up,Elite status reached
+notification_supply_change,Supply
+notification_support_change,War Support
+notification_battle_tier_unlocked,Next Battle Tier unlocked
+notification_dropships_change,Dropships
+,
+// UNIT CATEGORIES,
+unitcategory_0,Land
+unitcategory_1,Air
+unitcategory_2,Naval
+,
+// UNIT CLASSES,
+unitclass_infantry,Infantry
+unitclass_vehicle,Vehicle
+unitclass_aircraft,Aircraft
+unitclass_structure,Structure
+unitclass_transport_land,Ground Transport
+unitclass_transport_air,Air Transport
+unitclass_transport_naval,Naval Transport
+unitclass_horde,Horde
+unitclass_swarm,Swarm
+unitclass_behemoth,Behemoth
+unitclass_overseer,Overseer
+,
+,
+month1,Jan
+month2,Feb
+month3,Mar
+month4,Apr
+month5,May
+month6,Jun
+month7,Jul
+month8,Aug
+month9,Sep
+month10,Oct
+month11,Nov
+month12,Dec
+month1_full,January
+month2_full,February
+month3_full,March
+month4_full,April
+month5_full,May
+month6_full,June
+month7_full,July
+month8_full,August
+month9_full,September
+month10_full,October
+month11_full,November
+month12_full,December
+,
+options_preferences,Preferences
+options_controls,Controls
+options_audio,Audio
+options_saveload,Save & Load
+options_files,Scenario Files
+volume_settings,Volume settings
+tooltip_options_preferences,Adjust gameplay preferences
+tooltip_options_audio,Adjust volume levels
+tooltip_options_graphics,Adjust visuals for better quality or performance
+tooltip_options_controls,Customize hotkeys and other controls
+tooltip_options_files,Access scenario files
+tooltip_close_options,Close the options panel
+,
+loading,Loading
+loading_app,Initializing FED NET TV
+loading_scenario,Establishing live feed
+ready,Click to join the battle!
+broadcast_finished,Broadcast completed
+broadcast_paused,Broadcast paused
+broadcast_resume,Click here to resume
+,
+would_you_like_to_know_more,Would you like to know more?
+should_you_like_to_know_more,Should you like to know more
+credits,Credits
+version,Version
+game_version,Game Version
+scenario_version,Scenario Version
+cheats,Cheats
+campaigns,Campaigns
+scenarios,Scenarios
+loadgame,Load Game
+custom,Custom
+left,Left
+right,Right
+,
+map_size,Map Size
+map_size_0,Tiny
+map_size_1,Small
+map_size_2,Medium
+map_size_3,Large
+map_size_4,Huge
+,
+combat_stance_0,Aggressive
+combat_stance_1,Defend Position
+combat_stance_2,Hold Position
+combat_stance_3,Hold Fire
+,
+rename_title,Rename Unit
+rename_text,You can change a unit's custom name at any time. Edit the unit name below or press Cancel to discard any changes.
+dialog_quit_os_title,Quit Game
+dialog_quit_os_text,Are you sure you want to quit the game?
+dialog_quit_menu_title,Exit to Menu
+dialog_quit_menu_text,Are you sure you want to exit back to the Main Menu?
+dialog_quit_editor_title,Exit to editor
+dialog_quit_editor_text,Are you sure you want to exit back to the scenario editor?
+quit_unsaved,Unsaved Changes
+quit_unsaved_confirm,You have unsaved changes in this scenario. Are you sure you want to exit back to the main menu?
+restart,Restart
+restart_scenario,Restart Scenario
+restart_scenario_text,Are you sure you want to restart this scenario?
+player,Player
+,
+next,Next
+previous,Previous
+,
+objectives_0,Primary Objectives
+objectives_1,Secondary Objectives
+,
+// TRIGGER NAMES,
+trigger,Trigger
+folder,Folder
+trigger_condition_0,Unit ownership
+trigger_condition_1,Wait
+trigger_condition_2,Units count
+trigger_condition_3,Variable check
+trigger_condition_4,Unit killed
+trigger_condition_5,Units near target
+trigger_condition_6,Unit attacked
+trigger_condition_7,Objective status
+trigger_condition_8,Timer check
+trigger_condition_9,Unit damage
+trigger_condition_10,Visibility check
+trigger_condition_11,Unit status
+trigger_condition_12,Resource count
+trigger_condition_13,Units selected
+trigger_condition_14,Kills count
+trigger_condition_15,Unit Type check
+trigger_condition_16,Technology unlocked
+trigger_condition_17,Unit Strength
+trigger_condition_18,Supply/CP check
+trigger_condition_19,Objective enabled
+trigger_condition_20,Hive Status check
+trigger_condition_21,Offensive Strength check
+trigger_condition_22,Hatchery population check
+trigger_condition_23,Population count
+trigger_effect_0,Objective status
+trigger_effect_1,Objective enable
+trigger_effect_2,Resources set
+trigger_effect_3,Unit spawn
+trigger_effect_4,Event popup
+trigger_effect_5,Dialog popup
+trigger_effect_6,Population bonus change
+trigger_effect_7,AI team set
+trigger_effect_8,Revealer create
+trigger_effect_9,Camera focus
+trigger_effect_10,Outcome set
+trigger_effect_11,Briefing add
+trigger_effect_12,Unit weapon switch
+trigger_effect_13,Unit owner switch
+trigger_effect_14,Unit combat stance
+trigger_effect_15,Trigger enable
+trigger_effect_16,Unit AI team
+trigger_effect_17,Income set
+trigger_effect_18,Timer set
+trigger_effect_19,Sound play
+trigger_effect_20,Dropships set
+trigger_effect_21,Research Points set
+trigger_effect_22,Daytime set
+trigger_effect_23,Technology unlock
+trigger_effect_24,Variable set
+trigger_effect_25,Random Trigger
+trigger_effect_26,Unit Type switch
+trigger_effect_27,Folder enable
+trigger_effect_28,Unit remove
+trigger_effect_29,Ability execute
+trigger_effect_30,Unit order: Move
+trigger_effect_31,Unit order: Attack
+trigger_effect_32,Screenshot
+trigger_effect_33,Pause game
+trigger_effect_34,Trigger Selector
+trigger_effect_35,Minimap marker
+trigger_effect_36,Trigger Frequency
+trigger_effect_37,Music play
+trigger_effect_38,Prototype Command
+trigger_effect_39,Achievement Unlock
+trigger_effect_40,Video Player
+trigger_effect_41,Text Bubble add
+trigger_effect_42,Text Bubble remove
+trigger_effect_43,Minimap Ping
+trigger_effect_44,AI Operation
+trigger_effect_45,Unit order: Advanced Move
+trigger_effect_46,Unit redeploy
+trigger_effect_47,Unit order: Halt
+trigger_effect_48,Revealer remove
+trigger_effect_49,Checkpoint save
+trigger_effect_50,Unit reinforce
+trigger_effect_51,Unit select
+trigger_effect_52,Experience set
+trigger_effect_53,Unit Component set
+trigger_effect_54,Wiki Entry unlock
+trigger_effect_55,Blackboard add unit
+trigger_effect_56,Unit strength set
+trigger_effect_57,Unit Type unlock
+trigger_effect_58,Video Recorder
+trigger_effect_59,Mutation activate
+trigger_effect_60,Hive Status set
+trigger_effect_61,Trigger execute
+trigger_effect_62,Unit order: Enter carrier
+trigger_effect_63,Offensive create
+trigger_effect_64,Unit order: Transport
+trigger_effect_65,Battle Tier Set
+trigger_effect_66,Ability Unlock
+trigger_effect_67,Music Stinger
+trigger_effect_68,Music Layer
+trigger_effect_69,Feature: Reinforcing
+trigger_effect_70,Feature: Deployment
+trigger_effect_71,Feature: Transportation
+trigger_effect_72,Elite Ability unlock
+trigger_effect_73,Offensive Stop
+trigger_effect_74,Shroud reveal
+trigger_effect_75,Mutation disable
+trigger_event_0,Any Event
+trigger_event_1,Game Start
+trigger_event_2,Combat Event
+trigger_event_3,Capture VP Event
+trigger_event_4,Move Event
+trigger_event_5,Scenario Init
+trigger_event_6,Build Object
+trigger_event_7,Kill Event
+trigger_event_8,Game Tick
+,
+// AI TASKS,
+ai_task_0,Attack nearest
+ai_task_1,Patrol area
+ai_task_2,Attack location
+ai_task_3,Move to location
+ai_task_4,Defend location
+ai_task_5,Idle
+,
+difficulty_title,Select difficulty level
+difficulty_level,Difficulty
+difficulty_0,Very Easy
+difficulty_1,Easy
+difficulty_2,Normal
+difficulty_3,Challenging
+difficulty_4,Brutal
+difficulty_damage_modifier,Weapon damage modifier
+,
+click_to_know_more,Would you like to know more?
+,
+input_player_default,Mobile Infantry
+,
+end_battle_exit,Exit Battle
+end_battle_time,Play Time
+end_battle_restart,Restart Battle
+end_battle_main_menu,Exit to Main Menu
+end_battle_victory,Mission Accomplished
+end_battle_defeat,Defeat
+,
+pause_menu_confirmquit,Quit to menu
+pause_menu_willbelost,"Are you sure you want to quit the mission?
+
+Your progress will not be saved."
+pause_menu_willbesaved,
+pause_menu_saveorload,Save or Load
+pause_menu_saveandquit,Save & Quit
+pause_menu_willbesaved,"Are you sure you want to quit the mission?
+
+Your progress will be saved automatically."
+pause_menu_abort,Abort Mission
+pause_menu_abort_desc,Are you sure you want to abort the mission and go back to the main menu?
+pause_menu_returneditor,Return to Editor
+pause_menu_loadcheckpoint,Load Autosave
+pause_menu_restart,Restart Mission
+pause_menu_quicksave,Quick Save
+,
+quit_fed_net,Are you sure you want to quit?
+quit_fed_net_2,Quit FED NET TV?
+,
+change_language_dialog_title,Restart Required
+change_language_dialog_text,To change the game language you have to restart the game.
+select_language,Change game language
+language_english,English
+language_german,German
+language_french,French
+language_polish,Polish
+language_portuguese,Portuguese
+language_chinese,Chinese
+language_russian,Russian
+language_spanish,Spanish
+,
+// DON'T TRANSLATE,
+,
+language_tooltip_english,Change game language to English
+language_tooltip_german,Spielsprache zu Deutsch ändern
+language_tooltip_french,Changer la langue du jeu en Français
+language_tooltip_italian,Passa alla lingua italiana
+language_tooltip_japanese,ゲームの言語を日本語に切り替える
+language_tooltip_spanish,Cambia el idioma a español
+language_tooltip_russian,Переключение игры на русский язык
+language_tooltip_chinese,将游戏语言更改为简体中文
+language_tooltip_polish,Zmień język gry na polski
+language_tooltip_portuguese,Altera idioma do jogo para português brasileiro
+,

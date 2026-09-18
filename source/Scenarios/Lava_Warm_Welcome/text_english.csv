@@ -1,0 +1,433 @@
+﻿// NAME,
+scenario_name,[1] Warm Welcome
+,
+// DESCRIPTION,
+scenario_descr,Captain Zhao and his troopers arrive on Vilon Station were they are introduced to director Patel and encounter a number of unwelcome guests.
+,
+// OBJECTIVES,
+objective_2_12_title,Gather Zhao's squad in the cargo bay
+objective_2_0_title,Log in to the Cargo Bay Terminal
+objective_2_1_title,Meet the director in the control room
+objective_2_7_title,Investigate the Lower Levels
+objective_2_5_title,Kill all Arachnids in the Lower Levels
+objective_2_24_title,Do not lose all Firefighters
+objective_2_27_title,Extinguish fires
+objective_2_13_title,Extinguish all fires
+objective_2_19_title,Extinguish all fires before the timer expires
+objective_2_6_title,-
+objective_2_9_title,Enter the Elevator
+objective_2_25_title,Go to the dropships
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_10,Terminal
+unit_12,Control Room
+unit_60,Director
+unit_320,Bottom Left
+unit_321,Top Left
+unit_322,Top Right
+unit_324,Bottom Right
+unit_403,Pipe Control Room
+unit_542,End Marker
+unit_676,Elevator
+unit_700,Mech Waypoint 1
+unit_701,Mech Waypoint 2
+unit_721,Elevator
+unit_732,Chair Crew
+unit_769,Elevator
+unit_774,Terminal
+unit_790,Bottom Left
+unit_791,Top Left
+unit_792,Top Right
+unit_793,Bottom Right
+unit_843,Chair Crew
+unit_878,Camera Scroll
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /FLOOR 1: GATHER SQUAD/TRIGGERS/A) REPLENISH UNITS/UNIT REINFORCING/SPEECHES/SPEECH 1 ============== ",
+// 9.junior,
+briefing_trigger_1120_text,"Stay together, until we know the situation here."
+,
+,
+,
+,
+"// ============== /FLOOR 1: GATHER SQUAD/TRIGGERS/A) REPLENISH UNITS/UNIT REINFORCING/SPEECHES/SPEECH 2 ============== ",
+// 9.junior,
+briefing_trigger_1121_text,Fall in. We're not here for R&R!
+,
+,
+,
+,
+"// ============== /FLOOR 1: GATHER SQUAD/TRIGGERS/A) REPLENISH UNITS/UNIT REINFORCING/SPEECHES/SPEECH 3 ============== ",
+// 9.junior,
+briefing_trigger_1123_text,Get in formation! Let's go!
+,
+,
+,
+,
+"// ============== /FLOOR 1: GATHER SQUAD/TRIGGERS/B) LOG IN TO THE TERMINAL/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1127_text,The control room. Let’s hope someone has answers for us here.
+briefing_trigger_1126_text,"The alert's locked the security doors, but we can open them at that computer panel."
+,
+,
+,
+,
+"// ============== /FLOOR 1: GATHER SQUAD/TRIGGERS/CARGO BAY EVENTS/BUG BREAKOUT/START EXTINGUISHING 2 ============== ",
+// 9.junior,
+briefing_trigger_1129_text,Bugs?! How did they get on board?
+,
+,
+,
+,
+"// ============== /FLOOR 1: GATHER SQUAD/TRIGGERS/CARGO BAY EVENTS/MERC ENCOUNTER/CARGO BAY ============== ",
+// 9.junior,
+briefing_trigger_1105_text,"Company mercenaries? If they’re here, why does HephaeStar Corp need us"
+,
+,
+,
+,
+"// ============== /FLOOR 1: GATHER SQUAD/TRIGGERS/BRIEFING PART 2 ============== ",
+// 8.director,
+briefing_trigger_1554_text,"Captain Zhao? I'm Director Patel. Please gather your troops, and meet me in the control room."
+//,
+// 9.junior,
+briefing_trigger_1113_text,"Understood, ma’am."
+,
+,
+,
+,
+"// ============== /FLOOR 1: GATHER SQUAD/INTRO BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1112_text,"The great Vilon Station, where “commerce and industry meet”. They certainly sell it better on the ads."
+//,
+// 5.announcer,
+briefing_trigger_1552_text,[Alarm] [Alarm]
+//,
+// 9.junior,
+briefing_trigger_1553_text,A security alert? What's happening here?
+,
+,
+,
+,
+"// ============== /FLOOR 1: CONTROL ROOM/TRIGGERS/EVENTS/WALK TOWARD GATES ============== ",
+// 9.junior,
+briefing_trigger_1555_text,What kind of shoddy security operation are HephaeStar running here!?
+,
+,
+,
+,
+"// ============== /FLOOR 1: CONTROL ROOM/TRIGGERS/EVENTS/HALLWAY ============== ",
+// 9.junior,
+briefing_trigger_1106_text,Mercenary rabble. That explains a lot.
+,
+,
+,
+,
+"// ============== /FLOOR 1: CONTROL ROOM/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1124_text,Everyone here? Then maybe Director Patel can tell us about her Bug problem.
+,
+,
+,
+,
+"// ============== /FLOOR 1 > 2 ELEVATOR/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_209_text,"Captain Zhao, you've arrived just in time--"
+//,
+// 9.junior,
+briefing_trigger_1191_text,"There are Arachnids on your station, ma'am. I’ll need to call this in to Terran Command."
+//,
+// 8.director,
+briefing_trigger_914_text,"That won’t be necessary, Captain. I have a more urgent concern right now. There are fires that have broken out on the maintenance levels"
+briefing_trigger_1618_text,"I was reliably informed that you would be up to any task thrown at you, Captain. That is what the Mobile Infantry does, is it not?"
+//,
+// 9.junior,
+briefing_trigger_1560_text,It is.
+//,
+// 8.director,
+briefing_trigger_1617_text,Good. I have a firefighter crew on standby. They'll handle the flames. I need you to keep them protected.
+,
+,
+,
+,
+"// ============== /FLOOR 2: CORRIDORS/TRIGGERS/BUGS VENTS/BUG VENT 1 ============== ",
+// 9.junior,
+briefing_trigger_1180_text,They're in the vents!
+,
+,
+,
+,
+"// ============== /FLOOR 2: CORRIDORS/TRIGGERS/BUGS VENTS/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1561_text,More Bugs! How are they getting onto the station?
+//,
+// 8.director,
+briefing_trigger_1562_text,"We'll investigate that later. Right now, I need those fires put out."
+//,
+// 9.junior,
+briefing_trigger_1563_text,Understood. Zhao out.
+,
+,
+,
+,
+"// ============== /FLOOR 2: CORRIDORS/TRIGGERS/DOOR CONTROL ROOM/PLAYER AT PIPE ROOM ============== ",
+// 9.junior,
+briefing_trigger_198_text,"Hey fellas, open this door for us? We'll handle whatever's in there. "
+briefing_trigger_1354_text,Get out of there!
+,
+,
+,
+,
+"// ============== /FLOOR 2: CORRIDORS/TRIGGERS/DOOR CONTROL ROOM/CUTSCENE FINISHED ============== ",
+// 9.junior,
+briefing_trigger_1622_text,We got this.
+,
+,
+,
+,
+"// ============== /FLOOR 2: CORRIDORS/TRIGGERS/MERCS WITH SEDATED BUGS/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1403_text,Bugs! ...
+briefing_trigger_1623_text,What's going on here?
+//,
+// 10.merc,
+briefing_trigger_1404_text,"Keep walking, Fed man. You didn't see this."
+//,
+// 9.junior,
+briefing_trigger_1406_text,"Pacified Arachnids? What are they doing down here? "
+briefing_trigger_1407_text,"I want answers, but right now this station's safety is our priority."
+,
+,
+,
+,
+"// ============== /FLOOR 2: CORRIDORS/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_31_text,"Okay, we're going in."
+briefing_trigger_32_text,Get ready. We're here.
+,
+,
+,
+,
+"// ============== /FLOOR 2: EXTINGUISH FIRES ROOM/TRIGGERS/SPEECH: MORE BUGS ============== ",
+// 9.junior,
+briefing_trigger_1591_text,More Bugs coming out of the vents!
+,
+,
+,
+,
+"// ============== /FLOOR 2: EXTINGUISH FIRES ROOM/INTRO BRIEFING ============== ",
+// 8.director,
+briefing_trigger_1154_text,Progress report?
+//,
+// 9.junior,
+briefing_trigger_1155_text,We're fighting the fires. And the Bugs. They turned the room ahead into a bit of an inferno.
+//,
+// 8.director,
+briefing_trigger_1156_text,I'm sending you another team of firefighters. Make sure they stay protected.
+,
+,
+,
+,
+"// ============== /FLOOR 2 > 3 ELEVATOR/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_1351_text,The danger isn't over. Temperature levels are still high in the waste processing center.
+//,
+// 9.junior,
+briefing_trigger_1564_text,You want us to help you deal with burning garbage? What about your mercenaries?
+//,
+// 8.director,
+briefing_trigger_1565_text,"The Sky Marshal ordered you to fully cooperate, captain. Please do so."
+//,
+// 9.junior,
+briefing_trigger_1566_text,Understood......ma'am.
+,
+,
+,
+,
+"// ============== /FLOOR 3: KILL & EXTINGUISH ALL/TRIGGERS/KILL ARACHNIDS/NESTS ============== ",
+// 9.junior,
+briefing_trigger_1344_text,They're nesting in those machines!
+//,
+// 8.director,
+briefing_trigger_1345_text,"Our waste incinerators. They must be attracted to the heat. You have my permission to destroy the machines if necessary, captain."
+//,
+// 9.junior,
+briefing_trigger_1346_text,We don’t need permission to kill Bugs.
+,
+,
+,
+,
+"// ============== /FLOOR 3: KILL & EXTINGUISH ALL/TRIGGERS/ENTER THE LAST FIRES ROOM ============== ",
+// 9.junior,
+briefing_trigger_1569_text,Careful! Bugs could be hiding in this smoke.
+,
+,
+,
+,
+"// ============== /FLOOR 3: KILL & EXTINGUISH ALL/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_57_text,Let's show these civilians how the Mobile Infantry gets the job done.
+briefing_trigger_58_text,*cough* My people can barely breath in here!
+//,
+// 8.director,
+briefing_trigger_1343_text,That level is directly above our nuclear reactor. If fire damages the cooling system...
+//,
+// 9.junior,
+briefing_trigger_1567_text,An explosion?
+//,
+// 8.director,
+briefing_trigger_1568_text,"Releasing enough radiation to render this station uninhabitable. So please hurry, captain."
+,
+,
+,
+,
+"// ============== /FLOOR 3 > 4 ELEVATOR/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_1353_text,"All fires extinguished. Thank you, captain. You and your people are to report to the cargo bay."
+//,
+// 9.junior,
+briefing_trigger_1570_text,"Yes, ma'am."
+,
+,
+,
+,
+"// ============== /FLOOR 4: GO TO DROPSHIPS/TRIGGERS/OUTRO ============== ",
+// 8.director,
+briefing_trigger_1361_text,The station's secure again. You can continue your deployment to Gehenna.
+//,
+// 9.junior,
+briefing_trigger_1572_text,I saw Bugs under the control of your mercenaries. What exactly are you people doing here?
+//,
+// 8.director,
+briefing_trigger_1573_text,"Did the Sky Mashal brief you on any classified operations being conducted here, captain?"
+//,
+// 9.junior,
+briefing_trigger_1574_text,"No, ma'am."
+//,
+// 8.director,
+briefing_trigger_1575_text,Then that's because he decided you don't need to know. You're here to follow my orders and kill Bugs. Understood?
+//,
+// 9.junior,
+briefing_trigger_1362_text,"Yes, ma'am."
+briefing_trigger_1620_text,Troopers! Gear-up and board your boats. We're going down to the surface!
+,
+,
+,
+,
+"// ============== /FLOOR 4: GO TO DROPSHIPS/BRIEFING ============== ",
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_659,ACCESS GRANTED!
+,
+// 5.ANNOUNCER,
+speech_trigger_1152,Door locked
+,
+// 5.ANNOUNCER,
+speech_trigger_493,Door Control
+,
+speech_trigger_1193,Control Room
+,
+// 5.ANNOUNCER,
+speech_trigger_444,Gather troopers
+,
+// 5.ANNOUNCER,
+speech_trigger_442,Gather troopers
+,
+// 5.ANNOUNCER,
+speech_trigger_443,Gather troopers
+,
+// 5.ANNOUNCER,
+speech_trigger_538,Gather troopers
+,
+// 5.ANNOUNCER,
+speech_trigger_780,Log In Here
+,
+// 5.ANNOUNCER,
+speech_trigger_653,ACCESS DENIED!
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_1147,Use Firefighters
+,
+// 5.ANNOUNCER,
+speech_trigger_1148,Extinguish fires
+,
+// 5.ANNOUNCER,
+speech_trigger_1636,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1637,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1638,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1639,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1640,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1641,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1642,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1643,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1644,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1020,Elevator
+,
+// 5.ANNOUNCER,
+speech_trigger_1179,Extinguish fire
+,
+// 5.ANNOUNCER,
+speech_trigger_1311,Elevator entry
+,
+,
+timer_trigger_1335_descr,Extinguish Fires
+,
+// 5.ANNOUNCER,
+speech_trigger_1646,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1653,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1654,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1655,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1656,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1657,Extinguish
+,
+// 5.ANNOUNCER,
+speech_trigger_1658,Extinguish
+,
+,
+speech_trigger_1411,"Destroy"
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_783,Elevator
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_813,Destination
+,
+,

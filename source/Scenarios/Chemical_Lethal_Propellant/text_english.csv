@@ -1,0 +1,56 @@
+﻿// NAME,
+scenario_name,Lethal Propellant
+,
+// DESCRIPTION,
+scenario_descr,Terran Command has greenlit the use of chemical weapons in a special operation: The extermination of several Bug hives located along the depths of a massive canyon.
+,
+// OBJECTIVES,
+objective_2_0_title,Clear all Hives
+objective_2_3_title,SCORE
+objective_2_7_title,_______________
+objective_2_4_title,Kill Arachnids
+objective_2_5_title,Clear Hives
+objective_2_6_title,Time
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_433,Road Tunnel
+unit_459,Point 1
+unit_460,Point 2
+unit_461,Point 3
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_778_text,Our new chemical weapons have already proven valuable in the war against the Bug. Terran Command has now approved their use against a cluster of Arachnid nests.
+briefing_trigger_767_text,"More hordes of Arachnids keep pouring into the canyon, continuously threatening our troopers from the rear. To survive and to succeed, they must carefully consider when to push and when to hold."
+,
+,
+,
+,
+"// ============== /VICTORY/SUCCESS ============== ",
+// 4.propagandist,
+briefing_trigger_773_text,Human ingenuity has once again proven its superiority over the mindless hordes of the Arachnid. All Bug hives have been cleared.
+,
+,
+,
+,
+"// ============== /DEFEAT/LOST ALL INFANTRY ============== ",
+// 4.propagandist,
+briefing_trigger_770_text,"The failure of this operation proves that while we must keep faith in the power of human ingenuity, we must never underestimate the Arachnid advantage of numerical superiority."
+,
+,
+,
+// TRIGGER TEXTS,
+,
+timer_trigger_699_descr,WAVE INCOMING
+,
+,
+,
+,
+,
+,
+,

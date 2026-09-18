@@ -1,0 +1,45 @@
+// === Summary === (Prototypes),
+// other  - 36 entries  292 words  42 lines,
+// TOTAL  - 36 entries  292 words,
+,
+,
+,
+// #### UnitsPrototypesLines ####,
+,
+// other  - 36 entries  292 words  42 lines,
+unit_4006,"MANPAD Troopers"
+unit_4006_descr,"These troopers carry an advanced 'Man-portable air-defense system'. This weapon fires missiles that home in on their target but carry a fairly light explosive payload."
+unit_4057,"M7B Thunderbolt"
+unit_4064,"TAC Wing Director(Miniguns)"
+unit_4064_descr,"This operator has a direct communication line to a TAC Fighter group.These will strafe the enemy with missiles which excel against low numbers of armored targets."
+unit_1111,"Exosuit Assault Marines"
+unit_1131,"Marine Mechanics"
+unit_1131_descr,"These ground crews are often the first to arrive in a warzone to prepare airfields and set up defenses.They are well trained and carry Morita Carbines for personal defense."
+unit_1132,"TAC Wing Director(Cannons)"
+unit_1133,"TAC Wing Director(Missiles)"
+unit_1134,"Quad MG Turret"
+unit_1134_descr,"High rate of fire effective against large numbers of lightly armored enemies and airborne targets.Light frame make its vulnerable to enemy attacks."
+unit_1139,"Corvette Liaison"
+unit_1139_descr,"With a direct communication line to an orbital Corvette Transport, this officer can call for reinforcements and provides orbital fire support."
+unit_4068,"Marauder Mk-II"
+unit_3252_descr,"TO DO The nest must be destroyed to permanently stop the creatures from flying out of it."
+ability_tac_director_default_title,"TAC Minigun Strikes"
+ability_tac_director_default_descr,"Effective against lightly armored targets."
+ability_tac_director_a_title,"TAC Cannon Strikes"
+ability_tac_director_a_descr,"Effective against medium armored targets."
+ability_tac_director_b_title,"TAC Missile Strikes"
+ability_tac_director_b_descr,"Effective against small numbers of heavily armored targets."
+ability_tac_director_c_title,"TAC Cluster Strikes"
+ability_tac_director_c_descr,"Effective against against concentrated groups of unarmored targets."
+ability_support_drop_crate_title,"Construction Support Pod"
+ability_support_drop_crate_descr,"Call down a drop pod from orbit that boosts the construction and repair speed of nearby Fleet Mechanics units."
+ability_ammo_drop_crate_title,"Ammunition Pod"
+ability_ammo_drop_crate_descr,"Call down a drop pod from orbit that boosts the rate of fire of nearby Marines. Be aware that the ammunition may explode when attacked."
+ability_marines_grenade_barrage_title,"Fragmentation Barrage"
+ability_marines_grenade_barrage_descr,"Provide indirect fire support with a steady barrage of fragmentation grenades. Effective against lightly armored targets."
+ability_mkii_marauder_jump_title,"Jump"
+ability_mkii_marauder_jump_descr,"Jump to a good position."
+tooltip_resource_tac_fighters_title,"Corvette Transports"
+tooltip_resource_tac_fighters_descr,"Required for specific unit types and upgrades."
+tooltip_resource_jet_fuel_title,"Jet Fuel"
+tooltip_resource_jet_fuel_descr,"Required for heavy airborne units."

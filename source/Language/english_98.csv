@@ -1,0 +1,20 @@
+// === Summary === (TerritoryNewTutorialVO),
+// other  - 11 entries  146 words  22 lines,
+// TOTAL  - 11 entries  146 words,
+,
+,
+,
+// #### Mission_Jungle_2.Lines ####,
+,
+// other  - 11 entries  146 words  22 lines,
+jungle_2_missionobjective,"Secure the sector and destroy every hive"
+territory_vo_jungle_2_intro_1,"Welcome back to the green hell, Commander. The Bugs have dug in across this whole sector. You're going in with no foothold - secure that forward base first and we can start dropping reinforcements."
+territory_vo_jungle_2_base_captured,"Base secured. Reinforcements are on the way. Now sweep this area clean - every hive, every hole. The only good Bug is a dead Bug."
+territory_vo_jungle_2_zone1_cleared,"First cluster of hives is ash. Outstanding work. But recon's picking up something a lot bigger deeper in the valley..."
+territory_vo_jungle_2_zone2_intro,"There it is - a whole second nest the eggheads were keeping under wraps. Containment's blown wide open. Get in there and burn it all down."
+territory_vo_jungle_2_outro_1,"Sector's clean, Commander. You came in with nothing and you're walking out on a graveyard of Bugs. That's how it's done."
+objective_title_jungle_2_capture_base,"Capture the forward base"
+objective_bubble_jungle_2_capture,"Capture"
+objective_title_jungle_2_clear_zone1,"Clear the hive"
+objective_title_jungle_2_clear_zone2,"Clear the remaining hive"
+objective_bubble_jungle_2_clear,"Destroy"

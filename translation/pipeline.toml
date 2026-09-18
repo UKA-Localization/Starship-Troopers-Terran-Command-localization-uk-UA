@@ -1,0 +1,91 @@
+# Опис проєкту для конвеєра перекладу (localization-pipeline-uk-UA): формати таблиць, плейсхолдери,
+# групування рядків. Шляхи — відносно кореня репозиторію. Схема — PipelineConfig.cs у репозиторії конвеєра.
+
+[project]
+name = "Starship Troopers: Terran Command"
+source_language = "en"
+target_language = "uk-UA"
+
+# --- Таблиця рядків -----------------------------------------------------------
+
+[strings]
+path = "translation/strings.tsv"
+format = "tsv"                       # табуляція, без лапок; у полях \n \t \\ екрановані
+columns = { file = "file", key = "key", source = "original", target = "translation", status = "status", context = "context", entities = "entities", tone = "tone" }
+draft_status = "fuzzy"               # status чернетки; порожній status = готовий переклад
+unresolved_status = "unresolved"     # чернетка, у якій є терміни без затвердженого перекладу в глосарії
+# file     — шлях файлу гри відносно StreamingAssets/ (Language/english_3.csv, Scenarios/Kwalasha_Airfield/text_english.csv)
+# key      — ключ рядка CSV; повторний ключ у тому ж файлі має суфікс «#2», «#3»
+# context  — розділ файлу (// #### … ####), коментар //,INFO: над рядком, назва місії
+
+# --- Стиль і глосарій ------------------------------------------------------------
+
+[style]
+path = "translation/STYLE.md"
+
+[glossary]
+path = "translation/glossary.tsv"
+columns = { id = "id", term = "term", variants = "variants", target = "translation", note = "note", forms = "forms", category = "category", status = "status" }
+list_separator = "|"
+# status: порожньо — затверджено; fuzzy — переклад не вичитано; new — перекладу ще нема.
+
+# --- Аналіз: категорії термінів і характер рядків ---------------------------------
+
+[analysis]
+# Термін — усе, що має перекладатися однаково в усій грі: імена, назви юнітів/ворогів/зброї/технологій/планет/фракцій,
+# абревіатури.
+entity_categories = ["Персонажі", "Фракції", "Юніти Федерації", "Арахніди", "Зброя і техніка", "Технології", "Здібності", "Локації", "Механіки", "Загальне"]
+
+[analysis.tones]
+neutral = "нейтральний інформаційний тон"
+command = "наказ, інструкція, підказка — наказовий спосіб"
+briefing = "брифінг місії, доповідь командуванню — військовий стиль"
+propaganda = "пропаганда Федерації, лозунг, агітка — пафос з іронією оригіналу"
+joke = "жарт, гумор, каламбур — зберегти або компенсувати"
+sarcasm = "сарказм, іронія, глузування"
+threat = "погроза, зловісність"
+urgent = "тривога, терміновість, паніка"
+solemn = "урочисто, піднесено"
+rude = "грубо, по-солдатськи, але без нецензурного"
+technical = "технічний/системний текст, повідомлення програми"
+excited = "радість, захват, вигук"
+
+# --- Логічні блоки (що перекладається разом) ----------------------------------
+
+[batching]
+max_source_chars = 3000
+max_rows = 60
+skip = []                            # службовий build_version у таблицю не потрапляє (відкидає extract.py)
+
+[[batching.groups]]
+files = ["Scenarios/*/text_english.csv"]
+mode = "file"                        # одна місія — один блок (назва, брифінг, цілі, репліки разом)
+
+[[batching.groups]]
+files = ["Language/english*.csv"]
+mode = "context"                     # сусідні рядки з однаковим context (= розділ файлу гри)
+
+# --- Плейсхолдери: не чіпати в перекладі, перевіряти у відповіді ------------
+
+[placeholders]
+# підстановки .NET: {0}, {1}, {0:N0} — набір реальних токенів береться з оригіналів; у перекладі той самий список
+# у тому ж порядку
+printf_pattern = '\{\d+(?::[^}]*)?\}'
+# "\\n" — справжній перенос рядка (багаторядкові значення), '\\n' — літеральна послідовність \n у тексті гри
+count_equal = ["\\n", '\\n']
+
+[[placeholders.rules]]
+files = ["*"]
+pattern_equal = '</?(?:color|b|i|size|sprite)(?:=[^>]*)?>'   # теги Unity rich text — ті самі, у тому ж порядку
+note = "теги <color=#…>…</color>, <b>, <i> зберігати як є"
+
+[[placeholders.rules]]
+files = ["*"]
+pattern_equal = '\[[A-Za-z_ ]+\]'                             # підписи клавіш/станів: [Alarm], [ACTIVE]
+note = "підписи в квадратних дужках не перекладати"
+
+# --- Формат результату ------------------------------------------------------------
+
+[output]
+format = "json"
+retry_failed_rows = 1

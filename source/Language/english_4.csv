@@ -1,0 +1,29 @@
+options_data_sharing_info,"Starship Troopers: Terran Command collects gameplay data and error logs to assist with improving the quality of the game.
+
+Disable the checkbox below if you want to opt out."
+options_data_sharing_toggle,Enable data sharing
+,
+wiki_traits,Traits
+wiki_characteristics,Characteristics
+wiki_abilities,Special Abilities
+,
+wiki_elite_abilities_title,Elite Abilities
+wiki_elite_abilities_descr,"When a unit reaches experience level 3 - indicated by the 3 dots above the unit emblem - it can be assigned an Elite special ability. Several options are available per unit type but you can only choose one.
+
+To assign an elite ability, follow these steps:
+• Select a level 3 unit
+• Click the ""Choose Elite Ability"" command button
+• Choose and click on one of the available elite ability buttons
+• The new ability will now be available for the unit"
+,
+saved_games,Saved Games
+,
+// NOTE: The @ character is replaced with the object's name,
+clear_object,Clear @
+hive_not_depleted,Hive population is not yet depleted!
+hive_strength,Hive Strength
+army_strength,Army Strength
+experience_level,Experience Level
+current_experience,Current experience
+max_experience_reached,Maximum experience level reached
+no_unit_selected,No unit selected

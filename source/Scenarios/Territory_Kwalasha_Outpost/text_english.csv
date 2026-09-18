@@ -1,0 +1,32 @@
+﻿// NAME,
+scenario_name,Omega Outpost
+,
+// DESCRIPTION,
+scenario_descr,Omega Outpost is the sole remaining outpost still standing in the sector. Reinforcements are finally available to relieve the brave garrison.
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_6_text,The brave garrison of Omega Outpost has managed to hold out in the middle of Bug territory.
+briefing_trigger_7_text,Finally the time has come to relief these heroes and begin the reconquest of this sector.
+,
+,
+,
+,
+"// ============== /OUTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_14_text,The sector is secured.
+,
+,
+,
+// TRIGGER TEXTS,
+,
+,

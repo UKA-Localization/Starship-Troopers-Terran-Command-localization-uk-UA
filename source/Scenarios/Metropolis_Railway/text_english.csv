@@ -1,0 +1,320 @@
+﻿// NAME,
+scenario_name,[2] Railway Rendezvous
+,
+// DESCRIPTION,
+scenario_descr,"The Mobile Infantry garrison in Mahanagar has been dispatched to the northern district to deal with a troublesome outbreak of Arachnids.
+
+After touching down near the local railway station, Major Verhaegen leads his troopers with the objective of clearing the streets by sunrise."
+,
+// OBJECTIVES,
+objective_2_6_title,Enter the railway station
+objective_2_10_title,Clear the tunnel that leads to the station
+objective_2_0_title,Clear the railway station
+objective_2_7_title,Sgt. Keys must survive
+objective_2_2_title,Defend the railway platforms
+objective_2_3_title,Don't lose more than 30 civilians
+objective_2_1_title,Clear all Bug Hives
+objective_2_12_title,Deploy J.A.C. Troopers to deal with Tiger Bugs
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_23,Collapsed Tunnel
+unit_25,Collapsed Tunnel
+unit_48,Tunnel
+unit_195,Station Entrance
+unit_216,#Invasion Direction
+unit_219,Tunnel
+unit_230,#camera end
+unit_269,#civ1 spawn
+unit_327,#civ3 spawn
+unit_328,#civ2 spawn
+unit_344,#Platforms Marker
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/ENTER RAILWAY STATION/TRIGGERS/OFFENSIVE/DIALOGUE: PUSH THROUGH ============== ",
+// 12.senior,
+briefing_trigger_470_text,"They ain't stopping... but neither do we, soldiers! Keep pushing!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ENTER RAILWAY STATION/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_383_text,Listen up! Bugs have breached the northern district and got the cops here struggling. You know what that means...
+briefing_trigger_74_text,Those of you joining us for the first time will learn quick that Major Verhaegen's boys are the best Bug stompin' detail in the M.I.
+briefing_trigger_75_text,"Intel informs me we've got a large concentration of Bugs around the train lines. So our next stop, the railway station!"
+briefing_trigger_80_text,"Uphold my sterling reputation, troopers. We're moving out!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR THE TUNNEL TO GET TO THE STATION/TRIGGERS/SUCCESS ============== ",
+// 12.senior,
+briefing_trigger_70_text,Blast! Clearing them out caused the tunnel collapse.
+briefing_trigger_93_text,We'll need to find a side way in over that rail line.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR THE TUNNEL TO GET TO THE STATION/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_211_text,Bug nest ahead! We'll need to flush out that tunnel to get into the station.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR RAILWAY STATION/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_88_text,"Mobile Infantry? Finally, a bit of support."
+//,
+// 12.senior,
+briefing_trigger_89_text,"You must be Officer Keys? Major Verhaegen, here to take over from you folks. This is M.I. business now."
+//,
+// 11.cop,
+briefing_trigger_90_text,"Does ""M.I. business"" include getting our civilians evacuated out of the district?"
+//,
+// 12.senior,
+briefing_trigger_91_text,"My prime objective is killin' Bugs. But if that helps you complete the civilian evac, you can tag along."
+//,
+// 11.cop,
+briefing_trigger_475_text,That's good enough for me. Hives are this way.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/COP MUST SURVIVE/FAIL ============== ",
+// 11.cop,
+briefing_trigger_127_text,Arrrgh!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE RAILWAY PLATFORMS/TRIGGERS/OFFENSIVE MANAGER/RANDOM WARNING MESSAGE/OPTIONS/SPEECH A ============== ",
+// 11.cop,
+briefing_trigger_334_text,Another horde on the way!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE RAILWAY PLATFORMS/TRIGGERS/OFFENSIVE MANAGER/RANDOM WARNING MESSAGE/OPTIONS/SPEECH B ============== ",
+// 11.cop,
+briefing_trigger_335_text,Look alive! Bugs incoming!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE RAILWAY PLATFORMS/TRIGGERS/OFFENSIVE MANAGER/RANDOM WARNING MESSAGE/OPTIONS/SPEECH C ============== ",
+// 11.cop,
+briefing_trigger_336_text,Ready up! Another attack coming!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE RAILWAY PLATFORMS/TRIGGERS/OFFENSIVE MANAGER/RANDOM ARRIVAL MESSAGE/OPTIONS/SPEECH A ============== ",
+// 11.cop,
+briefing_trigger_456_text,Here they are!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE RAILWAY PLATFORMS/TRIGGERS/OFFENSIVE MANAGER/RANDOM ARRIVAL MESSAGE/OPTIONS/SPEECH B ============== ",
+// 11.cop,
+briefing_trigger_457_text,Bugs all over us now!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE RAILWAY PLATFORMS/TRIGGERS/OFFENSIVE MANAGER/RANDOM ARRIVAL MESSAGE/OPTIONS/SPEECH C ============== ",
+// 11.cop,
+briefing_trigger_459_text,Right on cue. Hit them!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE RAILWAY PLATFORMS/TRIGGERS/SCRIPTED OFFENSIVES ============== ",
+// 12.senior,
+briefing_trigger_373_text,"Well I'll be... there's your Bugs, Keys. Getting real curious how you knew they were coming..."
+//,
+// 11.cop,
+briefing_trigger_374_text,Just a cop with good intuition. What else do you expect me to be?
+//,
+// 12.senior,
+briefing_trigger_484_text,"""Intuition"", huh? Hmm..."
+briefing_trigger_420_text,More Bugs on the move!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE RAILWAY PLATFORMS/TRIGGERS/TIMELINE ============== ",
+// 12.senior,
+briefing_trigger_262_text,"Aw hell. The cop might have been right...
+"
+briefing_trigger_476_text,Keys? I'm tracking a massive Bug horde on its way to you. We're also getting reports right across the city too!
+briefing_trigger_397_text,"I'll give it to you this time, your ""intuition"" might have been on the money. This is big."
+//,
+// 11.cop,
+briefing_trigger_263_text,I'll take my apology in the form of some back up for that horde!
+//,
+// 12.senior,
+briefing_trigger_477_text,On it.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE RAILWAY PLATFORMS/TRIGGERS/SUCCESS ============== ",
+// 12.senior,
+briefing_trigger_139_text,All civvies packed away -- we're clear.
+briefing_trigger_478_text,"We're needed elsewhere, Keys. The situation is spiraling fast. I understand that this is your district, but I got a feeling you might be a real help, so if you're wanting to--"
+//,
+// 11.cop,
+briefing_trigger_479_text,"--I'm with you, Major. Let's hunt some Bugs."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE RAILWAY PLATFORMS/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_365_text,"Not bad, for flatfoots. Now, if you'll clear out our way, we'll be taking it from here."
+//,
+// 11.cop,
+briefing_trigger_38_text,"We're not going anywhere until every last civilian is on a train out of the district. Is ""protect and serve"" not a part of the M.I. mission too?"
+//,
+// 12.senior,
+briefing_trigger_362_text,The protection part of my job is clearing out Bug infestations. I'm better served stompin' out the problem before it spreads to more of your people.
+//,
+// 11.cop,
+briefing_trigger_363_text,You'll still be leaving these people here at risk! I can sense more Bugs on their way!
+//,
+// 12.senior,
+briefing_trigger_364_text,"""Sense""?"
+briefing_trigger_587_text,You ain't one of those...
+briefing_trigger_588_text,Fine. We'll hold. It's a good spot to thin the herd anyway. If there is one...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DON'T LOSE CIVILIANS/TRIGGERS/LOSSES WARNINGS ============== ",
+// 11.cop,
+briefing_trigger_467_text,We're losing civilians! Do better!
+briefing_trigger_468_text,The civvies are in trouble! We signed up to protect them!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DON'T LOSE CIVILIANS/TRIGGERS/FAIL ============== ",
+// 11.cop,
+briefing_trigger_244_text,This is a disgrace to the badge! We have failed in our duty!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DON'T LOSE CIVILIANS/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_195_text,Civilians coming in for evac. Help them out!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR ALL HIVES/TRIGGERS:CLEAR ALL HIVES/DIALOGUE: FIRST HIVE CLEARED ============== ",
+// 12.senior,
+briefing_trigger_396_text,"Finally, some proper Bug huntin'! Onto the next one!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR ALL HIVES/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_136_text,"We've done what you asked, but it's time we shipped off to the next hive."
+//,
+// 11.cop,
+briefing_trigger_370_text,"The Bugs will regroup before long. They've got a Brain Bug corralling them, Major. Was my report passed down?"
+//,
+// 12.senior,
+briefing_trigger_368_text,The sewer sighting? Heh. Yeah. I could see how waste might be mistaken for one of them ugly suckers.
+//,
+// 11.cop,
+briefing_trigger_369_text,"Take this seriously, Major! This attack is not the same as the usual outbreaks."
+//,
+// 12.senior,
+briefing_trigger_371_text,"If you let me get on with my job it will be. Quashed and forgotten, just like the rest. We're moving, soldiers!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEPLOY J.A.C. TROOPER/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_276_text,Tiger Bugs! We need more firepower for these nasty suckers.
+,
+,
+,
+,
+"// ============== /MUTATIONS/CRACKERS ============== ",
+// 12.senior,
+briefing_trigger_249_text,"Whoa... Fed Intel was on the money with the brief on Burster Bugs being here. Man, they're ugly bastards!"
+,
+,
+,
+,
+"// ============== /EVENTS/SIDE STREET ATTACK/BEGIN ATTACK ============== ",
+// 12.senior,
+briefing_trigger_280_text,Bugs on the flank! Tear 'em apart!
+,
+,
+,
+,
+"// ============== /EVENTS/SIDE STREET ATTACK/MOVE ON DIALOGUE ============== ",
+// 12.senior,
+briefing_trigger_292_text,Good to see boot camp is still feeding me capable soldiers. Let's push on to the station.
+,
+,
+,
+,
+"// ============== /EVENTS/DIALOGUE: BUILD MORE TURRETS/DIALOGUE 1 ============== ",
+// 11.cop,
+briefing_trigger_487_text,Use all this materiel to put up more defenses!
+,
+,
+,
+,
+"// ============== /EVENTS/DIALOGUE: BUILD MORE TURRETS/DIALOGUE 2 ============== ",
+// 11.cop,
+briefing_trigger_488_text,Why are we not putting all that materiel to use?! Deploy more turrets!
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_65,Railway Station
+,
+speech_trigger_507,Railway Platforms
+,
+,
+,
+,
+timer_trigger_327_descr,Attack incoming
+,
+,
+speech_trigger_215,Clear
+,
+speech_trigger_289,Civilian entrance
+,
+speech_trigger_360,Escape route
+,
+speech_trigger_361,Escape route
+,
+,
+,
+,
+timer_trigger_40_descr,Attack incoming
+,
+timer_trigger_421_descr,Attack incoming
+,
+timer_trigger_497_descr,Attack incoming
+,
+timer_trigger_583_descr,timer_trigger_569_descr
+,
+,
+,
+,

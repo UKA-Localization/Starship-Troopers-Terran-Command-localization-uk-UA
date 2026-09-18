@@ -1,0 +1,26 @@
+﻿// NAME,
+scenario_name,Scorched Earth
+,
+// DESCRIPTION,
+scenario_descr,scenario_descr
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_29,#camera start
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_15_text,"We are here to clear a hive. "
+briefing_trigger_10_text,A rogue group of mercenaries has set their eyes on it to steal these Bugs.
+briefing_trigger_11_text,"Bugs and mercs, eliminate them all."
+,
+,
+,
+// TRIGGER TEXTS,
+,

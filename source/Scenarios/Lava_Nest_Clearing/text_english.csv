@@ -1,0 +1,161 @@
+﻿// NAME,
+scenario_name,Wildfire
+,
+// DESCRIPTION,
+scenario_descr,"A significant concentration of Bug nests has been identified, impeding industrial expansion of Gehenna. 
+
+In response, the Mobile Infantry has mobilized its cutting-edge firepower to swiftly address the issue and catch the Arachnids off guard."
+,
+// OBJECTIVES,
+objective_2_13_title,Destroy all Stinger Nest and Brood Nests
+objective_2_8_title,Clear Hives
+objective_2_2_title,SCORE
+objective_2_9_title,Complete the Main Objective as fast as possible
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_276,#Anti-Base W1
+unit_277,#Anti-Base E1
+unit_278,#Anti-Base W2
+unit_279,#Anti-Base E2
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_325_text,"Hephaestar aims to expand its fuel extraction industry in this sector, but a formidable Arachnid infestation stands in the way."
+briefing_trigger_489_text,"An elite Mobile Infantry force has been deployed to tackle the threat, using a signature approach that never fails: overwhelming firepower!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR NESTS/TRIGGERS/SUCCESS ============== ",
+// 4.propagandist,
+briefing_trigger_444_text,"Today's operation has significantly weakened the Arachnid presence in the sector, paving the way for industrial expansion."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/GAME OVER/FAIL ============== ",
+// 4.propagandist,
+briefing_trigger_679_text,The Arachnid infestation has proven to be too strong for even our most advanced weapons. Hephaestar will have to look elsewhere to expand its industries.
+,
+,
+,
+,
+"// ============== /EVENTS/WAVES/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_234_text,A massive surge in Arachnid activity has been detected in the surrounding mountains. The Bugs must have realized their predicament and are flooding down to defend their nests.
+,
+,
+,
+,
+"// ============== /EVENTS/ASH STORMS/ASH STORM BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_675_text,The weather forecast for today is heavy ash with sporadic spells of sunshine. These storms will surely interfere with the flow of reinforcements.
+,
+,
+,
+,
+"// ============== /EVENTS/ASH STORMS/IN COMING ASH STORMS ============== ",
+// 4.propagandist,
+briefing_trigger_450_text,"The ash storm is about to engulf the sector in darkness. Because dropships can't fly in such extreme conditions, any transfer of reinforcements will be disrupted."
+,
+,
+,
+,
+"// ============== /EVENTS/ASH STORMS/ASH STORM ============== ",
+// 4.propagandist,
+briefing_trigger_568_text,Thick ash clouds are passing over the sector. All air support has been suspended until the skies clear up again.
+,
+,
+,
+,
+"// ============== /EVENTS/ASH STORMS/DISABLE ASH STORM ============== ",
+// 4.propagandist,
+briefing_trigger_585_text,The skies have cleared temporarily but more ash clouds are on the way.
+,
+,
+,
+// TRIGGER TEXTS,
+,
+timer_trigger_339_descr,WAVE INCOMING
+,
+,
+timer_trigger_453_descr,ASH STORM INCOMING
+,
+speech_trigger_529,Destroy
+,
+speech_trigger_553,Score: +10
+,
+speech_trigger_531,Destroy
+,
+speech_trigger_554,Score: +10
+,
+speech_trigger_533,Destroy
+,
+speech_trigger_555,Score: +10
+,
+speech_trigger_535,Destroy
+,
+speech_trigger_556,Score: +10
+,
+speech_trigger_537,Destroy
+,
+speech_trigger_557,Score: +10
+,
+speech_trigger_539,Destroy
+,
+speech_trigger_558,Score: +10
+,
+speech_trigger_541,Destroy
+,
+speech_trigger_559,Score: +10
+,
+speech_trigger_543,Destroy
+,
+speech_trigger_560,Score: +10
+,
+speech_trigger_545,Destroy
+,
+speech_trigger_561,Score: +10
+,
+speech_trigger_547,Destroy
+,
+speech_trigger_562,Score: +10
+,
+speech_trigger_549,Destroy
+,
+speech_trigger_563,Score: +10
+,
+speech_trigger_551,Destroy
+,
+speech_trigger_564,Score: +10
+,
+speech_trigger_572,Clear Out
+,
+speech_trigger_565,Score: +30
+,
+speech_trigger_573,Clear Out
+,
+speech_trigger_566,Score: +30
+,
+speech_trigger_574,Clear Out
+,
+speech_trigger_567,Score: +30
+,
+,
+timer_trigger_582_descr,ASH STORM DURATION
+,
+timer_trigger_584_descr,ASH STORM PASSING
+,
+speech_trigger_609,Score: +10
+,
+speech_trigger_612,Score: +10
+,
+speech_trigger_614,Score: +10
+,
+,
+,

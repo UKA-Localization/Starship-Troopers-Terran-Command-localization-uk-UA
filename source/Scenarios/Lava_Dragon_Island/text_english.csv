@@ -1,0 +1,224 @@
+﻿// NAME,
+scenario_name,[4] Dragon Isle
+,
+// DESCRIPTION,
+scenario_descr,"A volcanic island in the middle of a lava lake called ""Dragon Island"" was recently lost to the Arachnids. With the arrival of Zhao's M.I. detachment, the time has come to take it back."
+,
+// OBJECTIVES,
+objective_2_2_title,Clear all Hives
+objective_2_1_title,Activate all Pumping Stations
+objective_2_4_title,Do not lose more than 1 Pumping Station
+objective_2_6_title,Clear the mountain Hive
+objective_2_7_title,Guide sedated Bugs to the Cargo Ship
+objective_2_8_title,Do not lose the Pheromone Carrier
+objective_2_9_title,Keep at least 5 sedated Bugs alive
+objective_2_10_title,Deploy Shredders to counter Pyroflies
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_256,Cine Camera Scroll Start
+unit_257,Cine Camera Scroll End
+unit_272,Inaccessible Gate
+unit_300,Cargo Landing
+unit_346,Final Destination
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/PRIMARY/CLEAR HIVES/TRIGGERS/BRIEFINGS ============== ",
+// 9.junior,
+briefing_trigger_366_text,Clear out these Bugs. The Federation needs these fuel supplies secured!
+//,
+// 10.merc,
+briefing_trigger_556_text,"Doing good, Fed. Maybe there's a job here for you with us."
+//,
+// 9.junior,
+briefing_trigger_557_text,The Mobile Infantry gives me something you'll never have.
+//,
+// 10.merc,
+briefing_trigger_558_text,'Service guarantees citizenship'? Please! Good luck retiring on all those citizenship bucks...if you retire at all…
+//,
+// 9.junior,
+briefing_trigger_367_text,Another area cleared!
+//,
+// 8.director,
+briefing_trigger_559_text,"Excellent work, captain. The Mobile Infantry are living up to their reputation."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/CLEAR HIVES/INTRO BRIEFING/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_536_text,Deploying onto Dragon Island. What's our orders?
+//,
+// 8.director,
+briefing_trigger_163_text,Our facilities there were overrun by Arachnids some time ago. It's vital we clear out the Bugs and restart fuel production immediately.
+//,
+// 9.junior,
+briefing_trigger_164_text,Sounds like a HephaeStar operation. Why are we here?
+//,
+// 8.director,
+briefing_trigger_537_text,"The Sky Marshal understands the importance of what we are doing here, Captain.  And he appreciates your efforts."
+//,
+// 10.merc,
+briefing_trigger_540_text,"You keep the Bugs busy, Fed Man. Me and my people will restart those pumps."
+//,
+// 9.junior,
+briefing_trigger_167_text,Understood. Moving out.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/CLEAR HIVES/INTRO BRIEFING/BRIEFING 2 ============== ",
+// 8.director,
+briefing_trigger_553_text,Fraser? I'm talking to you now on a private side-channel.
+//,
+// 10.merc,
+briefing_trigger_554_text,Got another Bug-collecting job?
+//,
+// 8.director,
+briefing_trigger_555_text,I'll let you know when the client's ready to receive the merchandise.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/CAPTURE PUMPS/TRIGGERS/PUMP MANAGEMENT/BRIEFINGS ============== ",
+// 10.merc,
+briefing_trigger_362_text,Another pump online. I can feel that bonus money flowing into my off-world account!
+briefing_trigger_361_text,"Third pump re-activated. The richer I get, the more patriotic I feel."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/CAPTURE PUMPS/TRIGGERS/OBJECTIVE COMPLETE ============== ",
+// 10.merc,
+briefing_trigger_562_text,Last one done. One step closer to early retirement!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/CAPTURE PUMPS/CAPTURE PUMPS BRIEFING ============== ",
+// 8.director,
+briefing_trigger_196_text,There's the pumping stations. I need you to switch them back on.
+//,
+// 10.merc,
+briefing_trigger_560_text,"Juice has gotta flow, huh?  And..?"
+//,
+// 8.director,
+briefing_trigger_561_text,And there'll be a healthy bonus for every one you get back online.
+//,
+// 10.merc,
+briefing_trigger_236_text,All I needed to hear!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/CLEAR HIVE TO CAPTURE BUGS/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_256_text,"Well done, captain! The Dragon Island facility is back in our hands. I'm already sending a commendation for you to the Sky Marshal's office."
+//,
+// 9.junior,
+briefing_trigger_257_text,"Thank you, ma'am. We're just here to do our duty."
+//,
+// 8.director,
+briefing_trigger_565_text,Return to the station for rest and debriefing.
+briefing_trigger_567_text,"Mister Fraser, take defensive overwatch until the captain's people are safely away."
+//,
+// 10.merc,
+briefing_trigger_568_text,Got it.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/CLEAR HIVE TO CAPTURE BUGS/BRIEFING PART 2 ============== ",
+// 8.director,
+briefing_trigger_209_text,Mister Fraser...
+//,
+// 10.merc,
+briefing_trigger_569_text,"Bug-collecting time, now that the choirboy's gone?"
+//,
+// 8.director,
+briefing_trigger_570_text,There's suitable specimens in the small mountain hive. Sending you the location now.
+//,
+// 10.merc,
+briefing_trigger_571_text,"Risky work, this. Maybe we need to re-negotiate our deal..."
+//,
+// 8.director,
+briefing_trigger_572_text,Don't get greedy. You're not the only force at my disposal now.
+//,
+// 10.merc,
+briefing_trigger_573_text,The M.I? You want them to know what you're doing with the Bugs?
+//,
+// 8.director,
+briefing_trigger_574_text,....
+//,
+// 10.merc,
+briefing_trigger_566_text,"Yeah, I didn't think so."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/BRING BUGS TO CARGO SHIP/TRIGGERS/SUCCESS ============== ",
+// 10.merc,
+briefing_trigger_252_text,"Cargo delivered. Need to keep 'em better contained this time. Lucky for us, choirboy was there last time to clean up that mess."
+//,
+// 8.director,
+briefing_trigger_595_text,.....
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PRIMARY/BRING BUGS TO CARGO SHIP/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_575_text,Got 'em. Where you want 'em?
+//,
+// 8.director,
+briefing_trigger_250_text,The client's sent a ship to take delivery of them.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECONDARY/DEPLOY SHREDDERS/TRIGGERS/OUTRO BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_364_text,Shredders will take care of them. Let's get on with our objectives.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECONDARY/DEPLOY SHREDDERS/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_211_text,Some new kind of Bug!
+//,
+// 10.merc,
+briefing_trigger_194_text,"We call 'em Pyroflies. Nasty sons of bitches, ain't they? No worries, Fed. We got the weapons and know-how to deal with them..."
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_90,Pump Control Terminal
+,
+speech_trigger_91,Pump Control Terminal
+,
+speech_trigger_92,Pump Control Terminal
+,
+speech_trigger_93,Pump Control Terminal
+,
+,
+,
+speech_trigger_317,Clear Hive
+,
+speech_trigger_318,Clear Hive
+,
+speech_trigger_319,Clear Hive
+,
+speech_trigger_320,Clear Hive
+,
+speech_trigger_330,Cargo Ship
+,
+,
+,
+,
+speech_trigger_329,Do not lose the Pheromone Carrier
+,
+,

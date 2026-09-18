@@ -1,0 +1,268 @@
+﻿// NAME,
+scenario_name,[7] In Deep Trouble
+,
+// DESCRIPTION,
+scenario_descr,"While the bug problem on Kwalasha is firmly under control, an enduring presence of the Mobile Infantry remains necessary to assure peace and security for the colonists and miners.
+
+A recently expanded mining facility has gone dark, and M.I. troopers have been called in to investigate the source of the problem."
+,
+// OBJECTIVES,
+objective_2_1_title,Restart all Mining Drills
+objective_2_5_title,Do not lose either Tactical Officer
+objective_2_4_title,Access the Control Room Terminal
+objective_2_3_title,Access the Door Lock Terminal
+objective_2_7_title,Reach the Security Gate
+objective_2_0_title,Access the Security Gate Terminal
+objective_2_2_title,Get both Tactical Officers to the Exit Point
+objective_2_6_title,Capture Ammunition Stashes
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_44,Warrior Bugs
+unit_105,Security Gate
+unit_312,Door Lock Terminal
+unit_315,East Respawn
+unit_316,West Respawn
+unit_326,Security Gate
+unit_331,Control Room Terminal
+unit_343,Escape Objective
+unit_348,Middle Respawn
+unit_361,Control Room Door
+unit_363,Gate (Closed)
+unit_365,Security Gate Terminal
+unit_392,Supply Tunnel
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE ALL MINING DRILLS/TRIGGERS/2 DRILLS SECURED ============== ",
+// 0.hawthorne,
+briefing_trigger_492_text,"Check every drill you can find.  The more we secure, the more bug gumbo we can make when we turn them on."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE ALL MINING DRILLS/TRIGGERS/3 DRILLS SECURED ============== ",
+// 0.hawthorne,
+briefing_trigger_166_text,We've secured another drill. One more to go.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE ALL MINING DRILLS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_58_text,Nothing like a mine to make you appreciate the desert...
+briefing_trigger_68_text,"Some seismic disturbance was picked up yesterday, then the line went dead. Third squad’s gone in to have a look and we’ve heard nothing since."
+briefing_trigger_70_text,It’s probably just another rockfall messing with comms again – but let’s do this by the book anyway.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: KEEP ALL OFFICERS ALIVE/FAIL ============== ",
+// 0.hawthorne,
+briefing_trigger_163_text,Ugh... Tactical Officer is down...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE THE CONTROL ROOM/BRIEFING: IGNORED FIRST MINE ============== ",
+// 0.hawthorne,
+briefing_trigger_647_text,Turns out the whole sector is crawling with bug tunnels. The drill shafts must have broken into them and all hell's broken loose.
+briefing_trigger_648_text,"If we get the drill heads running again, they can mince up a whole lot of bugs down there.  Might buy some time for the people upstairs, because the shit is going to hit the fan when these bugs reach the surface."
+briefing_trigger_649_text,The drills are run from the mine control room.  They're simple enough to operate – we’ve just got to get there.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE THE CONTROL ROOM/BRIEFING: MINE CAPTURED ============== ",
+// 0.hawthorne,
+briefing_trigger_165_text,We've secured the first drill.  But we've got big problems. Turns out the whole sector is crawling with bug tunnels. The drill shafts must have broken into them and all hell's broken loose.
+briefing_trigger_485_text,"If we get the drill heads running again, they can mince up a whole lot of bugs down there.  Might buy some time for the people upstairs, because the shit is going to hit the fan when these bugs reach the surface."
+briefing_trigger_289_text,The drills are run from the mine control room.  They're simple enough to operate – we’ve just got to get there.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: OPEN CONTROL CENTER DOOR/CONTROL ROOM DOOR REACHED ============== ",
+// 0.hawthorne,
+briefing_trigger_185_text,Damnit. Control room door is locked.
+briefing_trigger_192_text,We've got to get to that terminal to hack the lock.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: OPEN CONTROL CENTER DOOR/SUCCESS BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_195_text,Control Room door's open!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: OPEN SECURITY GATE/TRIGGERS/TERMINAL CAPTURED ============== ",
+// 0.hawthorne,
+briefing_trigger_261_text,There's the security terminal. Get on it.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: OPEN SECURITY GATE/TRIGGERS/UNLOCK COMPLETED ============== ",
+// 0.hawthorne,
+briefing_trigger_262_text,Done! The gates are open!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: OPEN SECURITY GATE/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_257_text,Watch out! Bugs coming out of the supply tunnel.
+briefing_trigger_258_text,We're going to have to hold here until the security gate's unlocked. Warm up everything you've got...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: AMMO STASHES/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_301_text,You've got the ammunition caches. I want those turrets positioned A-SAP!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: AMMO STASHES/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_297_text,"As my old CO used to say, there's no such thing as bringing too many guns to a bug fight. Commandeer those ammo caches and get some MG turrets up."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: GET OUT/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_348_text,"We crushed a hell of a lot of bugs, but there’s lots more where they came from. Let’s get topside."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: GET OUT/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_341_text,"Shit, that is a ass-load of bugs. We don't have the firepower to chew through that lot before they chew through us.  We've got to get topside and let Command know what's going on down here."
+,
+,
+,
+,
+"// ============== /EVENTS & DIALOGS/EVENT: BUG LAIR & SECOND GROUP ARRIVAL/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_170_text,Hold it. There's a whole load of bugs in the room up ahead. We're gonna have to think about how to handle this.
+briefing_trigger_180_text,Third squad is still alive! Pleasant surprise. We can take the Bugs in a pincer movement...
+,
+,
+,
+,
+"// ============== /EVENTS & DIALOGS/""CHECK CORNERS"" ============== ",
+// 0.hawthorne,
+briefing_trigger_483_text,"Stay on guard. Now and then, there are stray bugs hiding down here…"
+,
+,
+,
+,
+"// ============== /EVENTS & DIALOGS/""THIS IS A MAZE"" ============== ",
+// 0.hawthorne,
+briefing_trigger_484_text,This place is a goddamn maze.
+,
+,
+,
+,
+"// ============== /EVENTS & DIALOGS/""GET MINE FIRED UP"" ============== ",
+// 0.hawthorne,
+briefing_trigger_319_text,Get that thing fired up.
+,
+,
+,
+,
+"// ============== /EVENTS & DIALOGS/""WHERE THESE BUGS COME FROM?"" ============== ",
+// 0.hawthorne,
+briefing_trigger_497_text,Where’d all these bugs come from? We gotta warn HQ.
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_320,Capture Drill
+,
+// 5.ANNOUNCER,
+speech_trigger_321,Capture Drill
+,
+// 5.ANNOUNCER,
+speech_trigger_322,Capture Drill
+,
+// 5.ANNOUNCER,
+speech_trigger_323,Capture Drill
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_265,Door is locked
+,
+// 5.ANNOUNCER,
+speech_trigger_267,Door Lock Terminal
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+timer_trigger_260_descr,HACKING SECURITY TERMINAL
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_545,Access Control Terminal
+,
+// 5.ANNOUNCER,
+speech_trigger_535,Capture Ammo Cache
+,
+// 5.ANNOUNCER,
+speech_trigger_536,Capture Ammo Cache
+,
+// 5.ANNOUNCER,
+speech_trigger_353,Exit point
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_533,Reach the Security Gate
+,
+// 5.ANNOUNCER,
+speech_trigger_489,Access the gate terminal
+,
+// 5.ANNOUNCER,
+speech_trigger_532,Do not engage the hive
+,
+// 5.ANNOUNCER,
+speech_trigger_552,Do not lose the Tactical Officer
+,
+// 5.ANNOUNCER,
+speech_trigger_554,Do not lose the Tactical Officer
+,
+,

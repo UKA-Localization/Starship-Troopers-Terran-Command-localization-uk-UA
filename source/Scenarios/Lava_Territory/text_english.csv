@@ -1,0 +1,101 @@
+﻿// NAME,
+scenario_name,Raiding Inferno
+,
+// DESCRIPTION,
+scenario_descr,"Arachnid hives are expanding in the treacherous volcanic mountains, launching relentless attacks against nearby industrial facilities.
+
+To deal with this escalating threat, Mobile Infantry must team up with Hephaestar's contractors."
+,
+// OBJECTIVES,
+objective_2_0_title,Clear all Hives
+objective_2_6_title,Control any base and/or units.
+objective_2_4_title,Destroy the Brood Nests
+objective_2_2_title,SCORE
+objective_2_5_title,Each squad lost: Score -5
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_7,Bug Hive
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_96_text,"An alarming surge in Arachnid activity has been detected in this sector, posing a direct threat to Hephaestar's assets and personnel."
+briefing_trigger_321_text,A detachment of the Mobile Infantry has been rushed in to reinforce the corporation's security contractors and wipe out the infestation.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR OUT ALL THE HIVES/SUCCESS ============== ",
+// 4.propagandist,
+briefing_trigger_166_text,"Once again, the brave men and women of the Mobile Infantry have successfully driven back the vicious Arachnids."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT: LOSE ALL UNITS/FAIL ============== ",
+// 4.propagandist,
+briefing_trigger_337_text,Hephaestar’s security contractors have proven to be an unreliable partner. Their inability to support the Mobile Infantry has forced a premature termination of the mission.
+,
+,
+,
+,
+"// ============== /SCORE/UNIT DEAD ============== ",
+// 5.announcer,
+briefing_trigger_38_text,Score -5
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_41,Score +60
+,
+speech_trigger_43,Score +70
+,
+speech_trigger_45,Score +80
+,
+speech_trigger_53,Score: +10
+,
+speech_trigger_55,Score +10
+,
+speech_trigger_57,Score +10
+,
+speech_trigger_59,Score +15
+,
+speech_trigger_65,Score +10
+,
+speech_trigger_67,Score +10
+,
+speech_trigger_69,Score +10
+,
+speech_trigger_71,Score +10
+,
+speech_trigger_233,Clear Out
+,
+speech_trigger_234,Clear Out
+,
+speech_trigger_235,Clear Out
+,
+speech_trigger_236,Clear Out
+,
+speech_trigger_106,Score +60
+,
+speech_trigger_126,
+,
+speech_trigger_141,
+,
+,
+speech_trigger_168,Score +10
+,
+speech_trigger_170,Score +10
+,
+speech_trigger_172,Score +10
+,
+speech_trigger_204,Score +10
+,
+speech_trigger_206,Score +10
+,
+,
+,

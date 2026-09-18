@@ -1,0 +1,31 @@
+﻿// NAME,
+scenario_name,Urban Planning
+,
+// DESCRIPTION,
+scenario_descr,scenario_descr
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_83,#camera start
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_11_text,The city of New Xhon has been overrun by the Bugs. It is split in half by this canal.
+briefing_trigger_16_text,In the north lays the residential district.
+briefing_trigger_17_text,"In the south, the industrial district."
+briefing_trigger_12_text,We can only reconnect it by accessing the radio station at the other side.
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_5,Capture to open gate
+,
+speech_trigger_6,Capture to open gate
+,
+,

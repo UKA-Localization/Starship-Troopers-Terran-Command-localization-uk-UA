@@ -1,0 +1,282 @@
+﻿// NAME,
+scenario_name,[5] Blazing Trail
+,
+// DESCRIPTION,
+scenario_descr,"The Arachnids have launched a vicious attack under the cover of a volcanic ash storm. Reinforcements are impeded, and Fraser's mercenaries are the only force in the sector available to stem the tide."
+,
+// OBJECTIVES,
+objective_2_4_title,Inspect the lost facilities
+objective_2_11_title,Clear the Hive
+objective_2_6_title,Reach the Processing Plant
+objective_2_7_title,Defend the Processing Plant
+objective_2_0_title,Reach the evacuation point
+objective_2_9_title,Do not lose the Fleet Beacon
+objective_2_10_title,Clear the landing sites
+objective_2_8_title,Construct 2 HMG Turrets in the Processing Plant
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_2,Beacon Marker
+unit_4,Invation Marker 1
+unit_5,Invation Marker 2
+unit_141,#former biped
+unit_235,Cleared Hive
+unit_300,Invation Marker 3
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE BASES/TRIGGERS/FIRST BASE/FIRST BASE ATTACK/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_460_text,"Bugs, coming at us from everywhere! It's like they were waiting for us!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE BASES/INTRO BRIEFING/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_27_text,"Problems, Director? We just cleared out another Bug hive, and now all I'm hearing on the radio is your people calling for help."
+//,
+// 8.director,
+briefing_trigger_179_text,"For every action, there's a reaction. These hive purges must have provoked the Arachnids, and now they've overrun several facilities."
+//,
+// 10.merc,
+briefing_trigger_498_text,So why don't you just call in your new Mobile Infantry buddies?
+//,
+// 8.director,
+briefing_trigger_164_text,I can't bring in any reinforcements while this ash storm is happening.
+//,
+// 10.merc,
+briefing_trigger_936_text,"So you're stuck with us, huh? Okay, we'll clear those areas and get your people out of there....but it's going to cost you extra."
+//,
+// 8.director,
+briefing_trigger_937_text,*sigh* Of course.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR THE HIVE/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_793_text,The facility’s ahead of you. You need to clear it of Arachnid infestation.
+//,
+// 10.merc,
+briefing_trigger_945_text,On it.
+//,
+// 8.director,
+briefing_trigger_946_text,And you need to move faster. We're tracking another approaching ash storm.
+//,
+// 10.merc,
+briefing_trigger_947_text,Just what we need...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REACH PROCESSING PLANT/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_54_text,There it is! The processing plant!
+briefing_trigger_949_text,Gunfire from it! Some of our people are still holding out there!
+briefing_trigger_526_text,Come on! Let's help them out!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND PROCESSING PLANT/TRIGGERS/ATTACK WAVES TIMELINES/BRIEFING AFTER WAVE 1 ============== ",
+// 10.merc,
+briefing_trigger_751_text,"Patel, you there? Storm's over, the skies are clear, and you owe us a whole bunch of bonus payments."
+//,
+// 8.director,
+briefing_trigger_839_text,Understood. I'm sending Mobile Infantry reinforcements to your position now.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND PROCESSING PLANT/TRIGGERS/ATTACK WAVES TIMELINES/WAVE 2 TIMELINE ============== ",
+// 10.merc,
+briefing_trigger_950_text,Let's show these M.I. new arrivals how we kill Bugs in the private sector!
+//,
+// 8.director,
+briefing_trigger_780_text,"You can stand down now, Fraser. I'm sending Captain Zhao and further Mobile Infantry forces to take over from you and your people."
+briefing_trigger_840_text,The dropships will bring you back to the station.
+//,
+// 10.merc,
+briefing_trigger_781_text,"You serious? Pack up and let the Feds take over, when the battle isn't done yet?"
+//,
+// 8.director,
+briefing_trigger_782_text,The Mobile Infantry are a highly skilled military force--
+//,
+// 10.merc,
+briefing_trigger_951_text,"--yeah, and they don't cost you anything. Unlike us."
+//,
+// 8.director,
+briefing_trigger_952_text,I've made my decision. Return to the station...
+briefing_trigger_783_text,...and need I remind you of the clause in your contract about the penalty for disobeying company directives being the forfeiture of all bonuses?
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND PROCESSING PLANT/TRIGGERS/ATTACK WAVES TIMELINES/MERCENARY EVAC ============== ",
+// 9.junior,
+briefing_trigger_841_text,"The mercenaries started this Bug battle, but we'll show them how to finish it."
+briefing_trigger_953_text,Get ready to repulse the Arachnid assault!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND PROCESSING PLANT/TRIGGERS/SUCCESS ============== ",
+// 9.junior,
+briefing_trigger_809_text,"Processing plant secured, ma'am. The Bug infestation here has been eradicated."
+//,
+// 8.director,
+briefing_trigger_810_text,"Excellent work, captain. I knew it was the right decision to bring you and your people to help us on Gehenna."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND PROCESSING PLANT/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_47_text,Hold your fire! We're friendlies!
+briefing_trigger_836_text,"Okay, let's turn this place into a fortress. Bugs are gonna be on us any moment!"
+briefing_trigger_837_text,"Remember, we're on our own here, until that storm clears!"
+,
+,
+,
+,
+"// ============== /EVENTS/OPENING EVENTS/FIRST DRONES ATTACK ============== ",
+// 10.merc,
+briefing_trigger_505_text,Movement! Something coming at us out of cover of the ash storm!
+,
+,
+,
+,
+"// ============== /EVENTS/OPENING EVENTS/ASH STORM REDUCTION ============== ",
+// 10.merc,
+briefing_trigger_437_text,Ash storm's easing off. At least now we can see what's coming at us.
+,
+,
+,
+,
+"// ============== /EVENTS/OPENING EVENTS/ASH STORM GONE EFFECT ============== ",
+// 8.director,
+briefing_trigger_449_text,Good news. The ash storm is passing over. You're free to call in reinforcements.
+//,
+// 10.merc,
+briefing_trigger_944_text,"Good, cos we're gonna need 'em!"
+,
+,
+,
+,
+"// ============== /EVENTS/FIND FIRST MECH/REINFORCEMENTS/ACTIVATE MECH ============== ",
+// 10.merc,
+briefing_trigger_172_text,Someone get on that biped! It's what we need to take on these Immolator Bugs!
+,
+,
+,
+,
+"// ============== /EVENTS/HILLTOP PINCER ATTACK/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_75_text,Fraser - receiving reports of a large Arachnid horde west of your current locale.
+//,
+// 10.merc,
+briefing_trigger_939_text,Any update on reinforcements for us?
+//,
+// 8.director,
+briefing_trigger_940_text,Dropships still can't fly through the ash storm. You're on your own.
+,
+,
+,
+,
+"// ============== /EVENTS/HILLTOP PINCER ATTACK/BEGIN WAVES ============== ",
+// 8.director,
+briefing_trigger_169_text,Confirmed. Get ready - that Arachnid horde is heading straight for you.
+briefing_trigger_941_text,"You and your people are well paid, Fraser. This is where you earn it. "
+//,
+// 10.merc,
+briefing_trigger_943_text,Yeah. Real comforting...
+,
+,
+,
+,
+"// ============== /EVENTS/HILLTOP PINCER ATTACK/SPAWN REAR ATTACK ============== ",
+// 10.merc,
+briefing_trigger_620_text,Watch out! Bugs coming at us from two directions!
+,
+,
+,
+,
+"// ============== /EVENTS/SECOND ASH STORM/REPEATING FRONTAL ATTACKS/ENDLESS FRONTAL ============== ",
+// 10.merc,
+briefing_trigger_716_text,"We gotta keep moving! If we stop, they'll surround and swarm us!"
+briefing_trigger_948_text,Keep going through them! The processing plant's just ahead!
+,
+,
+,
+,
+"// ============== /EVENTS/SECOND ASH STORM/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_273_text,"That ash storm will soon be on you. Call in any reinforcements you need now. After it hits, you'll be cut off again."
+//,
+// 10.merc,
+briefing_trigger_467_text,HephaeStar Corp not providing more help? That’s contract work for ya… no benefits.
+,
+,
+,
+,
+"// ============== /EVENTS/SECOND ASH STORM/TIMER START ============== ",
+// 8.director,
+briefing_trigger_269_text,"The ash storm's almost on you. In moments, it'll be too severe to risk any more dropships!"
+,
+,
+,
+,
+"// ============== /EVENTS/SECOND ASH STORM/HEAVY ASH STORM ============== ",
+// 10.merc,
+briefing_trigger_473_text,That's it. We're cut off! Gotta hold out until the storm's passed!
+,
+,
+,
+,
+"// ============== /MUTATIONS/IMMOLATORS/IMMOLATORS ============== ",
+// 10.merc,
+briefing_trigger_938_text,Immolators! Shit! We are not being paid enough to go up against these things!
+,
+,
+,
+// TRIGGER TEXTS,
+,
+// 5.ANNOUNCER,
+speech_trigger_79,Inspect base
+,
+// 5.ANNOUNCER,
+speech_trigger_80,Inspect base
+,
+// 5.ANNOUNCER,
+speech_trigger_81,Inspect base
+,
+// 5.ANNOUNCER,
+speech_trigger_136,Reach the Processing Plant
+,
+// 5.ANNOUNCER,
+speech_trigger_139,Defend Processing Plant
+,
+,
+speech_trigger_435,Biped activated
+,
+timer_trigger_468_descr,Ash storm incoming
+,
+,
+timer_trigger_568_descr,Defend the Processing Plant
+,
+,
+speech_trigger_485,Bipeds can be repaired
+,
+,
+,
+,
+,
+,
+,
+speech_trigger_618,Biped activated
+,
+,
+,

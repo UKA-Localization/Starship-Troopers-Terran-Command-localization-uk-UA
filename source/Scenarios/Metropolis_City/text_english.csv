@@ -1,0 +1,162 @@
+﻿// NAME,
+scenario_name,[8] Tightening the Noose
+,
+// DESCRIPTION,
+scenario_descr,"Mobile Infantry forces are relentlessly closing the net around the Brain Bug’s last refuge.
+
+Total victory is within reach, but a great struggle remains in the ruined center of Mahanagar. The first step is to establish a base on the fittingly named “Liberty Square”."
+,
+// OBJECTIVES,
+objective_2_1_title,Capture Liberty Square
+objective_2_2_title,Do not lose Liberty Square
+objective_2_0_title,Clear all marked Bug Hives
+objective_2_3_title,Clear the final Bug Hive
+objective_2_5_title,Construct 2 SAM Sites to unlock all Fleet Relay unit types
+objective_2_4_title,Disband all turrets around Liberty Square
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_249,Collapsed Tunnel
+unit_291,Rooftop Site
+unit_302,#clearing center
+unit_303,#clearing
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/GO TO THE SQUARE/TRIGGERS/CONTINUE DIALOGUE ============== ",
+// 12.senior,
+briefing_trigger_345_text,"You've worked hard to get us here, Keys. My troops are happy to take it from here if you feel you're better served elsewhere."
+//,
+// 11.cop,
+briefing_trigger_346_text,"And keep me from all the fun? Come on now, Major. You know you're not keeping me back, at this point."
+//,
+// 12.senior,
+briefing_trigger_212_text,"Ha. I'd expect no less, soldier. Gimme tabs on our slug friend, then. I wanna hear how he's screaming with every stinkin' Bug we crush!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/GO TO THE SQUARE/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_9_text,"Here we go, Brain Bug. Last place left to run, and the mighty fist of the M.I. is knocking on your door!"
+briefing_trigger_211_text,We'll restore order in the city center by first retaking Liberty Square from the bastards. They'll be forced to slink back to their Bug hole after that.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DON'T LOSE THE SQUARE/TRIGGERS/SUCCESS ============== ",
+// 12.senior,
+briefing_trigger_348_text,Liberty Square ain't going anywhere anytime soon now. Bring forward our firepower there for the final assault!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DON'T LOSE THE SQUARE/TRIGGERS/OFFENSIVE SPAWN LOOP ============== ",
+// 12.senior,
+briefing_trigger_285_text,Bug attack incoming! Keep 'em out of the square!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DON'T LOSE THE SQUARE/TRIGGERS/FAIL ============== ",
+// 12.senior,
+briefing_trigger_247_text,We've handed the Bugs victory at Liberty Square with ease! Shameful conduct!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DON'T LOSE THE SQUARE/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_318_text,Liberty Square is free of Bug scum!
+//,
+// 11.cop,
+briefing_trigger_8_text,"They'll be back in force, Major. The Brain Bug is getting desperate."
+//,
+// 12.senior,
+briefing_trigger_317_text,"Good, cos' I've got plenty turrets to tear up anything it sends this way!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR MARKED HIVES/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_46_text,We can't give the Bugs time to regroup. Let's hit 'em hard now and wipe each sector of hives!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CONSTRUCT SAM SITES/TRIGGERS/SUCCESS ============== ",
+// 12.senior,
+briefing_trigger_290_text,SAM sites up and firing. Tell Fleet they're welcome to start helping out now!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CONSTRUCT SAM SITES/TRIGGERS/DIALOGUE: ONE TURRET UP ============== ",
+// 12.senior,
+briefing_trigger_320_text,First SAM site is up!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CONSTRUCT SAM SITES/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_270_text,"Fleet wants to send aerial support our way, but they won't while there are Bugs in the sky."
+//,
+// 12.senior,
+briefing_trigger_282_text,Figures that those flyboys want a shot at glory once the ball's on the one yard line already.
+briefing_trigger_283_text,"Fine, let's put up SAM sites and clear the skies for 'em."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR THE CENTRAL HIVE/TRIGGERS/OUTRO/TIMELINE ============== ",
+// 12.senior,
+briefing_trigger_321_text,All clear up here! Now just one last stinkin' Bug hole left to cleanse...
+//,
+// 11.cop,
+briefing_trigger_349_text,"It's time to end this thing. The Brain Bug's responsible for the blood of thousands of innocents, all my friends, and the decimation of my city; I need to see its face when it dies."
+//,
+// 12.senior,
+briefing_trigger_351_text,"You're almost sounding like a real soldier, Sergeant."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR THE CENTRAL HIVE/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_147_text,That's most of the city center cleared. The Bugs are all turning tail!
+//,
+// 13.cop_vision,
+briefing_trigger_303_text,The Brain Bug is pulling everything to a final defense above its lair. I can feel him shaking; he's terrified of what's coming!
+//,
+// 12.senior,
+briefing_trigger_347_text,That's the first damn thing he's got right yet! We're coming to squash every last one of his dirty Bugs left!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DISBAND TURRETS/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_264_text,Liberty Square ain't going anywhere anytime soon now. Bring forward our firepower there for the final assault!
+,
+,
+,
+,
+"// ============== /EVENTS/TIP: MARAUDERS ============== ",
+// 12.senior,
+briefing_trigger_291_text,"Ha! If our slug friend wasn't scared before, he will be now -- Marauders are ready to join the fight!"
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_221,Liberty Square
+,
+,
+,
+timer_trigger_296_descr,Attack incoming
+,
+,
+,

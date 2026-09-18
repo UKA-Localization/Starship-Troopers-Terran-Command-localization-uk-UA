@@ -1,0 +1,23 @@
+﻿// NAME,
+scenario_name,Live Fire Facility
+,
+// DESCRIPTION,
+scenario_descr,"Chaos has erupted at a vital weapon testing facility. Safety protocols were ignored, leading to the escape of live Arachnid specimens from their holding pens. Besides the general importance of the site, Doctor Kraus is scheduled to arrive soon to conduct tests for his most consequential research project: the Hercules Program."
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_0,station_supply_bay
+unit_15,start_point
+unit_16,$flank_point
+unit_29,$flank_point
+unit_56,central_station
+unit_110,hydra_mockup
+unit_112,$intro_start
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

@@ -1,0 +1,258 @@
+﻿// NAME,
+scenario_name,[2] Lead by A Sample
+,
+// DESCRIPTION,
+scenario_descr,The M.I. detachment has been deployed on Gehenna and receives its first assignment: Soil samples have to be extracted in a sector infested by Arachnids.
+,
+// OBJECTIVES,
+objective_2_0_title,Investigate all Sample Sites
+objective_2_11_title,Complete 4 Sample Sites before the mercenaries
+objective_2_1_title,Defend the active prospector
+objective_2_2_title,Prospecting progress
+objective_2_10_title,"Clear the final Hive "
+objective_2_9_title,Clear the Hive
+objective_2_12_title,Construct 2 HMG Turrets
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_51,Extra Unit Spawn
+unit_86,team1
+unit_111,Spawn merc_1
+unit_112,Spawn merc_3
+unit_113,Spawn merc_2
+unit_246,Invasion Marker 2
+unit_247,Invasion Marker 1
+unit_260,Invasion Marker 3
+unit_316,team2
+unit_363,Tanker 2 Spawn
+unit_368,Tanker 1 Spawn
+unit_380,Regroup
+unit_381,Engineers
+unit_386,#TankerRemove
+unit_387,#RemoveTanker
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/INVESTIGATE SAMPLE SITES/TRIGGERS/POINT 1 INVESTIGATION/POINT 1 EVENTS/ACTIVATE PROSPECTOR > OBJECTIVE ============== ",
+// 9.junior,
+briefing_trigger_489_text,Bugs will zero in on the drilling vibrations. Form a defensive perimeter - we're going to have company!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INVESTIGATE SAMPLE SITES/TRIGGERS/POINT 1 INVESTIGATION/POINT 1 EVENTS/OBJECTIVE ============== ",
+// 9.junior,
+briefing_trigger_487_text,Here they come!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INVESTIGATE SAMPLE SITES/TRIGGERS/POINT 1 INVESTIGATION/BEGIN ============== ",
+// 8.director,
+briefing_trigger_77_text,It's fully automated. Just protect it while it extracts the sample.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INVESTIGATE SAMPLE SITES/TRIGGERS/POINT 1 INVESTIGATION/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_1294_text,"Engineers have arrived to set up the prospector. As soon as it's done, we can start the sample extraction."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INVESTIGATE SAMPLE SITES/TRIGGERS/POINT 2 INVESTIGATION/BEGIN ============== ",
+// 8.director,
+briefing_trigger_108_text,I see the second prospector has been activated.  That's valuable HephaeStar property. Keep it protected.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INVESTIGATE SAMPLE SITES/TRIGGERS/POINT 3 INVESTIGATION/BEGIN ============== ",
+// 9.junior,
+briefing_trigger_876_text,"Come on troopers, on to the next objective. We're not going to let some merc rabble outdo us."
+briefing_trigger_626_text,"Prospector ready, activating it now."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INVESTIGATE SAMPLE SITES/TRIGGERS/POINT 4 INVESTAGATION/BEGIN ============== ",
+// 9.junior,
+briefing_trigger_877_text,"Last site this way. Let's get this done, Mobile Infantry!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INVESTIGATE SAMPLE SITES/TRIGGERS/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1231_text,What level of resistance can we expect?
+//,
+// 8.director,
+briefing_trigger_1232_text,"We have reports of intense Arachnid activity in the area, so keep an eye out. And good luck, Captain."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INVESTIGATE SAMPLE SITES/BRIEFING/BRIEFING & INTRO ============== ",
+// 9.junior,
+briefing_trigger_66_text,Gehenna. Another old name for Hell. Guess they didn’t just pick the name at random.
+briefing_trigger_1230_text,What's our mission here?
+//,
+// 8.director,
+briefing_trigger_584_text,We're drilling core samples to locate sites for new mining facilities. Clear and defend designated areas until a sample is collected.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE ACTIVE PROSPECTOR/FAIL ============== ",
+// 9.junior,
+briefing_trigger_1068_text,Prospector unit destroyed.
+//,
+// 8.director,
+briefing_trigger_1069_text,"So much for the unbeatable Mobile Infantry. Return to the station, captain. Our security contractors will finish the rest of this operation."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/MERCENARY RACE/INTRO/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_238_text,We need to speed up the operation. I'm sending in a group of our contractors to handle the northern sites.
+//,
+// 9.junior,
+briefing_trigger_1233_text,"With respect, ma’am, the Mobile Infantry can handle the mission objectives."
+//,
+// 10.merc,
+briefing_trigger_492_text,"Relax, Fed man. Plenty of Bugs to go round.
+You stay out our way, and we'll stay out yours."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/MERCENARY RACE/INTRO/END OF BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1234_text,"Troopers, move up! Let’s show them the M.I. gets things done."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/MERCENARY RACE/TRIGGERS/SUCCESS ============== ",
+// 9.junior,
+briefing_trigger_569_text,All sample sites have been processed.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/MERCENARY RACE/MERCENARY PROGRESS/POINT > 7 > 6/TIMELINE ============== ",
+// 10.merc,
+briefing_trigger_1052_text,"First sample in the bag. We’re catching up on you, Fed."
+//,
+// 9.junior,
+briefing_trigger_1237_text,I remember you now. The merc leading the Bugs back on Vilon.
+//,
+// 10.merc,
+briefing_trigger_1238_text,Sorry - that's above your pay grade.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/MERCENARY RACE/MERCENARY PROGRESS/POINT > 7 > 6/SPEECH ============== ",
+// 10.merc,
+briefing_trigger_1114_text,Fraser here. Our next site is just ahead. We'll move in after we've cleared the valley.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/MERCENARY RACE/MERCENARY PROGRESS/POINT 6 > 5/TIMELINE ============== ",
+// 10.merc,
+briefing_trigger_503_text,"My men have collected another soil sample. Try to keep up, Fed man."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/MERCENARY RACE/MERCENARY PROGRESS/POINT 5 > 4/BRIEFING IF PLAYER IS NOT ON THE FINALE SITE ============== ",
+// 10.merc,
+briefing_trigger_502_text,Third location done. Race you to the final site.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR THE HIVE/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1292_text,We should wipe out that Bug hive before we proceed to the next site.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR THE FINAL HIVE/TRIGGERS/SUCCESS ============== ",
+// 9.junior,
+briefing_trigger_882_text,"Upper caves cleared, but there's an extensive tunnel network leading deep into the mountains."
+briefing_trigger_1298_text,A hive this large will require substantial reinforcements to fully exterminate.
+//,
+// 10.merc,
+briefing_trigger_1108_text,"I've got nuke techs on my team, Director. Give me a couple of warheads and I’ll have that place lit up within the hour."
+//,
+// 8.director,
+briefing_trigger_1110_text,"Very well. I'll extend your contract to cover destroying the hive. Captain Zhao, your troops can stand down for now."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR THE FINAL HIVE/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1241_text,"Director, Captain Zhao reporting. We have encountered a large Bug hive at the last site."
+//,
+// 8.director,
+briefing_trigger_862_text,That must be the source of all Arachnid activity in the sector. You’ll have to clear it out. This is now the mission priority.
+//,
+// 9.junior,
+briefing_trigger_1307_text,Very well. We’ll get the job done.
+,
+,
+,
+,
+"// ============== /MUTATIONS/TANKERS/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_1239_text,"Heads up, Fed. Our seismic sensors show something big near you. Watch out."
+//,
+// 9.junior,
+briefing_trigger_1240_text,"We're Mobile Infantry. Real soldiers. Whatever it is, we can handle it."
+,
+,
+,
+// TRIGGER TEXTS,
+,
+,
+speech_trigger_1103,Build
+,
+timer_trigger_1199_descr,Extracting Soil Sample
+,
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_908,Defend
+,
+speech_trigger_1104,Build
+,
+timer_trigger_1201_descr,Extracting Soil Sample
+,
+,
+speech_trigger_1105,Build
+,
+,
+,
+,
+timer_trigger_1197_descr,Extracting Soil Sample
+,
+speech_trigger_1244,Mk.II Troopers unlocked
+,
+speech_trigger_1092,Build
+,
+speech_trigger_1348,Construct Turret
+,
+speech_trigger_1349,Construct Turret
+,
+,

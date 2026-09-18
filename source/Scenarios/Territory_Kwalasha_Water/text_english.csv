@@ -1,0 +1,21 @@
+﻿// NAME,
+scenario_name,Water War
+,
+// DESCRIPTION,
+scenario_descr,This tutorials expands upon previous mechanics and progressing to a higher Battle Tier.
+,
+// OBJECTIVES,
+objective_2_2_title,Unlock Battle Tier 2 in the Techologies panel
+objective_2_8_title,Request Supplies at 2 empty Supply Depots
+objective_2_1_title,Construct 4 turrets
+objective_2_6_title,Unlock 3 technologies
+objective_2_7_title,Deploy a squad of Rocket Troopers
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,
