@@ -1,0 +1,224 @@
+﻿// NAME,
+scenario_name,[4] Cave Cleaning
+,
+// DESCRIPTION,
+scenario_descr,"The Mobile Infantry continues its mission of clearing bug hives and mining tunnels around the settlements of Kwalasha.
+
+Several squads have not returned from one of the larger mines, prompting Hawthorne's battle-hardened troopers to investigate the scene."
+,
+// OBJECTIVES,
+objective_2_0_title,Secure the mine
+objective_2_1_title,Kill the wounded Tanker Bug
+objective_2_2_title,Take the Control Room
+objective_2_3_title,Defeat the Arachnid attack
+objective_2_4_title,Secure the Drilling Site
+objective_2_5_title,Kill the final Tanker Bug
+objective_2_6_title,Reach the survivors
+objective_2_8_title,Capture Ammunition Stashes
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_57,Control Room Terminal
+unit_79,Security Camera
+unit_80,Reinforce Trigger
+unit_86,East Respawn
+unit_95,Security Camera
+unit_96,Respawn Marker
+unit_123,Security Camera
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: SECURE THE MINE/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_2_text,"So, tell me about this deathtrap you’ve sent us into.  Any word from the advance squads?"
+//,
+// 2.ava cortez,
+briefing_trigger_250_text,We don’t know the situation underground. It’s safe to assume that bugs still control the mine tunnels.
+//,
+// 0.hawthorne,
+briefing_trigger_251_text,"Roger that. All right troopers, let’s go on a bug hunt! I want every inch of these mines cleared!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: GET TO THE CONTROL ROOM/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_84_text,These doors are locked. Must have been trying to stop the bugs
+briefing_trigger_85_text,You'll need to get to the control room to get them open.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: GET TO THE CONTROL ROOM/SUCCESS ============== ",
+// 1.ava advisor,
+briefing_trigger_108_text,Control Room is back online. Remotely accessing door locks...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/FAILURE: LOSE ALL UNITS/FAIL ============== ",
+// 0.hawthorne,
+briefing_trigger_6_text,Goddamnit. All friendly units down. Mission failed.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: KILL TANKER/TRIGGERS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_18_text,Tanker bug! Keep your distance from that thing!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: KILL TANKER/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_21_text,Tanker's down! Regroup and move up.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: KILL TANKER/TRIGGERS/TIP: USE GRENADES ============== ",
+// 0.hawthorne,
+briefing_trigger_77_text,Looks like it’s wounded. We can take this thing down with grenades.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: KILL TANKER/ENTER THE ROOM ============== ",
+// 0.hawthorne,
+briefing_trigger_258_text,Big chamber up ahead. Looks like the bugs enlarged it to make room for something.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEAT CONTROL ROOM ATTACK/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_89_text,Heads up. Security cameras reveal bugs on the way!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REACH SURVIVORS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_194_text,"Bugs are down.  What you got for us next, Cortez?"
+//,
+// 1.ava advisor,
+briefing_trigger_229_text,"Colonel, cameras are picking up a group of survivors trapped further down the mine."
+//,
+// 0.hawthorne,
+briefing_trigger_230_text,"Alright, let's go rescue these boys and girls."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR THE DRILLING ROOM/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_200_text,Fine job on the rescue Colonel.  But we're detecting multiple bug contacts beyond that door.
+//,
+// 0.hawthorne,
+briefing_trigger_201_text,"Alright, roger that.  You new guys, lock and load.  We're gonna kill some bugs."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: FINAL TANKER/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_3_text,"Congrats troopers, two tankers down in one day! When we get back topside, feel free to push those bragging rights."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: FINAL TANKER/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_97_text,"Watch out, another Tanker!"
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: REINFORCEMENTS WEST/TRIGGERS/SPEECH ============== ",
+// 0.hawthorne,
+briefing_trigger_301_text,"There’s one of the advance teams. Troopers, you’re coming with us."
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: REINFORCEMENTS NORTH/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_61_text,More of our guys! Glad we ran into them.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: FIRST BROOD NEST/SPOT BROOD NEST ============== ",
+// 0.hawthorne,
+briefing_trigger_255_text,We have to take out that nest before continuing.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: DEFENSIVE STAND/BRIEFING: ANNOUNCE BATTLE ============== ",
+// 0.hawthorne,
+briefing_trigger_25_text,"I hear movement, and it ain’t coming on two legs. Defensive formation! Maintain a clear field of fire."
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: DEFENSIVE STAND/BRIEFING: BATTLE OVER ============== ",
+// 0.hawthorne,
+briefing_trigger_40_text,That’s it for now. Move up.
+,
+,
+,
+,
+"// ============== /EVENTS/DIALOGS/NO VO - CONTROL ROOM GATE BLOCKED ============== ",
+// 0.hawthorne,
+briefing_trigger_100_text,"Damnid, the corridor is blocked. No other choice but to go through this tunnel and see if we can find another route."
+,
+,
+,
+,
+"// ============== /EVENTS/DIALOGS/OUT OF BUG CAVES ============== ",
+// 0.hawthorne,
+briefing_trigger_101_text,Finally out of Archie's caves... This should position us on the far end of the Control Room.
+,
+,
+,
+,
+"// ============== /EVENTS/DIALOGS/ENTER FIRST CAVE ============== ",
+// 0.hawthorne,
+briefing_trigger_239_text,"We’re on bug home turf, so be ready for the worst."
+,
+,
+,
+// TRIGGER TEXTS,
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_81,Locked Door
+,
+// 5.ANNOUNCER,
+speech_trigger_82,Locked Door
+,
+// 5.ANNOUNCER,
+speech_trigger_83,Capture the Control Room
+,
+,
+,
+,
+,
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_236,Clear the Drilling Site
+,
+// 5.ANNOUNCER,
+speech_trigger_254,Destroy the Brood Nest
+,
+,
+,

@@ -1,0 +1,79 @@
+﻿// NAME,
+scenario_name,Knights in Powered Armor
+,
+// DESCRIPTION,
+scenario_descr,"Colonists are trapped in an emergency shelter after their settlement was overrun by the Arachnids.
+
+Terran Command has tasked an elite detachment to save them from their dire predicament."
+,
+// OBJECTIVES,
+objective_2_2_title,"  Destroy all Plasma Bugs"
+objective_2_3_title,"  Capture Cargo Platforms to get additional Marauders"
+objective_2_9_title,SCORE
+objective_2_8_title,"  Time"
+objective_2_11_title,"  Clear Hives"
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_66,Marauder Spawn
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_104_text,Breaking news: A small mining colony has been overrun by the Arachnids. The few remaining survivors are currently held up in an emergency shelter.
+briefing_trigger_107_text,Any plans of rescue and evacuation are on hold until the destruction of all Plasma Bugs in the area.
+briefing_trigger_113_text,"Given the urgency of the situation, the Mobile infantry has dispatched an elite detachment to get the job done."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: KILL PLASMA/SUCCESS ============== ",
+// 4.propagandist,
+briefing_trigger_46_text,All Plasma Bugs have been destroyed.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CHOOSE MARAUDERS/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_42_text,Capture the cargo dropsites to receive Marauders.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT: LOSE ALL UNITS/FAIL ============== ",
+,
+,
+,
+// TRIGGER TEXTS,
+dialog_trigger_17_title,CHOOSE NEW MARAUDER
+dialog_trigger_17_text,Which Marauder weapon setup do you want to receive?
+dialog_trigger_17_yes,Gatling Gun
+dialog_trigger_17_no,Howitzer
+,
+// 5.ANNOUNCER,
+speech_trigger_59,Capture Cargo Platform
+,
+// 5.ANNOUNCER,
+speech_trigger_60,Capture Cargo Platform
+,
+// 5.ANNOUNCER,
+speech_trigger_61,Capture Cargo Platform
+,
+,
+,
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_115,Emergency Shelter
+,
+,
+,
+,
+,
+,

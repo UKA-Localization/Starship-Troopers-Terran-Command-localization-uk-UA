@@ -1,0 +1,39 @@
+﻿// NAME,
+scenario_name,Desertification
+,
+// DESCRIPTION,
+scenario_descr,A ruined and long abandonned city project is being consumed by harsh desert storms... and Arachnid infestation.
+,
+// OBJECTIVES,
+objective_2_0_title,STORM INCOMING
+objective_2_1_title,STORM ACTIVE
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OUTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_15_text,"This ruined city may never attract human settlers again, but we won't allow the Bugs to live here either."
+,
+,
+,
+,
+"// ============== /STORM/SAND STORM ============== ",
+// 18.adjutant,
+briefing_trigger_22_text,A sandstorm is approaching.
+briefing_trigger_24_text,The sandstorm is almost here. I'm sure the M.I. commander has taken the necessary preparations.
+briefing_trigger_23_text,The sandstorm has arrived. Visibility is greatly restricted and dropships are unavailable for the duration of the storm.
+,
+,
+,
+// TRIGGER TEXTS,
+timer_trigger_1_descr,STROM INCOMING
+,
+timer_trigger_6_descr,STROM PASSES IN
+,
+,
+,

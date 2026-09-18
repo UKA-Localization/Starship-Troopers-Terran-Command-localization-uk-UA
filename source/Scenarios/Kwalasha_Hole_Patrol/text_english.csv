@@ -1,0 +1,304 @@
+﻿// NAME,
+scenario_name,[2] Hole Patrol
+,
+// DESCRIPTION,
+scenario_descr,"In order to permanently eliminate the Arachnid threat on Kwalasha, we must burn the bugs out of their underground colonies. All major hives must be located, assaulted and eradicated.
+
+This dangerous task will now be undertaken by our troopers in the Delta IV sector, where several bug holes have been detected along a vital highway."
+,
+// OBJECTIVES,
+objective_2_5_title,Reach the Supply Base
+objective_2_0_title,Clear all Bug Hives
+objective_2_2_title,Ambush the bug attack wave
+objective_2_2_details,Position your troops on the canyon heights and slaughter the bug attack.
+objective_2_10_title,Capture all Radio Stations
+objective_2_1_title,Construct a Support Center
+objective_2_1_details,"
+"
+objective_2_11_title,Deploy 3 Rifle Trooper squads
+objective_2_3_title,Deploy 2 Combat Engineer squads
+objective_2_6_title,Deploy a Command Center and 2 Sniper teams
+objective_2_8_title,Construct 2 HMG Turrets
+objective_2_9_title,Reposition HMG Turrets at the road crossing
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REACH ALLIED OUTPOST/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_238_text,Command has identified numerous bug holes in the area and guess whose job it is to clean ’em out.
+briefing_trigger_320_text,Get your squads over to the supply base Asap and we’ll go from there. Move out!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REACH ALLIED OUTPOST/APPROACH BASE ============== ",
+// 0.hawthorne,
+briefing_trigger_626_text,Radio station up ahead. We should be able to cut through this interference and get some reinforcements.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEPLOY 3 RIFLES/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_121_text,OK call HQ and get another squad dropped on this position. We’re going to need all the help we can get.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DESTROY BUG HOLES/INFO: CAPTURE FIRST HOLE/BRIEFING: ENTER FIRST BUG HOLE ============== ",
+// 0.hawthorne,
+briefing_trigger_22_text,"OK the bugs are down. Get a squad in that bug hole to seal it up. They’re going to take some casualties, but that’s what we’re here for."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DESTROY BUG HOLES/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_675_text,"We can keep killing them, but they’ll keep coming until we seal those bug holes."
+briefing_trigger_12_text,The first bug cave is nearby. Get over there and take it out.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE ALL RADIO STATIONS/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_416_text,Orders are to expand your foothold in the sector. Capture the local Radio Stations to use them as staging points for operations to take out Arachnid colonies.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CONSTRUCT SUPPORT CENTER/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_638_text,Command has allocated you additional resources to fortify the outpost against Arachnid attacks.
+//,
+// 0.hawthorne,
+briefing_trigger_649_text,"Guess we're going to have a busy day at the office then . . . Alright, we're gonna need Combat Engineers and MG Turrets."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEPLOY 2 ENGINEERS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_650_text,OK call in Engineers ASAP.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CONSTRUCT MG TURRETS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_413_text,Get those Engineers earning their pay. We need two MG turrets covering the outpost before Archie comes to crash this party.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CONSTRUCT CROSSING MG TURRETS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_554_text,Those MG's aren't getting enough action back there. Get them disbanded and then redeploy them up at the bridge.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: BUILD COMMAND POST & SNIPERS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_544_text,"I prefer a one-way shooting arrangement with Archie, and those Spitter bugs complicate things. Get some snipers deployed and take 'em out before they get in range."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: AMBUSH THE ATTACK WAVE/WAVE WARNING ============== ",
+// 1.ava advisor,
+briefing_trigger_30_text,"Sir, satellite surveillance has picked up major bug movement approaching your position. You don’t have long."
+//,
+// 0.hawthorne,
+briefing_trigger_454_text,"OK you heard the news. Our only chance is to use this valley as a kill zone. Use everything you got – if we don’t hold them here, we’ll all be dead anyway."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: AMBUSH THE ATTACK WAVE/WAVE REACHES PLAYER ============== ",
+// 0.hawthorne,
+briefing_trigger_35_text,The bugs are here. Look sharp troopers!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: AMBUSH THE ATTACK WAVE/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_260_text,Cease fire! They're all dead. Let's mop up this mess and call it a day.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT: LOSE ALL UNITS/CHECK ============== ",
+// 0.hawthorne,
+briefing_trigger_761_text,We've failed.  Can't complete the mission now...
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: ELEVATION ATTACK WAVE/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_628_text,"Bugs inbound. Find a firing position, people. Use the high ground."
+,
+,
+,
+,
+"// ============== /EVENTS/ATTACK WAVES/EAST HIVE TO MIDDLE RADIO/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_596_text,Here they come again. Get those MGs firing.
+,
+,
+,
+,
+"// ============== /EVENTS/INFO: BUG LAIR/INFO: BUG LAIR ============== ",
+// 0.hawthorne,
+briefing_trigger_752_text,Take out that Bug nest!
+,
+,
+,
+,
+"// ============== /EVENTS/HQ GETS IMPATIENT/ON BRIDGE ============== ",
+// 1.ava advisor,
+briefing_trigger_750_text,"Sir, HQ on the net. They’re asking why the area isn’t cleared yet."
+//,
+// 0.hawthorne,
+briefing_trigger_751_text,Affirmative. But we have been a little busy here...
+,
+,
+,
+,
+"// ============== /EVENTS/HINT EASTERN RADIO/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_822_text,There is a radio tower ahead of your position.
+briefing_trigger_823_text,Get up that slope and bring that station online.
+,
+,
+,
+,
+"// ============== /EVENTS/CIVILIANS RUN AWAY ============== ",
+// 0.hawthorne,
+briefing_trigger_749_text,Survivors! Take down those bugs
+,
+,
+,
+,
+"// ============== /WIKI/PRIORITY TARGETING/PRIORITY TARGETING ============== ",
+// 0.hawthorne,
+briefing_trigger_850_text,"Snipers! If it spits, it dies! Leave the rest of the uglies to us."
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_72,Send a unit into the Bug Hive
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_148,Bug Hive cleared!
+,
+// 5.ANNOUNCER,
+speech_trigger_123,Position on the high ground to fire over the allied unit.
+,
+timer_trigger_200_descr,WAVE APPROACHING
+,
+// 5.ANNOUNCER,
+speech_trigger_455,Use elevations
+,
+// 5.ANNOUNCER,
+speech_trigger_456,Use elevations
+,
+// 5.ANNOUNCER,
+speech_trigger_457,Construct HMG Turrets
+,
+// 5.ANNOUNCER,
+speech_trigger_458,Use choke points
+,
+// 5.ANNOUNCER,
+speech_trigger_788,Supply Base
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_395,Build HMG Turrets on hard surfaces
+,
+// 5.ANNOUNCER,
+speech_trigger_398,Build HMG Turrets on hard surfaces
+,
+// 5.ANNOUNCER,
+speech_trigger_420,Capture Radio Station
+,
+// 5.ANNOUNCER,
+speech_trigger_426,Capture the Radio Station
+,
+// 5.ANNOUNCER,
+speech_trigger_666,Deploy 2 Sniper Teams
+,
+// 5.ANNOUNCER,
+speech_trigger_470,Deploy a Command Center
+,
+// 5.ANNOUNCER,
+speech_trigger_557,Rebuild HMG Turrets on hard surfaces
+,
+// 5.ANNOUNCER,
+speech_trigger_558,Rebuild HMG Turrets on hard surfaces
+,
+// 5.ANNOUNCER,
+speech_trigger_574,Disband previous HMG turrets to recover resources
+,
+// 5.ANNOUNCER,
+speech_trigger_588,Bug Lairs will keep spawning bugs until destroyed
+,
+// 5.ANNOUNCER,
+speech_trigger_641,Select and deploy a Support Center
+,
+// 5.ANNOUNCER,
+speech_trigger_653,Call in 2 Combat Engineer squads
+,
+// 5.ANNOUNCER,
+speech_trigger_684,Supply Depots increase your Supply cap +5
+,
+// 5.ANNOUNCER,
+speech_trigger_680,Request more Rifle Troopers from the Radio Station
+,
+// 5.ANNOUNCER,
+speech_trigger_687,Send a unit into the Bug Hive
+,
+// 5.ANNOUNCER,
+speech_trigger_700,Use low ground for fire support
+,
+// 5.ANNOUNCER,
+speech_trigger_701,Use elevation for fire support
+,
+// 5.ANNOUNCER,
+speech_trigger_733,Move closer to the Hive to lure out bugs faster
+,
+// 5.ANNOUNCER,
+speech_trigger_736,Move closer to the Hive to lure out bugs faster
+,
+// 5.ANNOUNCER,
+speech_trigger_739,Use grenades against large hordes
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_795,Capture Radio Station
+,
+// 5.ANNOUNCER,
+speech_trigger_798,Capture Radio Station
+,
+// 5.ANNOUNCER,
+speech_trigger_801,Bug Tunnels are always connected to a Hive
+,
+// 5.ANNOUNCER,
+speech_trigger_809,Clear the Hive to shut down connected Tunnels
+,
+// 5.ANNOUNCER,
+speech_trigger_806,Hives gradually refill with new bugs
+,
+// 5.ANNOUNCER,
+speech_trigger_821,Avoid this choke point!
+,
+,

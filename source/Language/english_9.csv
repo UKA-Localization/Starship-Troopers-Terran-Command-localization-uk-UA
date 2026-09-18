@@ -1,0 +1,103 @@
+// Metropolis DLC,
+,
+news_banner_metropolis_dlc,Arachnid onslaught raging in the city of Mahanagar!
+,
+unit_purchase_unlocked_later,Unlocked later in scenario
+unit_purchase_not_available,Not available in this scenario
+unit_purchase_previous_units,Previous units
+unit_purchase_next_units,Next units
+unit_purchase_platform_upgrade_available,Sufficient resources are available to unlock this unit  
+unit_purchase_tab_tooltip_t0,Request basic units
+unit_purchase_tab_tooltip_t1,Request Tier 1 units
+unit_purchase_tab_tooltip_t2,Request Tier 2 units
+unit_purchase_tab_tooltip_t3,Request Tier 3 units
+unit_purchase_tab_tooltip_t4,Request Tier 4 units
+unit_purchase_tab_tooltip_t5,Request Tier 5 units
+unit_purchase_tab_tooltip_other,Request other units
+unit_purchase_tab_unlocked_by_t0,Basic units are unlocked by:
+unit_purchase_tab_unlocked_by_t1,Tier 1 units are unlocked by:
+unit_purchase_tab_unlocked_by_t2,Tier 2 units are unlocked by:
+unit_purchase_tab_unlocked_by_t3,Tier 3 units are unlocked by:
+unit_purchase_tab_unlocked_by_t4,Tier 4 units are unlocked by:
+unit_purchase_tab_unlocked_by_t5,Tier 5 units are unlocked by:
+unit_purchase_tab_unlocked_by_other,Other units are unlocked by:
+unit_purchase_tab_tooltip_required_platforms,Some unit types in this tab require platform buildings:
+unit_purchase_tab_tooltip_required_platform,Some unit types in this tab require platform building:
+notification_turrets_attacked,Turret under attack
+,
+// SCENARIO VIDEO SUBTITLES,
+,
+sub_slums_0,"Police forces on the planet Varuna are responding to a bank robbery in progress in the great city of Mahanagar."
+sub_slums_1,"Stay tuned to FED NET as this story unfolds."
+sub_slums_2,"Would you like to know more?"
+sub_slums_3,"Planet Varuna, home to Mahanagar, a giant in the economic market and one of the most brightly shining cities in the Federation."
+sub_slums_4,"Built on the Ganda River, the island city offers natural protection against the Arachnid presence on the planet."
+sub_slums_5,"While the odd stray Arachnid may slip through the net,"
+sub_slums_6,"the real fight is against the criminals who seek to disturb the peaceful lives of our citizens."
+sub_slums_7,"But justice is carried out by the likes of Officer Kayla Keys."
+sub_slums_8,"The local police negotiator is en route to the crime scene."
+sub_slums_9,"We now take you live to Mahanagar to follow the progress of this story."
+,
+sub_railways_0,"An outbreak of Arachnids in the northern district of Mahanagar has prompted the Mobile Infantry to mount an armed response."
+sub_railways_1,"On occasion, small pockets of Bugs will manage to tunnel their way below the shallow marshlands."
+sub_railways_2,"For the safety of citizens, a Mobile Infantry detachment remains permanently stationed in the city."
+sub_railways_3,"These brave troopers have arrived at the local railway station to clear the streets by sunrise."
+sub_railways_4,"Their service guarantees your safe morning commute!"
+,
+sub_retreat_0,"Further Bug-related incidents have been reported across the outer districts of Mahanagar."
+sub_retreat_1,"Governor Govac has issued his assurance that the situation is under control,"
+sub_retreat_2,"and that citizens in the city center will remain safe to go on with their day unperturbed."
+sub_retreat_3,"Drums of gunfire may be heard occasionally across the hot zones."
+sub_retreat_4,"That’s the comforting sound of our troopers driving the Bugs back into the river!"
+,
+sub_bridges_0,"The Arachnid outbreak in Mahanagar has grown in scale."
+sub_bridges_1,"Accepting responsibility for the debacle, Governor Govac has resigned from his position,"
+sub_bridges_2,"placing the city under martial law as his last official act."
+sub_bridges_3,"The Bugs must be stopped in their march toward the central district, and Terran Command has the answer:"
+sub_bridges_4,"The tactical destruction of all district bridges!"
+sub_bridges_5,"TAC fighters operating from the city starport are already in flight to execute this plan with pinpoint destructive precision!"
+,
+sub_rooftops_0,"The Arachnid march has been thwarted after the victorious destruction of Mahanagar's main bridges."
+sub_rooftops_1,"But reports have shown the Bugs are now digging into the metro system to continue their advance through the underground."
+sub_rooftops_2,"Is there a Brain Bug on planet Varuna?"
+sub_rooftops_3,"Federal scientists are investigating the well orchestrated movements of the Arachnids."
+sub_rooftops_4,"To defeat the Bug, we must stay one step ahead!"
+sub_rooftops_5,"The enemy may think they control the board, but our new gambit will put them in check!"
+,
+sub_police_station_0,"The presence of a Brain Bug leading the attacks on Mahanagar has been confirmed."
+sub_police_station_1,"Now that we know our enemy, we have the means to defeat it!"
+sub_police_station_2,"Federal scientists have exposed a major weakness in the Arachnid's offensive capabilities."
+sub_police_station_3,"Armed with this tactical knowledge, the advanced water systems of Mahanagar will be used to flood the outer districts."
+sub_police_station_4,"Tens of thousands of Bugs will drown, and the Brain Bug will remain trapped and isolated in the city center."
+,
+sub_starport_0,"Flooding the outer districts of Mahanagar has dealt the Arachnid invasion a heavy blow!"
+sub_starport_1,"But our battle for the heart of the city still rages on."
+sub_starport_2,"The starport of Mahanagar has fallen."
+sub_starport_3,"The Brain Bug has directed its remaining hordes to disrupt the shipments of new equipment and personnel at this vital transport hub."
+sub_starport_4,"Our troopers have fought hard, but shortages are now being felt on the battlefield, leaving our position hanging in the balance."
+sub_starport_5,"To regain the upper hand, the starport must be taken back."
+,
+sub_city_center_0,"Eager to finish the job, Mobile Infantry forces are steadily closing in on the Brain Bug's final hiding spot."
+sub_city_center_1,"Total victory is close at hand in Mahanagar!"
+sub_city_center_2,"No escape, tricks, or countermoves remain for the Bug!"
+,
+sub_brain_lair_0,"The brave men and women of the Mobile Infantry have restored order on the streets of Mahanagar."
+sub_brain_lair_1,"Now, one final battle awaits below the city."
+sub_brain_lair_2,"Cowering in the stench of the sewers and the burning husks of its minions,the Brain Bug will soon face its final retribution!"
+,
+sub_metropolis_outro_0,"After a hard-fought battle, the Mobile Infantry has achieved ultimate victory in Mahanagar."
+sub_metropolis_outro_1,"Many did their part and gave their life in service of a great cause: protecting the wellbeing of our citizens."
+sub_metropolis_outro_2,"The city, too, has paid a heavy toll..."
+sub_metropolis_outro_3,"But out of ashes comes new opportunities as we rebuild to a new tomorrow. A better tomorrow!"
+sub_metropolis_outro_4,"Winning wars requires special people with special skills."
+sub_metropolis_outro_5,"Sergeant Kayla Keys was one such hero and she gave her life to assure the ultimate victory."
+sub_metropolis_outro_6,"Do you think you are psychic?"
+sub_metropolis_outro_7,"Don’t let your talents go to waste!"
+sub_metropolis_outro_8,"Call this number to begin your journey today!"
+sub_metropolis_outro_9,"Early identification saves lives!"
+,
+// These keys were missing translations for russian and spanish. We moved them to code so they show up the next time we do translations.,
+// ability_gate_tall_open_title,Open gate
+// ability_gate_tall_open_descr,Open the gate so units can pass through (including enemies).
+// ability_gate_tall_close_title,Close gate
+// ability_gate_tall_close_descr,Close the gate to prevent units from passing through.

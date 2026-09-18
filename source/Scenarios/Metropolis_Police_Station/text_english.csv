@@ -1,0 +1,311 @@
+﻿// NAME,
+scenario_name,[6] Changing Tides
+,
+// DESCRIPTION,
+scenario_descr,"It has been confirmed: a Brain Bug is leading the Arachnids hordes in the city. Now that the enemy is known, the M.I. and MPD move swiftly to defeat it.
+
+The second phase of Keys’ plan begins: By manipulating Mahanagar’s advanced water systems, a great flood will sweep through the outer districts. Tens of thousands of Bugs will drown, leaving the Brain Bug trapped and isolated."
+,
+// OBJECTIVES,
+objective_2_6_title,Reach the elevator
+objective_2_7_title,Find a way down into the next floor
+objective_2_4_title,Get a squad to the stairs
+objective_2_5_title,Construct 3 Autocannon Turrets in front of the entrance
+objective_2_9_title,Repair the Power Turbine
+objective_2_8_title,Open the elevator
+objective_2_10_title,Clear the Bug Hives
+objective_2_1_title,Get into the sewers
+objective_2_0_title,Turn on Flood Pumps
+objective_2_14_title,Exit the water plant
+objective_2_13_title,Kill the Ravager
+objective_2_12_title,Bring the Tactical Officer to the weapons storage
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_193,Sewers Door
+unit_196,Collapsed Tunnel
+unit_249,Broken Terminal
+unit_255,Broken Terminal
+unit_257,Broken Terminal
+unit_290,Elevator
+unit_302,Elevator
+unit_310,Elevator
+unit_324,#Spawn Point
+unit_327,#Spawn Point
+unit_332,#Turret Construction
+unit_346,#bug spawn
+unit_347,#bug spawn
+unit_373,#bug spawn
+unit_376,#destination
+unit_381,#sewers
+unit_443,#camera start
+unit_447,#Camera start
+unit_544,#Camera start
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/PRISON FLOOR/PRISON: REACH ELEVATOR/TRIGGERS/DIALOGUE: DRONES INCOMING ============== ",
+// 6.hidden_hawthorne,
+briefing_trigger_287_text,[Bug scream]
+//,
+// 11.cop,
+briefing_trigger_285_text,"Whoa, that's an awful screech!"
+//,
+// 12.senior,
+briefing_trigger_286_text,The face at the end of it is even worse. Drones on the way!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/PRISON FLOOR/PRISON: REACH ELEVATOR/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_89_text,"You've proved handy 'til now, Keys. My team's in your charge -- lead the way."
+//,
+// 11.cop,
+briefing_trigger_281_text,"It almost sounds like you're enjoying working with me, Major."
+//,
+// 12.senior,
+briefing_trigger_283_text,"Heh. Don't push your luck, kid. Just get us through this."
+//,
+// 11.cop,
+briefing_trigger_284_text,"Well then, Major, the main elevator should be accessible through this jail floor. It'll take us to the basement level."
+//,
+// 12.senior,
+briefing_trigger_542_text,"You lead, we'll follow."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/PRISON FLOOR/PRISON: GET TO THE COLLAPSED FLOOR/TRIGGERS/DIALOGUE: CAPTURE TURRETS ============== ",
+// 12.senior,
+briefing_trigger_418_text,More Drones incoming! Those turrets will thin the herd real good!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/PRISON FLOOR/PRISON: GET TO THE COLLAPSED FLOOR/TRIGGERS/DIALOGUE: ENTER THE HOLE ============== ",
+// 12.senior,
+briefing_trigger_304_text,"On the money again, Keys. Intel could really use an asset like you. How the hell were you not screened before?"
+//,
+// 11.cop,
+briefing_trigger_422_text,"Never had much time for all that, after dad died."
+briefing_trigger_498_text,"My intuition -- or, what I thought was just ""intuition"" -- is how I survived then, and hell, it's how I'll survive this too."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/PRISON FLOOR/PRISON: GET TO THE COLLAPSED FLOOR/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_91_text,"Elevator's a bust. What now, kid?"
+//,
+// 11.cop,
+briefing_trigger_301_text,"The Bugs must've had a way up here. If we just find their hole, we can get down."
+//,
+// 12.senior,
+briefing_trigger_302_text,"That a hunch, or your intuition?"
+//,
+// 11.cop,
+briefing_trigger_303_text,"Let's just call it good old-fashioned cop work, Major. You gotta take some swings to make it in this line of work."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/STORAGE FLOOR/STORAGE: REACH THE STAIRS/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_322_text,Down we go.
+briefing_trigger_300_text,You “sensing” a quicker way down? Gonna take damn long doing this one floor at a time...
+//,
+// 11.cop,
+briefing_trigger_115_text,"If you can manage a hike, there should be a stairway leading all the way to reception through this floor."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/STORAGE FLOOR/STORAGE: AMMO DEPOT/TRIGGERS/SUCCESS ============== ",
+// 12.senior,
+briefing_trigger_307_text,"I'm not sure I want to know how some lowlife got his hands on heavy Fed tech, but he's done us a favor this time!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/STORAGE FLOOR/STORAGE: AMMO DEPOT/BRIEFINGS ============== ",
+// 11.cop,
+briefing_trigger_201_text,"The station stashes any confiscated weaponry in a locker ahead, Major. Might be something useful for us."
+//,
+// 12.senior,
+briefing_trigger_202_text,"Assuming your colleagues haven't already cleaned it out, then it's worth a look."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/RECEPTION/RECEPTION: ACTIVATE POWER/TRIGGERS/DIALOGUE: LOST COPS ============== ",
+// 11.cop,
+briefing_trigger_420_text,My god! They slaughtered half the station! I... should have been here...
+//,
+// 12.senior,
+briefing_trigger_421_text,"Sorry, Keys, but you learn quick in this job that you can't save everyone all the time. I've been trying to get that through to you."
+briefing_trigger_500_text,Best you can do is pick your battles where you can and swear payback for those left behind.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/RECEPTION/RECEPTION: ACTIVATE POWER/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_332_text,"Saddle up, boys. We got a long way down."
+//,
+// 11.cop,
+briefing_trigger_114_text,"Just the 30 floors to go. Can your M.I. keep up with my so-called ""flatfoots""?"
+//,
+// 12.senior,
+briefing_trigger_499_text,"""Mobile"" is in the name, you know..."
+//,
+// 11.cop,
+briefing_trigger_339_text,"Finally at reception -- I think my guys take that one, Major."
+briefing_trigger_338_text,The elevator here can get us the rest of the way down now. Access to the sewer pumps is through the parking garage.
+briefing_trigger_388_text,But we'll need to restore power to this floor first.
+//,
+// 12.senior,
+briefing_trigger_334_text,Hmph... I'm calling it a tie.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/RECEPTION/RECEPTION: BUILD TURRETS/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_124_text,Bugs comin' in from outside! Block 'em out!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 1: POLICE HQ FLOORS/RECEPTION/RECEPTION: SECURE ELEVATOR/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_125_text,Power's running again. Let's get to the elevator.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 2: UNDERGROUND/CLEAR HIVES/TRIGGERS/DIALOGUE TIMELINE ============== ",
+// 12.senior,
+briefing_trigger_231_text,"Can't park here, Bugs. This spot's taken."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 2: UNDERGROUND/CLEAR HIVES/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_213_text,'Course -- more Bugs infesting the place. Clear 'em out and don't let 'em back in!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 2: UNDERGROUND/ENTER THE SEWERS/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_143_text,"Bug nests cleared. You're up, Keys. Get us into the sewer."
+//,
+// 11.cop,
+briefing_trigger_221_text,On it.
+briefing_trigger_222_text,Door's open. Everyone in!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 2: UNDERGROUND/TURN OFF FLOOD PUMPS/TRIGGERS/DIALOGUES ============== ",
+// 12.senior,
+briefing_trigger_416_text,One pump down!
+//,
+// 11.cop,
+briefing_trigger_417_text,"Second pump activated! Thanks for the years of lectures, dad."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 2: UNDERGROUND/TURN OFF FLOOD PUMPS/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_506_text,Welcome to the real Mahanagar -- the nerve center of the greatest city in the galaxy is ahead of you.
+briefing_trigger_111_text,"The city would sink without these water pumps regulating the mains system. Today however, they're also our best weapon against the Bugs."
+//,
+// 12.senior,
+briefing_trigger_502_text,Fed engineering -- it's a beautiful thing. Your daddy teach you all about this?
+//,
+// 11.cop,
+briefing_trigger_503_text,"Despite my best efforts, yes. Overloading just three pumps should be enough to flood out the Bugs in the outer districts."
+//,
+// 12.senior,
+briefing_trigger_493_text,Then we'll have ol' wrinkle sack cut-off and wailing for support from his colony. Too bad most of 'em will be busy drowning...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 2: UNDERGROUND/EXIT THE WATER PLANT/TRIGGERS/SUCCESS & VICTORY ============== ",
+// 12.senior,
+briefing_trigger_431_text,'Bout time we get out of here. I'm in the mood to watch some Bugs drown back up top.
+//,
+// 11.cop,
+briefing_trigger_504_text,"Hoping this worked... "
+//,
+// 12.senior,
+briefing_trigger_505_text,"It will. You did damn fine here, Keys. Damn fine indeed."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 2: UNDERGROUND/EXIT THE WATER PLANT/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_382_text,That's the last pump done! This place will be flooded real soon!
+//,
+// 12.senior,
+briefing_trigger_364_text,I don't much like swimmin' in shit! Let's double time it to the maintenance elevator!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 2: UNDERGROUND/KILL PLASMA GUARD/TRIGGERS/SUCCESS ============== ",
+// 12.senior,
+briefing_trigger_356_text,"Spiders, slugs, scorpions...you can keep making 'em as big as you want, I'll still stomp 'em down!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STAGE 2: UNDERGROUND/KILL PLASMA GUARD/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_352_text,"What the hell is that Bug!?"
+//,
+// 12.senior,
+briefing_trigger_353_text,Same as the rest of 'em -- ugly and in need of squashin'! Drop the sucker!
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_424,Capture Terminal
+,
+speech_trigger_425,Capture Terminal
+,
+speech_trigger_426,Capture Terminal
+,
+speech_trigger_40,Stairs
+,
+speech_trigger_78,Entrance
+,
+speech_trigger_299,Elevator
+,
+speech_trigger_105,Destination
+,
+speech_trigger_396,Capture
+,
+speech_trigger_136,Repair
+,
+speech_trigger_166,Sewers
+,
+speech_trigger_197,Weapons Storage
+,
+speech_trigger_308,Weapon equipped
+,
+speech_trigger_592,Exit
+,
+speech_trigger_594,Exit
+,
+,
+,
+,

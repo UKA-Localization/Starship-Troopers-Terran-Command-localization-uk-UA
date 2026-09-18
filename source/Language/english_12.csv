@@ -1,0 +1,324 @@
+// === Summary === (Base),
+// other  - 50 entries  354 words  50 lines,
+// TOTAL  - 50 entries  354 words,
+,
+,
+,
+// #### AbilityLines ####,
+,
+// other  - 4 entries  23 words  4 lines,
+ability_gate_tall_open_title,"Open gate"
+ability_gate_tall_open_descr,"Open the gate so units can pass through (including enemies)."
+ability_gate_tall_close_title,"Close gate"
+ability_gate_tall_close_descr,"Close the gate to prevent units from passing through."
+,
+,
+// #### AchievementsLines ####,
+,
+// other  - 44 entries  305 words  44 lines,
+achievement_global_finish_first_chemical_scenario_title,"We have lift off"
+achievement_global_finish_first_chemical_scenario_descr,"Complete the first mission of the Ghutana Campaign."
+achievement_global_finish_chemical_campaign_title,"You've been a Good Boy"
+achievement_global_finish_chemical_campaign_descr,"Complete the Ghutana Campaign."
+achievement_chemical_1_remote_specimen_termination_title,"Boom Bugs"
+achievement_chemical_1_remote_specimen_termination_descr,"Kill 8 Bugs with a single use of the Horde Handlers' Remote Specimen Termination ability."
+achievement_chemical_1_simultaneous_spitters_title,"Acid rain"
+achievement_chemical_1_simultaneous_spitters_descr,"Simultaneously have 20 Spitter Bugs deployed."
+achievement_chemical_2_maintain_bug_cages_title,"Cage fight"
+achievement_chemical_2_maintain_bug_cages_descr,"Keep at least 10 Bug Cages deployed in the central crater during the entire soil extraction phase."
+achievement_chemical_2_only_alchemist_units_title,"Single solution"
+achievement_chemical_2_only_alchemist_units_descr,"Complete the mission having only deployed XM3-C Alchemist units."
+achievement_chemical_3_reactor_drop_warrior_title,"Nuclear fusion"
+achievement_chemical_3_reactor_drop_warrior_descr,"Use the XM3-A's Reactor Drop ability to squash a Warrior Bug."
+achievement_chemical_3_maintain_bipeds_title,"Battle of the bipeds"
+achievement_chemical_3_maintain_bipeds_descr,"Keep at least 6 Alchemist or Raycaster Bipeds deployed on the map for the duration of the final Bug attack wave."
+achievement_chemical_4_cluster_missile_tanker_title,"Shrapnel shower"
+achievement_chemical_4_cluster_missile_tanker_descr,"Kill a Tanker Bug with the Missile Silo's Cluster Missile barrage."
+achievement_chemical_4_tactical_nuke_warrior_title,"Overkill"
+achievement_chemical_4_tactical_nuke_warrior_descr,"Kill exactly one Warrior Bug with a single Missile Silo Tactical Nuke Missile."
+achievement_chemical_5_hellraiser_geiger_kills_title,"Roasted radiation"
+achievement_chemical_5_hellraiser_geiger_kills_descr,"Kill 3 Geiger Bugs using the M4A Grinder's Hellraiser ability."
+achievement_chemical_5_irradiated_area_kills_title,"Functional fallout"
+achievement_chemical_5_irradiated_area_kills_descr,"Kill 10 Bugs using the irradiated areas on the map."
+achievement_chemical_6_drone_pod_kills_title,"Drone defense"
+achievement_chemical_6_drone_pod_kills_descr,"Kill 30 enemies using the Radio Station Drone Pod ability."
+achievement_chemical_6_epulse_final_wave_kills_title,"Electric Bugaloo"
+achievement_chemical_6_epulse_final_wave_kills_descr,"Kill 50 Bugs in the final attack wave with E-Pulse 92 Troopers or E-Pulse Cannons."
+achievement_chemical_7_mind_controlled_scorpion_kill_title,"Clash of the Kaiju"
+achievement_chemical_7_mind_controlled_scorpion_kill_descr,"Kill a Scorpion with a mind-controlled Tanker Bug."
+achievement_chemical_7_royal_guard_prisoner_kills_title,"Royal executioner"
+achievement_chemical_7_royal_guard_prisoner_kills_descr,"Kill 8 Armed Prisoners with the XM9-B Overseer's Royal Guard escort."
+achievement_chemical_8_control_acid_grenadiers_title,"The Three Grenadiers"
+achievement_chemical_8_control_acid_grenadiers_descr,"Control 3 Acid Grenadiers simultaneously."
+achievement_chemical_8_irradiator_rpv_kills_title,"Death ray"
+achievement_chemical_8_irradiator_rpv_kills_descr,"Kill 10 Bugs with a single Irradiator RPV from the Powered Suit Irradiators ability."
+achievement_chemical_9_all_missile_types_title,"Rocket enthusiast"
+achievement_chemical_9_all_missile_types_descr,"Kill at least 1 enemy with every Missile Silo missile type within 10 seconds."
+achievement_chemical_9_annihilator_single_shot_title,"Chain reaction"
+achievement_chemical_9_annihilator_single_shot_descr,"Kill 8 Bugs with a single shot from the XM11-K Annihilator."
+achievement_chemical_10_cloaked_irradiator_kills_title,"Cloak and dagger"
+achievement_chemical_10_cloaked_irradiator_kills_descr,"Kill 3 Acid Grenadiers with Powered Suit Irradiators while the Pheromonal Cloak ability is active."
+achievement_chemical_10_acidic_shockwave_kills_title,"Apex predator"
+achievement_chemical_10_acidic_shockwave_kills_descr,"Kill 10 Bugs with a single charge of the Hydra's Acidic Shockwave ability."
+,
+,
+// #### GeneralUILines ####,
+,
+// other  - 2 entries  26 words  2 lines,
+no_savegames_found,"No savegames found"
+save_error_territory_story_other_version,"This territory mode campaign mission save was made in version {0} and is no longer compatible with the current version of the game."
+,
+// === Summary === (TerritoryOther),
+// other  - 17 entries  105 words  18 lines,
+// TOTAL  - 17 entries  105 words,
+,
+,
+,
+// #### TerritoryUILines ####,
+,
+// other  - 4 entries  31 words  5 lines,
+territory_scenario_contract_termination_title,"Volcanic Venture"
+guthana_story_missions_header,"- Eradicators Story Missions -"
+guthana_story_missions_text,"The Eradicators DLC includes a Story campaign that uses territory mode mechanics. 
+You can find it in the Campaigns Menu."
+guthana_story_missions_button,"GO TO STORY CAMPAIGN"
+,
+,
+// #### UnitsTerritoryModeLines ####,
+,
+// other  - 13 entries  74 words  13 lines,
+unit_1130,"Main Base"
+unit_4084,"Main Base (Uncaptured)"
+unit_4004,"Main Base"
+unit_4005,"Main Base"
+ability_territory_tactical_reinforce_title,"Place Drop Zone"
+ability_territory_tactical_reinforce_descr,"Place a drop zone that can be used to call in reinforcements."
+tech_base_tech_groundpounders_title,"Base battlegroup technology"
+tech_base_tech_groundpounders_descr,"Applies the Base battlegroup stats"
+tech_main_base_turret_descr,"Install an Autocannon Turret on top of the Main Base"
+tech_base_tech_enforcers_title,"Base battlegroup technology"
+tech_base_tech_enforcers_descr,"Applies the Base battlegroup stats"
+tech_tactical_reinforce_title,"Tactical Radio Set"
+tech_tactical_reinforce_descr,"Allows the Tactical Officer and Powered Suit Officer to place a Drop Zone which can be used to call in reinforcements."
+,
+// === Summary === (TerritoryVO),
+// territory_vo_18_  - 17 entries  197 words  25 lines,
+// other  - 6 entries  37 words  6 lines,
+// TOTAL  - 23 entries  234 words,
+,
+,
+,
+// #### ExtinguishObjectiveLines ####,
+,
+// territory_vo_18_  - 4 entries  34 words  7 lines,
+// other  - 1 entries  2 words  1 lines,
+territory_vo_18_objective_graffiti_reach_objective1,"Approaching a graffiti painting. Get your cleaning crew ready."
+territory_vo_18_objective_graffiti_donotloseunits,"Cleaning crews are limited. Lose too many and we can't complete the mission."
+territory_vo_18_objective_graffiti_objective_isfailed,"All cleaning crews are lost. Mission cannot continue."
+territory_vo_18_objective_graffiti_objective_respawn,"New cleaning crew inbound."
+territory_objective_clear_graffiti_bubble,"Clear Graffiti"
+,
+,
+// #### RescueDamagedBipedObjectiveLines ####,
+,
+// territory_vo_18_  - 3 entries  24 words  3 lines,
+// other  - 1 entries  10 words  1 lines,
+objective_biped_bring_to_base,"Bring the damaged Light Engineering Biped to the Main Base"
+territory_vo_18_rescue_mech_repaired_1,"Alright let's get this Light Engineering Biped to the base!"
+territory_vo_18_rescue_mech_attack_1,"Attack wave is coming for the Light Engineering Biped!"
+territory_vo_18_rescue_mech_success_1,"We recovered the Engineering Biped"
+,
+,
+// #### TerritoryRemovedObjectivesVOs ####,
+,
+// territory_vo_18_  - 1 entries  10 words  1 lines,
+territory_vo_18_objective_sam_failed,"The SAM Site took critical damage and must be repaired."
+,
+,
+// #### TerritoryTodoObjectiveLines ####,
+,
+// territory_vo_18_  - 1 entries  6 words  2 lines,
+// other  - 3 entries  18 words  3 lines,
+territory_vo_18_sand_storm_almost_here,"Sandstorm imminent. You should be prepared."
+objective_capture_command_station,"Capture the Main Base"
+objective_dont_lose_command_station,"Do not lose the Main base"
+objective_dont_lose_any_command_station,"Do not lose any of the Main Bases"
+,
+,
+// #### TerritoryTutorialLines ####,
+,
+// territory_vo_18_  - 5 entries  81 words  7 lines,
+// other  - 1 entries  7 words  1 lines,
+territory_vo_18_tutorial_territory_4,"Please don't ignore my advice, Commander. Take control of more territory to get more resources from HQ."
+territory_vo_18_tutorial_territory_6,"Don't forget to keep expanding your Territory. Arachnid threat levels keep rising, so you have to make sure you secure enough resources to stay ahead."
+territory_vo_18_tutorial_snipers_spitters,"Fed Intel is expecting that Spitters will soon show up in your sector."
+territory_vo_18_tutorial_snipers_bombardiers,"Fed Intel is expecting that Bombardiers will soon show up in your sector."
+territory_vo_18_tutorial_snipers_stingers,"Fed Intel is expecting that Stingers will soon show up in your sector."
+,
+//{0} will be replaced with a arachnid threat name,
+tutorial_unitcounter_deploy,"Deal with {0}: Deploy 2 Sniper units"
+,
+,
+// #### TerritoryVoiceLines ####,
+,
+// territory_vo_18_  - 3 entries  42 words  5 lines,
+territory_vo_18_clear_hives_intro_v0,"HQ wants all hives in your sector taken out so the Bugs can no longer threaten our assets in the area."
+territory_vo_18_clear_hives_success_v2,"The tunnels are dead. All hives neutralized."
+territory_vo_18_defeat_waves_v0,"The Arachnids are striking back in a show of force. Stand your ground, Commander!"
+,
+// === Summary === (ChemicalOther),
+// other  - 54 entries  641 words  100 lines,
+// TOTAL  - 54 entries  641 words,
+,
+,
+,
+// #### ChemicalDLCLines ####,
+,
+// other  - 54 entries  641 words  100 lines,
+unit_5002,"Support Troopers"
+unit_5002_descr,"These troopers are armed with standard Morita assault rifles to provide light fire support, especially against air units. The squad also carries a portable radio to call in reinforcements."
+unit_5613,"Hazmat Troopers"
+unit_5626,"Fortis E-Pulse 92 Troopers"
+unit_5604,"Powered Suit Irradiators"
+unit_5576_descr,"This heavy biped utilizes specialized, large-caliber darts to turn Bugs against their own kind or seize direct control over individual specimens."
+unit_5576_wiki,"Two types of projectiles are available:
+• The default 'Pheromone Disruption' dart delivers a nerve agent that enrages the target, driving it to attack any unaffected Arachnids in the vicinity
+• The 'Mind Control' dart injects a neurochemical interface that grants the Overseer direct control over a single specimen. The biped must remain in close proximity to sustain this neural link.
+
+Note that, due to the large size and mass of these darts, targeting smaller Bug variants will outright crush and kill them."
+unit_1204,"Capturable Crates"
+unit_5009,"Prisoners"
+unit_5030,"Drones Drop Pod"
+unit_5030_descr,"A drop pod that unleashes a horde of Drone Bugs that will fight on your side. After a short duration, the pod and the Drones wil self-destruct."
+unit_5650,"D.I.M. Dart Launcher"
+unit_5033_descr,"The Acid Grenadier is a large, well armored Bug type that launches globs of a volatile substance toward their enemies. These projectiles generally transmute into corrosive acid on impact, but curiously, some globs have been found to contain live Buzzer Drones. How this symbiosis between Acid Grenadiers and Buzzers is initiated is currently unknown."
+unit_179,"Spawn Pit"
+ability_toxic_self_repair_descr,"Releasing this chemical substance patches damage while also causing toxic harm to nearby Arachnids."
+ability_missile_specialist_switch_a_descr,"In this mode, a barrage of four rockets is fired in a forward facing sequence."
+ability_missile_specialist_switch_b_descr,"In this mode, a barrage of four rockets is fired along a line perpendicular to the specialist's facing."
+ability_fortis_construction_kit_title,"Construction Kit"
+ability_fortis_construction_kit_descr,"Equip your troops with the tools to build turrets."
+ability_undeploy_perimeter_title,"Disassemble Barricade"
+ability_undeploy_perimeter_descr,"Disassemble barricade and allow the troopers to move again."
+ability_pheromone_shield_requiresunittype,"This ability is already active."
+ability_rogue_grenade_title,"Pheromone Disruptor Grenade"
+ability_hydra_shockwave_title,"Acidic Shockwave"
+ability_hydra_shockwave_descr,"Discharge a violent spray of acid that forms a large corrosive pool under the Hydra"
+tech_radiation_biped_reinforce_title,"Raycaster Radio Set"
+tech_radiation_biped_reinforce_descr,"Allows Raycaster bipeds to call in reinforcements."
+tech_support_rifle_aa_increase_title,"Rifle Anti-Air Sights"
+tech_support_rifle_aa_increase_descr,"Support Troopers deal 50% more damage to airborne targets."
+tech_drugged_bugs_explosion_upgrade_title,"High Explosive Collar"
+tech_drugged_bugs_explosion_upgrade_descr,"Increase the damage of the Horde Handlers 'Remote Specimen Termination' ability."
+tech_chem_biped_armor_increase_title,"Synthetic Armor Coating"
+tech_chem_biped_armor_increase_descr,"Increase the armor of Raycaster and Alchemist bipeds."
+tech_main_base_bombardier_cage_title,"Bombardier Base"
+tech_main_base_bombardier_cage_descr,"Install a container on top of the Main Base that unleashes drugged Bombardier Bugs against nearby enemies"
+tech_radio_station_drone_pod_title,"Drones Pod Defense"
+tech_radio_station_drone_pod_descr,"Allows rapid deployment of Drone Drop Pods at any Radio Station."
+threat_defensebuzzernestmutation,"Buzzer Nest"
+wiki_proto_eradicators_traits,"• Can clear Hives
+• Immune to gas damage
+• Can deploy Bug Cages"
+wiki_radio_operator_chemical_traits,"• Can be used to call in reinforcements"
+wiki_toxic_biped_traits,"• Can clear Hives
+• Can construct defensive turrets
+• Immune to gas damage
+• Immune to radiation damage
+• Immune to fire damage"
+wiki_radiation_biped_traits,"• Deals radiation damage
+• Immune to gas damage
+• Immune to radiation damage
+• Immune to fire damage"
+wiki_hazmat_eradicators_traits,"• Can clear Hives
+• Immune to gas damage
+• Immune to radiation damage"
+wiki_missile_specialist_traits,"• Can clear Hives"
+wiki_fortis_eradicators_traits,"• Cannot be stunned
+• Does not block friendly fire
+• Can fire through friendly units
+• Immune to gas damage
+• Immune to radiation damage
+• Cannot capture
+• Can construct defensive turrets"
+wiki_mech_heavy_bio_traits,"• Cannot be stunned
+• Does not block friendly fire
+• Can fire through friendly units
+• Immune to gas damage
+• Immune to radiation damage
+• Immune to fire damage
+• Can be used to call in reinforcements"
+wiki_powersuit_eradicators_traits,"• Cannot be stunned
+• Cannot capture
+• Deals radiation damage
+• Immune to gas damage
+• Immune to radiation damage
+• Weapon deals pass-through damage"
+wiki_m11_exterminator_traits,"• Cannot be stunned
+• Cannot capture
+• Deals radiation damage
+• Immune to gas damage
+• Immune to radiation damage
+• Immune to fire damage
+• Weapon deals pass-through damage
+• Reactor boosts the radiation weapon of nearby Irradiator squads"
+wiki_buzzer_bugs_traits,"• Can climb outpost walls
+• Higher resistance to being stunned"
+wiki_buzzer_grenadier_bug_traits,"• Cannot be stunned"
+wiki_geiger_bugs_traits,"• Can climb outpost walls
+• Higher resistance to being stunned
+• Immune to radiation damage
+• Self-destructs when attacking or when killed"
+wiki_buzzer_nest_traits,"• Cannot be stunned"
+,
+// === Summary === (ChemicalVO),
+// territory_vo_18_  - 2 entries  42 words  6 lines,
+// territory_vo_19_  - 5 entries  89 words  10 lines,
+// other  - 12 entries  71 words  14 lines,
+// TOTAL  - 19 entries  202 words,
+,
+,
+,
+// #### Mission_Chemical_1_v6_4_2.Lines ####,
+,
+// other  - 3 entries  14 words  3 lines,
+objective_title_chemical_1_build_cages,"Construct Bug Cages around the marked Territory Point"
+objective_title_chemical_1_unlock_cages,"Unlock Bug Cages"
+objective_bubble_chemical_1_build_cages,"Construct Bug Cages"
+,
+,
+// #### Mission_Chemical_10_V6_4_2.Lines ####,
+,
+// territory_vo_19_  - 2 entries  20 words  2 lines,
+territory_vo_19_chemical_10_intro_4,"Clear out the surrounding nests and secure a perimeter around the lair."
+territory_vo_19_chemical_10_intro_5,"Do not touch the Hydra until further instructions."
+,
+,
+// #### Mission_Chemical_4.Lines ####,
+,
+// territory_vo_19_  - 2 entries  65 words  4 lines,
+territory_vo_19_chemical_4_dim_intro,"Commander, the device up ahead is the focus of today's test, and a vital part of the 'Hercules Program' - one of my most promising Arachnid research programs."
+territory_vo_19_chemical_4_outro_success,"Excellent. The dart has survived the impact and has penetrated well within the required target area to establish a neural connection. You should feel privileged to have participated in such an important step toward the Hercules Program!"
+,
+,
+// #### Mission_Chemical_6.Lines ####,
+,
+// territory_vo_19_  - 1 entries  4 words  4 lines,
+// other  - 2 entries  13 words  2 lines,
+territory_vo_19_chemical_6_phase1_activate_1,"Initiating. Three... two... one..."
+objective_title_chemical_6_unlock_fortis,"Unlock Fortis E-Pulse 92 Troopers"
+objective_title_chemical_6_deploy_fortis,"Deploy 2 squads of Fortis E-Pulse 92 Troopers"
+,
+,
+// #### Mission_Chemical_7.Lines ####,
+,
+// territory_vo_18_  - 2 entries  42 words  6 lines,
+territory_vo_18_chemical_7_group_3_cleared,"Well, that should be the last of them. Any stragglers we missed will face the Bugs' penal system."
+territory_vo_18_chemical_7_victory,"Everything's secure. The surviving prisoners are back under lock and key. Hmm, that gives me an idea for our debriefing. Hurry back to base."
+,
+,
+// #### Mission_Chemical_9.Lines ####,
+,
+// other  - 1 entries  11 words  1 lines,
+objective_title_chemical_9_charge_battery,"Place an XM11-K Annihilator near the Battery Array to charge it"
+,

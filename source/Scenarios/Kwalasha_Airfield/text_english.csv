@@ -1,0 +1,199 @@
+﻿// NAME,
+scenario_name,[17] Fly or Die
+,
+// DESCRIPTION,
+scenario_descr,"Clearly identifying the potential threat of our overwhelming air power, the Arachnids have attacked and overrun the Fleet air base on Kwalasha.
+
+To assure the enemy does not regain any momentum, M.I. troopers are eager to reclaim the facility and get their Fleet comrades back in the air."
+,
+// OBJECTIVES,
+objective_2_0_title,Capture the Flight Control Tower
+objective_2_6_title,Secure all Satellite Stations
+objective_2_7_title,Clear all Arachnids around the Flight Control Tower
+objective_2_9_title,Kill 250 Arachnids
+objective_2_10_title,Survive the final wave
+objective_2_11_title,Satellite Station rewards:
+objective_2_1_title,• Hangars Section: Unlock the Fleet Liaison
+objective_2_1_details,Provides Fleet Relays for air strikes
+objective_2_4_title,• Warehouse Section: Unlock M9 Sledgehammers
+objective_2_4_details,Provides Support Center
+objective_2_5_title,• Power Plant Section: Unlock M6 Jaegers
+objective_2_5_details,Provides Power Plant and activates all Searchlights
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_431,Satellite Station
+unit_738,Power Spawn 1
+unit_739,Power Spawn 2
+unit_778,Weapon Storage Station
+unit_835,TAC Killers Spawn
+unit_882,Hangars Station
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVE/CAPTURE FLIGHT CONTROL/START BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_3_text,How the hell did bugs get through the perimeter line? Those defences were iron tight!
+//,
+// 3.victor yarrow,
+briefing_trigger_11_text,"Perhaps, but this air base certainly wasn’t designed to repel an attack."
+//,
+// 2.ava cortez,
+briefing_trigger_29_text,Why establish an airbase here anyway?  These aircraft could be safe in orbit – now they’re just asking to be attacked.
+//,
+// 3.victor yarrow,
+briefing_trigger_339_text,I’m sure Command had their reasons.
+//,
+// 2.ava cortez,
+briefing_trigger_468_text,Power troopers are dropping to secure an initial landing spot.
+briefing_trigger_718_text,It's going to be a long night.
+,
+,
+,
+,
+"// ============== /OBJECTIVE/CLEAR FLIGHT CONTROL SECTION/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_491_text,There are Bug Lairs around the tower. Take them all out.
+,
+,
+,
+,
+"// ============== /OBJECTIVE/SECURE AIRFIELD/TRIGGERS/HANGARS/REWARD HANGARS ============== ",
+// 2.ava cortez,
+briefing_trigger_463_text,Hangars secured! Get those strikes rolling!
+,
+,
+,
+,
+"// ============== /OBJECTIVE/SECURE AIRFIELD/TRIGGERS/POWER PLANT/REWARD POWER ============== ",
+// 2.ava cortez,
+briefing_trigger_452_text,Main power plant back online!
+,
+,
+,
+,
+"// ============== /OBJECTIVE/SECURE AIRFIELD/TRIGGERS/WAREHOUSE/REWARD DEPOTS ============== ",
+// 2.ava cortez,
+briefing_trigger_465_text,That area has been declared secure.
+,
+,
+,
+,
+"// ============== /OBJECTIVE/SECURE AIRFIELD/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_430_text,The tower area has been secured. Main force ready to drop.
+briefing_trigger_436_text,"Next we'll have to clear the rest of the airfield, including the Power Plant, ..."
+briefing_trigger_496_text,... the Hangars...
+briefing_trigger_497_text,... and the Warehouse area.
+briefing_trigger_498_text,"Once that's done, we hold onto it no matter what the Bugs throw at us."
+,
+,
+,
+,
+"// ============== /OBJECTIVE/DESTROY WAVES/TRIGGERS/SUCCESS/SUCCESS ============== ",
+// 2.ava cortez,
+briefing_trigger_604_text,It looks like they have finally had enough!
+//,
+// 3.victor yarrow,
+briefing_trigger_352_text,"Excellent work, but there’s no time to rest. Get to the shuttles, I have another task for you."
+//,
+// 2.ava cortez,
+briefing_trigger_353_text,"You have another task, Colonel?"
+//,
+// 3.victor yarrow,
+briefing_trigger_354_text,"On the Sky Marshal’s orders, of course."
+,
+,
+,
+,
+"// ============== /OBJECTIVE/DESTROY WAVES/TRIGGERS/A: FINAL WAVE/BRIEFING: FINAL WAVE ============== ",
+// 3.victor yarrow,
+briefing_trigger_630_text,They’re coming from every direction. Stay on your toes.
+,
+,
+,
+,
+"// ============== /OBJECTIVE/DESTROY WAVES/TRIGGERS/TIMELINE ============== ",
+// 2.ava cortez,
+briefing_trigger_631_text,"Maintain a 360-degree watch! You see an enemy, move to intercept!"
+briefing_trigger_907_text,Another attack is on its way!
+//,
+// 3.victor yarrow,
+briefing_trigger_908_text,"Bugs detected, heading your way!"
+,
+,
+,
+,
+"// ============== /OBJECTIVE/DESTROY WAVES/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_358_text,Congratulations on a most convincing performance. The trap has been sprung!
+//,
+// 2.ava cortez,
+briefing_trigger_359_text,I’m not sure I understand...?
+//,
+// 3.victor yarrow,
+briefing_trigger_360_text,This airfield was just bait. Command created a target the Bugs could not resist to lure them out of their holes. Let them through the front line to be exposed out in the open.
+//,
+// 2.ava cortez,
+briefing_trigger_361_text,But what about the aircraft? If they were destroyed...
+//,
+// 3.victor yarrow,
+briefing_trigger_362_text,"They were never going to fly in the first place.  We built empty shells, fakes.  The real ones are airborne right now.  For once, it’s the Bugs who have underestimated us."
+//,
+// 2.ava cortez,
+briefing_trigger_364_text,"Next time you pull a stunt like this, I would appreciate being kept in the loop. Anyway, at least the plan worked. If the Federation wanted a target rich environment, they’ve got it."
+,
+,
+,
+,
+"// ============== /OBJECTIVE/DEFEAT/LOSE ALL UNITS & STATIONS ============== ",
+// 2.ava cortez,
+briefing_trigger_877_text,Well that did not go to plan.
+,
+,
+,
+,
+"// ============== /EVENTS/HIVE ACTIVATION/NORTH ACTIVATES ============== ",
+// 3.victor yarrow,
+briefing_trigger_441_text,"As predicted, the bugs are expending maximum effort to retake the airfield."
+,
+,
+,
+,
+"// ============== /EVENTS/TAC FGT 2 GONE ============== ",
+// 2.ava cortez,
+briefing_trigger_374_text,"Damn it, protect those birds!"
+,
+,
+,
+,
+"// ============== /EVENTS/TAC FGT 4 GONE ============== ",
+// 2.ava cortez,
+briefing_trigger_375_text,Defend those aircraft!
+,
+,
+,
+// TRIGGER TEXTS,
+,
+timer_trigger_481_descr,ATTACK INCOMING
+,
+timer_trigger_606_descr,ATTACK INCOMING
+,
+timer_trigger_607_descr,ATTACK INCOMING
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_696,Warehouse Section
+,
+// 5.ANNOUNCER,
+speech_trigger_697,Power Plant
+,
+// 5.ANNOUNCER,
+speech_trigger_698,Hangars Section
+,
+,
+,

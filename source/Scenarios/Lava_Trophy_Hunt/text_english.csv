@@ -1,0 +1,291 @@
+﻿// NAME,
+scenario_name,[3] Scorched Earth
+,
+// DESCRIPTION,
+scenario_descr,A series of nukes have to be planted to wipe out an extensive network of Bug tunnels deep below the volcanic mountains. Fraser is the man for the job.
+,
+// OBJECTIVES,
+objective_2_10_title,Do not lose the Nuclear Engineers
+objective_2_0_title,Bring the Nuclear Engineers to the 1st hive cluster
+objective_2_11_title,Construct the 1st Nuke
+objective_2_3_title,Get to the rendezvous point
+objective_2_7_title,Bring the Nuclear Engineers to the 2nd hive cluster
+objective_2_12_title,Construct the 2nd Nuke
+objective_2_17_title,Enter the lab
+objective_2_5_title,Get to the rendezvous point in the lab.
+objective_2_6_title,Find the missing nuclear delivery team.
+objective_2_14_title,Get out of the lab
+objective_2_16_title,Seal the Lab Gate
+objective_2_8_title,Bring the Nuclear Engineers to the 3rd hive cluster
+objective_2_13_title,Construct the 3nd Nuke
+objective_2_9_title,Exit the cave system
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_556,Nuke Location 1
+unit_558,Nuke Location 2
+unit_669,Nuke Location 3
+unit_777,Rendezvous 2
+unit_808,Lab Objective
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/INTRO ============== ",
+// 10.merc,
+briefing_trigger_831_text,"Bugs have burrowed deeper than we thought. We're still on course to blow their whole network to hell… well, more to hell anyway."
+//,
+// 8.director,
+briefing_trigger_699_text,"There are several hive clusters, so you'll need to set simultaneous detonations at all of them."
+//,
+// 10.merc,
+briefing_trigger_341_text,It's a shame your new Fed buddies couldn't keep up on this one.
+//,
+// 8.director,
+briefing_trigger_1215_text,Is someone feeling threatened?
+//,
+// 10.merc,
+briefing_trigger_1216_text,I just don't like having a good deal screwed up by jarheads. These Feds like to take over anything that's not their business.
+//,
+// 8.director,
+briefing_trigger_832_text,"I can handle Zhao. Rest assured, your contract is still secure."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: KEEP YOUR NUKE SQUAD ALIVE/FAIL ============== ",
+// 10.merc,
+briefing_trigger_869_text,"Damn, we lost the engineers. Patel’s not gonna pay for this debacle..."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PLANT THE 1ST NUKE/TRIGGERS/HIVE CUTSCENE/APPROACH HIVE CLUSTER ============== ",
+// 10.merc,
+briefing_trigger_153_text,They've fixed the place up real nice.
+briefing_trigger_1217_text,Center here's good a place as any to set our first nuke.
+briefing_trigger_718_text,Keep your distance from that hive. No need to waste ammo when the nuke will do the job.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PLANT THE 1ST NUKE/TRIGGERS/PLANT MINI NUKE ============== ",
+// 10.merc,
+briefing_trigger_351_text,Here comes the welcome party! Keep them off our nuke team!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PLANT THE 1ST NUKE/TRIGGERS/NUKE SQUAD CHECK ============== ",
+// 10.merc,
+briefing_trigger_965_text,Nuke team! We need you up here!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PLANT THE 1ST NUKE/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_834_text,Readings are showing a buzz of Bug activity ahead. That must be our first hive cluster.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: GET TO THE RENDEZVOUS POINT./BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_375_text,First nuke set. Let's join up with second team to the north.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PLANT THE 2ND NUKE/TRIGGERS/PLANT MINI NUKE 2 ============== ",
+// 10.merc,
+briefing_trigger_408_text,Ain't they pleased to see us! Wait till we set off the  surprise package we're leaving for them!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PLANT THE 2ND NUKE/TRIGGERS/NUKE SQUAD CHECK ============== ",
+// 10.merc,
+briefing_trigger_859_text,"Second target in sight. Make sure we get the nuke techs down to the center of the hive. "
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PLANT THE 2ND NUKE/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_1004_text,"Fall in! Engineers, strap up that second nuke!"
+briefing_trigger_1220_text,"Director Patel, start counting our money 'cos that's the first hive rigged. Moving to the second cluster now."
+//,
+// 8.director,
+briefing_trigger_1221_text,"--What's that---  report, Fraser? We're having a hard time tracking--- signal--"
+//,
+// 10.merc,
+briefing_trigger_1222_text,Director?
+//,
+// 6.hidden_hawthorne,
+briefing_trigger_1225_text,<static hissing>
+//,
+// 10.merc,
+briefing_trigger_1223_text,Damn. That's what you get for buying surplus Fed junk.
+briefing_trigger_1224_text,We're on our own now. Let's move!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: ENTER THE LAB/TRIGGERS/TALK ABOUT LAB ============== ",
+// 10.merc,
+briefing_trigger_245_text,"Fed intel huh. Looks abandoned, but who knows what they were up to here. Be ready for anything, people. "
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: ENTER THE LAB/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_1226_text,Charge set! Let's get up into this research lab to meet with third team.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: GET TO THE RENDEZVOUS POINT IN THE LAB./TRIGGERS/BUG PURSUIT/PURSUIT BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_972_text,"Bugs from the second hive, coming after us! They definitely ain't happy about what we're doing!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: GET TO THE RENDEZVOUS POINT IN THE LAB./BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_971_text,Sounds like the third team’s in trouble. Gotta get there before they're overrun!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: GET OUT OF THE LAB/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_978_text,Third team secured. Form up with the nuke and let's get this done!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLOSE THE LAB GATE/TRIGGERS/OBJECTIVE ============== ",
+// 10.merc,
+briefing_trigger_1120_text,Access that terminal and close this gate!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLOSE THE LAB GATE/TRIGGERS/TERMINAL CAPTURED ============== ",
+// 10.merc,
+briefing_trigger_1230_text,We’ve got access to the gate controls. Seal it when everyone’s in the room!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLOSE THE LAB GATE/TRIGGERS/SUCCESS ============== ",
+// 10.merc,
+briefing_trigger_1015_text,That'll hold 'em.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLOSE THE LAB GATE/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_1005_text,Last one in shut that gate!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PLANT THE 3ND NUKE/TRIGGERS/PLANT MINI NUKE 3 ============== ",
+// 10.merc,
+briefing_trigger_708_text,You know the drill! Get that bomb down!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PLANT THE 3ND NUKE/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_488_text,"Here's where we make our money, people."
+briefing_trigger_526_text,"Final hive cluster is just ahead, but we've kicked the nest enough that it'll be crawling now. Sooner this whole place is a nuked dust-cloud, the better."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EXIT THE CAVE SYSTEM/TRIGGERS/ALMOST THERE 1 ============== ",
+// 10.merc,
+briefing_trigger_500_text,"Keep up the pace, people!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EXIT THE CAVE SYSTEM/TRIGGERS/SUCCESS ============== ",
+// 8.director,
+briefing_trigger_875_text,"Fraser, I'm receiving your signal and our scanners are detecting three active nuclear devices. Are they ready for detonation?"
+//,
+// 10.merc,
+briefing_trigger_1227_text,"Yeah, they’re all set and we're still kicking. Good thing HephaeStar’s got deep pockets."
+//,
+// 8.director,
+briefing_trigger_764_text,You'll get your payment. Dropships are en route. Return to the station.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EXIT THE CAVE SYSTEM/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_498_text,Charges set. Priming all three now and...
+briefing_trigger_874_text,"All green lights! Better start moving, unless you wanna be part of the big Bug stew!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/FAIL: ALL UNITS LOST (BEFORE FINAL ESCAPE)/ALL UNITS KILLED OUTCOME ============== ",
+// 10.merc,
+briefing_trigger_872_text,"No, no, no! This is unacceptable!"
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_1242,Access acquired
+,
+speech_trigger_1243,Access acquired
+,
+// 5.ANNOUNCER,
+speech_trigger_803,Construct Nuke
+,
+,
+speech_trigger_1244,Access acquired
+,
+// 5.ANNOUNCER,
+speech_trigger_353,1st Nuke Site
+,
+// 5.ANNOUNCER,
+speech_trigger_810,Defend
+,
+// 5.ANNOUNCER,
+speech_trigger_696,2nd Nuke Site
+,
+,
+speech_trigger_992,Rendezvous Point
+,
+speech_trigger_1002,Get To Rendezvous
+,
+// 5.ANNOUNCER,
+speech_trigger_695,3nd Nuke Site
+,
+timer_trigger_789_descr,Nuke Detonation
+,
+speech_trigger_1094,capture terminal to close the gate
+,
+speech_trigger_1006,Capture Gate Terminal
+,
+// 5.ANNOUNCER,
+speech_trigger_1037,Construct Nuke
+,
+,
+speech_trigger_975,Recover Nuke
+,
+,
+speech_trigger_1113,Seal the Lab Gate
+,
+,

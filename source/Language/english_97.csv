@@ -1,0 +1,62 @@
+// === Summary === (TerritoryREMOVED),
+// other  - 17 entries  289 words  49 lines,
+// TOTAL  - 17 entries  289 words,
+,
+,
+,
+// #### TerritoryRoadMapLines ####,
+,
+// other  - 17 entries  289 words  49 lines,
+button_roadmap,"Roadmap"
+territory_roadmap_title,"Territory Mode - Roadmap"
+territory_roadmap_desc,"Troopers, listen up!
+
+Territory Mode is now available for all players, and we are committed to its continuous improvement. Below you can find an overview of the features and enhancements planned for the next several months. 
+
+Your input will play a huge part in its evolution.
+ We encourage you to jump in, explore the mode, and share your thoughts with us. We look forward to building this experience together with the community."
+territory_roadmap_slot1_title,"Available Content"
+territory_roadmap_slot1_timing,"Out Now"
+territory_roadmap_slot1_desc,"The current version of Territory Mode includes the following content:
+
+☑ Galactic War:
+     Complete Territory Mode missions to unlock 
+     units, technologies and cosmetic rewards.
+☑ 3 Battle Groups available in the Galactic War
+☑ 11 Territory maps for the base game
+☑ 9 Territory maps for Raising Hell DLC
+☑ 7 Territory maps for Urban Onslaught DLC
+☑ New Arachnid behaviours: Defending and 
+     retaking territory, constructing nests, ..."
+territory_roadmap_slot2_title,"Upcoming Updates"
+territory_roadmap_slot2_timing,"2025 → 2026"
+territory_roadmap_slot2_desc,"Several improvements and features are still planned of the Territory Mode:
+
+☐ Localization 
+☐ Improved Adjutant dialogues (no text-to-speech) 
+☐ Custom battles: Setup your own territory mission 
+☐ Difficulty settings 
+☐ More unique mission objectives 
+☐ More cosmetic rewards "
+territory_roadmap_slot3_title,"Battle Group DLC"
+territory_roadmap_slot3_timing,"Q2 2026"
+territory_roadmap_slot3_desc,"<i>This DLC focuses entirely on a <b>new Battle Group</b> and Territory Mode content:
+
+  • A new environment (planet)
+  • New maps
+  • New player units
+  • New Arachnid units
+  • New mission objectives
+  • New cosmetic rewards </i>"
+territory_roadmap_slot4_title,"Story Campaign DLC"
+territory_roadmap_slot4_desc,"<i>This DLC will feature a <b>story campaign</b> similar to the Raising Hell and Urban Onslaught DLCs, as well as a new Battle Group for Territory Mode:
+
+  • A new environment (planet)
+  • New maps
+  • New player units
+  • New Arachnid units
+  • New mission objectives
+  • New cosmetic rewards </i>"
+territory_roadmap_upcoming,"Upcoming"
+territory_roadmap_free,"Free Updates"
+territory_roadmap_paiddlc,"Paid DLC"

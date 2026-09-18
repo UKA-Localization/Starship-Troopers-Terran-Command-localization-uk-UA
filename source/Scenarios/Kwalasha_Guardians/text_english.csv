@@ -1,0 +1,295 @@
+﻿// NAME,
+scenario_name,[13] Guardians of Steel
+,
+// DESCRIPTION,
+scenario_descr,"The seemingly unstoppable bug hordes have reached the center of Federatsiyagrad, the capital city of Kwalasha.
+
+The Mobile Infantry headquarters within the city has been completely cut off, but Terran Command has assured the arrival of a new weapon will soon turn the tide of the war."
+,
+// OBJECTIVES,
+objective_2_0_title,Reach the MI compound
+objective_2_1_title,Keep at least 1 Marauder alive
+objective_2_2_title,Evacuate the General
+objective_2_3_title,Rescue isolated troopers
+objective_2_5_title,Clear all bugs from the compound perimeter
+objective_2_5_details,+10 War Support
+objective_2_6_title,Destroy the Bug Lairs
+objective_2_8_title,Clear all bug hives beyond the river
+objective_2_10_title,Protect the General
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_194,Exit Marker
+unit_229,Marauder Drop
+unit_295,Reinforce Radius
+unit_296,Reinforce Radius
+unit_298,Reinforce Radius
+unit_333,entrance
+unit_334,exit
+unit_335,Bodyguard
+unit_336,Lairs Marker
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: DEFEND THE COMPOUND/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_414_text,We got bugs on all sides. Nowhere to run.
+briefing_trigger_415_text,Retreat is not an option. Keep fighting til you’re dead!
+//,
+// 3.victor yarrow,
+briefing_trigger_416_text,"A brave sentiment, but your deaths won’t be necessary... today."
+briefing_trigger_417_text,"Reinforcements should arrive any minute. Until then, I suggest holding that compound."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR BUG LAIRS/TRIGGERS/SUCCESS ============== ",
+// 2.ava cortez,
+briefing_trigger_198_text,Bug lairs are clear.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR BUG LAIRS/TRIGGERS/SPEECH: FLAMETHROWERS ============== ",
+// 3.victor yarrow,
+briefing_trigger_431_text,Every weapon in the Federation’s arsenal has its place. But I’ll grant these M11 Babars are more useful on planets we want to keep.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR BUG LAIRS/TRIGGERS/SPEECH: LOAN FROM RICO ============== ",
+// 3.victor yarrow,
+briefing_trigger_159_text,Take good care of those Marauders. They’re on loan from General Rico.
+//,
+// 2.ava cortez,
+briefing_trigger_194_text,"Aw, we have to give them back?"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR BUG LAIRS/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_157_text,The reinforcements have arrived to get you out of the city
+//,
+// 2.ava cortez,
+briefing_trigger_158_text,That’s a beautiful sight.
+briefing_trigger_432_text,"Marauder team, clean up the bugs, take out the bug lairs."
+briefing_trigger_586_text,Let’s see what you can do!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REACH THE COMPOUND/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_217_text,Push forward into the city center.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: KEEP MARAUDER ALIVE/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_210_text,"No slacking off! Just because the Marauders are here, doesn’t mean everyone else can take it easy."
+briefing_trigger_211_text,"Those things are powerful, but they're not invulnerable. We've got to look after the Marauders."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: COMPOUND LOSS TIMER/WARNINGS/BRIEFING: WARNING ============== ",
+// 3.victor yarrow,
+briefing_trigger_149_text,The defenders can't hold much longer.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: COMPOUND LOSS TIMER/WARNINGS/BRIEFING: TOO LATE ============== ",
+// 2.ava cortez,
+briefing_trigger_151_text,Bugs are inside the compound! They're done for.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: COMPOUND LOSS TIMER/TRIGGERS/FAIL ============== ",
+// 2.ava cortez,
+briefing_trigger_618_text,Package is down. We've failed to extract the officer!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: COMPOUND LOSS TIMER/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_200_text,The compound can't hold for much longer. I reckon we've got 5 minutes before the Bug's break in.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EVACUATE COMMANDER/TRIGGERS/DETOUR INFORMATION/BRIEFING: DON'T GO THROUGH COMPOUND ============== ",
+// 3.victor yarrow,
+briefing_trigger_317_text,"That compound won’t hold. Evacuate across the bridge, while you still can."
+//,
+// 2.ava cortez,
+briefing_trigger_629_text,But the Sky Marshal said “Not one step back.”
+//,
+// 3.victor yarrow,
+briefing_trigger_630_text,We don’t always need to take those speeches literally...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EVACUATE COMMANDER/TRIGGERS/SUCCESS ============== ",
+// 3.victor yarrow,
+briefing_trigger_223_text,The officer has reached safety. Let us hope the others' sacrifice was worth it.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EVACUATE COMMANDER/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_161_text,The compound is going to fall.
+briefing_trigger_627_text,We need that officer extracted to safety on the other side of the bridge.
+//,
+// 2.ava cortez,
+briefing_trigger_602_text,What about the other defenders?
+//,
+// 3.victor yarrow,
+briefing_trigger_440_text,They will buy you time.
+//,
+// 2.ava cortez,
+briefing_trigger_319_text,Understood. We'll have to go around the compound to avoid running into Bug assaults. The only available route looks to be through the purification plant to the south-east.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR HIVES/TRIGGERS/SUCCESS ============== ",
+// 2.ava cortez,
+briefing_trigger_379_text,Good work. Those Marauders are worth their weight in gold.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR HIVES/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_382_text,Bugs have infiltrated across the river. We're going to need to clear this bank if we're going to preserve the civilian workforce
+//,
+// 2.ava cortez,
+briefing_trigger_370_text,Roger that. We'll take out those hives before they can spread.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/FAILURE: ALL UNITS LOST/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_236_text,Inform Command that we're looking at a total loss.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/FAILURE: LIAISON DIED/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_697_text," Package is down. We've failed to extract the officer!"
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: MEET BRIDGE POCKET/REVEAL BATTLE ============== ",
+// 2.ava cortez,
+briefing_trigger_115_text,More MI holding out! Let's get them out of trouble.
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: AMBUSH/SPAWNING/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_287_text,Ambush! They were waiting for us!
+//,
+// 3.victor yarrow,
+briefing_trigger_433_text,"A smart strategy, for bugs. These warriors are being directly controlled by a ruling caste insect."
+//,
+// 2.ava cortez,
+briefing_trigger_434_text,You mean a brain bug. There’s one on Kwalasha?
+//,
+// 3.victor yarrow,
+briefing_trigger_435_text,"If there wasn’t, we would have won already."
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: FINAL HIGHWAY ATTACK/SPEECH ============== ",
+// 3.victor yarrow,
+briefing_trigger_307_text,The Arachnids have the city entrance blockaded.
+//,
+// 2.ava cortez,
+briefing_trigger_446_text,"Not for long. We’ll travel up the highway, kill anything that crawls."
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: FINAL HIGHWAY ATTACK/MASS ATTACK ============== ",
+// 2.ava cortez,
+briefing_trigger_362_text,There's a crap load of Bugs coming down the road!
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: 3RD MARAUDER ARRIVES/SPEECH: 3RD MARAUDER ============== ",
+// 3.victor yarrow,
+briefing_trigger_313_text,"Another Marauder has arrived. Give those bugs hell, captain."
+//,
+// 2.ava cortez,
+briefing_trigger_437_text,Where have these been all my life?
+//,
+// 3.victor yarrow,
+briefing_trigger_438_text,Classified. Until now.
+,
+,
+,
+// TRIGGER TEXTS,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_547,Evacuation Point
+,
+// 5.ANNOUNCER,
+speech_trigger_759,Destroy Bug Lair
+,
+// 5.ANNOUNCER,
+speech_trigger_760,Destroy Bug Lair
+,
+// 5.ANNOUNCER,
+speech_trigger_333,Reach the compound gate
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_329,Use Engineers to repair damage
+,
+speech_trigger_969,Clear with Combat Engineers
+,
+speech_trigger_970,Clear with Combat Engineers
+,
+,
+timer_trigger_419_descr,HOLD THE COMPOUND
+,
+// 5.ANNOUNCER,
+speech_trigger_741,Protect
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+timer_trigger_201_descr,COMPOUND COLLAPSE IMMINENT
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_955,Move east around the compound
+,
+,

@@ -1,0 +1,116 @@
+﻿// NAME,
+scenario_name,[16] The Perimeter
+,
+// DESCRIPTION,
+scenario_descr,"Humanity has regained the initiative on Kwalasha. The Bug hordes have been driven out of the capital and will be kept out of the industrial heartland through a solid barrier of fortifications.
+
+The last section of this ambitious perimeter is about to be completed as the Mobile Infantry reclaims an abandoned line of defenses and gun batteries."
+,
+// OBJECTIVES,
+objective_2_4_title,Clear all Hives
+objective_2_5_title,Activate Wavebreaker Controls
+objective_2_8_title,Defeat the final Bug attacks
+objective_2_9_title,Do not lose any SAM Site
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/CLEAR HIVES/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_164_text,Bugs on the run?  Feels like this fight isn't quite over yet.
+//,
+// 3.victor yarrow,
+briefing_trigger_175_text,People at home need hope.  FedNet tells them what they have to hear to keep them fighting.
+briefing_trigger_181_text," The perimeter will have to be retaken and its heavy weapons made operational."
+//,
+// 2.ava cortez,
+briefing_trigger_186_text," That's not happening until we've cleared this rear area of bugs.  Then we'll push up and get those guns firing."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ACTIVATE WAVEBREAKERS/WAVEBREAKER ACTIVATION/SPEECH ============== ",
+// 2.ava cortez,
+briefing_trigger_304_text,Wavebreaker battery ready!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ACTIVATE WAVEBREAKERS/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_676_text,Arachnid counter attacks approaching.
+//,
+// 2.ava cortez,
+briefing_trigger_831_text,Thanks for the heads up.  We'll use the Perimeter's turrets to stop them.  Nothing's getting past those bad boys once they're up and running.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT FINAL WAVE/TRIGGERS/DEBRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_473_text,Excellent work. The perimeter is secure.  The remnants of the Arachnid forces are retreating into the desert.
+//,
+// 2.ava cortez,
+briefing_trigger_474_text,Let em rot out there.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT FINAL WAVE/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_230_text,"As expected, the Bugs don’t relent so readily. Large numbers are closing on your position."
+//,
+// 2.ava cortez,
+briefing_trigger_226_text,Looks they want to test the strength of these Wavebreakers. We’ll be ready for them.
+briefing_trigger_449_text,"Hold the perimeter, or the green zone is going to turn red real fast."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT: LOSE ALL UNITS/LOSS: NO TROOPS, BASES ============== ",
+// 2.ava cortez,
+briefing_trigger_814_text,Mission's over - we've failed.
+,
+,
+,
+// TRIGGER TEXTS,
+timer_trigger_237_descr,ATTACK INCOMING
+,
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_934,Protect SAM Site
+,
+// 5.ANNOUNCER,
+speech_trigger_935,Protect SAM Site
+,
+// 5.ANNOUNCER,
+speech_trigger_936,Protect SAM Site
+,
+// 5.ANNOUNCER,
+speech_trigger_937,Protect SAM Site
+,
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_758,Capture Terminal
+,
+// 5.ANNOUNCER,
+speech_trigger_757,Capture Terminal
+,
+// 5.ANNOUNCER,
+speech_trigger_756,Capture Terminal
+,
+// 5.ANNOUNCER,
+speech_trigger_755,Capture Terminal
+,
+,
+,

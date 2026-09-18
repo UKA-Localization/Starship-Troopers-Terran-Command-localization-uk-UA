@@ -1,0 +1,307 @@
+wiki_title,Federal Archives
+,
+tooltip_open_wiki,Click here if you would like to know more.
+tooltip_close_wiki,Close this panel
+tooltip_unit_info_button,Click to get more information about this unit.
+,
+wiki_topic_gameplay,General Info
+wiki_topic_units,Units
+wiki_topic_arachnids,Arachnids
+wiki_topic_tactics,Tactics
+,
+wiki_wiki_title,Would you like to know more?
+wiki_wiki_descr,"The Federal Archives information channel will tell you everything you need to know!
+
+More information will become available here as you progress through the endeavours of the Mobile Infantry."
+,
+wiki_unit_stat_range,Range
+wiki_unit_stat_suppression,Suppression,
+wiki_unit_stat_damage,Damage,
+wiki_unit_stat_armorpiercing,Armor Piercing,
+wiki_unit_stat_antiair,Anti Air,
+wiki_unit_stat_hitpoints,Hitpoints,
+wiki_unit_stat_armor,Armor,
+wiki_unit_stat_speed,Speed
+,
+wiki_reinforcing_title,Reinforcing Units
+wiki_reinforcing_descr,"Over time, even the toughest units will sustain casualties. While you could let them fight to a heroic end and then deploy green recruits, a more effective solution is to head to a Drop Site where you can bring the unit up to its full squad size and heal any injured soldiers.
+
+To reinforce a unit back to full strength, follow these steps:
+• Select the unit
+• Click the ""Request Reinforcements"" command button
+• Hover the mouse cursor over a valid drop site 
+• Click at this location to confirm the order
+
+Valid drop sites are generally located around your radio stations or can be created by specific units such as Radio Operators."
+,
+// ****************** //,
+//       UNITS        //,
+// ****************** //,
+,
+wiki_rifle_squad_traits,• Can clear Hives
+,
+wiki_sniper_traits,"• Unit rate of fire is not affected by casualties
+• Does not block friendly fire,
+• Can fire through friendly units,
+• Never miss their target"
+,
+wiki_heavy_troopers_traits,"• Can clear Hives
+• Rifle grenades cannot be fired from point blank range"
+,
+wiki_e-pulse_infantry_descr,Very short fire range but deal high damage
+wiki_e-pulse_infantry_traits,• Can clear Hives
+,
+wiki_marines_traits,"• Can clear Hives
+ • Does not block friendly fire
+ • Can fire through friendly units
+ • Cannot be stunned
+ • Does not gain experience"
+,
+wiki_power_infantry_traits,• Can clear Hives
+,
+wiki_engineers_traits,"• Unit rate of fire is not affected by casualties
+• Weapon deals pass-through damage
+• Can clear Hives",
+,
+wiki_tactical_officer_traits,"• Does not block friendly fire
+• Can fire through friendly units
+• Cannot have more than one of this type deployed"
+,
+wiki_rocketeers_traits,"• Unit rate of fire is not affected by casualties
+• Can fire over units and elevations"
+,
+wiki_radio_operator_traits,• Can be used to call in reinforcements
+,
+wiki_fleet_liaison_traits,"• Can be used to call in reinforcements
+• Does not block friendly fire,
+• Cannot have more than one of this type deployed"
+,
+wiki_m11_marauder_hm_traits,"• Cannot capture Radio Stations
+• Does not block friendly fire
+• Can fire over units and elevations
+• Can fire over 1 elevation level
+• Cannot be stunned
+• Damage output reduces as hitpoints decrease"
+,
+wiki_m11_marauder_fm_traits,"• Cannot capture Radio Stations
+• Does not block friendly fire
+• Can fire over friendly units
+• Can fire over 1 elevation level
+• Cannot be stunned
+• Damage output reduces as hitpoints decrease"
+,
+wiki_m11_marauder_gm_title,M11 Marauder [Minigun]
+wiki_m11_marauder_gm_descr,Heavy assault mech
+wiki_m11_marauder_gm_traits,"• Cannot capture Radio Stations
+• Does not block friendly fire
+• Can fire over friendly units
+• Can fire over 1 elevation level
+• Cannot be stunned
+• Damage output reduces as hitpoints decrease"
+,
+wiki_marauder_traits,"• Cannot capture Radio Stations
+• Does not block friendly fire
+• Can fire over friendly units
+• Can fire over 1 elevation level
+• Cannot be stunned
+• Damage output reduces as hitpoints decrease"
+,
+,
+,
+// ****************** //,
+//      ARACHNIDS     //,
+// ****************** //,
+,
+unit_50_descr,"The Chariot Bug is a low-ranking species functioning as scouts and load bearers in Arachnid colonies. They don't form much of a threat when forced into combat roles because of their light armor, slow speed and weak bite."
+,
+unit_77_descr,"Drone Bugs are an Arachnid caste that look like juvenile versions of the Warrior type. Their exoskeletons are less hardened, making them more vulnerable but also lighter and faster."
+wiki_pupae_bugs_traits,"• Can climb outpost walls"
+,
+unit_1_descr,"The Warrior Bug is a basic but effective melee fighter, available in virtually limitless numbers to the Arachnids. They lead the charge to overwhelm and overrun the enemy."
+wiki_warrior_bugs_traits,• Can climb outpost walls
+,
+unit_11_descr,"The Tiger Bug is a stronger sub-species of the Warrior type. Their tough exoskeletons are more resistant to light weapons and require armor-piercing capabilities to counter effectively."
+wiki_tiger_bugs_traits,• Can climb outpost walls
+,
+unit_19_descr,"A heavily evolved variant of the Warrior bug, the Royal Guard obtained its name from being frequently encountered while protecting colonies that included a Brain or Queen bug.
+
+These Arachnids are exceptionally tough and are known to become even more ferocious once they have received critical injuries."
+wiki_royal_guard_bug_traits,"• Will ""enrage"" when its hit points are fully depleted
+• When enraged, its hit points are reset once while movement speed is permanently reduced
+• Dies when the rage timer expires or if its replenished hit points are depleted",
+,
+unit_28_descr,"The Spitter Bug is a fragile species that can project acid from a thoracic gland. This substance causes serious corrosion and can even be lethal when exposed to substantial doses.
+
+They are known to operate effectively in concert with Warrior bugs: One providing suppressive fire, while the other forms a meat-shield and closes in for the kill."
+wiki_spitter_bugs_traits,• Can climb outpost walls
+,
+unit_12_descr,"With each Arachnid having evolved to serve a well-defined role, the Tanker Bug functions as a form of assault tank. It has thick armor and the ability to spray a stream of flammable, corrosive liquid."
+wiki_tanker_bug_traits,"• Can only be suppressed or stunned by certain special weapon and abilities
+• Pools of discharged corrosive liquid remain lethal for a short duration"
+,
+unit_6_descr,"Hoppers are flying Arachnids that serve as air support and excel at suppressing enemies with constant harassment. These creatures are swift and agile, but their lightly armored bodies make them vulnerable to concentrated fire."
+wiki_hopper_bugs_traits,• Cannot be stunned
+,
+unit_13_descr,"The Scorpion Bug is a deadly ranged assault bug capable of ejecting a powerful beam of plasma from its curved tail that can effectively pierce most targets. With a streamlined shape and reasonably thick armor, this species is highly resistant to light weapon damage."
+wiki_scorpion_bug_traits,• Can fire over other units
+,
+unit_15_descr,"Essentially acting as medium-range artillery in the Arachnid forces, Grenadiers are capable of firing deadly, albeit inaccurate, globs of plasma at ground targets. While they are reasonably well armored, they have little means of defense in close-range combat."
+wiki_grenadier_bug_traits,• Can fire over units and elevations
+,
+unit_16_descr,"This small bug can roll into a ball shape to move around quickly. In order to defeat its enemies, the creature will then unfurl and initiate a biochemical reaction to self-destruct through a violent explosion."
+wiki_bombardier_bugs_traits,"• Self-destructs when attacking
+• Cannot be stunned",
+,
+unit_14_descr,"The Plasma Bug serves both as long-range artillery and anti-air defense. It has the ability to fire huge, volatile globs of plasma from its abdomen at distant ground targets or orbiting spaceships."
+wiki_plasma_bug_traits,• Can fire over units and elevations
+,
+wiki_threat_infestation_title,Infestation
+wiki_threat_infestation_descr,Chariots bugs will attempt to reopen and repopulate empty Hives.
+,
+wiki_threat_colonygrowth_title,Hive Growth
+wiki_threat_colonygrowth_descr,"This threat report indicates that each Bug Hive and Bug Tunnel will have its strength increased by 1.
+
+This phenomenon can occur multiple times throughout a single operation, each time increasing the strength of the Arachnid colonies."
+,
+,
+,
+,
+,
+,
+intro_play_klendathu,Play the Battle of Klendathu
+intro_go_to_menu,Continue to the main menu
+intro_go_menu_dialog_title,Continue to Main Menu
+intro_go_menu_dialog_descr,"Are you sure you want to skip the Klendathu special?
+
+You can replay the battle later through the Scenarios menu."
+intro_language_title,Select your language
+intro_welcome_title,Welcome to FedNet TV
+intro_welcome_text,"Congratulations for installing FedNet TV on your device!
+
+FedNet TV brings the news from across the galaxy. Stay tuned for the latest accomplishments of the Federation that make your life better and safer.
+
+FedNet TV features have inspired the careers of many successful citizens, bringing them on their journey of service and citizenship!"
+intro_klendathu_title,FedNet Special: The Battle of Klendathu
+intro_klendathu_question,Would you like to know more?
+,
+notification_losing_base,Base under attack
+notification_base_lost,Base lost
+notification_base_captured,Base captured
+,
+tooltip_objective_reward,Objective reward
+objective_reward_none,None
+objective_reward_supply,Supply
+objective_reward_support,War Support
+objective_reward_dropship,Dropships
+objective_reward_challenge,Challenge Points
+,
+ability_ripper_barrage_title,Ripper Blast
+ability_ripper_barrage_descr,Fire a volley of cluster shot to sweep an area clear of enemies. Very effective at close range against lightly armored targets.
+,
+pause_menu_save,Save Game
+pause_menu_load,Load Game
+,
+button_new_save,Create new save
+button_overwrite_save,Overwrite
+saving_failed,Saving game failed
+saving_failed_diskspace,Saving of the game has failed. Disk is almost full.
+saving_failed_error,Saving of the game has failed. An error has occured.
+dialog_diskspace_warning,Warning: Almost out of disk space
+//NOTE: # numbers will be replaced in the text with diskspace numbers (GB),
+dialog_diskspace_warning_descr,"The drive where Saves are stored is almost full. This can result in the game not saving properly. 
+
+Available: #1
+Required: #2
+Drive: #3"
+,
+dialog_overwrite_save_title,Overwrite Savegame
+dialog_overwrite_save_text,Are you sure you want to overwrite the selected savegame?
+dialog_new_save_title,Create New Savegame
+dialog_new_save_text,Insert a name for your savegame
+new_save_name,New Savegame
+trigger_effect_77,Offensive ID clear
+trigger_condition_24,Unit Experience
+requires_battle_tier,Requires Battle Tier
+platform_already_exists,This building is already on the map. Click to focus camera on this platform.
+swap_platform_to,Change platform building to:
+cannot_swap_platform_if_units_exist,There are units deployed that require this building.
+button_load_savegame,Load Savegame
+tooltip_withdraw_unit,Dropship transport
+tooltip_withdraw_unit_descr,"Transport units between two drop sites. Useful for rapid redeployment over long distances."
+tooltip_disband,Disband unit
+tooltip_disband_descr,Select a dropsite to pick up the unit and permanently disband it. This will recover its Supply and War Support costs.
+options_camera_speed,Camera Speed
+options_graphics,Graphics Settings
+options_hotkeys_generic,Generic Hotkeys
+options_hotkeys_camera,Camera Hotkeys
+options_hotkeys_scrolling,Scrolling
+options_hotkeys_grid,Unit Actions Grid
+//NOTE: Spacing of characters below is just for cosmetic effect and not required in translation,
+fedflix_play_button,P L A Y
+fedflix_category_special,Specials
+fedflix_category_kwalasha,Campaign: Kwalasha
+fedflix_category_challenges,Challenges
+,
+new_campaign_title,Do your part
+new_campaign_kwalasha,Kwalasha
+new_campaign_description,"Discover the career for you and opportunities you never knew existed."
+new_campaign_difficulty,Campaign Difficulty
+new_campaign_playername,Division Name 
+new_campaign_playername_default,6th Infantry Division
+new_campaign_start_button,Enlist Now
+new_campaign_back_button,Go back
+,
+button_credits,Credits
+credits_developed_by, Developed by
+credits_lead_designer, Lead Designer
+credits_lead_programmer, Lead Programmer
+credits_lead_artist, Lead Artist
+credits_artists, 2D & 3D Artists
+credits_music_by, Music by
+,
+unit_18,M-11 Marauder (Flamethrower)
+unit_25,M-11 Marauder (Howitzer)
+unit_40,M-11 Marauder (Gatling Gun)
+unit_18_descr,"The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Equipped with a M2A 5-2 Flamethrower and Morita Cross Heavy Machine Gun, it possesses unmatched close-range firepower."
+unit_25_descr,"The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. To deal effectively with armored targets it can be equipped with the M779 Ultralight-weight Howitzer."
+unit_40_descr,"The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Combined with the powergun M648 Vulcan Rotary Cannon this machine can lay heavy suppressive fire upon the enemy."
+,
+trigger_effect_76,Blackboard Clear
+,
+notification_hive_activity,Bug Hive activity detected
+,
+render_quality_0,Fastest
+render_quality_1,Simple
+render_quality_2,Good
+render_quality_3,High
+render_quality_4,Maximum
+,
+pause_menu_sendfeedback,Send Feedback
+,
+confirm_demolish_unit,Are you sure you want to destroy the selected unit?
+,
+scenario_locked,Locked
+scenario_locked_descr,Complete the previous scenario first to unlock this scenario
+tooltip_continue_latest_save,Load the latest campaign savegame
+,
+feedback_form_feedback,Send Feedback
+feedback_form_fatal,Fatal Crash
+feedback_form_sending,Uploading report...
+feedback_form_input_title,Enter title...
+feedback_form_input_descr,Enter description...
+feedback_form_type_bug,Bug
+feedback_form_type_request,Feature request
+feedback_form_type_performance,Performance issue
+feedback_form_consent,"By submitting this report you consent to sending the following data to our servers:
+
+• Game log file
+• The screenshot on the left of this form
+• Latest savegame (when available)
+• All information that you entered in this feedback form"
+,
+//KLENDATHU,
+speech_trigger_485_1912,Green units cannot be controlled
+//HOLE PATROL,
+speech_trigger_260_821,Avoid this choke point!
+briefing_trigger_262_822_text,There is a radio tower ahead of your position.
+briefing_trigger_262_823_text,"Get up that slope and bring that station online."

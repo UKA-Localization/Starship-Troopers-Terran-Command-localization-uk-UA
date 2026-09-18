@@ -1,0 +1,8 @@
+0 = english
+1 = french
+2 = german
+3 = spanish
+4 = portuguese
+5 = chinese
+6 = polish
+7 = russian

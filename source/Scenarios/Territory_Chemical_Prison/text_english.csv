@@ -1,0 +1,33 @@
+﻿// NAME,
+scenario_name,High Security Prison
+,
+// DESCRIPTION,
+scenario_descr,"A major riot has erupted within Ghutana’s High Security Prison. With armed inmates breaking out and local Arachnids breaking into the compound, the facility’s security systems have completely failed. To restore order and authority, both of these threats must be eliminated."
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_6,$base_a
+unit_7,$base_b
+unit_27,$prison_point
+unit_29,$lost_point
+unit_30,$lost_point
+unit_31,$lost_point
+unit_34,$prison_point
+unit_35,$lost_point
+unit_36,$escaped_prisoners
+unit_40,$escaped_prisoners
+unit_41,$hive_c
+unit_42,$hive_b
+unit_43,$hive_a
+unit_183,$incursion_a
+unit_184,$incursion_b
+unit_187,$court_yard
+unit_188,$court_yard
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

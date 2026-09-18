@@ -1,0 +1,17 @@
+﻿// NAME,
+scenario_name,Volcanic Vantage
+,
+// DESCRIPTION,
+scenario_descr,A scientific base established on a mostly inactive volcano forms the staging point for the liberation of this territory.
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_188,#camera start
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

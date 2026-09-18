@@ -1,0 +1,26 @@
+name: check
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: strings.tsv відповідає source/
+        run: |
+          python tools/extract.py
+          git diff --exit-code -- translation/strings.tsv \
+            || { echo "::error::translation/strings.tsv не відповідає source/ — запусти tools/extract.py і закоміть результат"; exit 1; }
+
+      - name: Збірка локалізації
+        run: python tools/build.py --drafts

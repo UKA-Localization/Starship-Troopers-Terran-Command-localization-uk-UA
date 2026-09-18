@@ -1,0 +1,46 @@
+ability_gas_volley_title,Saturation Barrage
+ability_gas_volley_descr,Fire a volley of gas grenades to cover the target area with insecticide fumes.
+ability_gas_canister_title,XT-A Gas Canister
+ability_gas_canister_descr,Drop a gas canister to disperse lethal gas over a wide radius. These fumes are deadly to all lifeforms.
+ability_gasthrower_title,Pressurized Gasthrower
+ability_gasthrower_descr,Customized gas grenades allow spraying insecticide gas directly in the face of the enemy.
+,
+focus_fire_set,Set Target Priority
+focus_fire_type,Priority
+focus_fire_none,Priority: Closest target
+focus_fire_mixed,Priority: Mixed selection
+,
+wiki_chemical_troopers_traits,"• Unit is immune to all types of poison gas
+• Gas lethality is not affected by enemy armor value
+• Unit rate of fire is not affected by casualties
+• Can fire over units and elevations"
+,
+unit_2007,Chemical Troopers
+unit_2007_descr,"Specialists in chemical warfare, capable of firing chemical canisters. These insecticide gasses are deadly against Arachnid lifeforms in high doses, while short-term effects on human biology appear to be minimal."
+unit_2008,Chemical Gas
+unit_2009,Electro-Turret
+unit_2009_descr,"Strong against lightly armored enemies. Overheats after endured firing. Can fire at aerial targets.
+Requires electricity"
+unit_2023,Lethal Gas Cloud
+unit_2024,Chemical Barrels
+unit_2034,Gas Canister
+,
+terrain_sandy_dunes,Sandy Dunes
+terrain_flat_sand,Flat Sand
+terrain_sandy_pebbles,Sandy Pebbles
+terrain_pebbles,Pebbles
+terrain_rocky_pebbles,Rocky Pebbles
+terrain_rocky_sand,Sandy Rocks
+terrain_cracks,Grassy Sand
+,
+brush_size,Brush Size
+tooltip_tools_mode,Tools mode
+tooltip_prev_landscape_type,Previous Landscape Type
+tooltip_next_landscape_type,Next Landscape Type
+,
+fedflix_category_chemical,Chemical Experiments
+,
+score,Score
+highscore,High Score
+tooltip_scenario_disabled_saving,Saving is disabled in this scenario
+score_difficulty_modifier,Difficulty modifier

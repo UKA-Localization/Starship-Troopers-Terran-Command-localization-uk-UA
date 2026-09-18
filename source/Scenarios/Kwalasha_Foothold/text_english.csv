@@ -1,0 +1,344 @@
+﻿// NAME,
+scenario_name,[1] Pacification
+,
+// DESCRIPTION,
+scenario_descr,"The Mobile Infantry has arrived in strength on the desert world of Kwalasha. Its ultimate objective is to pacify the planet and ensure the mining of vital minerals proceeds without major interruptions.
+
+Several squads have just been sent out to secure the surroundings of Outpost Delta IV and the colonist settlements in the sector."
+,
+// OBJECTIVES,
+objective_2_0_title,Pursue and destroy all Arachnids
+objective_2_1_title,Defend the Radio Station
+objective_2_2_title,Fall back to Outpost Delta IV
+objective_2_3_title,Survive the Arachnid assaults
+objective_2_5_title,Capture the Radio Station
+objective_2_6_title,Join up with the advance team
+objective_2_7_title,Reinforce all depleted Rifle Trooper squads at the Radio Station
+objective_2_4_title,Confiscate Ammo Stashes
+objective_2_4_details,"Per Ammo Stash collected: Obedience+1, Popularity-1"
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_140,Objective
+unit_142,Objective
+unit_164,Final Wave A
+unit_165,Reinforce Rifle1
+unit_166,Reinforce Rifle2
+unit_170,Final wave Objective
+unit_175,Wave Warning
+unit_183,Final Wave B
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EXTERMINATE BUG HIVE/TRIGGERS/EVENTS/OFFICER BEHAVIOUR/OFFICER ORDERS MOVE ============== ",
+// 0.hawthorne,
+briefing_trigger_667_text,Take position on the left flank to get clear lines of fire!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EXTERMINATE BUG HIVE/TRIGGERS/EVENTS/ATTACK STAGES/ANNOUNCE ADVANCE ============== ",
+// 0.hawthorne,
+briefing_trigger_665_text,We’ve thinned em out. Let’s move forward.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EXTERMINATE BUG HIVE/TRIGGERS/EVENTS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_404_text,Advance team located the bug hole. Hope they saved something for us to shoot.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EXTERMINATE BUG HIVE/TRIGGERS/EVENTS/LOS WARNING ============== ",
+// 0.hawthorne,
+briefing_trigger_795_text,We can’t shoot through our own troops. Not without filing a lot of paperwork after.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: EXTERMINATE BUG HIVE/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_816_text,"Listen up, Lieutenant!"
+briefing_trigger_21_text,"The advance team kicked an anthill, now they got more bugs than they know what to do with. We’re here to save their asses."
+briefing_trigger_156_text,"Let’s do this by the book - don’t be a hero, and you won’t need a body bag."
+briefing_trigger_477_text,"Do you understand me? Let’s go, on the bounce!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PURSUE BUGS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_432_text,TAC fighter strike incoming. Stand back and enjoy the fireworks.
+briefing_trigger_691_text,"They don’t like to get their uniforms dirty, but those fly boys are pretty useful sometimes."
+briefing_trigger_415_text,"Damn, a few bugs got away. Get after them, before they reach the settlement!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: PURSUE BUGS/PURSUIT 1 ============== ",
+// 0.hawthorne,
+briefing_trigger_438_text,What kind of half-assed containment operation is this?
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CONFISCATE AMMUNITION/SPOT SUPPLIES ============== ",
+// 1.ava advisor,
+briefing_trigger_254_text,"Sir, Major Cortez reporting. Orders from Command require you to confiscate all civilian weapons."
+//,
+// 0.hawthorne,
+briefing_trigger_551_text,That’s a copy. Good to hear your voice.
+briefing_trigger_552_text,"Squad, secure those weapon stashes - not that these guys will be using them."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CONFISCATE AMMUNITION/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_553_text,"Let that be a lesson. These colonists had guns, but they didn’t have training or discipline. That’s why we’re alive and they’re not."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE STATION/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_548_text,There’s a radio tower ahead of your position. It should be able to cut through the interference and get you some reinforcements.
+//,
+// 0.hawthorne,
+briefing_trigger_549_text,Copy that.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE STATION/SUGGEST CAPTURE ============== ",
+// 0.hawthorne,
+briefing_trigger_380_text,"Radio station’s just ahead. Move into range and get Fleet on the horn. Finally, we can break through this goddamn interference"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CALL REINFORCEMENTS/TRIGGERS/REPEAT OBJECTIVE/REPEAT OBJECTIVE ============== ",
+// 0.hawthorne,
+briefing_trigger_903_text,Our mission is to get some reinforcements!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CALL REINFORCEMENTS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_515_text,These apes have taken a lickin’. Use the radio station to call up Fleet and get replacements for our casualties.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REPEL CENTRAL ATTACK WAVE/BRIEFING WAVE ============== ",
+// 1.ava advisor,
+briefing_trigger_22_text,"Sir, Command just radioed out an alert. Major bug movement to your east."
+//,
+// 0.hawthorne,
+briefing_trigger_72_text,"OK. Things are about to get interesting. Look sharp, people. Form a perimeter."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REPEL CENTRAL ATTACK WAVE/BEGIN ATTACK ============== ",
+// 0.hawthorne,
+briefing_trigger_550_text,Here they come. Watch your fields of fire.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: REPEL CENTRAL ATTACK WAVE/FAIL ============== ",
+// 0.hawthorne,
+briefing_trigger_848_text,We've failed.  Can't complete the mission now.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: RETREAT TO DELTA-5/REACHED CANYON END/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_140_text,Welcome to Delta IV.  Now haul ass and get behind those walls.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: RETREAT TO DELTA-5/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_165_text,Outstanding! This area’s hotter than we thought.
+//,
+// 1.ava advisor,
+briefing_trigger_488_text,"New orders, sir. Bug activity is too strong. Command is recalling you to Delta IV base. Leave the Civvies and get yourself home."
+//,
+// 0.hawthorne,
+briefing_trigger_82_text,"That route won’t be pretty. Rough terrain, lots of hidey holes for bugs. But you gotta punch through."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: FINAL OUTPOST ATTACK/FIRST ATTACK/PROCEED AFTER ATTACK DEFEATED ============== ",
+// 0.hawthorne,
+briefing_trigger_43_text,"Battle’s over. Open up, you rookies."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: FINAL OUTPOST ATTACK/SECOND ATTACK/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_649_text,We’re not done yet. Get on those walls and get ready.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: FINAL OUTPOST ATTACK/SECOND ATTACK/ATTACK TIMELINE ============== ",
+// 0.hawthorne,
+briefing_trigger_794_text,Alright you apes. Show those bugs what you’re made of.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: FINAL OUTPOST ATTACK/SECOND ATTACK/ENDING DEBRIEF ============== ",
+// 0.hawthorne,
+briefing_trigger_636_text,"Well done, troopers. Any wounded head to the medic. Everyone else, go find yourself a drink."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: FINAL OUTPOST ATTACK/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_38_text,Bugs are going for the base. Standard procedure is to keep the gate shut until there are zero hostiles in the area.
+//,
+// 0.hawthorne,
+briefing_trigger_554_text,"Ah hell, guess you’re doing this in the open. At least it’ll be a target-rich environment."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT: LOSE ALL UNITS/CHECK ============== ",
+// 0.hawthorne,
+briefing_trigger_690_text,"Shit, this operation is a complete Charlie Foxtrot. Mission failed."
+,
+,
+,
+,
+"// ============== /EVENTS/EVENT: ALLIES BATTLE/BEGIN BATTLE ============== ",
+// 0.hawthorne,
+briefing_trigger_25_text,Sounds like the other company’s in trouble. Let’s lend ’em a hand.
+,
+,
+,
+,
+"// ============== /EVENTS/CIVILIANS UNDER ATTACK/SPEECH: ARACHNID AGGRESSION AGAINST CIVILIANS ============== ",
+// 0.hawthorne,
+briefing_trigger_435_text,Damn it. Either these civilians ignored the evac order or someone’s getting a whipping back at base for missing these stragglers.
+,
+,
+,
+,
+"// ============== /EVENTS/TALK ABOUT CHARIOTS ============== ",
+// 0.hawthorne,
+briefing_trigger_793_text,"Chariot bugs, small, but there’s no such thing as a harmless bug. Splat ‘em and keep moving."
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_632,Enter Outpost Delta IV
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_74,Capture the Radio Station
+,
+// 5.ANNOUNCER,
+speech_trigger_148,Allied units block line of fire
+,
+// 5.ANNOUNCER,
+speech_trigger_150,Take position
+,
+// 5.ANNOUNCER,
+speech_trigger_182,Defend the perimeter
+,
+// 5.ANNOUNCER,
+speech_trigger_183,Defend the perimeter
+,
+// 5.ANNOUNCER,
+speech_trigger_184,Engineers excel in choke points
+,
+// 5.ANNOUNCER,
+speech_trigger_199,Cannot fire through friendly unit
+,
+// 5.ANNOUNCER,
+speech_trigger_200,Move Here for clear Line of Fire
+,
+// 5.ANNOUNCER,
+speech_trigger_257,Capture Ammunition
+,
+// 5.ANNOUNCER,
+speech_trigger_545,Find the advance team
+,
+// 5.ANNOUNCER,
+speech_trigger_264,Capture Ammunition
+,
+// 5.ANNOUNCER,
+speech_trigger_265,Capture Ammunition
+,
+,
+timer_trigger_603_descr,ATTACK INCOMING
+,
+// 5.ANNOUNCER,
+speech_trigger_846,Do not lose Radio Station
+,
+// 5.ANNOUNCER,
+speech_trigger_255,Capture Ammunition
+,
+// 5.ANNOUNCER,
+speech_trigger_698,Capture Ammunition
+,
+// 5.ANNOUNCER,
+speech_trigger_486,Pursue the Arachnids
+,
+// 5.ANNOUNCER,
+speech_trigger_446,Advance toward the Hive
+,
+// 5.ANNOUNCER,
+speech_trigger_853,Outpost Delta IV
+,
+// 5.ANNOUNCER,
+speech_trigger_566,Use Engineers to burn through the hedges
+,
+// 5.ANNOUNCER,
+speech_trigger_561,Select unit to call reinforcements
+,
+// 5.ANNOUNCER,
+speech_trigger_599,Control assigned
+,
+// 5.ANNOUNCER,
+speech_trigger_654,Man the wall
+,
+// 5.ANNOUNCER,
+speech_trigger_655,Man the wall
+,
+// 5.ANNOUNCER,
+speech_trigger_668,Follow the road into the town
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_762,Select unit to call reinforcements
+,
+// 5.ANNOUNCER,
+speech_trigger_763,Select unit to call reinforcements
+,
+// 5.ANNOUNCER,
+speech_trigger_455,Pursue the Arachnids
+,
+,
+timer_trigger_911_descr,timer_trigger_904_descr
+,
+,
+,
+timer_trigger_906_descr,timer_trigger_904_descr
+,
+,

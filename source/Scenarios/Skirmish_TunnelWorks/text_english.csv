@@ -1,0 +1,114 @@
+﻿// NAME,
+scenario_name,Starport Sweep
+,
+// DESCRIPTION,
+scenario_descr,"The Arachnids have established an elaborate “super” hive underneath the main starport on Kwalasha.
+
+To get rid of the infestation, the Mobile Infantry has dispatched a more-than-capable cleaning crew."
+,
+// OBJECTIVES,
+objective_2_0_title,Clear All Hives
+objective_2_7_title,Permanently shut down the Super Hive
+objective_2_10_title,Capture Dropships
+objective_2_14_title,SCORE
+objective_2_17_title,Time
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_491,Super Hive
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/NEW INTRO ============== ",
+// 4.propagandist,
+briefing_trigger_273_text,"Just over a month ago, the main starport on Kwalasha had fallen to a relentless Arachnid offensive. In the meantime, the Bugs have turned the place into a stronghold of their own."
+briefing_trigger_274_text,"A deep network of hives has been established underneath the facility, from which bug hordes frequently attack the surrounding settlements."
+briefing_trigger_275_text,"To root out this threat and to recover this vital logistical hub, Fleet dropships have just delivered the first wave of troopers to the facility."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR CENTRAL BUG HOLE/REOPENING TRIGGERS/REOPEN SUPER HIVE ============== ",
+// 4.propagandist,
+briefing_trigger_284_text,"As expected, the Bugs have repopulated the central super hive!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR CENTRAL BUG HOLE/REOPENING TRIGGERS/FIRST CLEARING BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_276_text,"The Mobile Infantry have cleared the central super hive. This eliminates the threat momentarily, but it won't take long before the Bugs repopulate it from their underground networks."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR CENTRAL BUG HOLE/WAVES/NEXT WARNING ============== ",
+// 4.propagandist,
+briefing_trigger_333_text,Our brave soldiers brace themselves for the impending onslaught as the super hive is about to spit out another horde of Arachnids!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR CENTRAL BUG HOLE/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_140_text,Intensifying seismic disturbances around the center of the starport suggests another attack wave forming up inside the super hive!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR CENTRAL BUG HOLE/SUCCESS ============== ",
+// 4.propagandist,
+briefing_trigger_329_text,Another small but important victory for humankind. The Bug infestation of the Kwalashan starport has been eradicated.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE DROPSHIPS/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_262_text,Federal Intelligence reports some of the abandoned dropships in the starport have withstood the carnage of Bug infestation and remain fully functional.
+briefing_trigger_357_text,"As a prime example of cooperation and comradery between all service branches, Fleet has proposed that the Mobile Infantry secure these shuttles so that they can be used to put more boots on the ground."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT: ALL LOST/ALL UNITS LOST ============== ",
+// 4.propagandist,
+briefing_trigger_250_text,"So far, the Mobile Infantry has been unable to eradicate bug infestation of the Kwalashan starport, but they will return and they will defeat it!"
+,
+,
+,
+// TRIGGER TEXTS,
+,
+timer_trigger_141_descr,Super Hive attack incoming
+,
+,
+timer_trigger_179_descr,Super Hive attack incoming
+,
+,
+,
+,
+timer_trigger_261_descr,SUPER HIVE REOPENING
+,
+// 5.ANNOUNCER,
+speech_trigger_270,Capture Dropship
+,
+// 5.ANNOUNCER,
+speech_trigger_294,Capture Dropship
+,
+// 5.ANNOUNCER,
+speech_trigger_328,Capture Dropship
+,
+// 5.ANNOUNCER,
+speech_trigger_351,Capture Dropship
+,
+// 5.ANNOUNCER,
+speech_trigger_352,Super Hive
+,
+,
+,
+,
+,
+,
+,

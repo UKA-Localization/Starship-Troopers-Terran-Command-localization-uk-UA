@@ -1,0 +1,44 @@
+# tools/
+
+Python 3.11+, без сторонніх пакетів. Лише адаптери формату гри: витягти тексти в таблицю і зібрати таблицю назад у файли гри. Сам переклад (аналіз, глосарій, чернетки, перевірка плейсхолдерів) — у [localization-pipeline-uk-UA](https://github.com/UKA-Localization/localization-pipeline-uk-UA), який читає `translation/pipeline.toml` цього репозиторію.
+
+| Скрипт | Що робить |
+|---|---|
+| `sttc.py` | спільний код: шляхи гри, список файлів (`Language/english*.csv`, `Scenarios/*/text_english.csv`, `languages.txt`), парсер/серіалізатор CSV гри (коментарі `//`, багаторядкові значення в лапках, CRLF/LF, BOM, дублікати ключів), читання/запис `strings.tsv` |
+| `extract.py` | оновлює `translation/strings.tsv` (з колонкою `context`) із `source/`, зберігаючи наявні переклади; `--from-game` спершу копіює свіжі файли з гри в `source/`; `--refresh-context` перегенерує контексти |
+| `build.py` | збирає локалізацію в `build/StreamingAssets/`: `Language/ukrainian*.csv` за тією ж розбивкою, що `english*.csv`, `Scenarios/*/text_ukrainian.csv`, `Language/languages.txt` з доданим `8 = ukrainian`, ключі `language_ukrainian` для назви мови в меню; `--drafts` включає чернетки; `--install` / `--uninstall` — покласти в гру (оригінальний `languages.txt` → `languages.txt.orig`) або прибрати (видалити `ukrainian*`, повернути `languages.txt`); `--zip` — архів `build/STTC-uk-UA-<git describe>.zip` для Releases; `assets/**` копіюється в збірку за тим самим шляхом |
+
+```bash
+python tools/extract.py --from-game     # після оновлення гри: оновити source/ і strings.tsv
+python tools/build.py --install         # зібрати локалізацію і поставити в гру (Options -> Language -> Українська)
+python tools/build.py --drafts --install   # те саме, з чернетками
+python tools/build.py --uninstall       # прибрати з гри
+python tools/build.py --zip             # архів для Releases
+```
+
+Тека гри типово `C:\Program Files (x86)\Steam\steamapps\common\Starship Troopers - Terran Command`; інша — через `--game`. Усі шляхи файлів у `source/` і в колонці `file` — відносно `Starship Troopers_Data\StreamingAssets\`.
+
+## Формат файлів гри
+
+CSV без заголовка, UTF-8 (файли місій — з BOM), CRLF (кілька файлів — LF). Рядок — `ключ,значення`; значення з комами, лапками або переносами рядків — у подвійних лапках (лапка всередині подвоюється), хоча трапляються й коми без лапок — тоді значення це все після першої коми. Рядки, що починаються з `//`, — коментарі: `// #### Розділ ####` або `// РОЗДІЛ` — заголовок розділу, `//,INFO: …`, `//NOTE: …`, `//{0} will be replaced…` — примітка до рядків нижче. Порожні рядки і рядки з самої коми — роздільники. Ключ у файлі може повторюватися (63 випадки) — у таблиці другий екземпляр має суфікс `#2`.
+
+`build.py` відтворює кожен файл цільової мови один в один з англійським (структура, коментарі, роздільники, BOM, переноси), змінюючи лише рядки, для яких є переклад: `sttc.py` перевірено побайтовим round-trip на всіх 108 файлах гри.
+
+Розбивка на `english.csv`, `english_0.csv` … `english_99.csv` — технічна (за модулями гри та DLC); `ukrainian_N.csv` повторює її один в один.
+
+## Формат strings.tsv
+
+Один запис на рядок, поля через табуляцію, без лапок. Перенос рядка всередині тексту записується як `\n`, табуляція — `\t`, зворотна скісна — `\\` (тому літеральна послідовність `\n` з тексту гри в TSV виглядає як `\\n`). Відкривається будь-яким табличним або текстовим редактором.
+
+| Колонка | Зміст | Хто заповнює |
+|---|---|---|
+| `file` | шлях файлу в грі відносно `StreamingAssets/` (`Language/english_3.csv`, `Scenarios/Kwalasha_Airfield/text_english.csv`) | `extract.py` |
+| `key` | ключ рядка (перша колонка CSV); повторний ключ у файлі — з суфіксом `#2` | `extract.py` |
+| `original` | оригінальний текст | `extract.py` |
+| `translation` | переклад; порожньо — у грі лишиться оригінал | конвеєр / людина |
+| `status` | порожньо — готовий переклад; будь-що інше — чернетка, у збірку не потрапляє без `--drafts`. `fuzzy` — не вичитано; `unresolved` — у рядку є термін без затвердженого перекладу в глосарії | конвеєр / людина |
+| `context` | розділ файлу, примітка з коментаря, для місій — назва місії. Заповнюється для нових рядків, можна правити руками; `extract.py --refresh-context` перегенерує все | `extract.py` |
+| `entities` | `id` термінів із `glossary.tsv`, що трапляються в рядку, через `\|` (`-` — нема) | конвеєр (`analyze entities`) |
+| `tone` | характер рядка через `\|` (`command`, `briefing`, `propaganda`…; `-` — нейтрально) | конвеєр (`analyze tone`) |
+
+`extract.py` після оновлення гри зберігає `translation`, `status`, `entities`, `tone` для рядків, чий оригінал не змінився; змінений оригінал → `status=fuzzy`; зниклі з гри рядки видаляються.

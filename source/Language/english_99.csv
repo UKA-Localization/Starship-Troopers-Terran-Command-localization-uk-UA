@@ -1,0 +1,29 @@
+// === Summary === (DevOnly),
+// territory_vo_18_  - 3 entries  11 words  3 lines,
+// other  - 6 entries  33 words  8 lines,
+// TOTAL  - 9 entries  44 words,
+,
+,
+,
+// #### Mission_Chemical_ChallengeTest.Lines ####,
+,
+// other  - 6 entries  33 words  8 lines,
+challengetest_missionobjective,"Test the challenge level system"
+challengetest_briefing_1,"Challenge one: clear the first lair pocket."
+challengetest_briefing_2,"Challenge two: push deeper. The bugs are reorganising."
+challengetest_briefing_3,"Challenge three: final pocket. Wipe them out."
+objective_title_challengetest_clear,"Clear the 3 lair pockets"
+objective_bubble_challengetest_destroy,"Destroy"
+,
+,
+// #### TerritoryModeMissionBackwardsCompatAddSequenceBeforeDoNodes.Lines ####,
+,
+// territory_vo_18_  - 1 entries  3 words  1 lines,
+territory_vo_18_test,"Test Test Test"
+,
+,
+// #### TerritoryModeMissionBackwardsCompatReplaceDoWithSequence.Lines ####,
+,
+// territory_vo_18_  - 2 entries  8 words  2 lines,
+territory_vo_18_test1,"Test 1 2 3"
+territory_vo_18_test2,"3 2 1 Test"

@@ -1,0 +1,329 @@
+﻿// NAME,
+scenario_name,[3] Traffic Stop
+,
+// DESCRIPTION,
+scenario_descr,"Alarming Arachnid outbreaks are surfacing throughout the outer districts. The M.I. garrison is forced to disperse its resources to address these new hotspots.
+
+Verhaegen is tasked with the defense of the northern district. Short on manpower and equipment, his units receive much needed support from Keys, her colleagues, and her remarkable intuition."
+,
+// OBJECTIVES,
+objective_2_0_title,Defend the frontline
+objective_2_5_title,Defend the roundabout
+objective_2_9_title,Defend the roundabout until the dropships arrive
+objective_2_2_title,Disband 4 groups of civilians at any dropship site
+objective_2_8_title,Do not lose 40 or more civilians
+objective_2_11_title,Clear the sewer Bug Hives
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_8,#Line 1 Invasion M
+unit_9,#Line 1 Invasion W
+unit_10,#Line 2 Invasion W
+unit_11,#Line 2 Invasion E
+unit_12,#Line 1 Invasion E
+unit_14,#Line 3 Invasion B
+unit_40,#Invasion Marker
+unit_194,#Evac objective
+unit_215,#Camera start
+unit_216,#Line 3 Invasion A
+unit_220,#Civ exit
+unit_221,#MUTE_CARRIER_TIMEOUT_ERROR
+unit_226,#Evac objective
+unit_227,#Evac objective
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/PHASE 1: FRONTLINE/DEFEND 1ST STATION/TRIGGERS/ATTACK WAVES/FIRST MATERIEL ARRIVES ============== ",
+// 11.cop,
+briefing_trigger_475_text,First shipment of materiel has arrived.
+//,
+// 12.senior,
+briefing_trigger_713_text,About time. Let's see how smart the Bugs look in front of a gun turret...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 1: FRONTLINE/DEFEND 1ST STATION/TRIGGERS/FAIL ============== ",
+// 12.senior,
+briefing_trigger_953_text,"That's weak, troopers! You've let the Bugs overrun us!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 1: FRONTLINE/DEFEND 1ST STATION/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_455_text,Damn Bugs! They suckered us into that Station and spread out behind our backs. Ain't this city supposed to be better equipped for attacks!?
+//,
+// 11.cop,
+briefing_trigger_44_text,Governor Govac has repeatedly ignored the city's pleadings for more protection. Seems the Bugs were smart enough to exploit his failings.
+//,
+// 12.senior,
+briefing_trigger_560_text,"Bugs' got plenty in common with some of our dear politicians, so that ain't surprising. Only had the pleasure of hearing one of 'em squeal when you fill 'em with lead, though."
+//,
+// 11.cop,
+briefing_trigger_315_text,"Easy, Major. The Governor promised to bring us more Materiel, but it's not going to get here all at once. We'll need to keep an eye out for when more arrives."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 1: FRONTLINE/SAVE TRAPPED CIVILIANS/TRIGGERS: SAVE TRAPPED CIVILIANS/CIVILIANS/DIALOGUES ============== ",
+// 11.cop,
+briefing_trigger_678_text,First group of civvies clear!
+//,
+// 12.senior,
+briefing_trigger_679_text,"There's more of your noncommies out the way, Keys."
+//,
+// 11.cop,
+briefing_trigger_680_text,"More civilians, safe and clear."
+//,
+// 12.senior,
+briefing_trigger_681_text,Last evac ship away.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 1: FRONTLINE/SAVE TRAPPED CIVILIANS/TRIGGERS: SAVE TRAPPED CIVILIANS/CIVILIANS/DIALOGUE: HURRY UP ============== ",
+// 11.cop,
+briefing_trigger_682_text,The sector is getting too hot round our civilians. Speed up the evac!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 1: FRONTLINE/SAVE TRAPPED CIVILIANS/TRIGGERS: SAVE TRAPPED CIVILIANS/FAIL ============== ",
+// 11.cop,
+briefing_trigger_773_text,"You may not put much into ""Protect and Serve"", but I do! We've failed our people!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 1: FRONTLINE/SAVE TRAPPED CIVILIANS/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_66_text,"There's civilians still stuck in the sector. There's little point in any of this if we're not helping them out, Major!"
+//,
+// 12.senior,
+briefing_trigger_675_text,Damn it! This ain't what the M.I. are trained for.
+briefing_trigger_676_text,Best I can spare is a couple units to run shield for you -- I prefer my troopers on the frontline.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 1: FRONTLINE/CLEAR SEWER HIVES/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_428_text,Hell. The Bugs are flanking us through the sewer pipes!
+//,
+// 11.cop,
+briefing_trigger_654_text,"All of Mahanagar is interconnected through those pipes -- even under the canals. If an infestation has taken root in there, we could be in real trouble."
+//,
+// 12.senior,
+briefing_trigger_655_text,"Bugs rolling around in stinkin' muck, huh? Figures."
+//,
+// 11.cop,
+briefing_trigger_656_text,"Not so, in this case. Mahanagar is built on the most high-level maintenance system in all of the Federation, thanks to engineers like my father."
+//,
+// 12.senior,
+briefing_trigger_657_text,Then I hope his life's work can withstand a frag or two. We've gotta flush out those hives.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 2: ROUNDABOUT/DEFEND 2ND STATION/TRIGGERS/EVENTS & TIMELINES/1) KAYLA VISION ============== ",
+// 13.cop_vision,
+briefing_trigger_23_text,"Arrgh not again...!"
+briefing_trigger_864_text,Something's... happening... elsewhere in the... city...
+//,
+// 12.senior,
+briefing_trigger_595_text,"Head in the game, Keys! We need you here and now!"
+//,
+// 13.cop_vision,
+briefing_trigger_865_text,"I... can’t..."
+briefing_trigger_596_text,--Agh!... There's so much... pain... chaos...
+//,
+// 12.senior,
+briefing_trigger_597_text,"There certainly is, soldier. In front of you! So pick up your rifle and get fighting!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 2: ROUNDABOUT/DEFEND 2ND STATION/TRIGGERS/EVENTS & TIMELINES/2) REVEAL FLANK ATTACKS ============== ",
+// 12.senior,
+briefing_trigger_598_text,"Ah hell! I need you with me back in the real world, Keys. We MUST hold on."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 2: ROUNDABOUT/DEFEND 2ND STATION/TRIGGERS/FAIL ============== ",
+// 12.senior,
+briefing_trigger_717_text,"That's weak, troopers! You've let the Bugs overrun us!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 2: ROUNDABOUT/DEFEND 2ND STATION/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_64_text,The shelling has got our flanks running for cover!
+briefing_trigger_955_text,Regroup back at the roundabout!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 2: ROUNDABOUT/DEFEND 2ND STATION UNTIL THE SHIPS ARRIVE/TRIGGERS/FAIL ============== ",
+// 12.senior,
+briefing_trigger_718_text,"That's weak, troopers! You've let the Bugs overrun us!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 2: ROUNDABOUT/DEFEND 2ND STATION UNTIL THE SHIPS ARRIVE/BRIEFING: HOLD THE HIGHWAY UNTIL THE SHIPS ARRIVE ============== ",
+// 12.senior,
+briefing_trigger_484_text,"Blasted cowards! Command is calling for a ""tactical withdrawal"". It's getting worse across the city!"
+//,
+// 11.cop,
+briefing_trigger_318_text,And what comes of the civilians still stranded here? One life or one hundred -- I'm not leaving 'til we save all we can.
+//,
+// 12.senior,
+briefing_trigger_319_text,"Not mission priority I’m afraid... but I'll see if I can get Fleet to step up with more drop ships. And I ain't going anywhere either, Keys!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 3: CIVILIANS DEFENSE/PROTECT THE EVACUATING CIVILIANS/TRIGGERS/VICTORY OUTRO/DIALOGUE ============== ",
+// 12.senior,
+briefing_trigger_39_text,The Bugs are flooding the sector!
+briefing_trigger_693_text,"That's all she wrote, troopers! Fall back with the noncommies across the bridge, unless you fancy joining tonight's Bug feast."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 3: CIVILIANS DEFENSE/PROTECT THE EVACUATING CIVILIANS/TRIGGERS/TIMELINES & EVENTS/TIMELINE ============== ",
+// 12.senior,
+briefing_trigger_632_text,"Bugs incoming on the flanks! I just received another batch of materiel. We’ll use it to give your civvies cover, Keys, but we can't stay forever."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 3: CIVILIANS DEFENSE/PROTECT THE EVACUATING CIVILIANS/TRIGGERS/TIMELINES & EVENTS/FINAL WAVES ============== ",
+// 12.senior,
+briefing_trigger_633_text,Keys - We can't hold much longer...
+//,
+// 11.cop,
+briefing_trigger_634_text,These people still need us here!
+//,
+// 12.senior,
+briefing_trigger_635_text,"We’ll all die if we stay. I know it's tough, but we need to prep our retreat while we still can!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 3: CIVILIANS DEFENSE/PROTECT THE EVACUATING CIVILIANS/TRIGGERS/TIMELINES & EVENTS/EVENT: DROPSHIP LEAVES ============== ",
+// 11.cop,
+briefing_trigger_631_text,"Dropship's away! Everyone else, run for the bridge!"
+//,
+// 12.senior,
+briefing_trigger_714_text,And tell 'em to double time it! I'm not dying here 'cos noncommies could only manage a jog!
+//,
+// 11.cop,
+briefing_trigger_715_text,"They don't teach tact in the M.I., do they?"
+//,
+// 12.senior,
+briefing_trigger_716_text,"They teach tact-tics, Keys. Tact ain't ever helped tear a Bug to pieces."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 3: CIVILIANS DEFENSE/PROTECT THE EVACUATING CIVILIANS/TRIGGERS/DIALOGUE: LOSSES WARNINGS ============== ",
+// 11.cop,
+briefing_trigger_688_text,The Bugs are all over our civilians. Help them!
+briefing_trigger_690_text,We're letting good people be slaughtered! Have we abandoned our duty?!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 3: CIVILIANS DEFENSE/PROTECT THE EVACUATING CIVILIANS/TRIGGERS/FAIL ============== ",
+// 11.cop,
+briefing_trigger_691_text,"You may not put much into ""Protect and Serve"", but I do! We've failed our people!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PHASE 3: CIVILIANS DEFENSE/PROTECT THE EVACUATING CIVILIANS/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_34_text,"Here's your rescue boat, Keys..."
+//,
+// 11.cop,
+briefing_trigger_275_text,A single ship!? The Federation suffering from cutbacks too now!?
+//,
+// 12.senior,
+briefing_trigger_588_text,Those Fleet cowards probably don't want to risk any more of their precious ships if it ain't part of their primary orders.
+briefing_trigger_765_text,The rest of the civvies will just have to walk. And we will go with them...
+,
+,
+,
+,
+"// ============== /EVENTS/ANTI-PLAYER PLASMA BUG/ACTIVATE PLASMA BUG ============== ",
+// 12.senior,
+briefing_trigger_652_text,Whoa now! Keep our defenses out the range of that Plasma Bug!
+,
+,
+,
+,
+"// ============== /MUTATIONS/PLASMA BUGS ============== ",
+// 12.senior,
+briefing_trigger_574_text,"Plasma shelling! Brace, and keep on fighting, troopers!"
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_138,Defend
+,
+outcome_effect_40_message,Retreat Successful
+,
+,
+speech_trigger_174,Rescue
+,
+speech_trigger_180,Rescue
+,
+speech_trigger_181,Rescue
+,
+speech_trigger_182,Rescue
+,
+speech_trigger_183,Rescue
+,
+speech_trigger_169,Disband Unit
+,
+speech_trigger_140,Defend
+,
+speech_trigger_170,Disband Unit
+,
+speech_trigger_171,Disband Unit
+,
+speech_trigger_172,Disband Unit
+,
+speech_trigger_173,Disband Unit
+,
+speech_trigger_361,Civilian Exit
+,
+speech_trigger_362,Civilian Exit
+,
+speech_trigger_363,Civilian Exit
+,
+speech_trigger_364,Civilian Exit
+,
+speech_trigger_367,Civilian Exit
+,
+,
+,
+speech_trigger_671,Clear Hive
+,
+speech_trigger_672,Clear Hive
+,
+,
+,
+,
+,
+,
+,
+timer_trigger_295_descr,Protect civilians
+,
+,

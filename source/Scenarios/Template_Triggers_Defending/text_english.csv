@@ -1,0 +1,23 @@
+﻿// NAME,
+scenario_name,Editor Demo Defense
+,
+// DESCRIPTION,
+scenario_descr,This is a scenario to demonstrate the scenario editor trigger system.
+,
+// OBJECTIVES,
+objective_2_0_title,Defeat all attack waves
+objective_2_1_title,Kill Bugs
+,
+// UNIT NAMES,
+,
+// SPAWNED UNIT NAMES,
+,
+// TRIGGER TEXTS,
+// HAWTHORNE,
+briefing_trigger_21_text,The Arachnid attacks have been repelled!
+,
+// HAWTHORNE,
+briefing_trigger_20_text,We have to hold this outpost!
+,
+,
+,

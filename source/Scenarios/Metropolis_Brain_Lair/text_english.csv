@@ -1,0 +1,267 @@
+﻿// NAME,
+scenario_name,[9] Brain Drain
+,
+// DESCRIPTION,
+scenario_descr,"All Arachnids on the surface of Mahanagar’s central district have been eradicated. The Brain Bug, trapped in its underground lair, now faces its retribution amid the remnants of its minions.
+
+Verhaegen and Keys descend together, knowing this will be the last battle. The fall of the Brain Bug will signify the ultimate triumph over the Arachnid invasion."
+,
+// OBJECTIVES,
+objective_2_0_title,Find and capture the Brain Bug
+objective_2_2_title,Secure all entry points
+objective_2_7_title,Capture the Security Center
+objective_2_9_title,Capture the Brain Bug
+objective_2_10_title,Clear the final Bug Hive
+objective_2_11_title,Bring Verhaegen to Kayla
+objective_2_12_title,Verhaegen must survive
+objective_2_13_title,Destroy all Brood Nests to stop the Drone attacks
+objective_2_1_title,Clear both Bug Hives to stop the attack waves
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_21,Warrior
+unit_260,Collapsed Entrance
+unit_293,Locked Gate
+unit_315,#M11 Patrol A
+unit_316,#M11 Patrol B
+unit_317,#M11 Patrol C
+unit_332,East Entrance
+unit_333,West Entrance
+unit_352,Collapsed Tunnel
+unit_355,Security Door
+unit_370,Security Door
+unit_381,#marauder entry
+unit_383,#Attack Wave
+unit_384,#Attack Wave
+unit_409,#Drones Spawn
+unit_410,#Drones Spawn
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/FIND THE BRAIN/TRIGGERS/FIRST ROOM ATTACK/FIRST ROOM ATTACK ============== ",
+// 13.cop_vision,
+briefing_trigger_258_text,The Brain Bug is sending an attack our way. It aims to slow us down!
+//,
+// 12.senior,
+briefing_trigger_259_text,Then tell the wrinkle-sack he's only delaying the inevitable. We're still comin'!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/FIND THE BRAIN/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_204_text,Let's hunt down and kill this blasted Brain Bug!
+//,
+// 12.senior,
+briefing_trigger_267_text,"Y'know I'd normally agree, but Fed Intel ain't going to be happy if their favorite lab pet arrives to them in pieces. New orders are for capture."
+//,
+// 11.cop,
+briefing_trigger_268_text,"After all this, we're letting that damn thing live?!"
+//,
+// 12.senior,
+briefing_trigger_270_text,"Trust me, when it comes to Fed Intel, there's a hell of a lot worse for a Bug than death..."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECURE ENTRANCES/TRIGGERS/CAPTURE EAST ============== ",
+// 12.senior,
+briefing_trigger_318_text,Eastern entrance secured!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECURE ENTRANCES/TRIGGERS/CAPTURE WEST ============== ",
+// 12.senior,
+briefing_trigger_317_text,Charlie's zone locked down!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECURE ENTRANCES/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_276_text,Bravo and Charlie teams are held up in their sectors. Let's help our boys out and catch the Bugs in a pincer!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE SECURITY CENTER/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_294_text,You got a read on where this slug is cowering yet?
+//,
+// 13.cop_vision,
+briefing_trigger_295_text,I'm trying...but it's managing to block me out while we're this close.
+//,
+// 12.senior,
+briefing_trigger_296_text,Then we'll have to do this the old-fashioned way. Let's get to the nearby security center and get on the district cams.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE THE BRAIN/TRIGGERS/OUTRO/OUTRO ============== ",
+// 12.senior,
+briefing_trigger_350_text,"You could have lived today, you ugly sack. I had a friend that tried to protect everyone."
+briefing_trigger_206_text,"One life or a hundred, it didn't matter to her -- everyone was worth saving all the same."
+briefing_trigger_549_text,I finally get that now...
+briefing_trigger_209_text,...but even she wouldn't protect your wrinkly ass.
+briefing_trigger_211_text,"Command, this is Major Verhaegen. It's over."
+briefing_trigger_550_text,Send in cleanup with my exfil. The target didn't make it -- nasty sucker tried to fight back.
+briefing_trigger_212_text,Last mistake it'll ever make.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE THE BRAIN/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_289_text,Here we go. Not even our cowardly slug friend can hide from Fed Intel's all-seeing eye.
+//,
+// 11.cop,
+briefing_trigger_290_text,This is...
+briefing_trigger_287_text,...extensive....
+//,
+// 12.senior,
+briefing_trigger_288_text,"The best protection the Federation has for its citizens is to know exactly what they're doing. "
+briefing_trigger_26_text,"There! Got the ugly sack! "
+//,
+// 11.cop,
+briefing_trigger_28_text,Those...people.... Has it sucked their brains out!?
+//,
+// 12.senior,
+briefing_trigger_698_text,Brain Bugs are more than just an ugly face.
+briefing_trigger_291_text,'Bout time we hunt the bastard down and let Fed Intel give him worse in return.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/BRING VERHAEGEN TO DYING KAYLA/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_358_text,What the hell's that noise?!
+//,
+// 11.cop,
+briefing_trigger_359_text,Water! The Brain Bug is going to flood the whole underground!
+//,
+// 12.senior,
+briefing_trigger_360_text,A blasted trap! Argh! We need to get out!
+//,
+// 11.cop,
+briefing_trigger_361_text,No! I can stop this! I can stop the Brain!
+briefing_trigger_541_text," I can get us through this... one more time!"
+//,
+// 12.senior,
+briefing_trigger_362_text,We can't risk it Keys! I need to get you and my men out!
+//,
+// 11.cop,
+briefing_trigger_363_text,This is the Brain's last gambit! I can't let it win now! I... can... stop... this!
+//,
+// 12.senior,
+briefing_trigger_364_text,"You can't always do it all, Keys! Sometimes you pick the battle, or you pick your people."
+briefing_trigger_542_text,I'm taking your lead for once and choosing protection! Get! Out!
+//,
+// 11.cop,
+briefing_trigger_365_text,Got it! Water mains shut down! Ha!
+briefing_trigger_543_text,"See, Major? I knew I could do this. Now let’s go get that --"
+//,
+// 12.senior,
+briefing_trigger_366_text,--Keys! Get down!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/BRING VERHAEGEN TO DYING KAYLA/KAYLA RUNS BACK ============== ",
+// 12.senior,
+briefing_trigger_544_text,KEYS!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/VERHAEGEN MUST SURVIVE/TRIGGERS/FAIL ============== ",
+// 12.senior,
+briefing_trigger_428_text,"Arrrgh!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/VERHAEGEN MUST SURVIVE/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_414_text,"Goddamn it, Keys! Don't die on me!"
+//,
+// 14.cop_dying,
+briefing_trigger_415_text,..You gotta... keep going... finish this.
+//,
+// 12.senior,
+briefing_trigger_416_text,"Come on, kid, don't give up. You're tougher than this!"
+briefing_trigger_545_text,...Kayla...
+briefing_trigger_690_text,Kayla!
+briefing_trigger_587_text,Damn it...
+briefing_trigger_417_text,Troopers! We press on!
+briefing_trigger_547_text,I want every last Bug in here put down for good.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/BROODNESTS/DRONES WAVE ============== ",
+// 12.senior,
+briefing_trigger_501_text,Drones incoming!
+briefing_trigger_548_text,"Send all you want at us, Brain Bug. We'll kill them all the same!"
+,
+,
+,
+,
+"// ============== /EVENTS/MARAUDER ARRIVAL/TRIGGERS/SUCCESS ============== ",
+// 12.senior,
+briefing_trigger_254_text,"You ain't making it much further, Marauder. Keep this zone locked down instead."
+,
+,
+,
+,
+"// ============== /EVENTS/MARAUDER ARRIVAL/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_230_text,"Ah, good to have a Marauder make it in with us!"
+//,
+// 11.cop,
+briefing_trigger_231_text,Not a chance it'll fit anywhere down these tunnels.
+//,
+// 12.senior,
+briefing_trigger_232_text,"No, but it'll sure scare the hell out of our slug friend some more, for now."
+,
+,
+,
+,
+"// ============== /EVENTS/ATTACK WAVES/FIRST WAVE ============== ",
+// 11.cop,
+briefing_trigger_448_text,"The Brain Bug wants us hunted down. Attackers moving through the tunnels, fast!"
+,
+,
+,
+,
+"// ============== /EVENTS/ATTACK WAVES/SECOND WAVE ============== ",
+// 12.senior,
+briefing_trigger_457_text,More Bugs! They ain't about to stop us now!
+,
+,
+,
+// TRIGGER TEXTS,
+,
+speech_trigger_521,Entrance
+,
+speech_trigger_522,Entrance
+,
+speech_trigger_789,Capture
+,
+speech_trigger_419,Sgt. Keys
+,
+,
+speech_trigger_335,Clear
+,
+speech_trigger_508,Destroy
+,
+speech_trigger_509,Destroy
+,
+speech_trigger_510,Destroy
+,
+speech_trigger_511,Destroy
+,
+,
+,

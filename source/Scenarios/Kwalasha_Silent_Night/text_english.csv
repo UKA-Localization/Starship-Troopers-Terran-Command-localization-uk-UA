@@ -1,0 +1,237 @@
+﻿// NAME,
+scenario_name,[11] Mental Issues
+,
+// DESCRIPTION,
+scenario_descr,"An officer of the Military Intelligence branch has crash-landed in bug territory. While no further information is provided, his extraction appears vital for the war effort.
+
+To avoid the attraction of substantial Arachnid forces, small units of elite special forces have infiltrated the surroundings and must make their way to the crash site."
+,
+// OBJECTIVES,
+objective_2_0_title,Contact Victor Yarrow
+objective_2_1_title,Gather 6 War Support
+objective_2_2_title,Defend until Victor's shuttle arrives
+objective_2_3_title,Victor Yarrow must survive
+objective_2_7_title,Escort Victor to the central allied base
+objective_2_8_title,Rendezvous with the Tactical Officer
+objective_2_9_title,Do not lose any units
+objective_2_6_title,Capture Materiel Caches
+objective_2_13_title,Clear Hives
+objective_2_14_title,Deploy 3 M9 Sledgehammers
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_250,Snipers
+unit_581,Central Base
+unit_582,Radio Entrance
+unit_589,Victor Evac
+unit_591,Objective marker
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/CRAWLER EVENTS/OBJECTIVE: MEET OTHERS/INTRO ============== ",
+// 2.ava cortez,
+briefing_trigger_514_text,"Command, we're at the designated drop point. We're beginning our search for the target's crashed dropship now."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CRAWLER EVENTS/OBJECTIVE: REACH VICTOR/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_516_text,"OK, listen up. I’m Colonel Ava Cortez, and I’m in charge now. Colonel Hawthorne has been court-martialed for insubordination and dereliction of duty and removed from command."
+briefing_trigger_565_text,"In light of his distinguished service record, the Federation went easy on him. The usual punishment in wartime is a noose. And Command has graciously decided to overlook the actions of all you troopers who went along with his plan."
+briefing_trigger_517_text,"Listen, despite what you may think, I'm not celebrating Hawthorne's dismissal. The colonel was a friend and a good soldier, and he deserved better."
+briefing_trigger_566_text,"But he made his choice, and so things are gonna change around here, starting now."
+briefing_trigger_518_text,"Enough chit chat, we have a man to rescue."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CRAWLER EVENTS/OBJECTIVE: REACH VICTOR/OBJECTIVE ============== ",
+// 2.ava cortez,
+briefing_trigger_519_text,Hawthorne trained you. I expect you troopers to do him proud.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CRAWLER EVENTS/FAIL: LOSE ANY UNIT ============== ",
+// 2.ava cortez,
+briefing_trigger_653_text,"We've lost a unit. Mission's over - we've failed.
+"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/BRING VICTOR TO BASE/VICTOR & AVA CHATTING ============== ",
+// 2.ava cortez,
+briefing_trigger_718_text,Any of the other crew survive?
+//,
+// 3.victor yarrow,
+briefing_trigger_619_text,"I’m afraid I had to shoot them all. I sensed they were “compromised” by the Bugs. Regrettably, I’m not much of a pilot, so this crude landing was the best I could manage."
+//,
+// 2.ava cortez,
+briefing_trigger_620_text,You killed your own crew? Why?
+//,
+// 3.victor yarrow,
+briefing_trigger_621_text,"I’m not at liberty to explain further, just accept that not every human can be trusted. It is imperative I reach Command with what I know."
+//,
+// 2.ava cortez,
+briefing_trigger_622_text,Understood. We’ll call down a shuttle ASAP.
+//,
+// 3.victor yarrow,
+briefing_trigger_623_text,No. I’m not getting on another shuttle until I’ve vetted the crew. Get me to the main radio station and I’ll arrange my own transport.
+briefing_trigger_1062_text,"And don’t feel guilty about Hawthorne, that whole situation was out of your control."
+//,
+// 2.ava cortez,
+briefing_trigger_1063_text,"Colonel, if you’re done poking around in my head, we should move out."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/VICTOR MUST SURVIVE/INTRO ============== ",
+// 2.ava cortez,
+briefing_trigger_615_text,Found the shuttle. And there’s Colonel Yarrow.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/VICTOR MUST SURVIVE/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_617_text,Colonel Ava Cortez reporting. We’re your ticket home.
+//,
+// 3.victor yarrow,
+briefing_trigger_616_text,"Thank you for coming. "
+,
+,
+,
+,
+"// ============== /OBJECTIVES/VICTOR MUST SURVIVE/FAIL ============== ",
+// 2.ava cortez,
+briefing_trigger_435_text,Yarrow has been killed! The mission's failed!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/GATHER WAR SUPPORT/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_22_text,Radio station’s ready. Put in your call.
+//,
+// 3.victor yarrow,
+briefing_trigger_24_text,"Command, this is Colonel Victor Yarrow. I need a shuttle. Before launch, place the crew under armed guard and give them a full medical scan. If nothing seems odd, send them for pick up at this location. But if you find something inexplicable in any individual, kill that person. With a flamethrower."
+//,
+// 2.ava cortez,
+briefing_trigger_185_text,It’ll take a while to run those tests. Bugs aren’t going to wait that long.
+//,
+// 3.victor yarrow,
+briefing_trigger_624_text,"Until I deliver my information, my survival is more important than the lives of all your troopers combined."
+//,
+// 2.ava cortez,
+briefing_trigger_186_text,We’ll get you on that boat. But we're going to have to work on securing this area to buy us some time
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND UNTIL PSI EVAC/TRIGGERS/OUTRO/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_339_text,There’s my exit. It seems I get to live another day.
+briefing_trigger_626_text,"For your first time leading the unit, you did well Cortez.  Now get your troops out of here."
+//,
+// 2.ava cortez,
+briefing_trigger_627_text,"You're alive, Colonel. I've been told that's what matters."
+briefing_trigger_628_text,Fleet is standing by to evacuate.
+briefing_trigger_629_text,Get everyone back to the dropships!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND UNTIL PSI EVAC/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_29_text,The Bugs are coming. I can sense them.
+//,
+// 2.ava cortez,
+briefing_trigger_387_text,We're going to have to pull back to the inner defences and shorten our lines.
+,
+,
+,
+// TRIGGER TEXTS,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_974,Central Base
+,
+// 5.ANNOUNCER,
+speech_trigger_1051,Capture Materiel
+,
+// 5.ANNOUNCER,
+speech_trigger_1052,Capture Materiel
+,
+// 5.ANNOUNCER,
+speech_trigger_1054,Capture Materiel
+,
+// 5.ANNOUNCER,
+speech_trigger_1237,Capture Materiel
+,
+// 5.ANNOUNCER,
+speech_trigger_1238,Capture Materiel
+,
+// 5.ANNOUNCER,
+speech_trigger_1262,Capture Materiel
+,
+// 5.ANNOUNCER,
+speech_trigger_1060,Victor must survive
+,
+// 5.ANNOUNCER,
+speech_trigger_501,Fire a Sensor Flare
+,
+// 5.ANNOUNCER,
+speech_trigger_504,Lure the Bugs away
+,
+// 5.ANNOUNCER,
+speech_trigger_505,Sneak past the Bugs
+,
+// 5.ANNOUNCER,
+speech_trigger_548,Fire Sensor Flare
+,
+// 5.ANNOUNCER,
+speech_trigger_557,Fire at the Explosive Barrels
+,
+// 5.ANNOUNCER,
+speech_trigger_590,Use Action Mode ability at short range
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_981,Use Fleet Liaison's TAC Strike ability
+,
+// 5.ANNOUNCER,
+speech_trigger_983,Use Fleet Liaison's TAC Strike ability
+,
+speech_trigger_1293,Clear Hive
+,
+speech_trigger_1294,Clear Hive
+,
+speech_trigger_1295,Clear Hive
+,
+// 5.ANNOUNCER,
+speech_trigger_1002,Use Action Mode to run faster
+,
+// 5.ANNOUNCER,
+speech_trigger_1005,Fleet Liaison can call reinforcements
+,
+timer_trigger_1017_descr,ATTACK WAVE INCOMING
+,
+timer_trigger_1019_descr,SHUTTLE ARRIVAL TIME
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_1037,Use hills to remain out of view
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_885,"""Hold Fire"" units only fire at targets they are ordered to"
+,
+// 5.ANNOUNCER,
+speech_trigger_1213,"Enable ""Hold Fire"" to prevent units from firing automatically"
+,
+,

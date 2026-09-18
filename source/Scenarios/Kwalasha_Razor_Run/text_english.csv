@@ -1,0 +1,113 @@
+﻿// NAME,
+scenario_name,[12] Razor River
+,
+// DESCRIPTION,
+scenario_descr,"The Arachnids have established several colonies along the dry bed of the Razor River.
+
+These hives are the source of constant attacks on a vital research center near the Kwalashan capital city of Federatsiyagrad and must be destroyed before the Mobile Infantry can shift its forces elsewhere."
+,
+// OBJECTIVES,
+objective_2_0_title,Retake the Main Base
+objective_2_14_title,Clear two Bug Hives
+objective_2_15_title,Kill 3 Scorpions with the M6A Jaeger
+objective_2_8_title,Clear the marked Bug Hives
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_1159,NOT USED?
+unit_1249,#JaegerBriefingCamera
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/RETAKE MIDWAY STATION/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_518_text,Pay attention. The development at Razor River is under attack by just about every Bug going.
+briefing_trigger_737_text,Looks like Archie got wind of what’s going on in there and are out in force to take it down. Must be a pretty big deal for them.
+//,
+// 3.victor yarrow,
+briefing_trigger_169_text,"""A pretty big deal” is putting it too lightly. What is being processed in that facility will eventually turn the tide of this war. The bugs know it too. That’s why they’re here in such numbers."
+//,
+// 2.ava cortez,
+briefing_trigger_57_text,We’ll need a base of operations before we can do anything else.
+briefing_trigger_736_text,Get up that slope and bring that station online.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR 2 HIVES/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_740_text,Bugs are dug in pretty deep. We might have to consider taking out some of the satellite hives and build up our forces before we take on their main position.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/KILL SCORPIONS WITH JAEGER/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_1001_text,"Scorpions, one of the most deadly bug types, have been sighted near the Razor River facility."
+briefing_trigger_1002_text,"Terran command has acted swiftly, deploying Jaeger units to eliminate this new threat."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR BRIDGE HIVES/TRIGGERS/SUCCESS ============== ",
+// 3.victor yarrow,
+briefing_trigger_760_text,Well done. Your efforts may have made a significant contribution to the outcome of this war.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR BRIDGE HIVES/PRE-BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_759_text,Base secure. We’re ready to move out
+//,
+// 3.victor yarrow,
+briefing_trigger_700_text,The bugs are not going to give up that easily – they know the value of what lies below Kwalasha’s surface as much as we do.
+//,
+// 2.ava cortez,
+briefing_trigger_520_text,I’ll leave the musings on Arachnid psychology to Psi Ops. We’re here to kill bugs.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR BRIDGE HIVES/BRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_452_text,"The facility is holding, but we cannot risk production being interrupted. The main bug presence is concentrated in the dry river bed."
+briefing_trigger_746_text,Those structures must be cleared - regardless of the cost...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR BRIDGE HIVES/OBSOLETE ============== ",
+// 3.victor yarrow,
+briefing_trigger_724_text,Indeed you are...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DON'T LOSE ALL UNITS/FAIL ============== ",
+// 2.ava cortez,
+briefing_trigger_761_text,Inform Command that we're looking at a total loss.
+,
+,
+,
+,
+"// ============== /EVENTS/MIDWAY OFFENSIVES/BEGIN OFFENSIVES ============== ",
+// 1.ava advisor,
+briefing_trigger_783_text,An Arachnid attack is heading for our base!
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_813,Main Base
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_817,Clear Hive
+,
+// 5.ANNOUNCER,
+speech_trigger_818,Clear Hive
+,
+,

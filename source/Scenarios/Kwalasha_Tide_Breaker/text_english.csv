@@ -1,0 +1,240 @@
+﻿// NAME,
+scenario_name,[8] Tide Breaker
+,
+// DESCRIPTION,
+scenario_descr,"The appearance of massive Arachnid attacks all across Kwalasha has broken the all-too-short period of peace and prosperity on the planet.
+
+While countless smaller outposts have been overrun, the Mobile Infantry will bring the Bug offensive to a halt in front of the formidable walls of Fort Meru."
+,
+// OBJECTIVES,
+objective_2_0_title,Do not lose Fort Meru
+objective_2_7_title,Defend the first line
+objective_2_8_title,Defend the second line
+objective_2_10_title,Defend Fort Meru
+objective_2_1_title,Hold until 40 Personnel has been evacuated
+objective_2_15_title,Defeat 2 attack waves
+objective_2_16_title,Capture caches
+objective_2_12_title,Survive until next Materiel delivery
+objective_2_13_title,Survive until next War Support delivery
+objective_2_14_title,Survive until next Supply delivery
+objective_2_17_title,Kill 3 Scorpions with Rocket Launcher Turrets
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_55,Supply Drop 1
+unit_122,Supply Drop 2
+unit_193,Evacuation Point
+unit_248,Fort Maru Station
+unit_271,#Supply Drop 1
+unit_297,#camera start
+unit_299,#Supply Drop 2
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/DEFEND FIRST LINE/TRIGGERS/EVENTS/ACTIVATE HIVE 1 ============== ",
+// 0.hawthorne,
+briefing_trigger_198_text,This whole damn area must be riddled with Bug tunnels. We've got hives popping up amid our forward outposts.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND FIRST LINE/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_64_text,It's a complete shitshow out here. I haven’t seen this many bugs since Big K.
+briefing_trigger_483_text,"Clever bastards, waiting down there all this time, building their numbers."
+briefing_trigger_65_text,But they won't get past the guns of Fort Meru.
+briefing_trigger_514_text,This is where we hold ’em.
+briefing_trigger_66_text,Outer defenses will get hit first.  Make 'em pay for every inch of ground.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT 2 ATTACK WAVES/TRIGGERS/EVENTS/EVENT: MOVING SUPPLIES/DIALOGUE: MOVING SUPPLIES ============== ",
+// 1.ava advisor,
+briefing_trigger_575_text,Command has recognised the forward supply depots are too vulnerable.
+briefing_trigger_790_text,Fleet will begin transferring these supplies to the checkpoint base just in front of Fort Meru.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT 2 ATTACK WAVES/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_37_text,Here comes the first wave!
+//,
+// 0.hawthorne,
+briefing_trigger_38_text,First wave? How many more bugs can we look forward to?
+//,
+// 1.ava advisor,
+briefing_trigger_39_text,Do you really want an estimate?
+//,
+// 0.hawthorne,
+briefing_trigger_40_text,"No, not really."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND SECOND LINE/TRIGGERS/EVENTS/EVENT: SUPPLY DROP/TIMELINE ============== ",
+// 1.ava advisor,
+briefing_trigger_803_text,Fleet has dropped extra supplies near the checkpoint base.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND SECOND LINE/TRIGGERS/EVENTS/EVENT: START TIMER/DIALOGUE: UNDERESTIMATED BUGS ============== ",
+// 1.ava advisor,
+briefing_trigger_574_text,Command admits they may have underestimated the strength of the bug surge. All supplies will be transferred into Fort Meru's depot just in case the outer defenses cannot hold.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND SECOND LINE/TRIGGERS/EVENTS/OBJECTIVE: KILL SCORPIONS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1393_text,"Scorpions! Those are gonna be trouble... "
+briefing_trigger_1394_text,"Deploy rocket launcher turrets, that's the best weapon we have against Scorps! 
+"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND SECOND LINE/TRIGGERS/EVENTS/ACTIVATE HIVE 2 ============== ",
+// 0.hawthorne,
+briefing_trigger_41_text,Another bug hive has been detected on west our flank. We’ve gotta collapse some of those caves and cut down their numbers.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND SECOND LINE/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_761_text,Fleet has established a new supply depot in the second line. This position should suffice to hold any further Arachnid attacks.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND FORT MERU/TRIGGERS/EVENTS/EVENT: WAVEBREAKERS/GIVE CONTROL ============== ",
+// 1.ava advisor,
+briefing_trigger_195_text,"As the most senior officer still on the ground, you've been put in charge of Fort Meru's communication stations and defenses. The Wavebreaker gun batteries should have no trouble obliterating the remaining bug hordes."
+//,
+// 0.hawthorne,
+briefing_trigger_1400_text,"Wavebreaker crews, focus your fire on Scorpions! They’ve burnt enough holes in our 
+defenses already…"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND FORT MERU/TRIGGERS/EVENTS/EVENT: BUG TUNNELS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_181_text,Bugs have tunneled right up to the front walls!  They're right on us!
+briefing_trigger_225_text,We've got to hold the line here.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND FORT MERU/TRIGGERS/EVENTS/EVENT: DEPOTS FILL UP/TRIGGERS/TIMER EXPIRES ============== ",
+// 1.ava advisor,
+briefing_trigger_954_text,Dropships have arrived with extra supplies and munitions. They will remain on standby to deliver reinforcements.
+//,
+// 0.hawthorne,
+briefing_trigger_955_text,"Alright, let's get some more boots on these walls!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND FORT MERU/TRIGGERS/EVENTS/EVENT: DEPOTS FILL UP/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_910_text,We need more guns and troopers to carry them if we are to hold this fort!
+//,
+// 1.ava advisor,
+briefing_trigger_942_text,Hang in there. Dropships are already on route to bring more supplies and munitions.
+//,
+// 0.hawthorne,
+briefing_trigger_943_text,They better get here fast. In the meantime we'll make do with what we have!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND FORT MERU/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_764_text,All supplies have been extracted from the outer bases and shifted to Fort Meru.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/EVACUATE/TRIGGERS/EVAC TRIGGERS/BRIEFING: HALFWAY THERE ============== ",
+// 1.ava advisor,
+briefing_trigger_972_text,Evacuation is about 50% completed. Hang in there!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/EVACUATE/TRIGGERS/SUCCESS ============== ",
+// 1.ava advisor,
+briefing_trigger_971_text,All non-combat personel has been evacuated. Get out of there Sam.
+//,
+// 0.hawthorne,
+briefing_trigger_49_text,"Everyone who is still fighting, fall back to the dropships! Get out of here while you're still in one piece!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/EVACUATE/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_809_text,No more Bugs in sight. Is it over?
+//,
+// 1.ava advisor,
+briefing_trigger_810_text,"Unfortunately, no. Bugs have broken through at multiple points and are now concentrating all their strength on Fort Meru.  It seems inevitable the base is going to fall."
+//,
+// 0.hawthorne,
+briefing_trigger_811_text,Then we have to evacuate all remaining personnel... Get as many people out as you can.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT/DEFEAT BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_456_text,"Everything is falling apart, we're getting slaughtered out here!"
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_58,Evacuation in progress
+,
+// 5.ANNOUNCER,
+speech_trigger_60,Building is evacuating
+,
+// 5.ANNOUNCER,
+speech_trigger_365,Building is evacuating
+,
+// 5.ANNOUNCER,
+speech_trigger_366,Building is evacuating
+,
+outcome_effect_51_message,EVACUATION COMPLETED
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_1001,Do not lose Fort Meru
+,
+,
+,
+,
+timer_trigger_564_descr,Defend the first line
+,
+// 5.ANNOUNCER,
+speech_trigger_759,Defend
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_762,Defend
+,
+,
+timer_trigger_768_descr,SUPPLIES INCOMING
+,
+,
+,
+timer_trigger_796_descr,Defend the second line
+,
+,

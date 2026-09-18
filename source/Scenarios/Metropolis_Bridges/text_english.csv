@@ -1,0 +1,240 @@
+﻿// NAME,
+scenario_name,[4] Burning Bridges
+,
+// DESCRIPTION,
+scenario_descr,"As the seriousness of the Arachnid incursion becomes undeniable, martial law is declared in Mahanagar. A radical decision is made to stem the tide: All bridges leading into the central district must be destroyed.
+
+After this plan fails in Verhaegen’s sector, the Mobile Infantry and MPD have to step in once more to salvage the situation."
+,
+// OBJECTIVES,
+objective_2_7_title,Hold the highway blockade
+objective_2_10_title,Officer Keys must survive
+objective_2_0_title,Raise the Drawbridges
+objective_2_4_title,Clear all Bug Hives
+objective_2_1_title,Reboot the Power Turbine
+objective_2_3_title,Place Explosives on the main bridge
+objective_2_8_title,Construct Wavebreaker Mortars (with J.A.C. Trooper or Technicians)
+objective_2_11_title,Destroy the Plasma Bug with an M7 Cyclone
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_43,#Camera Marker
+unit_114,#Invasion Marker A
+unit_208,#Bomb Marker
+unit_210,#Bomb Marker
+unit_231,Factory Entrance
+unit_239,Highway Blockade
+unit_416,Empty Tunnel
+unit_483,#radius center
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/HOLD THE HIGHWAY BLOCKADE/TRIGGERS/WAVES/SECOND PRE-PLACED WAVE/INITIAL AI TEAM ATTACKS ============== ",
+// 11.cop,
+briefing_trigger_495_text,"Hmm -- I'll save the rooting for later, Major. Bugs on the way!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HOLD THE HIGHWAY BLOCKADE/TRIGGERS/WAVES/SECOND PRE-PLACED WAVE/DIALOGUE ============== ",
+// 12.senior,
+briefing_trigger_485_text,"Seems your lil' ""intuition"" show has impressed some of my bosses at Intel, Keys. I don't know how you've been missed as a psychic all these years, but it's sure saving me a few scrapes on this op, anyway."
+//,
+// 11.cop,
+briefing_trigger_486_text,"Fed Intelligence are watching, huh? That got you worried that you might one day be saluting me, Major?"
+//,
+// 12.senior,
+briefing_trigger_487_text,More the idea that you or those cranks might be rooting around inside my head. Never have warmed to that...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HOLD THE HIGHWAY BLOCKADE/TRIGGERS/WAVES/OTHER WAVES/WAVE AFTER VERHAEGEN ARRIVES ============== ",
+// 11.cop,
+briefing_trigger_401_text,Big Bug attack incoming!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HOLD THE HIGHWAY BLOCKADE/TRIGGERS/WAVES/OTHER WAVES/WAVE WHEN REACHING 2ND HIVE ============== ",
+// 11.cop,
+briefing_trigger_529_text,Ready up! Another attack coming!
+briefing_trigger_497_text,The Bugs are coming!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HOLD THE HIGHWAY BLOCKADE/TRIGGERS/FAIL: LOST BLOCKADE ============== ",
+// 11.cop,
+briefing_trigger_597_text,They're all over us! We're done for!
+//,
+// 12.senior,
+briefing_trigger_598_text,"Don't die on me now, Keys! Keys!?"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/HOLD THE HIGHWAY BLOCKADE/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_394_text,Goddamnit! Our flyboys missed their mark on the bridge out of the district.
+briefing_trigger_430_text,Fleet's screw-up gives the Bugs free reign to keep on coming.
+briefing_trigger_398_text,Best we can do for now is contain them by raising the drawbridges...
+briefing_trigger_145_text,... while our cop buddies keep the highway locked down. We'll find a way to fix this mess after that!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OPEN THE DRAWBRIDGES/TRIGGERS/BRIDGES/DIALOGUE TIMELINE ============== ",
+// 12.senior,
+briefing_trigger_498_text,Drawbridge is up. Good work!
+briefing_trigger_499_text,One less bridge for the Bugs to use.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OPEN THE DRAWBRIDGES/TRIGGERS/DEBRIEFING ============== ",
+// 12.senior,
+briefing_trigger_410_text,That's the Bugs cut off from the drawbridges. Now to kick the rest of 'em back into the Ganda.
+//,
+// 11.cop,
+briefing_trigger_500_text,Save some for us -- we're packing up and heading to you.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OPEN THE DRAWBRIDGES/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_327_text,"We've pushed across the first bridge, Keys. We'll close up shop behind us to ease the attacks on your end."
+briefing_trigger_72_text,"Let's keep raising the bridges all along the canal, troopers."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR HIVES/TRIGGERS/DEBRIEFING ============== ",
+// 12.senior,
+briefing_trigger_413_text,Bug nests burned. Now to raise the remaining drawbridges and keep it that way.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR HIVES/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_60_text,Won't be much use closing the island if we leave Bug Hives lying around. Let's clear them out!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/KILL PLASMA BUG/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_342_text,Plasma Bug in the AO! We'll catch hell trying to fight under its bombardment.
+briefing_trigger_350_text,Bring up the Cyclones. The M.I.'s newest toy will be able to rush its position with ease!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ESTABLISH WAVEBREAKERS/TRIGGERS/DIALOGUE TIMELINE ============== ",
+// 12.senior,
+briefing_trigger_599_text,Ha! Now that's a weapon!
+briefing_trigger_600_text,Wavebreaker online!
+briefing_trigger_601_text,"All Wavebreaker batteries set. Better get runnin', Bugs!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ESTABLISH WAVEBREAKERS/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_271_text,It's about time we turn the tide of this thing. Get a couple Wavebreaker batteries up and really show the Bugs who they're messing with!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/REBOOT THE POWER TURBINE/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_82_text,Of course... the last bridge has no damn power! It'll need rebooting from the nearby power station.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PLACE EXPLOSIVES ON THE MAIN BRIDGE/TRIGGERS/OUTRO > VICTORY/DIALOGUE ============== ",
+// 12.senior,
+briefing_trigger_115_text,Bombs planted -- everyone off the bridge!
+briefing_trigger_469_text,"Sorry, Bugs. This island is closed to ugly suckers -- find some place else to stay!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/PLACE EXPLOSIVES ON THE MAIN BRIDGE/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_90_text,"The sector is secured. Now, time to finish the job our flyboys left behind."
+briefing_trigger_92_text,Bring up the techs -- we're blowing this damn bridge to hell ourselves!
+,
+,
+,
+,
+"// ============== /MUTATIONS/PLASMA BUG ============== ",
+// 12.senior,
+briefing_trigger_418_text,Plasma Bugs! We shouldn't be hanging around in their range anyway -- just get the explosives down!
+,
+,
+,
+,
+"// ============== /EVENTS/DIALOGUE: LOCUST TANKER/DIALOGUE: LOCUST TANKER ============== ",
+// 13.cop_vision,
+briefing_trigger_470_text,Argh... there it is again... Do Fed Intel ever teach you how to get used to this?
+//,
+// 12.senior,
+briefing_trigger_471_text,"You better not be in my head, Keys!"
+//,
+// 13.cop_vision,
+briefing_trigger_472_text,"It's worse than whatever you've got bouncing around in there, Major. Something nasty is lurking in that plant..."
+//,
+// 12.senior,
+briefing_trigger_602_text,Then I s'pose I should introduce myself properly...
+,
+,
+,
+,
+"// ============== /EVENTS/DIALOGUE: LOCUST TANKER/LOCUST TANKER SPAWNS ============== ",
+// 12.senior,
+briefing_trigger_476_text,Come on out you ugly son of a--!
+briefing_trigger_477_text,"--whoa! Whatever stink-hole the Bugs dredged you up from, you took half of it with you!"
+,
+,
+,
+,
+"// ============== /EVENTS/DIALOGUE: TURRETS ON BRIDGE ============== ",
+// 12.senior,
+briefing_trigger_572_text,Don’t let those stinkin' Bugs bully us back! Get some turrets down and show 'em proper firepower!
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_38,Capture to raise bridge
+,
+speech_trigger_37,Capture to raise bridge
+,
+speech_trigger_257,Capture to raise bridge
+,
+speech_trigger_83,Power Terminal
+,
+speech_trigger_106,Construct
+,
+speech_trigger_108,Construct
+,
+,
+,
+speech_trigger_152,Blockade
+,
+speech_trigger_260,Construct
+,
+speech_trigger_269,Construct
+,
+speech_trigger_270,Construct
+,
+speech_trigger_360,Kill with M7 Cyclone
+,
+timer_trigger_708_descr,Attack incoming
+,
+,

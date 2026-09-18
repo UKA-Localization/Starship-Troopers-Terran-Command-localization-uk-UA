@@ -1,0 +1,182 @@
+﻿// NAME,
+scenario_name,Sand Castle
+,
+// DESCRIPTION,
+scenario_descr,Learn about resources and supply.
+,
+// OBJECTIVES,
+objective_2_1_title,Capture all Territory Points to increase Resources income
+objective_2_7_title,Unlock Snipers in the Technologies panel
+objective_2_4_title,Deploy 2 squads of Snipers
+objective_2_5_title,Deploy a Supply Depot in the main base
+objective_2_9_title,Unlock and deploy Radio Operators
+objective_2_10_title,Rescue Miners
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_58,#camera start
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /INTRO/TRIGGERS/OBJECTIVE ============== ",
+// 0.hawthorne,
+briefing_trigger_89_text,"Alright, boys and girls. Let's show the Bugs this is our territory."
+,
+,
+,
+,
+"// ============== /INTRO/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_5_text,"Terran Command HQ on Kwalasha has received a distress signal from Cliffort, a remote mining settlement. The cause of their predicament is all too familiar: Arachnids."
+briefing_trigger_58_text,A Mobile Infantry detachment has been dispatched to come to the miners aid. But it is located in deep canyons.
+briefing_trigger_59_text,They has landed on top and must now make their way through the canyons. The detachment is led by veteran Colonel Hawthorne.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE TERRITORY/TRIGGERS/FIRST POINT CAPTURED ============== ",
+// 0.hawthorne,
+briefing_trigger_120_text,Bugs are gettin' pissed we're stepping on their territory...
+briefing_trigger_88_text,Proceed! We'll show 'em this is OUR heap of sand.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE TERRITORY/TRIGGERS/ALL POINTS CAPTURED ============== ",
+// 0.hawthorne,
+briefing_trigger_38_text,We've captured all territory points. Now we just have to clear that hive.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE TERRITORY/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_8_text,Command has promised to provide more resources to our op as we secure this territory.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/UNLOCK SNIPERS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_54_text,"Just got reports of Spitters crawling around in these canyons. We need snipers to pick them off, pronto!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/UNLOCK RADIO OPERATORS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_134_text,"We need a Radio Operator
+"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CONSTRUCT TURRETS/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_84_text,Good. Those turrets will protect our position while we push forward to secure more territory.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CONSTRUCT TURRETS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_15_text,This position is quite exposed... The Bugs can hit it from two directions.
+briefing_trigger_63_text,We gotta deploy defensive turrets here before we move on to the next objective.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INCREASE SUPPLY/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_26_text,We're gonna need more boots on the ground... Get HQ on the line and request more supplies!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/INCREASE SUPPLY/CHECK FOR SUPPLY DEPOT ============== ",
+// 0.hawthorne,
+briefing_trigger_51_text,More supplies have been delivered. We can now support more units.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/RESEARCH TECH/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_78_text,Now that's the good stuff! Our snipers are much more efficient now.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/RESEARCH TECH/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_68_text,These standard issue sniper scopes are ass! Get HQ on the line and tell them we need them to deliver the good stuff.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/RESCUE MINERS/TRIGGERS/CHECKS/TRIGGER 67 ============== ",
+// 0.hawthorne,
+briefing_trigger_173_text,Bugs are heading to the evacuation site. Defend the miners!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/RESCUE MINERS/TRIGGERS/SUCCESS ============== ",
+// 4.propagandist,
+briefing_trigger_177_text,The miners have been rescued.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/RESCUE MINERS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_151_text,Miners are hiding in the tunnel ahead. Let's get them out of here.
+,
+,
+,
+,
+"// ============== /EVENTS/STORM ENDS ============== ",
+// 0.hawthorne,
+briefing_trigger_118_text,Damn storm has finally blown over. At least we'll be able to see Archie coming now.
+briefing_trigger_119_text,We'll clear that hive and establish a new base there.
+,
+,
+,
+,
+"// ============== /EVENTS/OPEN GATE ============== ",
+// 0.hawthorne,
+briefing_trigger_124_text,We managed to open this gate. Will provide a useful shortcut.
+,
+,
+,
+,
+"// ============== /EVENTS/COUNTER ATTACK ============== ",
+// 0.hawthorne,
+briefing_trigger_127_text,Take up defensive positions! Gotta be ready to deal with that counter-attack.
+,
+,
+,
+,
+"// ============== /WIKI/ARACHNID TIMELINE ============== ",
+// 0.hawthorne,
+briefing_trigger_109_text,Archie's getting pissed. Bugs don't like us threading on their territory.
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_94,Capture Resource Points
+,
+speech_trigger_64,Deploy Turret
+,
+speech_trigger_65,Deploy Turret
+,
+speech_trigger_79,Request Supplies
+,
+speech_trigger_74,Unlock Technology
+,
+,
+speech_trigger_163,Protect Miners
+,
+,

@@ -1,0 +1,1822 @@
+// === Summary === (Base),
+// other  - 7 entries  97 words  11 lines,
+// TOTAL  - 7 entries  97 words,
+,
+,
+,
+// #### AbilityLines ####,
+,
+// other  - 1 entries  32 words  2 lines,
+ability_ripper_barrage_descr,"Fire a volley of cluster shots to sweep everything in an area clean! Very effective at close range against lightly armored targets but exercise caution, as friendly fire is a constant threat."
+,
+,
+// #### AchievementsLines ####,
+,
+// other  - 3 entries  16 words  3 lines,
+achievement_lead_by_sample_kills_biped_turret_kills_title,"Engineered elimination"
+achievement_lead_by_sample_kills_biped_turret_kills_descr,"Kill 25 Bugs with HMG Turrets."
+achievement_flash_point_elite_flame_marauder_descr,"Kill 50 enemies with the M11 Marauder (Flamethrower)."
+,
+,
+// #### GeneralUILines ####,
+,
+// other  - 3 entries  49 words  6 lines,
+warning_storage_inaccessible_title,"User storage inaccessible"
+warning_storage_inaccessible_descr,"The game has detected issues while trying to access your local settings and save games on disk.
+The game will most likely have issues creating save games and storing settings.
+If you are using OneDrive, make sure the files are locally available.
+
+Your save game path:"
+tooltip_move_outside_playable_area,"Outside playable area"
+
+// === Summary === (TerritoryOther),
+// other  - 382 entries  2894 words  463 lines,
+// TOTAL  - 382 entries  2894 words,
+,
+,
+,
+// #### LoadingTipLines ####,
+,
+// other  - 37 entries  844 words  61 lines,
+tip_0,"Use the 'Set Target Priority' setting to have your units automatically target a specific type of enemies."
+tip_1,"Set your Snipers' 'Target Priority' to Spitters to make them automatically focus their fire on this type of enemy."
+tip_2,"Set your M6A Jaegers' 'Target Priority' to Scorpions to make them automatically focus their fire on this type of enemy."
+tip_3,"The M9A Sledgehammer has the range and armor to deal with Plasma Grenadiers. Use the 'Target Priority' to make these bipeds automatically focus their fire on this type of enemy."
+tip_4,"The M6A Jaeger has the range and fire power to deal with Scorpions. Use the 'Target Priority' to make these bipeds automatically focus their fire on this type of enemy."
+tip_5,"Use the 'Stop' button to cancel the current order of your selected unit(s) and have them immediately engage any enemy in firing range."
+tip_6,"Issue an 'Attack Move' order when moving your units into enemy territory by holding the Ctrl button and clicking the Right Mouse Button."
+tip_7,"Use the Dropship Transport ability to quickly move units over large distances between radio stations and other types of drop zones."
+tip_8,"Turrets are a very effective way to defend your territory against attacks. But try limiting their placement on choke points for maximum cost-effectiveness."
+tip_9,"Capturing territory points and clearing Bug Hives will enrage the Arachnids, causing them to launch counter attacks or deploy new types of threats."
+tip_10,"You can access the Wiki through the button to the left of the Minimap."
+tip_11,"Upgrade your Autocannon Turrets to make them more resistant against attacks from Tankers, Scorpions and other powerful Arachnid behemoths."
+tip_12,"Deploy and upgrade Cannon Turrets to defend your territory against heavily armored Arachnid behemoths such as Tankers and Scorpions."
+tip_13,"Deploy and upgrade Missile Launcher Turrets to defend your territory against Plasma Grenadiers and other long range enemies."
+tip_14,"You can swap units to a different type. This will preserve 70% of its experience and is useful when you don't have the supplies or resources available to deploy an additional unit."
+tip_15,"Units have an upkeep cost in Territory Mode. This means that deploying more units will reduce your resource income. Make sure you capture and hold enough Territory Points to compensate for the upkeep cost of your army."
+tip_16,"Reinforcing a unit that sustained casualties costs 50% less resources per soldier. This makes reinforcements much more cost-effective than purchasing a completely new unit."
+tip_17,"Avoid spending Resources on Technologies or extra Supplies if they don't give you a short term benefit. Technologies and Supplies don't kill Bugs without the troopers to use them!"
+tip_18,"The only good Bug is a dead Bug."
+tip_19,"Managing the line-of-fire (LoF) of your units is very important. The 'crosshair' icon under a unit's emblem indicates its LoF status:
+<color=#6BAE18>Green</color>: LoF is unobstructed.
+<color=#EFBF42>Yellow</color>: LoF is partially blocked.
+<color=#BD4129>Red</color>: LoF is fully blocked."
+tip_20,"The bar on the right side of a unit's emblem indicates the status of its special abilities: 
+<color=#D2AA50>Yellow</color>: The unit's abilities are on cooldown. 
+<color=#3C9DCD>Blue</color>: The unit's abilities are ready to be used."
+tip_21,"Double-clicking on a unit will select all units of the same type that are currently visible on your screen."
+tip_22,"The appearance of a turret's base structure reflects its durability. Those with a solid, armored base can take more damage, while turrets propped up on a light, open framework are more fragile."
+tip_23,"You can set a Gather Point for a Radio Station. First, select the Radio Station, then right-click on the ground. Newly purchased units will automatically move to this Gather Point."
+tip_24,"You can press F on units with the drop zone ability to quickly Reinforce your troops on the fly."
+tip_25,"You can select several infantry units at once and reinforce them all with a single dropship."
+tip_26,"Try out different Battle Groups to suit different playstyles!"
+tip_27,"Don't waste resources on redundant defenses. Disband turrets in areas that are already well-covered to free up funds for where you need them most."
+tip_28,"Having trouble with Hoppers or other flying units? Then the M4A Grinder has got you covered!"
+tip_29,"Fortis E-Pulse Troopers provide solid protection against high-tier Arachnids such as Scorpions and Royal Guards."
+tip_30,"The closer you move to an active Hive or Tunnel, the faster the Bugs will come out. While more dangerous, this allows you to clear out Hives and Tunnels more quickly."
+tip_31,"When the red pips above a hive or Hive tunnel are depleted, no more Bugs will spawn from it. As long is the Hive is not cleared, however, the pips will gradually refill."
+tip_32,"Each filled red pip contributes to the Hive's total strength. Hover over the Hive to view this number in the tooltip."
+tip_33,"When engaging a Hive, watch the red bar below the pips. It displays the time left until a depleted pip is refilled, which will allow the Hive to release more Bugs."
+tip_34,"When 'Hive Growth' occurs, every Hive and Tunnel gains one additional red pip."
+tip_35,"You can easily access you main base through its icon on the units bar at the bottom of the screen."
+tip_36,"Watch out for the red line-of-fire icon. This indicates that the firing trajectory your unit is being blocked by friendly units."
+,
+,
+// #### Mission_DLC_0.Lines ####,
+,
+// other  - 1 entries  3 words  1 lines,
+example_0_mission_objective,"Do this thing"
+,
+,
+// #### TerritoryCosmeticsLines ####,
+,
+// other  - 15 entries  81 words  15 lines,
+cosmetic_dropsite_kwalasha,"Dropsite Decal: 'Death From Above'"
+cosmetic_dropsite_lava,"Dropsite Decal: 'Give'em Hell'"
+cosmetic_dropsite_metro,"Dropsite Decal: 'Law & Liberty'"
+cosmetic_dropsite_chem,"Dropsite Decal: 'Silent Death'"
+cosmetic_dropsite_descr,"Unlocks a unique decal for all your drop sites."
+cosmetic_dropship_kwalasha,"Custom Dropship: 'DR-4 Desert Viking'"
+cosmetic_dropship_lava,"Custom Dropship: 'DR-4 Dragonship'"
+cosmetic_dropship_metro,"Custom Dropship: 'Police Dropship'"
+cosmetic_dropship_chem,"Custom Dropship: 'The Fumigator'"
+cosmetic_dropship_descr,"Unlocks a unique Dropship model to replace the standard version."
+cosmetic_point_kwalasha,"Resource Point: 'Hero of the M.I.'"
+cosmetic_point_lava,"Resource Point: 'Bug Bait'"
+cosmetic_point_metro,"Resource Point: 'Security Pylon'"
+cosmetic_point_chem,"Resource Point: 'Nuclear Waste'"
+cosmetic_point_descr,"Unlocks a unique visual for all your Resource Points."
+,
+,
+// #### TerritoryCustomModeUILines ####,
+,
+// other  - 16 entries  28 words  16 lines,
+territory_custom_planet,"Planet"
+territory_custom_starting_resources,"Starting Resources"
+territory_custom_resources_income,"Resources Income"
+territory_custom_battle_tiers,"Battle Tiers"
+territory_custom_arachnid_threats,"Arachnid Threats"
+territory_custom_difficulty_level,"Difficulty Level"
+territory_custom_default,"Default"
+territory_custom_random,"Random"
+territory_custom_map_based,"Based on map"
+territory_custom_map_low,"Low"
+territory_custom_map_high,"High"
+territory_custom_map_very_high,"Very high"
+territory_custom_lava_scenario,"Lava Lake"
+territory_custom_metro_scenario,"Dual Districts"
+territory_custom_chem_scenario,"Chemical Compound"
+territory_custom_select_scenario,"Select Scenario"
+,
+,
+// #### TerritoryUILines ####,
+,
+// other  - 119 entries  659 words  133 lines,
+button_technologies_tooltip,"Open the Technologies Panel"
+button_technologies,"Technologies"
+territory_progression_screen_arachnid_threats_title,"Arachnids encounters"
+territory_progression_screen_arachnid_threats_desc,"Arachnid threats encountered in battle."
+territory_progression_screen_battletier,"Battle tier"
+territory_progression_screen_technologies,"Technologies"
+territory_progression_screen_units,"Units"
+gamemode_selection_territory_header,"Do your part!"
+gamemode_selection_territory_header_newdlc,"New DLC out now!"
+territory_missionscreen_nomissioninfo,"No mission selected"
+coming_soon,"Coming Soon!"
+requires_dlc,"Requires {0} DLC"
+play_battlegroup_mission,"Play Battle Group Missions"
+territory_battletier_technology_title,"Battle Tier"
+territory_battletier_technology_tech,"Applies rewards when unlocking Battle Tier"
+territory_tutorial_dialog_title,"Territory Mode Tutorial"
+territory_tutorial_dialog_descr,"We recommend completing the Ground Pounders tutorial missions first.
+
+Do you want to switch to the Ground Pounders Battlegroup?"
+territory_tutorial_dialog_yes,"Yes, switch to Ground Pounders"
+territory_tutorial_dialog_no,"No, continue"
+territory_savegames_current_mission_only,"Current Territory mission only"
+territory_savegames_disclaimer_title,"Territory mode saved games"
+territory_savegames_disclaimer_descr,"In Territory Mode, you can only load saves from the current mission.
+To load a story campaign saved game, return to the main menu."
+territory_battlegroup_selection_header,"- Battle Group -"
+missionscreen_selected_mission_header,"Mission"
+missionscreen_selected_mission_header_new,"New Mission"
+missionscreen_selected_mission_unlocks,"Unlocks"
+missionscreen_selected_mission_threats,"Threats"
+missionscreen_selected_mission_objectives,"Objectives"
+territory_missionscreen_mission_tier,"Tier"
+territory_missionscreen_mission_new,"New"
+territory_missionscreen_mission_haswon,"Won"
+territory_scenario_contract_termination_title,"Contract Termination"
+territory_scenario_sports_title,"Football Station"
+territory_scenario_dual_districts_title,"Dual Districts"
+territory_scenario_carbon_colony_title,"Carbon Colony"
+territory_scenario_missile_base_title,"Missile Base"
+territory_scenario_chemical_small_title,"Missile Crater"
+territory_scenario_chemical_dump_title,"Chemical Dump"
+territory_custommission_tutorial_1_title,"Tutorial - Cliffhanger"
+territory_custommission_tutorial_2_title,"Tutorial - Sand Castle"
+territory_custommission_tutorial_3_title,"Tutorial - Desert Dam"
+territory_missionscreen_reward_technologies_title,"New Technologies"
+territory_missionscreen_reward_technologies_descr,"Completing this mission will unlock new Technologies"
+territory_missionscreen_reward_prestige_title,"Prestige"
+territory_missionscreen_reward_prestige_descr,"Gain {0} Prestige Points by completing this mission"
+tooltip_missionscreen_tier_prefix,"Tier"
+territory_missionscreen_mission_prefixed,"Mission: {0}"
+territory_missionscreen_mission_prefixed_new,"New mission: {0}"
+territory_requires_prestige_points,"Required Prestige:"
+battlegroup_prestige_title,"Battle Group Prestige"
+battlegroup_prestige_descr,"Play missions to gain Prestige and unlock cosmetics for your Battle Group"
+territory_cosmetic_not_yet_available_title,"Not yet available"
+territory_cosmetic_not_yet_available_descr,"Cosmetic will become available in a later update"
+,
+//{0} will be replaced with a unit type name,
+button_upgrade_unit_title,"Switch unit type to {0}"
+button_techpanel_upgrade_battletier_title,"Upgrade to Battle Tier {0}"
+,
+//{0} will be replaced with a time in seconds,
+button_techpanel_upgrade_unlocktime_title,"Unlock time: {0}s"
+tooltip_tech_requires,"This Technology requires:"
+tooltip_only_research_one_tech_at_a_time,"You can only research one Technology at a time"
+tooltip_territory_seconds_suffix,"s"
+territory_depot_disband_title,"Disband Depot"
+territory_depot_disband_descr,"Disband this Depot to refund its cost or replace it with another Depot type."
+button_toggle_tech_panel,"Click to toggle the Technologies panel"
+tooltip_cannot_activate,"Cannot activate during event"
+tooltip_arachnid_threat_level_title,"Arachnid Threat Level"
+tooltip_arachnid_threat_level_descr,"This bar displays the Arachnid threat level. This steadily grows over time.
+Make sure you don't fall behind by capturing and holding Territory Points at a steady pace."
+tooltip_territory_points_title,"Territory Points"
+tooltip_territory_points_title_descr,"This bar displays the amount of territory points under your control."
+button_close_techpanel_title,"Close technologies panel"
+territory_battlegroup_selection_newdlc_disclaimer,"Play on the new planet with all your current Battle Groups"
+territory_battlegroup_selection_content_prefix,"New Territory Mode content:"
+tooltip_territory_resource_title,"Resources"
+tooltip_territory_resource,"Used to buy units, reinforcements and unlock technologies"
+tooltip_territory_resource_total_income,"Total:"
+tooltip_territory_resource_base,"Base Income:"
+tooltip_territory_resource_points,"Territory Points:"
+tooltip_territory_resource_upkeep,"Unit Upkeep:"
+tooltip_territory_resource_upkeep_turrets,"Turrets Upkeep:"
+tooltip_territory_resource_other,"Other Units:"
+tooltip_switch_or_disband_button,"Swap or Disband unit"
+tooltip_switch_or_disband_button_text,"Choose to disband the unit or swap it to a different unit type. When swapping the unit's type, 70% of its current experience is preserved."
+tooltip_requires_technology,"Requires technology"
+battlegroup_groundpounders,"The Ground Pounders"
+battlegroup_groundpounders_descr,"Forged in the brutal desert war on planet Kwalasha, this Battle Group specializes in infantry and powerful bipedal combat vehicles. These masters of ground warfare hold their territory with a grip of steel, relying on sturdy and varied defensive turrets."
+battlegroup_groundpounders_content,"(not relevant)"
+battlegroup_hellraisers,"The Hellraisers"
+battlegroup_hellraisers_descr,"This Battle Group combines disciplined M.I. squads with seasoned mercenaries, specializing in brute force and close-quarters combat. Their arsenal includes repurposed, improvised weapons like the Heavy Drilling Biped and the dual-flamethrower-wielding M-11 Marauder."
+battlegroup_hellraisers_content,"• 9 maps
+• 8 player units
+• 4 Arachnid units"
+battlegroup_peacekeepers,"The Peacekeepers"
+battlegroup_peacekeepers_descr,"The Peacekeepers are a specialized battle group of elite military police units and veteran local police forces. They enforce justice with advanced weapons platforms like the versatile, hovering M7 Cyclone and the area-saturating M23 Rainmaker missile launcher."
+battlegroup_peacekeepers_content,"• 7 maps
+• 6 player units
+• 4 Arachnid units"
+notification_resources_change,"Resources"
+notification_technology_completed,"Technology granted"
+notification_platform_upgrade_completed,"Platform upgrade completed"
+notification_territory_point_attacked,"Territory Point under attack"
+notification_base_attacked,"Base under attack"
+classified_battlegroup,"Classified"
+classified_battlegroup_descr,"This Battle Group is not yet available. It will be part of a future DLC."
+tooltip_resource_funds_title,"Funds"
+tooltip_resource_funds_descr,"Required to hire Mercenaries."
+hotkey_toggletechpanel,"Open Technology Panel"
+territory_show_battlegroup_progress,"Open the progression screen."
+territory_show_battlegroup_progress_desc,"Display the Battle Group progression screen for an overview of what units and Technologies you've unlocked - or to review the Battlegroup Prestige progress."
+territory_mode_attack_wave_timer,"Attack Imminent"
+pause_menu_abort_territorymode,"Abort Territory Mode Mission"
+pause_menu_abort_territorymode_desc,"Are you sure you want to abort the mission and go back to the main menu? All save files of this mission will be lost."
+territory_galactic_war_button,"Galactic war"
+territory_custom_battle_button,"Custom battle"
+news_banner_new_content,"Territory Mode is now available!"
+in_development,"Development in progress"
+tooltip_switch_or_disband_depot_button,"Swap or Disband Depot"
+tooltip_switch_or_disband_depot_button_text,"Choose to disband the Depot or swap it to a different Depot type."
+territory_depot_already_target,"Depot is already this type."
+territory_depot_busy,"Depot is already changing type."
+reinforcements_disabled_restriction_tooltip,"Reinforcements are currently unavailable"
+transportation_disabled_restriction_tooltip,"Dropship transportation is currently unavailable"
+territory_event_horde_attack,"Horde attack"
+territory_event_horde_attack_desc,"The Bugs are preparing a massive attack toward the main base!"
+territory_cannot_clear_hive_during_event,"Cannot clear Hive during event"
+battlegroup_kills_tooltip,"Amount of bugs killed"
+,
+,
+// #### TerritoryWikiLines ####,
+,
+// other  - 13 entries  433 words  49 lines,
+wiki_topic_territory,"Territory Mode"
+wiki_territory_mode_title,"Territory Mode"
+wiki_territory_mode_descr,"Territory Mode offers a new way to play, with a focus on freedom of choice and tactics. It features new maps crafted specifically for the game mode. You'll battle the Arachnids for control of Territory Points, which provide a steady flow of resources - adding a fresh strategic layer to the game."
+wiki_territory_resources_title,"Resources"
+wiki_territory_resources_descr,"Each territory point you control will give you Resources over time. It is vital to secure each of these points to ensure your Resource income can support the cost of war.
+
+Resources are needed for:
+• Unlocking new Technologies
+• Calling Reinforcements for weakened units
+• Calling in new units
+• Paying the upkeep cost of your units and turrets
+• Constructing and upgrading Turrets
+• Filling Supply Depots to increase your Supply
+
+Useful tips:
+• When you disband a unit, its Resource cost is refunded.
+• Reinforcements for weakened units are 50% cheaper than purchasing a new unit"
+wiki_territory_supply_title,"Supplies"
+wiki_territory_supply_descr,"Supplies are required to deploy units on the battlefield. To support a larger army, you need more supplies.
+In Territory Mode, you can gain more supplies by deploying Supply depots on the Delivery Platforms that are attached to your main base and other Radio Stations on the map.
+
+To deploy a Supply Depot:
+• Select the empty Delivery Platform
+• Click the 'Request Supplies' button
+• Wait for the upgrade to complete
+
+Note that you must have enough resources stockpiled to pay for the cost of the Upgrade. Each time you upgrade another Delivery Platform, the cost for the next Upgrade will increase."
+wiki_territory_materiel_title,"Materiel"
+wiki_territory_materiel_descr,"Materiel is required to deploy Turrets and specific types of advanced units on the battlefield. 
+In Territory Mode, you can gain more Materiel by deploying Materiel Depots on the delivery platforms that are attached to your Main Base and other Radio Stations on the map.
+
+To deploy a Materiel Depot:
+• Select an empty Delivery Platform
+• Click the 'Materiel Depot' button
+• Wait for the upgrade to complete
+
+Note that you must have enough Resources stockpiled to pay for the cost of the Upgrade. Each time you upgrade another Delivery Platform, the cost for the next Upgrade will increase."
+wiki_territory_arachnids_title,"Arachnid Escalation"
+wiki_territory_arachnids_descr,"The Arachnids will respond aggressively to what they consider to be an invasion of their territory.
+
+The bar at the top of the screen indicates the current Arachnid Threat Level. This always progresses over time, gradually activating new threats."
+wiki_territory_technologies_title,"Technologies"
+wiki_territory_technologies_descr,"Researching Technologies is an essential part of the Territory Mode. Each Battle Group has a different set of technologies available to them. These are used for:
+
+• Unlocking new Unit Types
+• Upgrading Units
+• Unlocking special abilities
+
+You can access the Technology panel by clicking on the 'Technologies' button at the bottom of the screen."
+,
+,
+// #### UnitsTerritoryModeLines ####,
+,
+// other  - 181 entries  846 words  188 lines,
+unit_1155,"Supply Depot"
+unit_1155_descr,"Increase the amount of available supplies."
+unit_1130,"Battle Group Base"
+unit_4084,"Battle Group Base (Uncaptured)"
+unit_4059,"Pilot"
+unit_176,"AI Region Marker"
+unit_4004,"Battle Group Base"
+unit_4005,"Battle Group Base"
+unit_4002,"Resource Point"
+unit_4003,"Resource Point(Uncaptured)"
+unit_4009,"Resource Point(Uncapturable)"
+unit_4008,"Chariot Bug"
+unit_177,"Territory Invasion Hive"
+unit_3500,"Supply Depot"
+unit_3500_descr,"Increase the amount of available supplies."
+unit_3501,"Delivery Platform"
+unit_175,"Power Turbine"
+unit_2035,"Power Turbine"
+unit_2053,"Power Turbine(Disabled)"
+unit_2047,"Power Turbine(Damaged)"
+unit_2057,"Power Turbine"
+unit_2049,"Scientist"
+unit_2048,"Resource Prospector"
+unit_2052,"Resource Prospector"
+unit_2054,"Resource Prospector(On)"
+unit_2055,"Resource Prospector(Destroyed)"
+unit_2056,"Resource Prospector(Disabled)"
+unit_1142,"Materiel Depot"
+unit_1142_descr,"Increase the amount of available materiel."
+unit_1103,"E-Pulse 88 Troopers"
+unit_1103_descr,"Effective against large numbers of medium armored enemies."
+unit_3502,"Security Tower"
+unit_1122,"Rifle Recruits"
+unit_1122_descr,"If they remember their training, these recruits will eventually form the backbone of the Mobile Infantry. They are effective in close- to medium- range combat against low numbers of unarmored targets."
+unit_1135,"Materiel Depot(Empty)"
+unit_2058,"Research Site"
+unit_4065,"Brood Nest"
+unit_1104,"HMG Tower"
+unit_1104_descr,"This turret's twin machine guns are effective against lightly armored targets. Its barrels tend to overheat from sustained fire, resulting in a substantial cooldown time."
+unit_1105,"Autocannon Turret(AP+)"
+unit_1106,"Mortar Turret(AA on)"
+unit_1107,"Mortar Turret(AA off)"
+unit_1113,"Sniper Turret(AP+)"
+unit_1114,"Sniper Turret(Radio)"
+unit_4023_descr,"Equipped with a high-powered sniper rifle, the Sniper Turret is designed to eliminate lightly armored threats from a distance with deadly precision."
+unit_1116,"Mortar Turret(Repair)"
+unit_1117,"Cannon Turret(Range+)"
+unit_1118,"Cannon Turret(ROF+)"
+unit_1119,"Missile Turret(Range+)"
+unit_1120,"Missile Turret(LOS+)"
+unit_1121,"Autocannon Turret(Armor+)"
+unit_1123,"HMG Tower(Range+)"
+unit_1124,"HMG Tower(Radio)"
+unit_1125,"Flamethrower Turret(AP+)"
+unit_1126,"Flamethrower Turret(Armor+)"
+unit_2152,"Engineering Biped(Damaged)"
+unit_1147,"Territory Marker 1x1"
+unit_1148,"Territory Marker 2x2"
+unit_1149,"Territory Marker 3x3(Permanent)"
+unit_1158,"Territory Marker 3x3"
+unit_1200,"Cleaning Crew"
+unit_1201,"Graffiti"
+unit_1202,"Graffiti"
+unit_2059,"Rogue Mercenaries"
+unit_2153,"Camera Crew"
+unit_2154,"Incident Scene"
+unit_2160,"Incident Scene"
+unit_4080,"Pumping Station"
+unit_4081,"Pumping Station"
+unit_4082,"Pumping Station(Disabled)"
+unit_4083,"Pumping Station(Damaged)"
+unit_2155,"Wavebreaker(Disabled)"
+unit_2156,"Wavebreaker"
+unit_2157,"Wavebreaker(Damaged)"
+unit_2158,"Wavebreaker"
+unit_2159,"Wavebreaker"
+ability_territory_tactical_reinforce_title,"Assign Drop Zone"
+ability_territory_tactical_reinforce_descr,"Allows the Tactical Officer and Powered Suit Officer to place a Drop Zone which can be used to call in reinforcements."
+ability_tier_building_switch_title,"Upgrade to Tier Building"
+ability_tier_building_switch_descr,"For each Battle Tier upgrade you must add another Tier Building."
+ability_supply_building_switch_title,"Request Supplies"
+ability_supply_building_switch_descr,"Fill up this Depot in order to increase the amount of units you can deploy on the battlefield."
+ability_materiel_building_switch_title,"Request Materiel"
+ability_materiel_building_switch_descr,"Fill up this Depot in order to increase the amount of turrets and advanced units you can deploy on the battlefield."
+ability_turret_mg_upgrade_a_title,"Upgrade: Armor-Piercing"
+ability_turret_mg_upgrade_a_descr,"Increase effectiveness against medium-armored targets."
+ability_turret_mg_upgrade_b_title,"Upgrade: Armor"
+ability_turret_mg_upgrade_b_descr,"Increase ability to resist damage."
+ability_turret_mortar_upgrade_a_title,"Upgrade: Anti-Air mode"
+ability_turret_mortar_upgrade_a_descr,"Allow switching ammunition to engage either airborne or ground-based targets."
+ability_turret_mortar_upgrade_b_title,"Upgrade: Repair Drone"
+ability_turret_mortar_upgrade_b_descr,"Add a drone that automatically repairs nearby turrets."
+ability_turret_sniper_upgrade_a_title,"Upgrade: Armor-Piercing"
+ability_turret_sniper_upgrade_a_descr,"Increase effectiveness against medium-armored targets."
+ability_turret_sniper_upgrade_b_title,"Upgrade: Call Reinforcements"
+ability_turret_sniper_upgrade_b_descr,"Allow calling reinforcements for ground units."
+ability_turret_cannon_upgrade_a_title,"Upgrade: Range"
+ability_turret_cannon_upgrade_a_descr,"Increase the firing range of the turret."
+ability_turret_cannon_upgrade_b_title,"Upgrade: Rate of Fire"
+ability_turret_cannon_upgrade_b_descr,"Increase the rate of fire to increase effectiveness against large numbers of armored targets."
+ability_turret_missile_upgrade_a_title,"Upgrade: Range"
+ability_turret_missile_upgrade_a_descr,"Increase the firing range of the turret."
+ability_turret_missile_upgrade_b_title,"Upgrade: Line-of-Sight"
+ability_turret_missile_upgrade_b_descr,"Install a radar for greatly extended line-of-sight unobstructed by terrain features."
+ability_turret_flamer_upgrade_a_title,"Upgrade: Armor-Piercing"
+ability_turret_flamer_upgrade_a_descr,"Increase effectiveness against medium-armored targets."
+ability_turret_flamer_upgrade_b_title,"Upgrade: Armor"
+ability_turret_flamer_upgrade_b_descr,"Increase ability to resist damage."
+ability_turret_hmg_tower_upgrade_a_title,"Upgrade: Range & Line-of-Sight"
+ability_turret_hmg_tower_upgrade_a_descr,"Increase the firing range and extend the line of sight of the turret."
+ability_turret_hmg_tower_upgrade_b_title,"Upgrade: Call Reinforcements"
+ability_turret_hmg_tower_upgrade_b_descr,"Allow calling reinforcements for ground units."
+ability_electro_mortar_aa_enable_title,"Enable AA Mode"
+ability_electro_mortar_aa_enable_descr,"Load AA projectiles that can engage air targets. These can also be fired at ground targets but with low effectiveness."
+ability_electro_mortar_aa_disable_title,"Disable AA Mode"
+ability_electro_mortar_aa_disable_descr,"Load standard projectiles. These cannot be fired at airborne targets."
+ability_rifle_recruit_upgrade_title,"Upgrade to Rifle Troopers"
+ability_rifle_recruit_upgrade_descr,"Upgrades the squad to Rifle Troopers."
+ability_territory_enable_generator_title,"Enable Power Turbine"
+ability_territory_enable_generator_descr,"Enables the Power Turbine."
+ability_territory_enable_prospector_title,"Enable Prospector"
+ability_territory_enable_prospector_descr,"Start gathering a sample at the Prospector."
+threat_territory-defense-broodchamber,"Drone Nests"
+threat_territory-defense-lair,"Bug Lairs"
+threat_territory-defense-stingernest,"Stinger Nests"
+tech_tier2_bullets_tech_title,"Bullet Containers"
+tech_tier2_bullets_tech_descr,"Mk.II Troopers and M4A Grinder: rate of fire +30%"
+tech_base_tech_groundpounders_title,"Base faction technology"
+tech_base_tech_groundpounders_descr,"Applies the base faction stats"
+tech_rifle_rof_increase_title,"Rifle Fire Drill"
+tech_rifle_rof_increase_descr,"Upgrade all existing and future Rifle Recruits to Rifle Troopers"
+tech_cheaper_turrets_title,"Turret Defense Doctrine"
+tech_cheaper_turrets_descr,"Decrease the Materiel cost of all turrets by 5."
+tech_supply_depot_turret_title,"Supply Depot Defense"
+tech_supply_depot_turret_descr,"Install a cannon turret on each Supply Depot"
+tech_sniper_range_increase_title,"C.N.M.E Gunsight"
+tech_sniper_range_increase_descr,"Increase firing range for Snipers."
+tech_tier2_explosive_abilities_title,"High-Explosive Ammo Storage"
+tech_tier2_explosive_abilities_descr,"Unlocks Rocket Troopers and Mk.II Troopers default abilities"
+tech_cheaper_infantry_reinforcements_title,"Weapons-Grade Prosthetics"
+tech_cheaper_infantry_reinforcements_descr,"Decrease the reinforcements cost of all unarmored infantry units to 25%."
+tech_tier1_grenade_abilities_title,"Grenade Pouches"
+tech_tier1_grenade_abilities_descr,"Unlocks all types of hand-thrown grenade abilities"
+tech_engineer_armor_increase_title,"Flak Vests"
+tech_engineer_armor_increase_descr,"Increase armor for Combat Engineers, Fleet Mechanics and Mk.II Troopers"
+tech_marauder_supply_reduction_title,"Marauder Parts Storage"
+tech_marauder_supply_reduction_descr,"Reduce Marauder supply cost by 1."
+tech_supply_depot_bonus_title,"Advanced Crate Stacking"
+tech_supply_depot_bonus_descr,"All Supply Depots provide +2 supply."
+tech_cannon_blast_increase_title,"Shell Fragmentation Sleeve"
+tech_cannon_blast_increase_descr,"M6A Jaeger and M-11 Marauder (Howitzer) shots deal damage to lightly armored targets in a wider blast radius."
+tech_cave_cleared_collapse_title,"Cave Buster Protocol"
+tech_cave_cleared_collapse_descr,"Bug Hives are permanently collapsed after being cleared to prevent them from ever being re-infested again."
+tech_night_vision_goggles_title,"Thermal Imaging Goggles"
+tech_night_vision_goggles_descr,"E-Pulse squads and M6A Jaegers no longer suffer from line-of-sight restrictions during nighttime environments."
+tech_buy_war_support_title,"War Bonds"
+tech_buy_war_support_descr,"Grants +2 War Support."
+tech_main_base_turret_title,"Armed Command Station"
+tech_main_base_turret_descr,"Install an Autocannon Turret on the Command Station"
+tech_armor_autohealing_title,"Hemostasis Steel"
+tech_armor_autohealing_descr,"Activate automatic healing for bipeds, quadrupeds and turrets."
+tech_base_tech_enforcers_title,"Base faction technology"
+tech_base_tech_enforcers_descr,"Applies the base faction stats"
+tech_tier2_grinder_bullets_tech_title,"Bullet Containers"
+tech_tier2_grinder_bullets_tech_descr,"M4A Grinder rate of fire +30%"
+tech_police_grenade_abilities_title,"Grenade Pouches"
+tech_police_grenade_abilities_descr,"Unlocks all types of hand-thrown grenade abilities"
+tech_rainmaker_deployment_title,"Rainmaker Deploy Mode"
+tech_rainmaker_deployment_descr,"Allows the M23 Rainmaker to deploy"
+tech_peacekeeper_armor_title,"Peacekeeper Armor Kit"
+tech_peacekeeper_armor_descr,"Increase armor for the Peacekeeper Biped"
+tech_buy_funds_title,"Freelancer Funding"
+tech_buy_funds_descr,"Funds +3"
+tech_buy_funds_2_title,"Advance Payments"
+tech_buy_funds_2_descr,"Funds +3"
+tech_buy_funds_3_title,"Contract Extensions"
+tech_buy_funds_3_descr,"Funds +3"
+tech_fire_immunity_title,"Neo-Asbestos Coating"
+tech_fire_immunity_descr,"Combat Engineers and Frag Mercs are immune to fire damage."
+unit_63_descr,"A Drone Nest releases a horde of aggressive Drones whenever an enemy comes too close."
+unit_2110_descr,"This nest is filled with Stinger Bugs that engage any enemy within their shooting range."
+// === Summary === (ChemicalVO),
+// territory_vo_18_  - 151 entries  2631 words  304 lines,
+// territory_vo_19_  - 92 entries  1726 words  217 lines,
+// other  - 146 entries  569 words  148 lines,
+// TOTAL  - 389 entries  4926 words,
+,
+,
+,
+// #### Mission_Chemical_1.Lines ####,
+,
+// territory_vo_18_  - 4 entries  94 words  11 lines,
+// territory_vo_19_  - 17 entries  300 words  33 lines,
+// other  - 9 entries  34 words  9 lines,
+chemical_1_missionobjective,"Retrieve launch codes for the missile launch"
+territory_vo_18_chemical_1_intro_1,"Welcome to Ghutana, Commander. I've been looking forward to your arrival..."
+territory_vo_18_chemical_1_intro_2,"The planet - and its Arachnid colonies - are ideally suited for our experimental weapons programs--chemical, nuclear, you name it. It's remote, it's quiet, and it's the perfect place to see what our new toys can really do."
+territory_vo_18_chemical_1_intro_3,"I'm patching you through to Doctor Kraus now. He's the lead for our R&D department on-site. Try to stay on his good side..."
+territory_vo_19_chemical_1_intro_4,"Commander. Our research here is vital for the security of the Federation. The Arachnids possess a level of... biological efficiency that we must fully understand to ensure our dominance."
+territory_vo_19_chemical_1_intro_5,"We have a test missile launch scheduled for today, but an Arachnid host attacked and overran the facility. I need you to regain control."
+territory_vo_19_chemical_1_intro_6,"I'll be monitoring your vitals and combat tactics throughout the mission. It should make for an interesting study."
+territory_vo_19_chemical_1_intro_7,"Start by securing the launch control center; it will serve as your foothold for the operation."
+territory_vo_19_chemical_1_eradicators_tutorial_1,"Ah, our Eradicator squads. Their ammunition utilizes localized radiation to induce rapid internal necrosis in the target; it is quite a thorough process."
+territory_vo_19_chemical_1_eradicators_tutorial_2,"As for your Arachnid escort, do not let their presence unsettle you. Through pheromonal recalibration, we have co-opted their predatory instincts to serve our interests."
+territory_vo_19_chemical_1_eradicators_tutorial_3,"Unlike your soldiers, they are free from any psychological limitations - they simply exist to kill. A fascinating display of biological utility."
+territory_vo_19_chemical_1_pheromone_resource_tutorial_1,"Commander... If you're going to make extensive use of our Arachnid control program, make sure you deploy enough pheromone silos."
+territory_vo_19_chemical_1_nearing_base_1,"You are approaching the launch platform. A powerful weapon, certainly, though quite crude in its delivery."
+territory_vo_19_chemical_1_base_captured_1,"Well done. The launch site is secured--ensure it stays that way."
+territory_vo_19_chemical_1_capture_hangar_1,"However, we still require access to the hangar for refueling operations. It appears the Arachnids have already established a nest within the structure-- a fascinating use of our infrastructure."
+territory_vo_19_chemical_1_capture_hanger_2,"You'll have to clear them out, Commander."
+territory_vo_19_chemical_1_hangar_captured_1,"The fuel cells are now in transit. Ensure they reach the launch platform unimpeded."
+territory_vo_19_chemical_1_attack_wave_1,"Incoming signatures are spiking. It's fascinating... they seem to possess an instinctual awareness of the threat we've prepared for them."
+territory_vo_19_chemical_1_outro_1,"Refueling cycle complete. Clear the platform, Commander; the launch window is narrow, and I have no intention of further delaying the sequence."
+territory_vo_18_chemical_1_outro_2,"Great work down there, Commander. I'll have your mission debriefing ready by the time you reach orbit. Drinks are on me. Out."
+territory_vo_19_chemical_1_defeat_lost_base,"We lost"
+territory_vo_19_chemical_1_defeat_lost_units,"We lost"
+objective_title_chemical_1_capture_base,"Capture the main base"
+objective_bubble_chemical_1_capture_base,"Capture"
+objective_title_chemical_1_clear_hive,"Clear the missile hangar"
+objective_bubble_chemical_1_clear_hive,"Clear"
+objective_title_chemical_1_defeat_attackwave,"Defeat the attack wave"
+objective_bubble_chemical_1_defend,"Defend"
+objective_title_chemical_1_dont_lose_base,"Do not lose the main base"
+objective_title_chemical_1_dont_lose_units,"Do not lose the Eradicator squads"
+,
+,
+// #### Mission_Chemical_10.Lines ####,
+,
+// territory_vo_18_  - 8 entries  99 words  16 lines,
+// territory_vo_19_  - 23 entries  410 words  61 lines,
+// other  - 13 entries  45 words  14 lines,
+chemical_10_missionobjective,"Clear the sector and capture the Hydra"
+territory_vo_19_chemical_10_intro_1,"Commander, we know why the Hydra did not show up. Tracing the swarm of Acid Grenadiers back to its source led us to a massive lair... filled with millions of eggs."
+territory_vo_19_chemical_10_intro_2,"Right at the center of it all: our Hydra. The creature is a hive queen, Commander, with maternal instincts far outweighing the lure of my Pheromone Emitter!"
+territory_vo_19_chemical_10_intro_3,"Now we must proceed with care. This is a priceless opportunity to study the Arachnid reproductive systems."
+territory_vo_19_chemical_10_intro_4,"Clear out the surrounding nests and secure a perimeter around the lair. Do not touch the Hydra until further instructions."
+territory_vo_18_chemical_10_hive_cleared_1,"That's one hive cleared. Good work!"
+territory_vo_18_chemical_10_hive_cleared_2,"Another hive cleared - just one more to go."
+territory_vo_19_chemical_10_hive_cleared_3,"Very well. The perimeter has been established."
+territory_vo_19_chemical_10_eggs_intro,"Commander, secure a cluster of Hydra eggs and send it to my lab. And restrain yourself - I need them intact."
+territory_vo_19_chemical_10_eggs_captured,"I have received the eggs--and they appear unscathed. Exterminate the remaining clusters at your leisure."
+territory_vo_19_chemical_10_northern_station_intro,"Commander, secure the northern station for the deployment of the D.I.M. Dart Launcher. This location provides a clear line of fire into the Hydra's lair."
+territory_vo_19_chemical_10_northern_station_captured,"Initiating deployment of the D.I.M. Dart Launcher now."
+territory_vo_18_chemical_10_northern_station_captured_2,"Great work, Commander. Hold this position until Kraus is ready to activate the launcher."
+territory_vo_19_chemical_10_hydra_warning,"Do not provoke the Hydra yet. I'm aware this procedure requires a level of nuance and intellect your branch is not well known for. Complete your tasks and follow my instructions to the letter."
+territory_vo_19_chemical_10_weaken_hydra,"All preparations are completed! Engage the Hydra, Commander. We need its armor weakened enough to allow the D.I.M. Dart to penetrate into the nerve stem."
+territory_vo_19_chemical_10_weaken_hydra_swarm,"As for the surrounding swarm, exterminate them all. They are of no scientific value."
+territory_vo_19_chemical_10_hydra_weakened,"The Hydra has been sufficiently weakened! Target coordinates synchronized with the D.I.M. Dart Launcher."
+territory_vo_19_chemical_10_dim_launch,"Initiating launch sequence..."
+territory_vo_19_chemical_10_dim_hit,"Direct hit! Confirming neural-link..."
+territory_vo_19_chemical_10_dim_success,"Magnificent. The Hydra is responsive! All my work has finally come to fruition."
+territory_vo_18_chemical_10_hydra_captured,"Doctor... I've got massive Bug activity lighting up in all surrounding sectors. They're converging on your position, Commander..."
+territory_vo_19_chemical_10_hydra_protect_1,"Commander! Protect the Hydra with everything you have! I'll see you all dead before I lose this specimen!"
+territory_vo_19_chemical_10_hydra_protect_2,"Wait... I'll direct it... I'll turn it against the incoming swarms! Form a perimeter around the Hydra, and I'll demonstrate what this magnificent beast can truly do!"
+territory_vo_19_chemical_10_victory_1,"The neural-link is holding perfectly. My work here is a triumph. The Hercules Program is a resounding success."
+territory_vo_19_chemical_10_victory_2,"The data is conclusive--the neural-link is holding perfectly! I'm transferring the Hydra to the Research Division's high-security transport immediately."
+territory_vo_19_chemical_10_victory_3,"You have served your purpose here, Commander. A positive evaluation all in all. You are dismissed."
+territory_vo_18_chemical_10_victory_4,"And there he goes--moving on without so much as a goodbye."
+territory_vo_18_chemical_10_victory_5,"The Doctor may be done with you, Commander. But you and me, we're just getting started."
+territory_vo_18_chemical_10_defeat_hydra_1,"The Hydra... We lost it..."
+territory_vo_19_chemical_10_defeat_hydra_2,"Years of planning... and research... destroyed by your utter incompetence! Pack your gear, Commander, and get off my planet!"
+territory_vo_19_chemical_10_defeat_dim_launcher,"The launcher... Destroyed! You are finished! Pack your gear, Commander, and get off my planet!"
+territory_vo_18_chemical_10_kill_remaining,"Impressive... For a Bug, the Hydra is remarkably efficient. Now finish off the remaining Arachnids and secure the sector completely."
+objective_title_chemical_10_clear_hives,"Clear all Hives"
+objective_bubble_chemical_10_clear_hive,"Clear"
+objective_title_chemical_10_capture_eggs,"Capture the Eggs Cluster"
+objective_bubble_chemical_10_capture_eggs,"Capture"
+objective_title_chemical_10_capture_station,"Capture the northern station"
+objective_bubble_chemical_10_capture_station,"Capture"
+objective_title_chemical_10_weaken_hydra,"Weaken the Hydra"
+objective_bubble_chemical_10_weaken,"Weaken"
+objective_title_chemical_10_kill_bugs,"Kill 30 Bugs with the Hydra"
+objective_title_chemical_10_dont_lose_hydra,"Do not lose the Hydra Bug"
+objective_title_chemical_10_dont_lose_dim,"Do not lose the D.I.M. Dart Launcher"
+objective_bubble_chemical_10_defend_dim,"Defend"
+,
+,
+// #### Mission_Chemical_2.Lines ####,
+,
+// territory_vo_18_  - 12 entries  144 words  20 lines,
+// territory_vo_19_  - 9 entries  151 words  19 lines,
+// other  - 13 entries  37 words  13 lines,
+territory_vo_19_chemical_2_defeat_1,"We lost"
+territory_vo_19_chemical_2_intro_1,"The detonation achieved all primary yield objectives. It was quite... illuminating."
+territory_vo_19_chemical_2_intro_2,"I need you to lead a recovery team into ground zero and collect soil samples. We must analyze the residual effects of the payload on the local environment."
+territory_vo_18_chemical_2_intro_3,"We have a serious infestation problem in the sector, Commander. A local hive - and the Bugs have already begun nesting in the rubble."
+territory_vo_19_chemical_2_intro_4,"Handle this 'infestation' however you see fit. Just bring me those samples."
+territory_vo_19_chemical_2_toxic_biped_intro_1,"Commander, use this opportunity to deploy our new toxic weapon bipeds. These vehicles utilize a concentrated corrosive aerosol specifically designed to dissolve the structural integrity of the Arachnid exoskeleton."
+territory_vo_19_chemical_2_toxic_biped_repeat,"Commander, I have already instructed you to deploy the Alchemist bipeds--do not make me repeat myself again."
+territory_vo_18_chemical_2_buzzer_sighting,"Heads up, Commander. Ghutana is crawling with Buzzers. These Bugs are built for chaos, capable of slipping through - or crashing through - even the tightest gaps in your defensive lines."
+territory_vo_18_chemical_2_killed_nest_1,"Destroyed a nest!"
+territory_vo_18_chemical_2_killed_nest_2,"Destroyed another nest!"
+territory_vo_18_chemical_2_killed_nest_3,"Another nest destroyed!"
+territory_vo_18_chemical_2_secured_crater_1,"The crater is secure. Honestly, Commander, you're making this look easy. Excellent work."
+territory_vo_19_chemical_2_deploy_prospector_1,"The soil extractor is ready for deployment. We can save the congratulations for later. Place the extractor and finish the assignment."
+territory_vo_18_chemical_2_activate_prospector_1,"Extractor is ready for activation on your mark. Just be ready for company--It's going to be a total Bug magnet once the drilling begins!"
+territory_vo_18_chemical_2_attack_wave_incoming_1,"Here they come! Show 'em what the Federation is made of!"
+territory_vo_19_chemical_2_build_cages_1,"Deploy Bug Cages wherever you need to augment your defenses. I'll make sure you have plenty of specimens at your disposal."
+territory_vo_19_chemical_2_prospector_completed_1,"Sample received. You've served your purpose for the day. Dismissed."
+territory_vo_18_chemical_2_clear_hives_intro_1,"Don't pack up yet, Commander."
+territory_vo_18_chemical_2_clear_hives_intro_2,"That local hive needs to be neutralized to secure the sector."
+territory_vo_18_chemical_2_success_1,"Mission accomplished!"
+territory_vo_18_chemical_2_success_2,"Head back to base, Commander--I'm looking forward to our debriefing. Don't keep me waiting."
+objective_title_chemical_2_destroy_nests,"Clear the crater of Buzzer Nests"
+objective_bubble_chemical_2_destroy_nests,"Destroy"
+objective_title_chemical_2_construct_prospector,"Construct the prospector"
+objective_bubble_chemical_2_construct_prospector,"Construct"
+objective_title_chemical_2_activate_prospector,"Activate the prospector"
+objective_bubble_chemical_2_activate_prospector,"Activate"
+objective_title_chemical_2_defeat_attack_waves,"Defeat the attack wave"
+objective_bubble_chemical_2_defend,"Defend"
+objective_title_chemical_2_build_cages,"Build Bug Cages"
+objective_title_chemical_2_deploy_toxic_biped,"Deploy an XM3-C Alchemist"
+objective_title_chemical_2_clear_hive,"Clear the Hive"
+objective_bubble_chemical_2_clear_hive,"Clear"
+chemical_2_missionobjective,"Gather soil samples from the crater"
+,
+,
+// #### Mission_Chemical_3.Lines ####,
+,
+// territory_vo_18_  - 5 entries  91 words  13 lines,
+// territory_vo_19_  - 10 entries  147 words  17 lines,
+// other  - 9 entries  25 words  9 lines,
+chemical_3_missionobjective,"Capture specimen"
+territory_vo_18_chemical_3_intro_1,"Watch your step, Commander. This sector is basically a junk drawer for nuclear and bio-waste. It's not pretty, but it keeps the labs running."
+territory_vo_19_chemical_3_intro_2,"Arachnid physiology is built for survival against the most extreme variables. We have detected fascinating mutations in direct response to our discarded materials."
+territory_vo_19_chemical_3_intro_3,"Alas, the specimens are deceased - but this still provides a unique opportunity to study forced evolution."
+territory_vo_19_chemical_3_intro_4,"Locate the cadavers and prepare them for extraction."
+territory_vo_19_chemical_3_radiation_biped_intro_1,"The XM3-A Raycaster biped is now available for field testing, Commander. Its concentrated microwave emitter provides an efficient way to neutralize Arachnids from a safe distance."
+territory_vo_19_chemical_3_radiation_biped_intro_2,"Use it to clear out the generic Spitter population… In nature, the elimination of the mediocre is the only way to reveal the exceptional."
+territory_vo_18_chemical_3_radiation_biped_unlocked,"XM3-A Raycasters are now ready for deployment."
+territory_vo_19_chemical_3_radiation_biped_repeat,"Why are there still no Raycaster bipeds on the field?! My time is far too valuable to be spent echoing basic directives."
+territory_vo_18_chemical_3_capture_base_intro_1,"Commander, my scans found an old Federation outpost nearby. Bring it back online; I'm sure there's some hardware inside that'll make your life easier."
+territory_vo_19_chemical_3_specimen_captured_1,"Specimen secured. Move to the next coordinate."
+territory_vo_19_chemical_3_specimen_captured_2,"Fascinating... Proceed to the next carcass."
+territory_vo_19_chemical_3_specimen_captured_3,"A productive acquisition... Continue the sweep."
+territory_vo_19_chemical_3_specimen_all_captured_1,"Excellent. All carcasses are secured and accounted for."
+territory_vo_18_chemical_3_attack_wave_incoming_1,"Heads up, Commander. We've got a massive Bug signature heading straight for your position. Get ready... and happy hunting!"
+territory_vo_18_chemical_3_success_1,"That’s the last of ‘em! Area's green and the sector is officially secure. Quite the performance, Commander!"
+objective_title_chemical_3_capture_spitters,"Capture mutated Spitter corpses"
+objective_bubble_chemical_3_capture_spitters,"Capture"
+objective_title_chemical_3_defeat_attack_waves,"Defeat the attack wave"
+objective_bubble_chemical_3_defend,"Defend"
+objective_title_chemical_3_capture_base,"Capture western radio station"
+objective_bubble_chemical_3_capture_base,"Capture"
+objective_title_chemical_3_unlock_biped,"Unlock the XM3-A Raycaster"
+objective_title_chemical_3_deploy_biped,"Deploy an XM3-A Raycaster"
+,
+,
+// #### Mission_Chemical_4.Lines ####,
+,
+// territory_vo_18_  - 15 entries  271 words  26 lines,
+// territory_vo_19_  - 9 entries  239 words  24 lines,
+// other  - 15 entries  58 words  16 lines,
+chemical_4_missionobjective,"Secure the weapon testing facility"
+territory_vo_18_chemical_4_intro_1,"Commander, we have an emergency at this weapon testing facility. Someone ignored safety protocols, and now the live 'target' specimens have broken out of their holding pens and overrun the place."
+territory_vo_18_chemical_4_intro_2,"Doctor Kraus is on his way for a primary research test, and I'd really rather not deal with one of his tantrums today. Let's get to work and tidy up before he gets here."
+territory_vo_18_chemical_4_intro_3,"Your drop zone is right outside the facility walls. Secure the main supply bay first, then proceed with the rest of the facility."
+territory_vo_18_chemical_4_nearing_base,"You're coming up on the supply bay. Secure the station before you sweep the rest of the facility."
+territory_vo_18_chemical_4_base_captured,"Main supply base secured. You'll be able to call in reinforcements from here. Now you have to bring the rest of the facility back under our control."
+territory_vo_18_chemical_4_holding_pens_intro,"Commander, you are authorized to clear all Arachnids in the facility's perimeter. That includes any Bugs still located in their holding pens."
+territory_vo_18_chemical_4_holding_pens_cleared,"The holding pens are cleared. If Kraus wants any more 'live test subjects' for his research, he's going to have to replenish his stock later."
+territory_vo_18_chemical_4_central_station_intro,"Commander, Doctor Kraus has arrived in orbit over the facility..."
+territory_vo_19_chemical_4_central_station_scientist,"It seems the security detachment has proven utterly incompetent. I hope you will do better, Commander. For your own sake. Take back the central control hub immediately, and I will grant access to the adjacent missile silos."
+territory_vo_18_chemical_4_central_station_captured,"Control Center secured. You now have access to the missile silos."
+territory_vo_18_chemical_4_unlock_missiles,"To direct these missiles, you'll first need to deploy a Missile Specialist."
+territory_vo_18_chemical_4_missile_monitor_available,"Missile Specialists are now available for deployment."
+territory_vo_18_chemical_4_missile_monitor_deployed,"A Missile Specialist has just been dropped into the facility."
+territory_vo_18_chemical_4_deploy_silo,"You will need to deploy a new Missile Silo before we can proceed."
+territory_vo_18_chemical_4_kill_bugs_with_silo,"Let's see what these missiles can do. Choose a target, send in a Missile Specialist and enjoy the spectacle."
+territory_vo_19_chemical_4_silo_kills_complete,"I'm not surprised to see the extensive use of our missile silos. After all, the hypothesis that even a crude means of mindless destruction has its usefulness is why you are here."
+territory_vo_19_chemical_4_dim_intro,"Commander, the device up ahead is the focus of today's test program, and a vital part of the 'Hercules Program' - one of my most promising Arachnid research programs."
+territory_vo_19_chemical_4_dim_intro_2,"In terms you may understand: it can launch special darts with great precision. Darts designed to target the nerve stem of a very specific Arachnid specimen - and allow us to essentially take full control of its mind."
+territory_vo_19_chemical_4_dim_intro_3,"Needless to say, I want the D.I.M. Dart Launcher secured without a scratch."
+territory_vo_19_chemical_4_hydra_intro,"Behold, the ultimate target of the Hercules Program: The Hydra - or at least a mockup of this magnificent Arachnid specimen."
+territory_vo_19_chemical_4_clear_ne_hive,"Clear the area so my team can be deployed to observe the D.I.M. Dart firing test."
+territory_vo_19_chemical_4_outro_launch,"All systems are on line and everyone is in position. Commencing the D.I.M. dart test launch. Three... Two... One... Launch!"
+territory_vo_19_chemical_4_outro_success,"Excellent. The dart has survived the impact and has penetrated well within the required target area and depth to establish a neural connection. An important step toward the climax of the Hercules Program!"
+territory_vo_18_chemical_4_defeat_lost_base,"We've lost the main supply bay! Mission failed, Commander."
+objective_title_chemical_4_capture_base,"Capture the main base"
+objective_bubble_chemical_4_capture,"Capture"
+objective_title_chemical_4_capture_tps,"Capture all Territory Points"
+objective_title_chemical_4_clear_holding_pens,"Clear the Hive"
+objective_bubble_chemical_4_clear,"Clear"
+objective_title_chemical_4_capture_central,"Capture the Central Station"
+objective_title_chemical_4_capture_dim,"Capture the D.I.M. Dart Launcher"
+objective_title_chemical_4_clear_ne_hive,"Clear the Hive near the Hydra Mockup"
+objective_title_chemical_4_dont_lose_base,"Do not lose the main base"
+objective_bubble_chemical_4_defend,"Defend"
+objective_title_chemical_4_unlock_missiles,"Unlock Missile Mastery"
+objective_title_chemical_4_deploy_monitor,"Deploy a Missile Monitor"
+objective_title_chemical_4_deploy_silo,"Deploy a Missile Silo"
+objective_title_chemical_4_kill_with_silo,"Kill 50 Bugs with Silo Missiles"
+,
+,
+// #### Mission_Chemical_5.Lines ####,
+,
+// territory_vo_18_  - 12 entries  267 words  29 lines,
+// territory_vo_19_  - 1 entries  21 words  2 lines,
+// other  - 8 entries  33 words  8 lines,
+chemical_5_missionobjective,"Collect irradiated DNA samples from the nuclear facility"
+territory_vo_18_chemical_5_intro_1,"Another day, another toxic excursion. Doctor Kraus insists it is 'vital for his Hercules Program', of course."
+territory_vo_18_chemical_5_intro_2,"You are stepping into an old abandoned nuclear facility. By the looks of it, the plant suffered a pretty violent termination."
+territory_vo_18_chemical_5_intro_3,"The Doctor wants pheromone samples extracted from several irradiated Bug corpses. At least the fallout saved you the trouble of killing them first..."
+territory_vo_18_chemical_5_intro_4,"Just keep a close eye on your Geiger counter. And if it glows, keep your distance. I'm quite fond of your current number of limbs."
+territory_vo_18_chemical_5_hazmat_warning,"The radiation around that carcass is off the charts, Commander. Assign Hazmat Troopers to handle the extraction. Their suits provide the necessary shielding against levels this high."
+territory_vo_18_chemical_5_hazmat_unlocked,"Hazmat Troopers are now available for deployment. They can operate in high radiation zones without melting into a puddle."
+territory_vo_18_chemical_5_geiger_sighting,"Commander, I ran a search for 'glowing crawling abomination'. Nothing in the Federal database matches that mess... Keep your distance. Radiation signatures are extreme and they look like they're about to pop."
+territory_vo_18_chemical_5_sam_intro,"Commander, my scanners are showing large numbers of Hopper nests in the peaks surrounding the plant. I strongly suggest you restore the air defense system in the center of the facility before these Hoppers decide to come down for a closer look."
+territory_vo_18_chemical_5_hoppers_incoming,"Heads up, Commander! We've got a whole swarm of Hoppers coming in fast from the mountains!"
+territory_vo_18_chemical_5_hoppers_defeated,"That's most of the Hoppers accounted for. But do keep one eye on the clouds."
+territory_vo_18_chemical_5_second_sample,"That's another sample in the bag. One more carcass left to dissect."
+territory_vo_19_chemical_5_outro_scientist,"Commander, the DNA samples have just arrived in my lab. We have all we need to proceed with the Hercules Program."
+territory_vo_18_chemical_5_outro_adjutant,"Great! Meet me at the medical bay, Commander. I'll check if you're growing anything that wasn't there before."
+objective_title_chemical_5_collect_dna,"Collect DNA samples from Tanker carcasses"
+objective_bubble_chemical_5_collect,"Collect"
+objective_title_chemical_5_unlock_hazmat,"Unlock Hazmat Troopers"
+objective_title_chemical_5_deploy_hazmat,"Deploy a squad of Hazmat Troopers"
+objective_title_chemical_5_repair_sam,"Repair the SAM Site"
+objective_bubble_chemical_5_repair,"Repair"
+objective_title_chemical_5_defeat_hoppers,"Defeat the Hopper swarm"
+,
+,
+// #### Mission_Chemical_6.Lines ####,
+,
+// territory_vo_18_  - 15 entries  274 words  32 lines,
+// territory_vo_19_  - 7 entries  109 words  18 lines,
+// other  - 14 entries  57 words  14 lines,
+chemical_6_missionobjective,"Test the Pheromone Emitter by defending it against escalating Bug waves"
+territory_vo_18_chemical_6_intro_1,"Commander, we're moving forward with the Hercules Program. Doctor Kraus is field testing his 'Pheromone Emitter' today. As far as I understand, this device will be used to lure in this elusive Hydra he keeps talking about."
+territory_vo_18_chemical_6_intro_2,"Today we are just doing test runs, however. The first low-yield test already pulled in enough Bugs to overwhelm the facility's outer defenses."
+territory_vo_18_chemical_6_intro_3,"Kraus calls it a success, but you'll need to clear out these infestations before the tests can proceed."
+territory_vo_18_chemical_6_nests_cleared_1,"Good progress on clearing the infestation. Continue the sweep."
+territory_vo_18_chemical_6_nests_cleared_2,"Inner perimeter cleared! The infestation has been purged."
+territory_vo_18_chemical_6_hive_found,"Commander, we've found another infestation to the west of the facility. Clear it out."
+territory_vo_19_chemical_6_phase1_impatient,"These delays are unacceptable. I am initiating the second test phase now. I expect you to do your job and protect my Emitter."
+territory_vo_19_chemical_6_phase1_activate_1,"Initiating the second test run."
+territory_vo_19_chemical_6_phase1_activate_2,"Three... two... one. Emitter operating at forty percent capacity."
+territory_vo_18_chemical_6_phase1_warning,"Bugs incoming! Hold the perimeter, Commander. Don't let them reach the Emitter."
+territory_vo_18_chemical_6_central_base,"I have arranged access to the central radio station. You can now use it to deploy reinforcements directly on top of the compound roof."
+territory_vo_19_chemical_6_phase2_activate,"We are commencing the third test run. Emitter set to seventy percent capacity."
+territory_vo_18_chemical_6_phase2_warning,"Another wave of Bugs incoming! You know what to do, Commander."
+territory_vo_18_chemical_6_deploy_epulse,"This is getting a little too close for comfort. Let's beef up our firepower with a few E-Pulse Cannons before the next wave pours in."
+territory_vo_18_chemical_6_epulse_ready,"E-Pulse Cannons are in position and online. The perimeter is ready for the final round."
+territory_vo_19_chemical_6_phase3_activate,"Initiating the final test run at full capacity. Stand by!"
+territory_vo_18_chemical_6_phase3_warning,"Looks like that's the whole sector bearing down on your position. Give them everything you've got!"
+territory_vo_19_chemical_6_victory,"The Emitter performed perfectly up to its maximum load. The data shows we are officially ready to proceed with the next phase of the Hercules Program. Excellent work, everyone."
+territory_vo_18_chemical_6_victory,"Kraus seems happy. And you know I always am when I've seen you in action. Well done, Commander!"
+territory_vo_19_chemical_6_defeat,"The Emitter is damaged beyond repair... You incompetent fool. You had one simple job and you messed it all up!"
+objective_title_chemical_6_destroy_nests,"Destroy the marked Bug Nests"
+objective_bubble_chemical_6_destroy,"Destroy"
+objective_title_chemical_6_clear_hive,"Clear the western Bug Nests"
+objective_bubble_chemical_6_clear,"Clear"
+objective_title_chemical_6_dont_lose_emitter,"Do not lose the Pheromone Emitter"
+objective_bubble_chemical_6_defend,"Defend"
+objective_title_chemical_6_deploy_epulse,"Deploy E-Pulse Cannons on the marked locations"
+objective_bubble_chemical_6_deploy,"Deploy"
+objective_title_chemical_6_defeat_wave,"Defeat the attack wave"
+objective_title_chemical_6_defeat_final_wave,"Defeat the final wave"
+chemical_6_attack_wave_countdown_title,"Attack wave incoming"
+territory_vo_18_chemical_6_unlock_fortis,"Commander, our standard squads won't cut it for this next phase. Authorize deployment of the Fortis Eradicators—they're built to hold the line under heavy fire."
+territory_vo_18_chemical_6_deploy_fortis,"Fortis Eradicators are cleared for deployment. Get a squad on the ground before we fire up the Emitter again."
+objective_title_chemical_6_unlock_fortis,"Unlock Fortis Eradicators"
+objective_title_chemical_6_deploy_fortis,"Deploy 2 Fortis Eradicator squads"
+,
+,
+// #### Mission_Chemical_7.Lines ####,
+,
+// territory_vo_18_  - 10 entries  195 words  20 lines,
+// territory_vo_19_  - 6 entries  122 words  16 lines,
+// other  - 9 entries  49 words  9 lines,
+chemical_7_missionobjective,"Restore order at Ghutana High Security Prison"
+territory_vo_18_chemical_7_intro_1,"While Kraus is busy planning the next phase of the Hercules Program, we've got a real fire to put out, Commander. A major riot broke out in Ghutana's infamous High Security Prison."
+territory_vo_18_chemical_7_intro_2,"Damage to the facility is severe and with the security systems down, the local Arachnids have also crashed the party."
+territory_vo_18_chemical_7_intro_3,"Between the armed inmates and Bugs looking for a snack, the situation is a total mess. You'll need to handle both to restore control."
+territory_vo_18_chemical_7_perimeter_secured,"You have the inner perimeter locked down tight. Just the way I like it, Commander."
+territory_vo_18_chemical_7_escapees_intro_1,"We've picked up pockets of escapees in the wastes. They probably learned why escape on Ghutana is futile--the local swarm is much less forgiving than a cell block."
+territory_vo_18_chemical_7_escapees_intro_2,"They're armed, but they have nowhere to run. Bring them to justice--by any means necessary."
+territory_vo_18_chemical_7_group_1_cleared,"First group neutralized. They should've stayed in their cells."
+territory_vo_18_chemical_7_group_2_cleared,"Another pocket of escapees has been dealt with. Good progress, Commander."
+territory_vo_18_chemical_7_group_3_cleared,"That should be the last of them. Any stragglers we missed will face the Bugs' justice system."
+territory_vo_19_chemical_7_overseer_intro_1,"Commander, I've been monitoring the situation and found a practical use for the occasion."
+territory_vo_19_chemical_7_overseer_intro_2,"I have successfully miniaturized the D.I.M. technology. It will still outright kill smaller Arachnids, but it should function on larger specimens like Tankers or Scorpions."
+territory_vo_19_chemical_7_overseer_intro_3,"Deploy the projectile on a specimen of your choice, then use it to... 'neutralize' the remaining rioters in the courtyard."
+territory_vo_19_chemical_7_mind_control_hint,"Use the Overseer's D.I.M. dart launcher against a large specimen. Once the link is established, the creature is yours to command."
+territory_vo_19_chemical_7_mind_control_success,"Neural link established. Now guide the subject to the prison courtyard and... let it loose on the rioters. I will monitor the procedure."
+territory_vo_19_chemical_7_rioters_killed,"A successful trial. Scientific progression requires sacrifice, and today, these criminals provided the data I needed. Excellent work, Commander."
+territory_vo_18_chemical_7_victory,"Everything's secure. The surviving prisoners are back under lock and key. Now come back to base and you can lock me down for debriefing."
+objective_title_chemical_7_inner_perimeter,"Take back the inner perimeter"
+objective_bubble_chemical_7_capture,"Capture"
+objective_title_chemical_7_escaped_prisoners,"Deal with the escaped prisoners"
+objective_bubble_chemical_7_neutralize,"Neutralize"
+objective_title_chemical_7_deploy_overseer,"Deploy an X9 Overseer"
+objective_title_chemical_7_unlock_overseer,"Unlock the X9 Overseer"
+objective_title_chemical_7_mind_control,"Use the Mind Control Dart on a Tanker or Scorpion"
+objective_title_chemical_7_clear_courtyard,"Use the Mind Controlled Bug to clear the prisoners in the courtyard"
+,
+,
+// #### Mission_Chemical_8.Lines ####,
+,
+// territory_vo_18_  - 18 entries  330 words  39 lines,
+// other  - 9 entries  36 words  9 lines,
+chemical_8_missionobjective_clear_sector,"Retrieve Emitter modules and clear the sector"
+territory_vo_18_chemical_8_intro_1,"Commander, Doctor Kraus has narrowed down the Hydra's hiding spot. To lure it in, he has ordered the deployment of the Pheromone Emitter in this sector."
+territory_vo_18_chemical_8_intro_2,"We had dropships en route with the machine's modules, but an unusually high number of Acid Grenadiers turned the sky into a kill-zone."
+territory_vo_18_chemical_8_intro_3,"Several ships went down, scattering the cargo across Bug territory..."
+territory_vo_18_chemical_8_intro_4,"Doctor Kraus is still unaware of this... hiccup, and I'd prefer to keep it that way. Get to the crash sites and retrieve all Emitter modules. I'm counting on you, Commander!"
+territory_vo_18_chemical_8_module_recovered_1,"First module secure. Keep it up."
+territory_vo_18_chemical_8_module_recovered_2,"Another module in the bag. One more to go."
+territory_vo_18_chemical_8_module_recovered_3,"All modules retrieved. Excellent work."
+territory_vo_18_chemical_8_hives_intro,"Commander, reports on those Acid Grenadiers are correct. Large numbers have been detected around the local hives. If we're going to resume transportation of the emitter modules, you'll have to deal with this threat."
+territory_vo_18_chemical_8_hive_cleared_1,"That's one hive cleared. Good work!"
+territory_vo_18_chemical_8_hive_cleared_2,"Another hive cleared - just one more to go."
+territory_vo_18_chemical_8_hive_cleared_3,"That was the last of them. All hives are cleared!"
+territory_vo_18_chemical_8_arrow_warning_1,"Heads up, Commander! Sensors show the Bugs found a new route into the sector. Keep our territory secured!"
+territory_vo_18_chemical_8_arrow_warning_2,"New incursion point detected, Commander. Bugs keep pouring in. Make sure there is no hole in your defenses."
+territory_vo_18_chemical_8_disruptor_intro,"Commander, Kraus has been itching for a field test on his new 'pheromone disruptor' grenades. Let's get him some valuable data to keep him distracted."
+territory_vo_18_chemical_8_disruptor_intro_2,"Don't ask me for the technical manual, but apparently, this substance rewrites a Bug's 'friend or foe' list. One whiff and they'll tear into anything that hasn't been sprayed. Toss a few of these grenades into the swarm and let's see some of that 'bug-on-bug' action Kraus is so excited about."
+territory_vo_18_chemical_8_disruptor_complete,"That's plenty of data on the pheromone disruptor. More than enough to keep the Doctor out of our hair for a while longer."
+territory_vo_18_chemical_8_victory,"Clean sweep. Modules are on route and Kraus won't find out about the delay. I don't mind sharing a secret with you, Commander."
+objective_title_chemical_8_recover_modules,"Retrieve Pheromone Emitter modules"
+objective_bubble_chemical_8_recover_module,"Recover"
+objective_title_chemical_8_clear_hives,"Clear all Hives"
+objective_bubble_chemical_8_clear_hive,"Clear"
+objective_title_chemical_8_unlock_irradiator,"Unlock Powered Suit Irradiators"
+objective_title_chemical_8_deploy_irradiator,"Deploy a Powered Suit Irradiator"
+objective_title_chemical_8_disruptor,"Test the Pheromone Disruptor grenades"
+chemical_8_missionobjective,"Retrieve Emitter modules from crashed dropships"
+,
+,
+// #### Mission_Chemical_9.Lines ####,
+,
+// territory_vo_18_  - 12 entries  196 words  24 lines,
+// territory_vo_19_  - 10 entries  227 words  27 lines,
+// other  - 11 entries  38 words  11 lines,
+chemical_9_missionobjective,"Restore power and charge the Pheromone Emitter"
+territory_vo_18_chemical_9_intro_1,"Commander, you're on final approach to the Emitter construction site. I have Doctor Kraus on the line for your briefing."
+territory_vo_19_chemical_9_intro_2,"Ah, Commander. This abandoned plant is the perfect foundation for our work. The new Pheromone Emitter is being assembled at the facility's core as we speak."
+territory_vo_19_chemical_9_intro_3,"To run at full capacity it will need a massive power draw. Secure the perimeter and get those old turbines operational."
+territory_vo_19_chemical_9_intro_4,"And Commander... I expect no delays this time."
+territory_vo_18_chemical_9_defend_emitter,"Commander. We already have some defenses in place around the Emitter, but make sure the machine stays in one piece. If the Bugs tear it down, our mission--and the Doctor's temper--goes with it."
+territory_vo_18_chemical_9_emitter_lost,"Commander... The Mass Emitter is gone, and Kraus is making enough noise to wake every Bug on the planet. I can't talk our way out of this one. Not the climactic finish I was hoping for, but your tour on Ghutana is terminated."
+territory_vo_18_chemical_9_turbine_repaired_1,"That's one turbine back online."
+territory_vo_18_chemical_9_turbine_repaired_2,"Power restored. Move to the next turbine."
+territory_vo_18_chemical_9_turbine_repaired_3,"Turbine activation completed."
+territory_vo_18_chemical_9_turbines_done,"All power turbines are up and running."
+territory_vo_19_chemical_9_insufficient_power,"It's insufficient! The degradation of these turbines is more severe than anticipated."
+territory_vo_19_chemical_9_deploy_exterminator,"We'll have to charge the high-capacity battery array just beyond the facility's perimeter. Deploy an XM11-K Annihilator and connect its nuclear reactor to this battery."
+territory_vo_18_chemical_9_exterminator_deployed,"The Annihilator is on the ground, Doctor. What's the play?"
+territory_vo_19_chemical_9_move_to_battery,"The XM11-K is built on the robust Marauder chassis; its reactor has more than enough surplus to charge other devices. Move the unit into position near the battery to begin the transfer."
+territory_vo_18_chemical_9_battery_warning,"We're deep in the red zone, and the Bugs are sensitive to electrical surges. Expect company the moment the charging begins."
+territory_vo_18_chemical_9_battery_link,"Battery link established... And we have massive Arachnid movement heading your way. Hang in there, Commander!"
+territory_vo_18_chemical_9_battery_full,"Battery is at 100% capacity. Are we good to go, Doctor?"
+territory_vo_19_chemical_9_emitter_activate,"Power output finally meets the required parameters. We are ready. Activating the Emitter... now."
+territory_vo_19_chemical_9_attack_wave_warning,"Magnificent! I'm seeing a massive surge of bio-signatures on all sensors. Prepare yourself, Commander; you are about to witness the majesty of the Hydra."
+territory_vo_19_chemical_9_no_hydra,"No sign of the Hydra yet... but a remarkable large number of Acid Grenadiers once again. Physical similarities between the two species exist, but perhaps there is a stronger biological link than we expected?"
+territory_vo_19_chemical_9_victory_1,"The waves have ceased, yet the Hydra remains absent... I'll be in my lab... re-evaluating the data to determine why the Emitter failed to do its job. Do not disturb me."
+territory_vo_18_chemical_9_victory_2,"You did a great job, Commander. While Kraus is busy with his R&D, you and I can meet for R&R."
+objective_title_chemical_9_repair_turbines,"Repair all power turbines"
+objective_bubble_chemical_9_repair,"Repair"
+objective_title_chemical_9_dont_lose_emitter,"Do not lose the Pheromone Emitter"
+objective_title_chemical_9_unlock_exterminator,"Unlock the XM11-K Annihilator"
+objective_title_chemical_9_deploy_exterminator,"Deploy an XM11-K Annihilator"
+objective_title_chemical_9_charge_battery,"Charge the Power Battery"
+objective_bubble_chemical_9_charge,"Charge"
+objective_title_chemical_9_defeat_attackwave,"Defeat the attack wave"
+objective_bubble_chemical_9_defend,"Defend"
+chemical_9_attack_wave_countdown_title,"INCOMING ATTACK"
+,
+,
+// #### Mission_Kwalasha_1.Lines ####,
+,
+// territory_vo_18_  - 17 entries  278 words  31 lines,
+// other  - 9 entries  38 words  9 lines,
+kwalasha_1_missionobjective,"Clear the Bug infestation in the Mining Tunnel"
+territory_vo_18_kwalasha_1_intro_1,"Welcome back, Commander. The situation here is... well, it's a bloodbath."
+territory_vo_18_kwalasha_1_intro_2,"The local miners got careless, dug their tunnels into a Hive, and now the whole town got turned into Bug territory."
+territory_vo_18_kwalasha_1_intro_3,"I need you to hold this outpost, clear that Hive, smash every Bug you encounter and remind the Arachnids that every inch of this rock is human territory!"
+territory_vo_18_kwalasha_1_nearing_hive_1,"You're almost at the tunnel. Alas, no survivors in the town... It's a total loss."
+territory_vo_18_kwalasha_1_attack_wave_incoming_1,"Heads up, Commander! Massive signatures are bearing down on the outpost."
+territory_vo_18_kwalasha_1_attack_wave_incoming_2,"I've already got dropships moving your squads back to the perimeter."
+territory_vo_18_kwalasha_1_attack_wave_incoming_3,"Get down there and defend the position like you mean it, Commander. I'll be watching the show!"
+territory_vo_18_kwalasha_1_success_1,"I'd trust you to hold my borders any day of the week, Commander. See you back at base!"
+objective_title_kwalasha_1_clear_hive,"Clear the Mining Tunnel"
+objective_bubble_kwalasha_1_clear_hive,"Clear"
+objective_title_kwalasha_1_defeat_attack_wave,"Defeat the attack wave"
+objective_title_kwalasha_1_unlock_sniper,"Unlock Snipers in the Technology Screen"
+objective_title_kwalasha_1_deploy_snipers,"Deploy 2 Snipers"
+objective_title_kwalasha_1_kill_spitters,"Kill 10 Spitters using Snipers"
+objective_title_kwalasha_1_capture_territory,"Capture Territory Points"
+objective_title_kwalasha_1_supply_depots,"Deploy a Supply Depot"
+territory_vo_18_kwalasha_1_spitter_tutorial_intro_1,"Spitters are present in your sector. You should request access to Sniper squads to counter this threat."
+territory_vo_18_kwalasha_1_spitter_tutorial_intro_2,"You can acquire additional technologies through the technology panel."
+territory_vo_18_kwalasha_1_territory_tutorial_1,"Commander, secure territory points and HQ will reward you with more resources."
+territory_vo_18_kwalasha_1_territory_tutorial_2,"Good progress on capturing territory points. Capturing and holding these positions is essential to assure success in current and future missions."
+territory_vo_18_kwalasha_1_territory_tutorial_3,"Your territorial expansion is impressive, commander. Feel free to secure more points, or shift your focus to other objectives."
+territory_vo_18_kwalasha_1_supply_tutorial_1,"You are running low on supply. To support more units, you can deploy a supply depot on one of your delivery platforms."
+territory_vo_18_kwalasha_1_supply_tutorial_2,"Well done, additional supplies are now available. You can deploy more units."
+territory_vo_18_kwalasha_1_supply_tutorial_3,"You are running low on supply. To support more units, you can deploy a supply depot on one of your delivery platforms."
+territory_vo_18_kwalasha_1_supply_tutorial_4,"Well done, additional supplies are now available. You can deploy more units."
+,
+,
+// #### Mission_Kwalasha_2.Lines ####,
+,
+// territory_vo_18_  - 14 entries  211 words  24 lines,
+// other  - 12 entries  57 words  12 lines,
+kwalasha_2_missionobjective,"Place a dropsite near the crashed dropship"
+territory_vo_18_kwalasha_2_intro_1,"Commander - we have a situation..."
+territory_vo_18_kwalasha_2_intro_2,"A sandstorm just swatted a dropship right out of the sky - deep in Bug territory. Word is, one of our top Generals was on board, and HQ wants to know if he's still breathing."
+territory_vo_18_kwalasha_2_intro_3,"It's a mess out there, but I know you can handle a little heat. Go find our VIP."
+territory_vo_18_kwalasha_2_dropship_rescued_1,"Dropship's clear, but bad news for the General. The survivors say he was incapacitated during a Bug attack and got dragged off toward the nearby Hive."
+territory_vo_18_kwalasha_2_dropship_rescued_2,"We cannot allow the Arachnids to 'pick his brain'--literally. Find him, and get him out - or make sure there's nothing left for the Bugs to extract."
+territory_vo_18_kwalasha_2_nearing_hive_1,"Fresh blood on the sand, Commander. It's human. The target is in that Hive--get moving."
+territory_vo_18_kwalasha_2_hive_cleared_1,"VIP is off the ground. Nice work, Commander!"
+territory_vo_18_kwalasha_2_attack_wave_1,"Now for the bad news:"
+territory_vo_18_kwalasha_2_attack_wave_2,"Massive signatures are closing in on your position..."
+territory_vo_18_kwalasha_2_attack_wave_3,"Hold the line--we want you back home in one piece!"
+territory_vo_18_kwalasha_2_attack_wave_defeat,"We lost!"
+territory_vo_18_kwalasha_2_success_1,"You never cease to impress, Commander. Once you've got the blood and sand out of your cracks, meet me for debrief."
+objective_title_kwalasha_2_rescue_dropship,"Place a drop zone near the crashed dropship"
+objective_bubble_kwalasha_2_rescue_dropship,"Place drop zone"
+objective_title_kwalasha_2_clear_hive,"Rescue the General from the Hive"
+objective_bubble_kwalasha_2_clear_hive,"Clear"
+objective_title_kwalasha_2_defeat_attack_wave,"Defeat the attack wave"
+objective_bubble_kwalasha_2_defeat_attack_wave,"Defend"
+objective_title_kwalasha_2_unlock_engineer,"Unlock Engineers in the Technology Screen"
+objective_title_kwalasha_2_deploy_engineers,"Deploy 2 Engineer squads"
+objective_title_kwalasha_2_kill_drones,"Kill 10 Drones using Engineers"
+objective_title_kwalasha_2_unlock_radio_operator,"Unlock Radio Operator in the Technology Screen"
+objective_title_kwalasha_2_deploy_radio_operator,"Deploy a Radio Operator squad"
+territory_vo_18_kwalasha_2_drone_tutorial_intro_1,"Watch your step, Commander. There's a lot of ground movement--Drones, and plenty of 'em. I'd suggest bringing in some Combat Engineers."
+territory_vo_18_kwalasha_2_radio_operator_1,"You'll need a radio operator to extract the civilians."
+,
+,
+// #### Mission_Kwalasha_3.Lines ####,
+,
+// territory_vo_18_  - 9 entries  181 words  19 lines,
+// other  - 15 entries  62 words  15 lines,
+kwalasha_3_missionobjective,"Defeat the Tanker in the Hydro Plant"
+territory_vo_18_kwalasha_3_intro_1,"We've got a crisis at the hydro-plant, Commander. Comm-chatter mentioned a Tanker breaching the defenses from below, breaking the perimeter from the inside, but I can't confirm that yet."
+territory_vo_18_kwalasha_3_intro_2,"Regardless, Bugs keep pouring into the facility. Set up your defenses and halt the incursion."
+territory_vo_18_kwalasha_3_material_tutorial_1,"You'll need more Materiel for those Turrets, Commander. Deploy a Materiel Depot to increase your stockpiles."
+territory_vo_18_kwalasha_3_capture_base_1,"The defense is holding. Still zero evidence of a Tanker breach on my scans, though. Sweep the plant and get that control station back online."
+territory_vo_18_kwalasha_3_rescue_civilians_1,"I've got a distress signal from some civilians huddled up in that settlement. Get a Radio Operator on-site to coordinate a dropship evacuation."
+territory_vo_18_kwalasha_3_radio_operator_1,"You'll need a radio operator to extract the civilians."
+territory_vo_18_kwalasha_3_tanker_1,"I stand corrected! The Tanker is very real and it's right on top of you. Put it back in the dirt, Commander!"
+territory_vo_18_kwalasha_3_grenade_tutorial_1,"Standard rounds aren't going to cut it. Equip your troopers with grenades if you want to crack that Tanker's armor!"
+territory_vo_18_kwalasha_3_success_1,"Efficient - and not afraid to get your hands dirty! Head back to base, Commander - you've earned yourself a hot shower."
+objective_title_kwalasha_1_construct_turrets,"Construct 5 Turrets"
+objective_title_kwalasha_1_capture_base,"Capture the Control Station"
+objective_bubble_kwalasha_1_capture_base,"Capture"
+objective_title_kwalasha_1_rescue_civilians,"Evacuate the civilians"
+objective_bubble_kwalasha_1_rescue_civilians,"Place drop zone"
+objective_title_kwalasha_1_kill_tanker,"Kill the Tanker Bug"
+objective_bubble_kwalasha_1_kill_tanker,"Kill"
+objective_title_kwalasha_1_unlock_radio_operator,"Unlock Radio Operator in Technology Panel"
+objective_title_kwalasha_1_deploy_radio_operator,"Deploy a Radio Operator squad"
+objective_title_kwalasha_1_deploy_material_depot,"Deploy a Materiel Depot"
+objective_bubble_kwalasha_3_deploy_material_depot,"Deploy Materiel Depot"
+objective_title_kwalasha_1_swap_material_depot,"Swap a Supply Depot for a Materiel Depot"
+objective_bubble_kwalasha_3_swap_material_depot,"Swap to Materiel Depot"
+objective_title_kwalasha_1_unlock_grenade,"Unlock Grenades in the Technology Panel"
+// === Summary === (TerritoryOther),
+// other  - 8 entries  108 words  15 lines,
+// TOTAL  - 8 entries  108 words,
+,
+,
+,
+// #### TerritoryUILines ####,
+,
+// other  - 5 entries  102 words  12 lines,
+territory_tutorial_dialog_descr,"We recommend completing the Ground Pounders tutorial missions first.
+
+Do you want to switch to the Ground Pounders Battlegroup?"
+territory_savegames_disclaimer_descr,"In Territory Mode, you can only load saves from the current mission.
+To load a story campaign saved game, return to the main menu."
+tooltip_arachnid_threat_level_descr,"This bar displays the Arachnid threat level. This steadily grows over time.
+Make sure you don't fall behind by capturing and holding Territory Points at a steady pace."
+campaign_territory_mechanics_info,"Uses Territory Mode mechanics"
+campaign_territory_mechanics_tooltip,"This campaign uses Territory Mode game mechanics:
+  • Capture Territory Points to gain Resources 
+  • Units and reinforcements cost Resources
+  • Research Technologies to unlock unit types and upgrades"
+,
+,
+// #### UnitsTerritoryModeLines ####,
+,
+// other  - 3 entries  6 words  3 lines,
+unit_177,"Incursion Point"
+unit_178,"Incursion Point"
+unit_4007,"Bug Lair"
+,
+// === Summary === (TerritoryVO),
+// territory_vo_18_  - 202 entries  2061 words  342 lines,
+// territory_vo_4_  - 25 entries  372 words  37 lines,
+// other  - 125 entries  460 words  125 lines,
+// TOTAL  - 352 entries  2893 words,
+,
+,
+,
+// #### CaptureRadioStationObjectiveLines ####,
+,
+// territory_vo_18_  - 2 entries  20 words  3 lines,
+// territory_vo_4_  - 1 entries  17 words  2 lines,
+// other  - 1 entries  4 words  1 lines,
+territory_vo_18_capture_station_intro_v0,"Terran Command wants us to regain control over the Dam in this sector."
+territory_vo_18_capture_station_success_v0,"The base is secure! Good job commander."
+territory_vo_4_capture_station_outro_v0,"A major victory for regional security! We have successfully seized a vital radio station in this sector."
+missionobjective_capture_radio_station,"Capture the Radio Station"
+,
+,
+// #### ExtinguishObjectiveLines ####,
+,
+// territory_vo_18_  - 33 entries  270 words  63 lines,
+// territory_vo_4_  - 3 entries  52 words  4 lines,
+// other  - 12 entries  38 words  12 lines,
+territory_vo_18_objective_slaughter_scenes_intro,"The Bugs made ugly work here. The Federation wants the atrocities documented. We're here to film the slaughter."
+territory_vo_18_objective_slaughter_scenes_reach_objective1,"Approaching a massacre site. Cameras ready."
+territory_vo_18_objective_slaughter_scenes_reach_objective2,"Closing on another site. Get it on record."
+territory_vo_18_objective_slaughter_scenes_reach_objective3,"Final site ahead. Stay sharp."
+territory_vo_18_objective_slaughter_scenes_completed_objective1,"Footage secured. Move to the next site."
+territory_vo_18_objective_slaughter_scenes_completed_objective2,"Another site recorded. Keep moving."
+territory_vo_18_objective_slaughter_scenes_completed_objective3,"Recording complete. Proceed to the next objective."
+territory_vo_18_objective_slaughter_scenes_objective_iscompleted,"All scenes documented. The galaxy will see what happened here."
+territory_vo_18_objective_slaughter_scenes_donotloseunits,"Cameras are limited. Lose too many and we can't complete the mission."
+territory_vo_18_objective_slaughter_scenes_objective_isfailed,"All recording crews lost. Mission cannot continue."
+territory_vo_18_objective_slaughter_scenes_objective_respawn,"New camera crew inbound."
+territory_vo_4_objective_slaughter_scenes_objective_outrocutscenetext,"In a tragic act of retribution, the Federation has collected our fallen soldiers and delivered justice to the bugs."
+territory_vo_18_objective_graffiti_intro,"Some civilians have painted graffiti in this sector. We're here to remove it all."
+territory_vo_18_objective_graffiti_reach_objective1,"Approaching a graffiti painting. Get your firefighters ready."
+territory_vo_18_objective_graffiti_reach_objective2,"Closing on another graffiti. Get it cleaned."
+territory_vo_18_objective_graffiti_reach_objective3,"Final graffiti ahead. Stay sharp."
+territory_vo_18_objective_graffiti_completed_objective1,"Graffiti removed. Move to the next."
+territory_vo_18_objective_graffiti_completed_objective2,"Another graffiti removed. Keep moving."
+territory_vo_18_objective_graffiti_completed_objective3,"Graffiti removal complete. Proceed to the next objective."
+territory_vo_18_objective_graffiti_objective_iscompleted,"All graffiti has been removed!"
+territory_vo_18_objective_graffiti_donotloseunits,"Firefighters are limited. Lose too many and we can't complete the mission."
+territory_vo_18_objective_graffiti_objective_isfailed,"All firefighters are lost. Mission cannot continue."
+territory_vo_18_objective_graffiti_objective_respawn,"New firefighters inbound."
+territory_vo_4_objective_graffiti_objective_outrocutscenetext,"Mobile Infantry patrols have erased anti-Federation graffiti, restoring pride and unity to the sector."
+territory_vo_18_objective_extinguish_fire_intro,"Several facilities caught fire after a surprise Arachnid incursion. Extinguish them."
+territory_vo_18_objective_extinguish_fire_reach_objective1,"Approaching a burning facility. Keep the firefighters close."
+territory_vo_18_objective_extinguish_fire_reach_objective2,"More fires ahead of your position, Commander. You know what to do."
+territory_vo_18_objective_extinguish_fire_reach_objective3,"Hephaestar is asking why the last facility is still burning. Get it under control."
+territory_vo_18_objective_extinguish_fire_completed_objective1,"One facility secured, Commander. Move to the next."
+territory_vo_18_objective_extinguish_fire_completed_objective2,"Another facility secured. Updating Hephaestar on your progress."
+territory_vo_18_objective_extinguish_fire_completed_objective3,"Facility secured, Commander."
+territory_vo_18_objective_extinguish_fire_objective_iscompleted,"All fires extinguished. Hephaestar commends your actions, Commander."
+territory_vo_18_objective_extinguish_fire_donotloseunits,"New firefighter squad deployed. Keep them alive. If we run out, we can't complete the mission."
+territory_vo_18_objective_extinguish_fire_objective_isfailed,"Hephaestar is out of firefighter crews. Mission cannot continue."
+territory_vo_18_objective_extinguish_fire_objective_respawn,"New firefighter squad inbound."
+territory_vo_4_objective_extinguish_fire_objective_outrocutscenetext,"What could have been a disaster has been averted. The Federation has successfully extinguished a series of raging fires."
+territory_objective_film_slaughter,"Film incident scenes"
+territory_objective_film_slaughter_bubble,"Film"
+territory_objective_clear_graffiti,"Clear graffiti with the Cleaning Crew unit"
+territory_objective_clear_graffiti_bubble,"Graffiti"
+territory_objective_extinguish_fires,"Extinguish fires with Firefighters"
+territory_objective_extinguish_fires_bubble,"Extinguish"
+mission_objective_extinguish_fires,"Extinguish fires"
+mission_objectives_extinguish_fire,"Extinguish fire"
+mission_objective_film_slaughter_scenes,"Film slaughter scenes"
+mission_objective_film_slaughter_scene,"Film the slaughter scene"
+mission_objective_clear_grafitti,"Clear grafitti"
+,
+//{0} and {1} will be replaced {0} is a number indicating the amount of units {1} is the unit name,
+objective_dont_lose_more_than_units,"Do not lose more than {0} {1} units"
+,
+,
+// #### KillObjectiveLines ####,
+,
+// territory_vo_18_  - 28 entries  119 words  35 lines,
+// territory_vo_4_  - 3 entries  47 words  5 lines,
+// other  - 21 entries  72 words  21 lines,
+territory_vo_18_objective_plasma_bugs_intro,"Plasma Bug detected. Eliminate it."
+territory_vo_18_objective_plasma_bugs_completed_1,"One Plasma Bug eliminated."
+territory_vo_18_objective_plasma_bugs_completed_2,"Another Plasma Bug eliminated."
+territory_vo_18_objective_plasma_bugs_success_v0,"All Plasma Bugs eliminated."
+territory_vo_4_objective_plasma_bugs_outro,"A major threat has been neutralized today! Thanks to the heroic efforts of the Federation. "
+territory_vo_4_objective_kill_incinerator_outro,"Our troopers have successfully eliminated an infestation from key facilities in this territory. "
+territory_vo_18_objective_kill_incinerator_success,"All incinerators destroyed."
+territory_vo_18_objective_kill_incinerator_completed_2,"One incinerator left."
+territory_vo_18_objective_kill_incinerator_completed_1,"First incinerator down."
+territory_vo_18_objective_kill_incinerator_intro,"Infested incinerators detected. Destroy them."
+territory_vo_18_objective_kill_royal_guard_success,"Royal Guards destroyed."
+territory_vo_18_objective_kill_royal_guard_completed_2,"One Royal Guard left."
+territory_vo_18_objective_kill_royal_guard_completed_1,"First Royal Guard down."
+territory_vo_18_objective_kill_royal_guard_intro,"Royal Guards detected in this sector. Kill them all!"
+territory_vo_18_objective_kill_immolator_success,"Immolators destroyed."
+territory_vo_18_objective_kill_immolator_completed_2,"One Immolator left."
+territory_vo_18_objective_kill_immolator_completed_1,"First Immolator down."
+territory_vo_18_objective_kill_immolator_intro,"Immolators detected in this sector. Kill them all!"
+territory_vo_18_objective_kill_ravager_success,"Ravagers destroyed."
+territory_vo_18_objective_kill_ravager_completed_2,"One Ravager left."
+territory_vo_18_objective_kill_ravager_completed_1,"First Ravager down."
+territory_vo_18_objective_kill_ravager_intro,"Ravagers detected in this sector. Kill them all!"
+territory_vo_18_objective_kill_scorpion_success,"Scorpions destroyed."
+territory_vo_18_objective_kill_scorpion_completed_2,"One Scorpion left."
+territory_vo_18_objective_kill_scorpion_completed_1,"First Scorpion down."
+territory_vo_18_objective_kill_scorpion_intro,"Scorpions detected in this sector. Kill them all!"
+territory_vo_18_objective_kill_hornet_tanker_success,"Hornet Tankers destroyed."
+territory_vo_18_objective_kill_hornet_tanker_completed_2,"One Hornet Tanker left."
+territory_vo_18_objective_kill_hornet_tanker_completed_1,"First Hornet Tanker down."
+territory_vo_18_objective_kill_hornet_tanker_intro,"Hornet Tankers detected in this sector. Kill them all!"
+territory_vo_4_objective_kill_generic_boss_outro,"Today's operation focused on the neutralization of a great Arachnid threat. The result: Another major victory for the Federation."
+territory_objective_kill_plasma_bugs,"Kill Plasma Bugs"
+missionobjective_killtheplasmabug,"Kill the Plasma Bug"
+missionobjective_killtheplasmabugs,"Kill the Plasma Bugs"
+missionobjective_killtheincinerator,"Destroy the Incinerator"
+missionobjective_killtheincinerators,"Destroy the Incinerators"
+missionobjective_killtheroyalguard,"Kill the Royal Guard Bug"
+missionobjective_killtheroyalguards,"Kill the Royal Guard Bugs"
+missionobjective_killtheimmolator,"Kill the Immolator"
+missionobjective_killtheimmolators,"Kill the Immolators"
+missionobjective_killthehornettanker,"Kill the Hornet Tanker"
+missionobjective_killthehornettankers,"Kill the Hornet Tankers"
+missionobjective_killthescorpionbug,"Kill the Scorpion Bug"
+missionobjective_killthescorpionbugs,"Kill the Scorpion Bugs"
+missionobjective_killtheravagerbug,"Kill the Ravager Bug"
+missionobjective_killtheravagerbugs,"Kill the Ravager Bugs"
+territory_objective_kill_ravagers,"Kill Ravagers"
+territory_objective_kill_immolators,"Kill Immolators"
+territory_objective_kill_scorpions,"Kill Scorpions"
+territory_objective_kill_royal_guards,"Kill Royal Guard Bugs"
+territory_objective_kill_hornet_tankers,"Kill Hornet Tankers"
+territory_objective_kill_incinerators,"Destroy incinerators"
+,
+,
+// #### RepairObjectiveLines ####,
+,
+// territory_vo_18_  - 19 entries  266 words  36 lines,
+// territory_vo_4_  - 5 entries  83 words  6 lines,
+// other  - 21 entries  76 words  21 lines,
+objective_repair_turbines,"Repair power turbines"
+objective_activate_repaired_turbine,"Activate the repaired power turbine"
+objective_defend_activated_turbine,"Defend the activated power turbine"
+objective_repair_turbine,"Repair turbine"
+objective_activate_turbine,"Activate turbine"
+territory_vo_18_turbines_intro_v0,"The Power Turbines must be repaired."
+territory_vo_18_turbine_no_bugs,"Thanks to the liberation of the surrounding territory, the power turbine can safely be rebooted without interference from the Bugs."
+territory_vo_18_turbine_bugs_incoming,"Vibrations from the power turbine reboot sequence are enraging nearby Arachnids. Our troopers will have to defend the machine until it's running smoothly again."
+territory_vo_18_turbine_success,"The Arachnid hordes heading toward the turbine have been wiped out by our brave troopers. Power output has been restored."
+territory_vo_18_turbine_failed,"The power turbine has taken severe damage during an Arachnid attack of unexpected intensity. Our technicians will have to fix the damage and restart the machine."
+territory_vo_18_turbine_bugs_continue,"Meanwhile, the enraged Bug horde continues its stampede toward our main base in the sector."
+territory_vo_18_turbine_bugs_defeated,"The Bug horde has finally been eliminated. Our technicians will now have to fix the damage and restart the power turbine."
+territory_vo_4_turbine_outro_v0,"Power has been restored to the sector following the heroic efforts of our armed forces."
+territory_vo_4_turbine_outro_v1,"With local power turbines restored, industry and defenses in this sector are back at full strength."
+territory_vo_4_turbine_outro_v2,"Our bases are fully powered again as our troopers have successfully restored power in this sector"
+territory_vo_18_objective_lavapump_no_bugs,"Area secure. Bring the pumps online."
+territory_vo_18_objective_lavapump_bugs_incoming,"Activation triggered seismic activity. It's drawing Bugs from across the sector. Defend the station."
+territory_vo_18_objective_lavapump_success,"Hostiles neutralized. Lava flow confirmed."
+territory_vo_18_objective_lavapump_failed,"Primary conduit ruptured. Pumps offline and taking damage. Technicians must patch and restart."
+territory_vo_18_objective_lavapump_bugs_continue,"Pumps down. The swarm is heading for the main base."
+territory_vo_18_objective_lavapump_bugs_defeated,"Swarm eliminated, but the pump station took a beating. Technicians must repair before restart."
+territory_vo_4_objective_lavapump_outro_v0,"Under the protection of The Federation, important pumps have been restored and are fully functional again."
+territory_vo_18_objective_prospector_no_bugs,"Readings are off the charts. Technicians are moving in to activate the prospector."
+territory_vo_18_objective_prospector_bugs_incoming,"Prospector activated. The vibrations are attracting nearby Arachnids. Protect the rig until the soil extraction is completed."
+territory_vo_18_objective_prospector_success,"Soil extraction complete. Geological data secured."
+territory_vo_18_objective_prospector_failed,"The Prospector took critical damage and must be repaired."
+territory_vo_18_prospector_bugs_continue,"The enraged horde is heading for the main base!"
+territory_vo_18_objective_prospector_bugs_defeated,"Swarm broken, but the prospector took heavy damage. It must be repaired before the soil extraction can proceed."
+territory_vo_4_objective_prospector_outro_v0,"Important geological data has been secured by the Federation. This will certainly help us in our war against the bugs!"
+mission_objective_repair_turbine,"Repair the Power Turbine"
+mission_objective_repair_turbines,"Repair Power Turbines"
+mission_objective_gather_samples_prospector,"Gather samples from Prospectors"
+mission_objective_gather_samples_prospectors,"Gather sample from Prospector"
+mission_objective_repair_pumping_station,"Repair the Pumping Station"
+mission_objective_repair_pumping_stations,"Repair Pumping Stations"
+territory_repair_objective_main_lavapumpstation,"Build and activate Pumping Stations"
+territory_repair_objective_activate_lavapumpstation,"Activate the built Pumping Station"
+territory_repair_objective_defend_lavapumpstation,"Defend the activated Pumping Station"
+territory_repair_objective_repair_textbubble_lavapumpstation,"Build Pumping Station"
+territory_repair_objective_activate_textbubble_lavapumpstation,"Activate Pumping Station"
+territory_objective_repair_main_prospector,"Gather samples from prospectors"
+territory_objective_repair_activate_prospector,"Activate the built prospector"
+territory_objective_repair_defend_prospector,"Defend the activated prospector"
+territory_bubble_repair_prospector,"Build Prospector"
+territory_bubble_repair_activate_prospector,"Activate Prospector"
+,
+,
+// #### RescueDamagedBipedObjectiveLines ####,
+,
+// territory_vo_18_  - 12 entries  89 words  16 lines,
+// territory_vo_4_  - 1 entries  7 words  1 lines,
+// other  - 11 entries  54 words  11 lines,
+mission_objective_rescue_bipeds,"Rescue Engineering Bipeds"
+mission_objective_rescue_biped,"Rescue Engineering Biped"
+objective_rescue_the_engineering_bipeds,"Rescue the Engineering Bipeds"
+objective_biped_repair_biped,"Repair the Engineering Biped"
+objective_biped_bring_to_base,"Bring the damaged Engineering Biped to the Main Base"
+territory_vo_18_objective_rescue_biped_iscompleted,"All Engineering Bipeds recovered."
+territory_vo_4_objective_rescue_biped_outro,"Our troopers recovered important industrial equipment today."
+territory_vo_18_rescue_mech_1,"A damaged Engineering Biped got stuck in hostile territory. It must be retrieved."
+territory_vo_18_rescue_mech_fail_1,"The Mech got destroyed! Repair it immediately!"
+territory_vo_18_rescue_mech_repaired_1,"Alright let's get this Mech Engineer to the base!"
+territory_vo_18_rescue_mech_attack_1,"Attack wave is coming for the mech engineer!"
+territory_vo_18_rescue_mech_success_1,"We recovered the engineering biped"
+mission_objective_rescue_marauders,"Rescue M9C Eradicators"
+mission_objective_rescue_marauder,"Rescue the M9C Eradicator"
+objective_rescue_the_marauders,"Rescue the M9C Eradicators"
+objective_marauder_repair_marauder,"Repair the M9C Eradicator"
+objective_marauder_bring_to_base,"Bring the damaged M9C Eradicators to the Main Base"
+territory_vo_18_objective_rescue_marauder_iscompleted,"All M9C Eradicators recovered."
+territory_vo_18_rescue_marauder_1,"A damaged M9C Eradicator got stuck in hostile territory. It must be retrieved."
+territory_vo_18_rescue_marauder_fail_1,"The Marauder got destroyed! Repair it immediately!"
+territory_vo_18_rescue_marauder_repaired_1,"Alright let's get this Marauder to the base!"
+territory_vo_18_rescue_marauder_attack_1,"Attack wave is coming for the marauder!"
+territory_vo_18_rescue_marauder_success_1,"We recovered the marauder"
+,
+,
+// #### RescuePilotsObjectiveLines ####,
+,
+// territory_vo_18_  - 10 entries  102 words  15 lines,
+// territory_vo_4_  - 2 entries  29 words  4 lines,
+// other  - 10 entries  32 words  10 lines,
+mission_objective_rescue_pilots,"Rescue crashed pilots"
+mission_objective_rescue_pilot,"Rescue the crashed pilot"
+objective_rescue_pilots,"Rescue the crashed pilots"
+objective_rescue_pilot_retrieve,"Retrieve Pilot"
+objective_rescue_pilot_bring_back,"Bring back Pilots"
+territory_vo_18_rescue_pilots_intro_v0,"Several dropships have crashed in this region. It's our job to bring the pilots back to base."
+territory_vo_18_rescue_pilots_lost_one_v0,"We lost one of the pilots!"
+territory_vo_18_rescue_pilots_found_one_v0,"We have found a pilot! Let's bring him back to base."
+territory_vo_18_rescue_pilots_rescued_one_v0,"We have rescued a pilot! Great job."
+territory_vo_18_rescue_pilots_success_v0,"All pilots have been retrieved! Good job troopers!"
+territory_vo_4_rescue_pilots_outro_v0,"The Federation leaves no one behind! Today, several downed pilots have been rescued from behind enemy lines."
+mission_objective_rescue_scientists,"Rescue crashed scientists"
+mission_objective_rescue_scientist,"Rescue the crashed scientist"
+objective_rescue_scientists,"Rescue the crashed scientists"
+objective_rescue_scientist_retrieve,"Retrieve scientist"
+objective_rescue_scientist_bring_back,"Bring back scientists"
+territory_vo_18_rescue_scientists_intro_v0,"One of the labs was under heavy attacks in this sector, some of the scientists have evacuated but we need you to bring them back home"
+territory_vo_18_rescue_scientists_lost_one_v0,"One of the scientists is dead!"
+territory_vo_18_rescue_scientists_found_one_v0,"You found one of the scientists!"
+territory_vo_18_rescue_scientists_rescued_one_v0,"You have rescued a scientist, good job!"
+territory_vo_18_rescue_scientists_success_v0,"All scientists have been retrieved! Good job troopers!"
+territory_vo_4_rescue_scientists_outro_v0,"The missing scientists have been retrieved! A succesfull mission for our troopers."
+,
+,
+// #### TerritoryREMOVEDObjectiveLines ####,
+,
+// territory_vo_18_  - 15 entries  142 words  27 lines,
+// territory_vo_4_  - 3 entries  52 words  4 lines,
+// other  - 17 entries  51 words  17 lines,
+territory_vo_18_objective_rogue_mercs_intro,"Mercenary camps detected in this sector. Eliminate them."
+territory_vo_18_objective_rogue_mercs_cleared,"Area clear of mercenaries. Move to the next camp."
+territory_vo_18_objective_rogue_mercs_completed,"Sector purged of rogue mercenaries."
+territory_vo_4_objective_rogue_mercs_outro,"An illegal mercenary operation has been completely dismantled, thanks to the efforts of our troopers."
+objective_kill_merc_camp,"Clear the mercenary camp"
+mission_objective_kill_merc_camps,"Clear rogue mercenary camps"
+mission_objective_kill_merc_camp,"Clear the rogue mercenary camp"
+territory_vo_18_objective_wavebreaker_no_bugs,"Sector is clear. Bring the Wavebreakers online."
+territory_vo_18_objective_wavebreaker_bugs_incoming,"Nearby Arachnids are moving toward the Wavebreaker Mortar. Hold them off until the weapon is online!"
+territory_vo_18_objective_wavebreaker_success,"Hostiles eliminated. Wavebreaker is up and running. Good work, Commander."
+territory_vo_18_objective_wavebreaker_failed,"Wavebreakers took critical damage and must be repaired."
+territory_vo_18_wavebreaker_bugs_continue,"The enraged horde is heading for the main base!"
+territory_vo_18_objective_wavebreaker_bugs_defeated,"Attacking horde neutralized. Have technicians repair the Wavebreaker."
+territory_vo_4_objective_wavebreaker_outro_v0,"Federation engineers have completed the construction of powerful weapon systems, guaranteeing the security of the entire sector."
+mission_objective_repair_wavebreaker,"Construct the Wavebreaker"
+mission_objective_repair_wavebreakers,"Construct Wavebreakers"
+territory_objective_repair_wavebreaker,"Construct Wavebreaker"
+territory_objective_repair_wavebreaker_activate,"Activate the built Wavebreaker"
+territory_objective_repair_wavebreaker_defend,"Defend the activated Wavebreaker"
+territory_objective_repair_wavebreaker_bubble,"Construct"
+territory_objective_repair_wavebreaker_bubble_activate,"Activate"
+territory_vo_18_objective_sam_no_bugs,"Sector is clear. Bring the SAM Sites online."
+territory_vo_18_objective_sam_bugs_incoming,"Nearby Arachnids are moving toward the Sam Site. Hold them off until the weapon is online!"
+territory_vo_18_objective_sam_success,"Hostiles eliminated. SAM Site is up and running. Good work, Commander."
+territory_vo_18_objective_sam_failed,"The Wavebreaker took critical damage and must be repaired."
+territory_vo_18_sam_bugs_continue,"The enraged horde is heading for the main base!"
+territory_vo_18_objective_sam_bugs_defeated,"Attacking horde neutralized. Have technicians repair the SAM Site."
+territory_vo_4_objective_sam_outro_v0,"The Mobile Infantry has established strong air defenses in the sector. The only thing crossing this territory is the Federation."
+mission_objective_repair_samsite,"Construct SAM Site"
+territory_objective_repair_sam,"Construct SAM Site"
+territory_objective_repair_sam_activate,"Activate the built SAM Site"
+territory_objective_repair_sam_defend,"Defend the activated SAM Site"
+territory_objective_repair_sam_bubble,"Construct"
+territory_objective_repair_sam_bubble_activate,"Activate"
+mission_objective_repair_samsites,"Construct SAM Sites"
+,
+,
+// #### TerritoryTodoObjectiveLines ####,
+,
+// territory_vo_18_  - 3 entries  16 words  5 lines,
+// other  - 23 entries  76 words  23 lines,
+territory_vo_18_sand_storm_start,"Sandstorm in effect. Visibility restricted; dropships unavailable."
+territory_vo_18_sand_storm_almost_here,"Sandstorm imminent. The commander should be prepared."
+territory_vo_18_sand_storm_approaching,"Sandstorm approaching."
+objective_defeat_attack_wave,"Defeat the attack wave"
+objective_clear_the_bug_hives,"Clear the Bug Hives"
+objective_upgrade_delivery_platform_supply,"Upgrade a Delivery Platform to a Supply Depot"
+objective_capture_command_station,"Capture the Command Station"
+objective_dont_lose_squads,"Do not lose all squads"
+objective_dont_lose_command_station,"Do not lose the Command Station"
+objective_dont_lose_any_command_station,"Do not lose any of the Command Stations"
+objective_clear_all_hives,"Clear all Hives"
+objective_gather_samples_prospectors,"Gather samples from prospectors"
+missionobjective_capture_main_base,"Capture the Main Base"
+missionobjective_defeat_final_attackwave,"Defeat the final attack wave"
+storm_active,"Storm active"
+storm_incoming,"Storm incoming"
+storm_passes_in,"STORM PASSES IN"
+bubble_clear,"Clear"
+bubble_kill,"Kill"
+bubble_capture,"Capture"
+bubble_rescue,"Rescue"
+bubble_destroy,"Destroy"
+bubble_repair,"Repair"
+timer_until_wave_end,"Until wave end"
+timer_attack_wave_incoming,"Attack wave incoming"
+timer_counterattack_imminent,"Counterattack imminent"
+,
+,
+// #### TerritoryTutorialLines ####,
+,
+// territory_vo_18_  - 47 entries  651 words  79 lines,
+// other  - 9 entries  57 words  9 lines,
+territory_vo_18_tutorial_territory_1,"Competence is rewarded. You should take control of more territory to get more resources from HQ."
+territory_vo_18_tutorial_territory_2,"Well done commander. Control of Territory is vital to stay ahead of the Bugs."
+territory_vo_18_tutorial_territory_3,"Just a quick reminder, Commander. You should take control of more territory to get more resources from HQ."
+territory_vo_18_tutorial_territory_4,"Please don't ignore my advice, Commander. You should take control of more territory to get more resources from HQ."
+territory_vo_18_tutorial_territory_5,"HQ wants you to focus on securing more territory. If you want more resources, that's what you should do."
+territory_vo_18_tutorial_territory_6,"Don't forget to keep expanding your Territory. Arachnid threat levels keep rising, so you have to make sure you secure enough resources to stay ahead of them."
+territory_vo_18_tutorial_turrets_1,"You won't have enough units to protect all Territory Points. Make sure you construct enough Turrets to establish a strong defensive perimeter."
+territory_vo_18_tutorial_turrets_2,"Call down a squad of Combat Engineers or Technicians so they can construct turrets."
+territory_vo_18_tutorial_turrets_3,"A unit has arrived that can help you with the deployment of turrets."
+territory_vo_18_tutorial_turrets_4,"Just a quick reminder, Commander. You'll need Combat Engineers or Technicians to construct defensive Turrets."
+territory_vo_18_tutorial_turrets_5,"Please don't ignore my advice, Commander. You'll need Combat Engineers or Technicians to construct defensive Turrets."
+territory_vo_18_tutorial_turrets_6,"You'll need more Materiel to deploy Turrets. Deploy a Materiel Depot on one of the empty Delivery Platforms"
+territory_vo_18_tutorial_turrets_7,"You now have more Materiel available."
+territory_vo_18_tutorial_turrets_8,"Just a quick reminder, Commander. You'll need more Materiel to deploy Turrets. Deploy a Materiel Depot on one of the empty Delivery Platforms."
+territory_vo_18_tutorial_turrets_9,"Please don't ignore my advice, Commander. You'll need more Materiel to deploy Turrets. Deploy a Materiel Depot on one of the empty Delivery Platforms."
+territory_vo_18_tutorial_turrets_10,"You have enough Materiel to deploy turrets now. Ideally position them on locations that your army cannot reach quickly."
+territory_vo_18_tutorial_turrets_11,"Well done. Turrets are vital to keep your territory points secured."
+territory_vo_18_tutorial_turrets_12,"Just a quick reminder, Commander. Construct turrets to defend your territory points. Ideally positioned on locations that your army cannot reach quickly."
+territory_vo_18_tutorial_turrets_13,"Please don't ignore my advice, Commander. Construct turrets to defend your territory points. Ideally positioned on locations that your army cannot reach quickly."
+territory_vo_18_tutorial_supplies_1,"We don't have enough supplies to deploy more units. Deploy additional Supply Depots asap."
+territory_vo_18_tutorial_supplies_2,"A supply depot has been set up. You can now deploy more units."
+territory_vo_18_tutorial_supplies_3,"Just a quick reminder, Commander. Deploy additional Supply Depots asap."
+territory_vo_18_tutorial_supplies_4,"Please don't ignore my advice, Commander. Deploy additional Supply Depots asap."
+territory_vo_18_tutorial_grenades_1,"Fed Intel reports escalating bug swarms ahead, Supply your troops with grenades!"
+territory_vo_18_tutorial_grenades_2,"Our troops are now equipped with grenades. Put them to good use!"
+territory_vo_18_tutorial_grenades_3,"Just a quick reminder, Commander. You need grenades."
+territory_vo_18_tutorial_grenades_4,"Please don't ignore my advice, Commander. You need grenades."
+territory_vo_18_tutorial_snipers_spitters,"Fed Intel is expecting Spitters will soon show up in your sector."
+territory_vo_18_tutorial_snipers_bombardiers,"Fed Intel is expecting Bombardiers will soon show up in your sector."
+territory_vo_18_tutorial_snipers_deploy,"You should deploy Snipers as soon as possible."
+territory_vo_18_tutorial_snipers_available_1,"Snipers are now available for deployment."
+territory_vo_18_tutorial_snipers_reminder_1,"Just a quick reminder, Commander."
+territory_vo_18_tutorial_snipers_reminder_2,"Please don't ignore my advice, Commander."
+territory_vo_18_tutorial_snipers_reminder_spitters,"Deploy Snipers to deal with your Spitter problem."
+territory_vo_18_tutorial_snipers_reminder_bombardiers,"Deploy Snipers to deal with your Bombardiers problem."
+territory_vo_18_tutorial_snipers_arrived_1,"Snipers have arrived and are awaiting your orders."
+territory_vo_18_tutorial_tier_0,"Stronger Arachnids will come soon."
+territory_vo_18_tutorial_tier_1,"HQ will give you access to the tools you need to deal with them, but you have to show them you can achieve your current objectives with your current equipment."
+territory_vo_18_tutorial_tier_3,"We can now start preparing to face these stronger Arachnids."
+territory_vo_18_tutorial_tier_4,"Just a quick reminder, Commander. We need to work on our current objective if we want to deal with stronger Arachnids."
+territory_vo_18_tutorial_tier_5,"Please don't ignore my advice, Commander. We need to work on our current objective if we want to deal with stronger Arachnids."
+territory_vo_18_tutorial_tier_6,"Upgrade to the next tier, Commander."
+territory_vo_18_tutorial_tier_7,"Great job, Commander. We can now start to overpower the Arachnids."
+territory_vo_18_tutorial_tier_8,"Just a quick reminder, Commander. You should upgrade to the next tier."
+territory_vo_18_tutorial_tier_9,"Please don't ignore my advice, Commander. You should upgrade to the next tier."
+territory_vo_18_tutorial_snipers_stingers,"Fed Intel is expecting Stingers will soon show up in your sector."
+territory_vo_18_tutorial_snipers_reminder_stingers,"Deploy Snipers to deal with your Stinger problem."
+,
+//{0} will be replaced with a battlegroup technology name,
+tutorial_objective_unlock_tech,"Unlock the {0} technology"
+tutorial_tier_acquire_support_next_tier,"Acquire 1 War Support to unlock the next Battle Tier"
+,
+//{0} will be replaced with a number,
+tutorial_tier_unlock_tier_tech_panel,"Unlock Battle Tier {0} in the Technology Panel"
+,
+//{0} will be replaced with a number,
+tutorial_capturepoints_objective_capture_points,"Capture {0} Territory Points"
+tutorial_turrets_objective_deploy_engineers,"Deploy a squad of Combat Engineers or Technicians"
+tutorial_turrets_deploy_material_depot,"Deploy a Materiel Depot"
+,
+//{0} will be replaced with a number,
+tutorial_turrets_construct,"Construct {0} Turrets"
+,
+//{0} will be replaced with a arachnid threat name,
+tutorial_unitcounter_unlock,"Deal with {0}: Unlock Snipers in the Technology Panel"
+,
+//{0} will be replaced with a arachnid threat name,
+tutorial_unitcounter_deploy,"Deal with 0: Deploy 2 Sniper units"
+,
+,
+// #### TerritoryVoiceLines ####,
+,
+// territory_vo_18_  - 33 entries  386 words  63 lines,
+// territory_vo_4_  - 7 entries  85 words  11 lines,
+territory_vo_18_event_offensive_attacking,"Commander, a large horde of Arachnids has been detected. They are headed for your main base."
+territory_vo_18_event_offensive_defeated,"The Bug horde has been eliminated. Good work, Commander."
+territory_vo_18_generic_intro_v0,"HQ wants this sector secured."
+territory_vo_18_generic_transition_v0,"But first things first:"
+territory_vo_18_capture_base_2,"You need to establish a foothold in the sector by capturing this abandoned base."
+territory_vo_18_capture_base_success_v0,"Well done, Commander. This station is now your primary base of operations. Keep it secure at all costs."
+territory_vo_18_clear_hives_intro_v0,"HQ wants all hives in your sector taken out so the Bugs can no longer threaten our assets in the surroundings."
+territory_vo_18_clear_hives_one_done_v0,"That's one hive cleared."
+territory_vo_18_clear_hives_one_left_v0,"Another hive cleared - just one more to go."
+territory_vo_18_clear_hives_success_v1,"That was the last of them. All hives are cleared!"
+territory_vo_18_clear_hives_success_v2,"All hives neutralized. The tunnels are dead."
+territory_vo_18_clear_hives_success_v3,"Hive network eradicated. No more threats in this sector."
+territory_vo_18_clear_hives_success_v4,"That's the lot. No tunnels left standing."
+territory_vo_4_clear_hives_outro_v0,"Another Bug infestation has been exterminated. Another step closer to victory!"
+territory_vo_4_clear_hives_outro_v1,"The Arachnid presence in this sector has been weakened. Good job troopers!"
+territory_vo_4_clear_hives_outro_v2,"Several Bug hives have been eradicated today. We'll get them all eventually!"
+territory_vo_4_clear_hives_outro_v3,"Reports are confirming that more Bug hives have been eradicated in this sector."
+territory_vo_4_clear_hives_outro_v4,"Another source of Arachnid terror has been purged. Peace and safety is returning to the galaxy."
+territory_vo_4_clear_hives_outro_v5,"A major infestation has been purged, dealing a heavy blow to the Arachnids' control over the sector."
+territory_vo_18_defeat_waves_v0,"The Arachnids are striking back in a show of force. Stand your ground, troopers!"
+territory_vo_18_defeat_waves_arrived_v0,"The Bug horde has arrived in your sector. Wipe them all out, Commander. "
+territory_vo_18_defeat_waves_success_v1,"HQ reports the Arachnid horde has been destroyed. Well done, Commander."
+territory_vo_18_defeat_waves_success_v2,"That's the last of the Arachnids. Well done, Commander."
+territory_vo_18_defeat_waves_success_v3,"Horde broken. Area secure."
+territory_vo_18_defeat_waves_success_v4,"The last Bug is down. Nice work."
+territory_vo_18_defeat_waves_success_v5,"Counterattack repelled. Hold positions."
+territory_vo_18_next_objective_v1,"You're not done yet, however."
+territory_vo_18_next_objective_v2,"I'm afraid the mission isn't over yet, though."
+territory_vo_4_fednet_intro,"[FED NET BROADCAST INCOMING]"
+territory_vo_18_intro_final_v0,"Good luck, Commander. I'll be on standby, ready to support you every step of the way."
+territory_vo_18_strength_balance_warning,"Commander, the Bugs are starting to pose a serious threat. You should focus on securing more territory to make sure you can keep the upper hand."
+territory_vo_18_mission_success_v1,"Well done commander, that went pretty smooth."
+territory_vo_18_mission_success_v2,"Excellent work, Commander. You can all come back to base now."
+territory_vo_18_mission_success_v3,"Objective complete. Well done, Commander."
+territory_vo_18_mission_success_v4,"Sector secured. Outstanding work."
+territory_vo_18_mission_success_v5,"That wraps it up. Return to base."
+territory_vo_18_base_lost_v0,"Commander, the loss of your main base is detrimental for the mission's success. You're being called back to HQ for debriefing."
+territory_vo_18_all_lost_v0,"Commander... It appears there are no more survivors. HQ has canceled the operation. You've been called back for mission debrief."
+territory_vo_18_chemical_base_lost,"Commander, the loss of your main base is detrimental for the mission's success. Doctor Kraus is demanding a replacement for your position. It looks like your tour on Ghutana is terminated..."
+territory_vo_18_chemical_all_lost,"Commander... It appears there are no more survivors. Doctor Kraus has canceled the operation and demands a replacement for your position. It looks like your tour on Ghutana is terminated..."
+// === Summary === (ChemicalOther),
+// other  - 204 entries  1435 words  221 lines,
+// TOTAL  - 204 entries  1435 words,
+,
+,
+,
+// #### ChemicalDLCLines ####,
+,
+// other  - 204 entries  1435 words  221 lines,
+dlc_name_chem,"The Eradicators"
+campaign_screen_title_ghutana,"Ghutana Campaign"
+planet_ghutana,"Ghutana"
+battlegroup_chemicalcorps,"The Eradicators"
+battlegroup_chemicalcorps_descr,"This Battle Group is focused on experimental chemical and radiation weapons, as well as the application of pheromonal and neurochemical technology to manipulate and control the behavior of Arachnid specimens."
+battlegroup_chemicalcorps_content,"• 10 maps  
+• 9 player units
+• 4 Arachnid units"
+ghutana_campaign_name,"Ghutana"
+ghutana_campaign_description,"Doctor Kraus spearheads the most advanced weapons research on Ghutana. His primary focus: the hunt for the elusive Hydra."
+fedflix_category_ghutana,"Campaign: Ghutana"
+news_banner_eradicators_dlc,"New chemical, radiation and biological weapons unleashed!"
+dialog_open_chem_url_title,"The Eradicators DLC"
+dialog_open_chem_url_text,"Would you like to know more about The Eradicators DLC?"
+unit_5584,"Horde Handlers"
+unit_5612,"Horde Handlers"
+unit_5611,"Horde Handlers"
+unit_5584_descr,"These specialists direct a pack of drugged Bugs against enemy units. They are equipped with air pressure guns that fire poison darts."
+unit_5595,"Hazmat Troopers"
+unit_5596,"Hazmat Troopers"
+unit_5626,"Hazmat Troopers"
+unit_5595_descr,"These troopers are equipped with acid-based grenade launchers that are effective against medium armored targets, while their suits offer protection against chemical and radiation hazards."
+unit_5599,"Fortis E-Pulse 92 Troopers"
+unit_5627,"Fortis E-Pulse 92 Troopers"
+unit_5600,"Fortis E-Pulse 92 Troopers"
+unit_5599_descr,"The 'Fortis' powered armor suit provides increased battlefield survivability while the E-Pulse 92 weapon fires energy projectiles up to a medium firing range, which are effective against medium armored targets and deal area-of-effect damage on impact."
+unit_5601,"Powered Suit Irradiators"
+unit_5628,"Powered Suit Irradiators"
+unit_5613,"Powered Suit Irradiators"
+unit_5601_descr,"These troopers are equipped with prototype weapons that can fire deadly radiation beams through multiple enemies, while their advanced powered armor suits offer excellent protection and mobility."
+unit_5588,"XM3-C Alchemist"
+unit_5588_descr,"This lightly armored biped is equipped to unleash a cocktail of deadly acid-based weapons. Its robotic arm also allows it to construct various defensive structures and weapons."
+unit_5589,"XM3-A Raycaster"
+unit_5630,"XM3-A Raycaster"
+unit_5589_descr,"This biped can fire a highly concentrated radiation beam with great precision, making it very effective at engaging lightly armored targets over a long distance. It can also call down reinforcements."
+unit_5632,"Radiation Drone"
+unit_5591,"Reactor Booster"
+unit_5598,"Missile Specialists"
+unit_5633,"Missile Specialists"
+unit_5598_descr,"This squad is equipped with a multi-barreled Rocket Launcher to counter heavily armored threats. They also have the authorization to call in strikes from any missile silo in the sector."
+unit_5576,"XM9-B Overseer"
+unit_5576_descr,"This heavy biped specializes in pheromone weapon technology. It can turn the larger Arachnids types against their own hive, or even take direct control over an individual specimen."
+unit_5606,"XM11-K Annihilator"
+unit_5049,"XM11-K Annihilator"
+unit_5606_descr,"This experimental configuration of the M11 biped is armed with a powerful radiation weapon and dual missile launchers. In addition, its nuclear reactor can boost the performance of nearby Irradiator squads."
+unit_1140,"Missile Silo"
+unit_1140_descr,"A subterranean missile silo that provides various types of powerful long range missiles to the Missile Specialists."
+unit_5047,"Mutated Corpse"
+unit_5040,"Missile Launcher"
+unit_5041,"Missile Launcher"
+unit_5050,"Irradiated Corpse"
+unit_5631,"Hydra Mock-up"
+unit_5051,"Eggs Cluster"
+unit_5637,"Crashed Dropship"
+unit_5638,"Dropship"
+unit_5019,"Bug Cage"
+unit_5022,"Bug Cage"
+unit_5640,"Missile"
+unit_5647,"D.I.M. Dart Launcher"
+unit_5642,"D.I.M. Dart Launcher"
+unit_5643,"D.I.M. Dart Launcher"
+unit_5644,"Mass Pheromone Emitter"
+unit_5646,"Mass Pheromone Emitter"
+unit_5645,"Mass Pheromone Emitter"
+unit_5634,"Battery Array"
+unit_5641,"Battery Array"
+unit_5639,"Battery Array"
+unit_5017,"Buzzer Drone"
+unit_5035,"Buzzer Drone"
+unit_5017_descr,"A small Arachnid variant bred for speed and chaos. When an enemy is nearby, the creature uses its wings to dash across the terrain with great speed."
+unit_5033,"Acid Grenadier"
+unit_5033_descr,"The Acid Grenadier is a large, well armored Bug type that launches globs of a volatile substance toward their enemies. These projectiles generally transmute into corrosive acid on impact, but curiously, some globs have been found to contain live Buzzer Bugs. How this symbiosis between Acid Grenadiers and Buzzers is initiated is currently unknown."
+unit_5048,"Geiger Bug"
+unit_5048_descr,"A sickly and heavily mutated Arachnid type which detonates when it attacks an enemy, or when it is killed. This explosion deals short range blast damage, as well as radiation damage over a wider radius."
+unit_5044,"Hydra"
+unit_5053,"Hydra (Wounded)"
+unit_5044_descr,"A massive and heavily armored Arachnid specimen. Handle with extreme caution."
+unit_5045,"Buzzer Nest"
+unit_5045_descr,"A nest that unleashes a horde of Buzzer Drones whenever an hostile entity dares venture too close."
+unit_5046,"Buzzer Nest (Destroyed)"
+unit_5592,"Bug Cage"
+unit_5592_descr,"These cages serve as defensive emplacements, employing bio-chemically reprogrammed Arachnid Warriors against approaching enemies."
+unit_5593,"Bug Cage (Tiger)"
+unit_5593_descr,"These cages serve as defensive emplacements, employing bio-chemically reprogrammed Arachnid Tigers against approaching enemies."
+unit_5594,"Bug Cage (Spitter)"
+unit_5594_descr,"These cages serve as defensive emplacements, employing bio-chemically reprogrammed Arachnid Spitters against approaching enemies."
+ability_explode_defenders_title,"Remote Specimen Termination"
+ability_explode_defenders_descr,"Instantly blow up all Bugs attached to this squad by detonating the powerful explosive capsule implanted in each specimen."
+ability_switchdefender_spitters_title,"Spitter Escort"
+ability_switchdefender_spitters_descr,"Replace the Drone Bugs pack with Spitters, which can engage enemies from a distance."
+ability_switchdefender_warriors_title,"Warrior Escort"
+ability_switchdefender_warriors_descr,"Replace the Drone Bugs pack with more resilient Warriors."
+ability_toxic_self_repair_title,"Damage-Sealing Agent"
+ability_toxic_self_repair_descr,"Releasing this chemical substance patches damage, while also dealing damage to nearby enemies."
+ability_toxic_pressure_spray_title,"High-Pressure Spray"
+ability_toxic_pressure_spray_descr,"Discharge a stream of deadly acid over a long distance, delivering damage to anything touched by the substance."
+ability_acid_air_strike_title,"Deploy Aerial Acid Strike"
+ability_acid_air_strike_descr,"Call down a specialized TAC fighter to spray corrosive acid across the target area."
+ability_rad_biped_electric_discharge_title,"Electric Discharge"
+ability_rad_biped_electric_discharge_descr,"Cause a massive energy surge that temporarily disables the biped, while the blast deals damage to surrounding enemies."
+ability_rad_biped_reactor_drop_title,"Reactor Drop"
+ability_rad_biped_reactor_drop_descr,"Air-drop a reactor that boosts the radiation weapon of all nearby Raycaster bipeds. Be aware that if the reactor is critically damaged, it will explode."
+ability_rad_biped_deploy_drone_title,"Gamma Ray Drone"
+ability_rad_biped_deploy_drone_descr,"Deploy a small flying drone that directs radiation beams on enemies around the biped. When destroyed, the drone will automatically be replaced after a short delay."
+ability_hazmat_grenade_volley_title,"Gas Grenade Volley"
+ability_hazmat_grenade_volley_descr,"Fire a volley of poison gas grenades."
+ability_hazmat_gas_perimeter_title,"Deploy Poison Gas Perimeter"
+ability_hazmat_gas_perimeter_descr,"The defensive perimeter offers protection in close combat and unleashes a cloud of deadly poison gas."
+ability_hazmat_heal_perimeter_title,"Medical Tent"
+ability_hazmat_heal_perimeter_descr,"This structure gradually replaces casualties taken by nearby infantry squads."
+ability_missile_specialist_switch_a_title,"Switch to Forward Firing Pattern"
+ability_missile_specialist_switch_a_descr,"In this mode, rockets are fired in a forward facing sequence."
+ability_missile_specialist_switch_b_title,"Switch to Perpendicular Firing Pattern"
+ability_missile_specialist_switch_b_descr,"In this mode, rockets are fired along a line perpendicular to the specialist's facing."
+ability_flak_missiles_title,"Flak Missile Barrage"
+ability_flak_missiles_descr,"Fire a sequence of anti-air missiles that damage flying units in a medium-sized area."
+ability_incendiary_missiles_title,"Incendiary Missile Barrage"
+ability_incendiary_missiles_descr,"Fire incendiary missiles that leave a fire pit behind on impact."
+tooltip_no_missile_silos_available,"No Missile Silos available."
+ability_deploy_bastion_railgun_title,"E-Pulse Cannon"
+ability_deploy_bastion_railgun_descr,"Deploy a powerful E-Pulse Cannon within a protective enclosure."
+ability_construction_kit_title,"Construction Kit"
+ability_construction_kit_descr,"Equip your troops with the tools to build turrets."
+ability_switchdefender_tigers_title,"Tiger Escort"
+ability_switchdefender_tigers_descr,"Employ bio-chemically reprogrammed Arachnid Tigers to follow the squad and engage nearby enemies."
+ability_m9c_mind_control_title,"Launch Mind Control Dart"
+ability_m9c_mind_control_descr,"This dart contains a neurochemical interface to take direct control of a large Arachnid specimen. Due to the projectile's larger size and mass, smaller Bug types will not survive the impact."
+ability_switchdefender_royalguard_title,"Royal Guard Escort"
+ability_switchdefender_royalguard_descr,"Employ bio-chemically reprogrammed Arachnid Royal Guards to follow the biped and engage nearby enemies"
+ability_drop_drones_pod_title,"Deploy Drones Pod"
+ability_drop_drones_pod_descr,"Deploy a drop pod full of Drone Bugs that will fight on your side."
+ability_pheromone_shield_title,"Pheromonal Cloak"
+ability_pheromone_shield_descr,"Release artificial pheromones that effectively conceal the presence of the troopers from nearby Arachnids"
+ability_rogue_grenade_title,"Rogue Grenade"
+ability_rogue_grenade_descr,"On impact, this grenade ejects a toxic nerve-agent that turns affected Arachnids against other Bugs untouched by the substance."
+ability_deploy_ufo_title,"Irradiator RPV"
+ability_deploy_ufo_descr,"Deploy a 'Remotely Piloted Vehicle' that can be directed to unleash deadly radiation damage on enemies below."
+ability_m11_x_default_missile_title,"Launch Missile"
+ability_m11_x_default_missile_descr,"Fires a missile filled with poison gas at a target location, dealing area-of-effect damage to all units in the area-of-effect radius."
+ability_m11_x_jump_unlock_title,"Rocket Jump"
+ability_m11_x_jump_unlock_descr,"Employ the Annihilator's dual rocket tubes as a make-shift jetpack to jump toward more advantageous positions."
+ability_radiation_bomb_title,"Drop Dirty Bomb"
+ability_radiation_bomb_descr,"Call in a TAC fighter to drop a bomb that disperses radioactive materials over the target area."
+ability_tanker_roar_title,"Raging Roar"
+ability_tanker_roar_descr,"Damages and stuns enemies in close proximity to the Tanker."
+ability_grenadier_cluster_plasma_title,"Plasma Cluster Strike"
+ability_grenadier_cluster_plasma_descr,"Eject a cluster of smaller plasma projectiles across a wide target area."
+ability_scorpion_claw_crush_title,"Mandible Crush"
+ability_scorpion_claw_crush_descr,"Execute a powerful melee attack against a nearby enemy."
+ability_ravager_bash_title,"Mandible Crush"
+ability_ravager_bash_descr,"Execute a powerful melee attack against a nearby enemy."
+ability_immolator_spew_title,"Blazing Spew"
+ability_immolator_spew_descr,"Spray a burning substance across the target area."
+ability_buzzer_grenadier_trail_title,"Corrosive Secretion"
+ability_buzzer_grenadier_trail_descr,"Release trail of highly corrosive fluids while moving."
+tech_unlock_bug_cages_title,"Bug Cages"
+tech_unlock_bug_cages_descr,"Allows Horde Handlers to deploy Bug Cages."
+tech_unlock_missiles_title,"Missile Mastery"
+tech_unlock_missiles_descr,"Allows access to Missile Specialists and Missile Silo."
+tech_missile_silo_gas_title,"Poison Gas Missile"
+tech_missile_silo_gas_descr,"Allows Missile Specialists to fire poison gas missiles from Missile Silos."
+tech_missile_silo_cluster_title,"Cluster Missile"
+tech_missile_silo_cluster_descr,"Allows Missile Specialists to fire a barrage of cluster missiles from Missile Silos."
+ability_missile_silo_switch_title,"Deploy Missile Silo"
+ability_missile_silo_switch_descr,"Deploy a subterranean missile silo on this platform, capable of launching various types of powerful long range missiles."
+ability_silo_remote_nuke_title,"Launch Tactical Nuke Missile"
+ability_silo_remote_nuke_descr,"Fire a small yield nuclear missile from a nearby Missile Silo."
+ability_silo_remote_chemical_title,"Launch Poison Gas Missile"
+ability_silo_remote_chemical_descr,"Fire a poison gas missile from a nearby Missile Silo."
+ability_silo_remote_cluster_title,"Launch Cluster Missiles"
+ability_silo_remote_cluster_descr,"Fire a barrage of cluster missiles from a nearby Missile Silo."
+unit_5585,"Drugged Drones"
+unit_5604,"Hopper Pod"
+unit_5605,"Drugged Hoppers"
+unit_5586,"Drugged Bombardiers"
+unit_5010,"Main Base"
+unit_5015,"Drugged Warriors"
+unit_5555,"Drugged Spitters"
+unit_5580,"Drugged Tigers"
+unit_5031,"Drugged Royal Guard"
+unit_5556,"Drugged Scorpion"
+unit_5030,"Drones Pod"
+unit_5032,"Drugged Drones"
+threat_buzzermutation,"Buzzer Drones"
+threat_geigersmutation,"Geigers"
+threat_territory_defense_buzzer_nest,"Buzzer Nest"
+threat_territory_defense_hornetnest,"Hornet Nest"
+threat_buzzergrenadiermutation,"Acid Grenadiers"
+threat_hydramutation,"Hydra"
+unit_4106,"Radio Station"
+unit_4112,"Radio Station"
+unit_4100,"Radio Station"
+unit_4107,"Radio Station"
+unit_4113,"Radio Station"
+unit_4101,"Radio Station"
+unit_4108,"Radio Bunker"
+unit_4114,"Radio Bunker"
+unit_4102,"Radio Bunker"
+unit_4109,"Radio Station"
+unit_4115,"Radio Station"
+unit_4103,"Radio Station"
+unit_4110,"Radio Station"
+unit_4116,"Radio Station"
+unit_4104,"Radio Station"
+unit_4111,"Satellite Station"
+unit_4117,"Satellite Station"
+unit_4105,"Satellite Station"
+// === Summary === (ChemicalVO),
+// territory_vo_18_  - 47 entries  889 words  93 lines,
+// territory_vo_19_  - 36 entries  796 words  94 lines,
+// other  - 3 entries  14 words  3 lines,
+// TOTAL  - 86 entries  1699 words,
+,
+,
+,
+// #### Mission_Chemical_1.Lines ####,
+,
+// territory_vo_18_  - 1 entries  22 words  3 lines,
+// territory_vo_19_  - 4 entries  97 words  10 lines,
+territory_vo_19_chemical_1_eradicators_tutorial_1,"Ah, our Horde Handlers. Do not let their Arachnid escort unsettle you. Through pheromonal recalibration, we have co-opted their predatory instincts to serve our interests."
+territory_vo_19_chemical_1_eradicators_tutorial_2,"Unlike your troopers, they are free from any psychological limitations - they simply exist to kill. A remarkable display of biological utility."
+territory_vo_19_chemical_1_capture_hangar_1,"However, we still require access to the hangar for refueling operations. It appears the Arachnids have already established a nest within the structure-- a fascinating reappropriation of our infrastructure."
+territory_vo_19_chemical_1_attack_wave_1,"Incoming signatures are spiking. It's fascinating... the Arachnids seem to possess an instinctual awareness of the threat we've prepared for them."
+territory_vo_18_chemical_1_defeat,"I'm sorry, Commander... Doctor Kraus has already requested a replacement for your position. It looks like your tour on Ghutana is terminated."
+,
+,
+// #### Mission_Chemical_10.Lines ####,
+,
+// territory_vo_19_  - 12 entries  278 words  36 lines,
+// other  - 1 entries  5 words  1 lines,
+territory_vo_19_chemical_10_intro_1,"Commander, we know why the Mass Pheromone Emitter ultimately failed to draw in the Hydra. Tracing the trail of Acid Grenadiers back to its source led us to a massive lair... filled with millions of eggs."
+territory_vo_19_chemical_10_intro_2,"Right at the center of it all: our Hydra. The creature possesses hive-minded instincts that drive it to guard this nest. Instincts far outweighing the lure of our pheromone technology!"
+territory_vo_19_chemical_10_intro_3,"Now we must proceed with care. This is a priceless opportunity to study the Arachnids' behavioral systems."
+territory_vo_19_chemical_10_eggs_intro,"Commander, secure a cluster of eggs and send them to my lab. And restrain yourself - I need them intact."
+territory_vo_19_chemical_10_hydra_warning,"Do not provoke the Hydra yet. I'm aware this procedure requires a level of nuance and intellect your military branch is not known for. Complete your tasks and follow my instructions to the letter."
+territory_vo_19_chemical_10_weaken_hydra_swarm,"As for the surrounding hordes, exterminate them all. They are of minimal scientific value."
+territory_vo_19_chemical_10_hydra_protect_1,"Commander! Protect the Hydra with everything you have! The lives of you and your troopers are inconsequential next to the potential loss of this specimen!"
+territory_vo_19_chemical_10_hydra_protect_2,"Wait... I'll direct it... I'll turn it against the incoming hordes! Form a perimeter around the Hydra, and I'll demonstrate what this majestic beast is capable of!"
+territory_vo_19_chemical_10_victory_2,"I'm transferring the Hydra to the Research Division's high-security transport immediately."
+territory_vo_19_chemical_10_defeat_hydra_2,"Years of planning... and research... destroyed by the magnitude of your incompetence! Report back to base, Commander. I assure you a court martial will be the least of your worries."
+territory_vo_19_chemical_10_defeat_dim_launcher,"The launcher... Destroyed! The mission... a shambles. You are finished! Pack your gear, Commander, and get off my planet!"
+territory_vo_19_chemical_10_kill_remaining,"A masterpiece of biological engineering. Finish off the remaining Arachnids and secure the sector completely."
+objective_title_chemical_10_dont_kill_hydra,"Do not kill the Hydra"
+,
+,
+// #### Mission_Chemical_2.Lines ####,
+,
+// territory_vo_18_  - 7 entries  75 words  11 lines,
+// territory_vo_19_  - 2 entries  42 words  4 lines,
+// other  - 1 entries  4 words  1 lines,
+territory_vo_18_chemical_2_defeat_prospector_lost_1,"Commander... Kraus is having a complete meltdown over the loss of that extractor. It looks like your tour on Ghutana is already terminated..."
+territory_vo_19_chemical_2_intro_4,"Handle this 'infestation' however you see fit. Just retrieve those samples for me."
+territory_vo_19_chemical_2_toxic_biped_intro_1,"Commander, use this opportunity to deploy our new XM3-C Alchemist bipeds. These vehicles utilize a concentrated corrosive aerosol specifically designed to dissolve the structural integrity of the Arachnid exoskeleton."
+territory_vo_18_chemical_2_toxic_biped_unlocked,"XM3-C Alchemists are now ready for deployment."
+territory_vo_18_chemical_2_killed_nest_1,"That's one nest destroyed!"
+territory_vo_18_chemical_2_clear_hives_intro_1_alt,"HQ wants you to clear out that hive before we call it a day."
+territory_vo_18_chemical_2_clear_hives_intro_3_extra,"Can't leave a job half-finished, right?"
+territory_vo_18_chemical_2_clear_hives_reminder,"HQ is getting uneasy about that Hive, Commander... You should deal with it asap."
+territory_vo_18_chemical_2_clear_hive_completed_1,"Good work. The Hive has been cleared."
+objective_title_chemical_2_unlock_toxic_biped,"Unlock the XM3-C Alchemist"
+,
+,
+// #### Mission_Chemical_3.Lines ####,
+,
+// territory_vo_18_  - 8 entries  109 words  15 lines,
+// territory_vo_19_  - 2 entries  33 words  4 lines,
+territory_vo_19_chemical_3_radiation_biped_intro_2,"Use it to clear out the generic Spitter population... In nature, the elimination of the mediocre is the most reliable method to reveal the exceptional."
+territory_vo_18_chemical_3_capture_base_intro_1_alt,"Commander, there's a decommissioned base just a few clicks from your position. Take control of the facility and I'll authorize a requisition for the surplus gear inside."
+territory_vo_19_chemical_3_specimen_captured_2,"An interesting find... Proceed to the next carcass."
+territory_vo_18_chemical_3_attack_wave_incoming_2,"Contact! Multiple signatures detected and they are closing in fast. Lock and load, Commander--show 'em what the Federation is made of!"
+territory_vo_18_chemical_3_success_1,"That's the last of 'em! Area's green and the sector is officially secure."
+territory_vo_18_chemical_3_success_1_alt,"Sector clear!"
+territory_vo_18_chemical_3_success_2,"That's the most impressive performance I've seen from you yet, Commander... on the field."
+territory_vo_18_chemical_3_success_3,"I'll see you back at base. Don't keep me waiting."
+territory_vo_18_chemical_3_success_3_alt_1,"Can't wait to see you back home - for debriefing, of course."
+territory_vo_18_chemical_3_success_3_alt_2,"I'm clearing my schedule for our debriefing. See you soon."
+,
+,
+// #### Mission_Chemical_4.Lines ####,
+,
+// territory_vo_18_  - 5 entries  84 words  7 lines,
+// territory_vo_19_  - 7 entries  171 words  18 lines,
+territory_vo_18_chemical_4_holding_pens_intro,"Commander, you are authorized to put down any Arachnids within the facility's perimeter. That includes any Bugs still located in their holding pens."
+territory_vo_19_chemical_4_central_station_scientist_1,"It seems the security detachment has proven utterly incompetent. I hope you will do better, Commander. For your own sake."
+territory_vo_19_chemical_4_central_station_scientist_2,"Take back the central control hub immediately, and I will grant access to the adjacent missile silos."
+territory_vo_18_chemical_4_unlock_missiles,"To direct these missiles, you'll first need to deploy a squad of Missile Specialists."
+territory_vo_18_chemical_4_missile_monitor_deployed,"A squad of Missile Specialists has just been dropped into the facility."
+territory_vo_18_chemical_4_missile_monitor_reminder,"Commander, remember to deploy Missile Specialists if you want to make use of the Missile Silos."
+territory_vo_18_chemical_4_kill_bugs_with_silo,"Let's see what these missiles can do. Choose a target, send in your Missile Specialists and enjoy the spectacle."
+territory_vo_19_chemical_4_silo_kills_complete,"I'm not surprised to see such extensive use of our missile silos. After all, the hypothesis that even a crude mind is capable of ample destruction is why you are here."
+territory_vo_19_chemical_4_dim_intro_2,"To put it simply in terms you may understand: it can launch special darts with great precision. Darts designed to target the nerve stem of a very specific Arachnid specimen - and allow us to essentially take full control of its mind."
+territory_vo_19_chemical_4_outro_launch_1,"All systems are online and everyone is in position. Commencing the D.I.M. dart test launch."
+territory_vo_19_chemical_4_outro_launch_2,"Three... Two... One... Launch!"
+territory_vo_19_chemical_4_outro_success,"Excellent. The dart has survived the impact and has penetrated well within the required target area and depth to establish a neural connection. You should feel privileged to have participated in such an important step toward the culmination of the Hercules Program!"
+,
+,
+// #### Mission_Chemical_5.Lines ####,
+,
+// territory_vo_18_  - 6 entries  146 words  14 lines,
+territory_vo_18_chemical_5_intro_4,"Just keep a close eye on your surroundings. If it glows, keep your distance. I'm quite fond of your current number of limbs."
+territory_vo_18_chemical_5_hazmat_warning,"The radiation around that carcass is off the charts, Commander. Assign Hazmat Troopers to handle the specimen extraction. Their suits provide the necessary shielding against levels this high."
+territory_vo_18_chemical_5_hazmat_reminder,"Commander, remember to deploy Hazmat Troopers. They are equipped to withstand toxic and radiation hazards."
+territory_vo_18_chemical_5_geiger_sighting,"Commander, I ran a search for 'glowing crawling abomination'. Nothing in the Federal database matches that mess... Radiation signatures are extreme and they look like they're about to pop. Deploying Hazmat Troopers against them is your best bet."
+territory_vo_18_chemical_5_sam_intro_1,"Commander, my scanners are showing large numbers of Hopper nests in the peaks surrounding the plant."
+territory_vo_18_chemical_5_sam_intro_2,"I strongly suggest you restore the air defense system in the center of the facility before these Hoppers decide to come down for a closer look."
+,
+,
+// #### Mission_Chemical_6.Lines ####,
+,
+// territory_vo_18_  - 5 entries  77 words  9 lines,
+// territory_vo_19_  - 2 entries  14 words  5 lines,
+// other  - 1 entries  5 words  1 lines,
+territory_vo_18_chemical_6_intro_3,"Kraus calls it a success, but you'll need to clear out these infestations before more tests can proceed."
+territory_vo_18_chemical_6_nests_cleared_west,"Excellent, the western flank of the compound has been secured."
+territory_vo_19_chemical_6_phase1_activate_1,"Initiating the second test run. Three... two... one..."
+territory_vo_19_chemical_6_phase1_activate_2,"Emitter operating at forty percent capacity."
+territory_vo_18_chemical_6_deploy_epulse_reminder,"Commander, remember to deploy E-Pulse Cannons at the marked locations. We really need the extra firepower."
+territory_vo_18_chemical_6_victory,"Kraus seems happy. And you know I always enjoy you working up a sweat. Well done, Commander!"
+objective_title_chemical_6_clear_west_lairs,"Clear the western Bug Nests"
+territory_vo_18_chemical_6_deploy_fortis,"E-Pulse troopers have been deployed. Instruct them to set up E-Pulse Cannons at the marked locations."
+,
+,
+// #### Mission_Chemical_7.Lines ####,
+,
+// territory_vo_18_  - 3 entries  69 words  8 lines,
+// territory_vo_19_  - 4 entries  90 words  10 lines,
+territory_vo_18_chemical_7_escapees_intro_1,"We've picked up pockets of jailbreakers in the wastes. They probably learned why escape on Ghutana is futile--the local hordes are much less forgiving than a cell block."
+territory_vo_18_chemical_7_group_3_cleared,"That should be the last of them. Any stragglers we missed will face the Bugs' penal system."
+territory_vo_19_chemical_7_overseer_intro_2,"I have successfully miniaturized the D.I.M. technology. It will still outright kill smaller Arachnids, but it should function as designed on larger specimens like Tankers or Scorpions."
+territory_vo_19_chemical_7_overseer_intro_3,"Deploy an XM9-B Overseer and launch the projectile on a specimen of your choice, then use it to... 'neutralize' the remaining rioters in the courtyard."
+territory_vo_19_chemical_7_overseer_reminder,"Commander, I have instructed the deployment of an Overseer biped--do not make me repeat myself again."
+territory_vo_19_chemical_7_mind_control_success,"Neural link established. Now guide the subject to the prison courtyard and... discharge it upon the rioters. I will monitor the results."
+territory_vo_18_chemical_7_victory,"Everything's secure. The surviving prisoners are back under lock and key. Hmmm, that gives me an idea for our debriefing. Hurry back to base."
+,
+,
+// #### Mission_Chemical_8.Lines ####,
+,
+// territory_vo_18_  - 8 entries  210 words  17 lines,
+territory_vo_18_chemical_8_intro_1,"Commander, Doctor Kraus has narrowed down locations for the Hydra's hiding spot. To lure it out, he has ordered the deployment of the Mass Pheromone Emitter in this sector."
+territory_vo_18_chemical_8_hives_intro,"Commander, activity reports on those Acid Grenadiers are accurate. Large numbers have been detected around the local hives. If we're going to resume transportation of the emitter modules, you'll have to deal with this threat."
+territory_vo_18_chemical_8_acid_grenadier_sighting,"Approach those Acid Grenadiers with caution, Commander. Their armor is thick, and the clusters of volatile bile they launch can melt through hull plating and infantry alike."
+territory_vo_18_chemical_8_arrow_warning_2_alt,"A new breach has opened up. Don't let any Bugs slip through the cracks, Commander."
+territory_vo_18_chemical_8_disruptor_intro_2,"Don't ask me for the technical manual, but apparently, this substance rewrites a Bug's 'friend or foe' neural pathways. One whiff and they'll tear into anything that hasn't been sprayed."
+territory_vo_18_chemical_8_disruptor_intro_3,"Toss a few of these grenades into the horde and let's see some of that Bug-on-Bug action Kraus is so hot and bothered about."
+territory_vo_18_chemical_8_irradiator_reminder,"Commander, remember to deploy Irradiator squads and put their pheromone disruptor grenades to the test. If not for Doctor Kraus, then do it for me."
+territory_vo_18_chemical_8_victory,"Clean sweep. Modules are en route and Kraus shouldn't find out about the delay. Of course, I don't mind sharing a secret with you, Commander."
+,
+,
+// #### Mission_Chemical_9.Lines ####,
+,
+// territory_vo_18_  - 4 entries  97 words  9 lines,
+// territory_vo_19_  - 3 entries  71 words  7 lines,
+territory_vo_18_chemical_9_intro_1,"Commander, you're on final approach to the Mass Emitter construction site. I have Doctor Kraus on the line for your briefing."
+territory_vo_19_chemical_9_intro_2,"Ah, Commander. This abandoned plant is the perfect foundation for our work. Two D.I.M. Dart Launchers are already in place, and the new Pheromone Emitter is being assembled at the facility's core as we speak."
+territory_vo_18_chemical_9_defend_emitter,"Commander. We already have some defenses in place around the Emitter, but make sure the machine stays in one piece. If the Bugs tear it down, our mission--and the Doctor's patience--goes with it."
+territory_vo_18_chemical_9_exterminator_reminder,"Commander, remember to deploy an Annihilator and move it to the Battery Array."
+territory_vo_19_chemical_9_no_hydra_1,"No sign of the Hydra yet... but a remarkably large number of Acid Grenadiers have appeared once again."
+territory_vo_19_chemical_9_no_hydra_2,"Physical similarities between the two species exist, but perhaps there is a stronger biological link than we expected?"
+territory_vo_18_chemical_9_victory_2,"Don't let the doctor get to you, Commander. You did great work down there. And while Kraus is busy with his R&D, you and I can meet for some R&R."

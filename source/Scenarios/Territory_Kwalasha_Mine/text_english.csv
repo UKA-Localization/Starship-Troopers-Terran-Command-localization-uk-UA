@@ -1,0 +1,26 @@
+﻿// NAME,
+scenario_name,Cliffhanger
+,
+// DESCRIPTION,
+scenario_descr,This tutorial focuses on reasearching technologies and increasing supplies.
+,
+// OBJECTIVES,
+objective_2_9_title,Request Supplies at 2 empty Supply Depots
+objective_2_8_title,Capture Resource Points to increase Resources income
+objective_2_4_title,Unlock Snipers in the Technology panel
+objective_2_7_title,Deploy a Sniper team
+objective_2_5_title,"Unlock the ""Grenade Pouches"" technology"
+objective_2_6_title,"Unlock the ""Sniper Scope Mk.II"" technology"
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_0,default_base
+unit_30,village_base
+unit_88,introMarker
+unit_89,introMarkerHive
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

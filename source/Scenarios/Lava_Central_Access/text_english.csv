@@ -1,0 +1,307 @@
+﻿// NAME,
+scenario_name,[6] Central Heating
+,
+// DESCRIPTION,
+scenario_descr,"The Mobile Infantry is gradually pushing back the Arachnid incursion, but Bugs still nest deep within a critical fuel refinery. Captain Zhao will lead the operation to clear it out."
+,
+// OBJECTIVES,
+objective_2_9_title,Secure a base
+objective_2_11_title,Clear the outer hives
+objective_2_12_title,Select the marked Flag to call in the mercs
+objective_2_8_title,Reactivate pumping stations
+objective_2_16_title,Defend the pumping station
+objective_2_15_title,Capture the radio station
+objective_2_0_title,Open one of the gates
+objective_2_1_title,Destroy the central hive
+objective_2_14_title,Destroy all bug vents
+objective_2_13_title,Secure Ammunition Caches
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_346,Warrior
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/SECURE THE FIRST BASE/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_138_text,"Listen up! HephaeStar Corp needs this central transport hub, and what's good for HephaeStar is good for the Federation. So, we're going to be taking it back from the Bugs today."
+//,
+// 8.director,
+briefing_trigger_554_text,"Glad to see you're finally coming around, Captain. We appreciate the Federation's continued cooperation and partnership."
+//,
+// 10.merc,
+briefing_trigger_1336_text,Urgh. Gimme a break...
+//,
+// 8.director,
+briefing_trigger_1337_text,Recapturing our comms facility just south of the hub will give the M.I. a strategic base to operate from.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR OUTER HIVES/TRIGGERS/SUCCESS ============== ",
+// 9.junior,
+briefing_trigger_823_text,All hives cleared.
+briefing_trigger_824_text,"We're ready to begin our assault on the hub, Director."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR OUTER HIVES/TRIGGERS/1ST HIVE CLEARD BRIEF ============== ",
+// 9.junior,
+briefing_trigger_1341_text,Hive eradicated!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR OUTER HIVES/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1340_text,Base secured. Now to clear the surrounding hives so the Bugs can't flank us on our assault.
+//,
+// 8.director,
+briefing_trigger_1339_text,An excellent plan. So good to be working with real professionals.
+//,
+// 9.junior,
+briefing_trigger_1338_text,"We believe in service, ma'am, not personal enrichment."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CALL IN MERCENARIES/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_1344_text,This Bug hive won't be a problem now.
+//,
+// 8.director,
+briefing_trigger_935_text,"Excellent work, captain. Now we can get those pumps back in production again."
+briefing_trigger_1400_text,"I suppose that means you're up, Fraser."
+//,
+// 10.merc,
+briefing_trigger_1345_text,"Play babysitter to a buncha machinery, while the Feds get all the glory? Screw that."
+//,
+// 8.director,
+briefing_trigger_1347_text,"You're paid to do as I say, and my orders are to get production running again. Is that clear?"
+//,
+// 10.merc,
+briefing_trigger_1348_text,"Urgh.
+Yes....ma'am..."
+//,
+// 9.junior,
+briefing_trigger_1346_text,Excellent. Maybe we'll make a citizen out of you yet!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ACTIVATE PUMPS/TRIGGERS/PUMP N/CAPTURE TERMINAL ============== ",
+// 10.merc,
+briefing_trigger_684_text,First pump back online.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ACTIVATE PUMPS/TRIGGERS/PUMP N/PUMP ACTIVATED ============== ",
+// 8.director,
+briefing_trigger_963_text,The Arachnids certainly felt that. Readings suggest the seismic activity is drawing them toward the pump. Don't let them stop us now!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ACTIVATE PUMPS/TRIGGERS/PUMP N/OFFENSIVE TIMELINE ============== ",
+// 10.merc,
+briefing_trigger_1349_text,You heard the suit. Babysitting squad's up to bat!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ACTIVATE PUMPS/TRIGGERS/PUMP S/CAPTURE TERMINAL ============== ",
+// 10.merc,
+briefing_trigger_685_text,Pump two back online.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ACTIVATE PUMPS/TRIGGERS/PUMP S/PUMP ACTIVATED ============== ",
+// 8.director,
+briefing_trigger_1013_text,More Arachnids inbound. Defend HephaeStar property!
+briefing_trigger_1351_text,"Oh... and this time keep the snark to a minimum, Fraser."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ACTIVATE PUMPS/TRIGGERS/BACKUP ENGI. BIPED ============== ",
+// 10.merc,
+briefing_trigger_1350_text,Woh! This is gonna be fun!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ACTIVATE PUMPS/TRIGGERS/""NEXT PUMP"" DIALOGUE ============== ",
+// 10.merc,
+briefing_trigger_1091_text,We're clear. Onto the next pump.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ACTIVATE PUMPS/BRIEFING ============== ",
+// 10.merc,
+briefing_trigger_668_text,"Okay people, let's get to the real glamorous task of reactivating these pump stations."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE THE RADIO STATION/BRIEFING OUTRO/BRIEFING OUTRO ============== ",
+// 10.merc,
+briefing_trigger_1058_text,Station secured. Ready to join in the battle for the transport hub.
+//,
+// 8.director,
+briefing_trigger_1061_text,That won't be necessary. Hold position and ensure those pumps stay running until we've secured this whole sector.
+//,
+// 10.merc,
+briefing_trigger_1354_text,"This a joke!? You hired us to kill Bugs, not sit around as your wrench monkeys!"
+//,
+// 8.director,
+briefing_trigger_1355_text,"I never joke, Fraser. Not with company funds on the line."
+briefing_trigger_1356_text,It's just a brief alteration to our contract. The Mobile Infantry are now our preferred security force.
+//,
+// 9.junior,
+briefing_trigger_1353_text,"You want in on the fight, merc? Then enlist. 'Service guarantees citizenship.'"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE THE RADIO STATION/YES ============== ",
+// 8.director,
+briefing_trigger_1093_text,HephaeStar Corp thanks you again. With production up and running we now need you to re-capture the comms station south of your position.
+//,
+// 10.merc,
+briefing_trigger_1352_text,Don't need your thanks. Just your signature on the pay checks.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OPEN ONE OF THE GATES/BRIEFING ============== ",
+// 8.director,
+briefing_trigger_50_text,"Now that you've secured the perimeter, I'll send you the gate codes, Captain. Good luck in there."
+//,
+// 9.junior,
+briefing_trigger_1358_text,Infantry teams! Let's form up on one of the gate entrances and take this base back!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OPEN ONE OF THE GATES/MERCS SIDE NOT DONE ============== ",
+// 8.director,
+briefing_trigger_1357_text,"Not yet, Captain. We'll need Fraser's team to finish securing their perimeter before I can send you in."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DESTROY THE CENTRAL HIVE/BRIEFING ============== ",
+// 9.junior,
+briefing_trigger_328_text,Now let's show these Bugs what the Mobile Infantry is made of!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DESTROY VENTS/TRIGGERS/SUCCESS ============== ",
+// 9.junior,
+briefing_trigger_1360_text,Try crawling out from that!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DESTROY VENTS/TRIGGERS/1ST BUG VENT DESTROYED ============== ",
+// 9.junior,
+briefing_trigger_1359_text,That's it! Close up the vents! Seal them underground where they belong!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/VICTORY/OBJECTIVES COMPLETED ============== ",
+// 9.junior,
+briefing_trigger_1039_text,"Ma'am, the M.I. have control of the hub's exterior. Still a significant infestation inside, though."
+//,
+// 8.director,
+briefing_trigger_1041_text,"Outstanding work, Captain. The Federation and HephaeStar, working hand in hand to win this war!"
+briefing_trigger_1361_text,Regroup and prepare to enter the facility.
+//,
+// 10.merc,
+briefing_trigger_1042_text,Sweep and clear is a specialty of ours. Time for the Feds to stand down. We can do this.
+//,
+// 8.director,
+briefing_trigger_1362_text,"I'm afraid not. Your people are to stand down, Fraser. This is a Mobile Infantry operation now."
+//,
+// 10.merc,
+briefing_trigger_1363_text,"You wanna do this?  Maybe you should think....I mean really think,....before you go freezing us out here..."
+//,
+// 8.director,
+briefing_trigger_1364_text,"Are you threatening me, Fraser? Might I remind you that's a clear violation of contract--"
+//,
+// 10.merc,
+briefing_trigger_1365_text,"--just maybe, y'know... the Captain might like to know what the lil' HephaeStar operation he's taking over here really is, hmm?"
+//,
+// 8.director,
+briefing_trigger_1366_text,"Mister Fraser, you’ve just given the Corporation grounds for an immediate forfeiture of all payments, including outstanding bonuses, as well as an obligation to pass on a legal complaint to the Federation courts."
+briefing_trigger_1367_text,We're done here. Your contract's annulled.
+//,
+// 10.merc,
+briefing_trigger_1043_text,"Done?  Oh no, we ain't done..."
+,
+,
+,
+,
+"// ============== /EVENTS/FORWARD BASE CAPTURED ============== ",
+// 9.junior,
+briefing_trigger_1399_text,Captured a forward base. We're going to keep on pressing until the Bugs get the message.
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_244,Terminal
+,
+// 5.ANNOUNCER,
+speech_trigger_245,Terminal
+,
+// 5.ANNOUNCER,
+speech_trigger_249,Clear the Hive
+,
+,
+speech_trigger_947,Clear the Hive
+,
+speech_trigger_948,Clear the Hive
+,
+speech_trigger_949,Clear the Hive
+,
+speech_trigger_1046,Activate Pump
+,
+speech_trigger_1047,Activate Pump
+,
+timer_trigger_916_descr,Wave Coming
+,
+,
+timer_trigger_917_descr,Wave Coming
+,
+,
+speech_trigger_881,Access Denied
+,
+speech_trigger_883,Access Denied
+,
+speech_trigger_885,Access Denied
+,
+speech_trigger_887,Access Denied
+,
+dialog_trigger_938_title,Call in mercenaries
+dialog_trigger_938_text,Do you want to deploy the mercenaries?
+dialog_trigger_938_yes,Yes
+dialog_trigger_938_no,No
+,
+speech_trigger_942,Select to deploy mercenaries
+,
+,
+speech_trigger_1062,Capture
+,
+,
+,
+,
+,

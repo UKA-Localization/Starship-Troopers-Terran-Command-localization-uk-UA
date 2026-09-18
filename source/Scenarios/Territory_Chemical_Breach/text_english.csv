@@ -1,0 +1,19 @@
+﻿// NAME,
+scenario_name,Unto the Breach
+,
+// DESCRIPTION,
+scenario_descr,"The Hydra has been found, and with it, the reason why the Mass Pheromone Emitter failed to lure it out. The creature's powerful instincts drive it to guard a massive lair containing millions of eggs. Once a perimeter around the nest has been established, the Hercules Program will finally reach its climax with the capture of the Hydra."
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_0,$base_a
+unit_1,$base_b
+unit_50,$dart_launcher
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

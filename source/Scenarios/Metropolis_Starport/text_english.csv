@@ -1,0 +1,190 @@
+﻿// NAME,
+scenario_name,[7] Flight Control
+,
+// DESCRIPTION,
+scenario_descr,"Flooding the outer districts has severely crippled the Arachnids’ offensive, but the Brain Bug manages to strike back once more: Its remaining hordes have overrun the starport in the heart of Mahanagar.
+
+This facility, vital for the flow of reinforcements and supplies, demands immediate recapture to maintain the upper hand."
+,
+// OBJECTIVES,
+objective_2_0_title,Clear the subway hive
+objective_2_4_title,Activate one of the fire alarms
+objective_2_10_title,Defend the fire alarm until the Flight Control Room is secured
+objective_2_1_title,Capture the Flight Control Room
+objective_2_2_title,Clear all Bug Hives and Bug Vents
+objective_2_3_title,Clear the Bug Hive on the runway
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_4,Subway Hive
+unit_57,#Cam Marker
+unit_99,Collapsed Gate
+unit_114,Bug Tunnel
+unit_181,Fire Alarm Terminal
+unit_204,Fire Alarm Terminal
+unit_215,#Alarm offensive
+unit_290,#Missile Mech Spawn
+unit_350,Flight Control Room
+unit_370,#camera
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/CLEAR THE SUBWAY HIVE/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_283_text,"We're in the starport's metro station now. Intel was right, Bugs are dug in deep down here."
+//,
+// 12.senior,
+briefing_trigger_284_text,"Secure your zone, Keys. I'll be making my landing soon!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ENABLE THE ALARM/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_220_text,I can't join in the fun while there's Bugs on the airstrip. You figure you can run a lil fire drill and draw the Bugs toward you a moment?
+//,
+// 11.cop,
+briefing_trigger_499_text,"You want us to play bait? If that’s what it takes, that’s what we’ll do..."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND ALARM/TRIGGERS/OFFENSIVES/FIRST OFFENSIVE ============== ",
+// 11.cop,
+briefing_trigger_467_text,Fresh Bug party incoming!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND ALARM/TRIGGERS/FAIL - TIMER EXPIRED ============== ",
+// 11.cop,
+briefing_trigger_442_text,"It's over for us down here, Major!"
+//,
+// 12.senior,
+briefing_trigger_443_text,"Don't die on me, Keys! We're nearly there!"
+briefing_trigger_444_text,Keys! Keys?!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND ALARM/TRIGGERS/FAIL - POSITION LOST ============== ",
+// 11.cop,
+briefing_trigger_504_text,"Damnit, Major! Where are you! We're done for!!
+"
+//,
+// 12.senior,
+briefing_trigger_505_text,"Damnit, soldier! Don't give up now!"
+briefing_trigger_506_text,Come in! Keys?!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND ALARM/BRIEFING ============== ",
+// 11.cop,
+briefing_trigger_167_text,Fire alarm's going.
+//,
+// 12.senior,
+briefing_trigger_455_text,And the crowd's comin' runnin'! Bugs are clearing the airstrip and coming to you!
+//,
+// 11.cop,
+briefing_trigger_151_text,Make your landing quick then! We can only hold so long.
+//,
+// 12.senior,
+briefing_trigger_447_text,You think I'd leave you in the lurch? I'll be in to save your ass soon enough!
+//,
+// 11.cop,
+briefing_trigger_500_text,"More worried you might miss us killing everything before you, Major!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE FLIGHT CONTROLS/TRIGGERS/FAIL ============== ",
+// 12.senior,
+briefing_trigger_438_text,Argh! Damn Bug... got me...
+//,
+// 11.cop,
+briefing_trigger_439_text,Major! What's your status!? Verhaegen!?
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE FLIGHT CONTROLS/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_164_text,Forward team's on the ground.
+briefing_trigger_165_text,We'll work on taking that Flight Control room asap!
+//,
+// 11.cop,
+briefing_trigger_486_text,Anytime today!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR STARPORT HIVES/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_172_text,"Flight Control secured! And here comes the full might of the M.I., thundering down on the Bugs!"
+//,
+// 11.cop,
+briefing_trigger_295_text,About time we had the numbers in a fight! We can begin clearing the starport now!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR RUNWAY HIVE/TRIGGERS/SUCCESS ============== ",
+// 12.senior,
+briefing_trigger_297_text,Starport secured -- the M.I. is back running things in Mahanagar.
+briefing_trigger_501_text,Ol' wrinkle-skin best be quaking in his slug hole. We're comin' for him now.
+//,
+// 11.cop,
+briefing_trigger_502_text,Leave at least some of him left for me. My city has lost everything because of this blasted Brain Bug.
+//,
+// 12.senior,
+briefing_trigger_503_text,"You'll get your shot, Keys. I'll see to that."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR RUNWAY HIVE/BRIEFING ============== ",
+// 12.senior,
+briefing_trigger_281_text,Rainmaker delivery -- now that's what this op's been missing!
+briefing_trigger_509_text,Arm up and throw the last of these ugly suckers off my runway!
+briefing_trigger_203_text,"Operation ""Kick Bug Ass"" is officially back up and running!"
+,
+,
+,
+// TRIGGER TEXTS,
+speech_trigger_375,Clear
+,
+speech_trigger_376,Clear
+,
+speech_trigger_569,Destroy
+,
+speech_trigger_368,Destroy
+,
+speech_trigger_369,Destroy
+,
+speech_trigger_370,Destroy
+,
+speech_trigger_231,Fire Alarm
+,
+speech_trigger_232,Fire Alarm
+,
+speech_trigger_235,Subway Hive
+,
+speech_trigger_331,Capture
+,
+,
+,
+,
+,
+,
+speech_trigger_522,Defend Alarm
+,
+speech_trigger_523,Defend Alarm
+,
+,
+timer_trigger_166_descr,Capture the Flight Control Room
+,
+,
+,

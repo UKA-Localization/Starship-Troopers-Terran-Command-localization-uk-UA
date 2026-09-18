@@ -1,0 +1,22 @@
+﻿// NAME,
+scenario_name,Pollution Pit
+,
+// DESCRIPTION,
+scenario_descr,"Fascinating Arachnid mutations have been discovered in a disposal site for nuclear and bio-waste, triggered by the side effects of toxic materials. To capitalize on a unique opportunity to study forced evolution, the mutated specimens must be located and secured for extraction."
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_17,base_a
+unit_36,base_b
+unit_56,$incursion_c
+unit_57,$incursion_b
+unit_113,introMarkerCrater
+unit_116,$incursion_a
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

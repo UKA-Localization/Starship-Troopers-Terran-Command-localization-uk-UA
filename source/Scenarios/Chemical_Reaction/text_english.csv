@@ -1,0 +1,154 @@
+﻿// NAME,
+scenario_name,Chemical Reaction
+,
+// DESCRIPTION,
+scenario_descr,"Arachnid test subjects have broken out in a chemical weapons lab and are now running amok throughout the facility. Despite the security breach, these events provide an ideal opportunity to field test the lab's research projects."
+,
+// OBJECTIVES,
+objective_2_1_title,Clear all the rooms
+objective_2_4_title,Reach the main gate
+objective_2_5_title,Hold off the Arachnids attacks
+objective_2_2_title,SCORE
+objective_2_0_title,Time passes
+objective_2_3_title,Kill Arachnids
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_4,Elevator
+unit_10,Auto-Turret
+unit_11,Auto-Turret
+unit_18,Auto-Turret
+unit_19,Auto-Turret
+unit_75,Centrifuge
+unit_76,Centrifuge
+unit_77,Centrifuge
+unit_103,Security System
+unit_108,Door Controls
+unit_120,Elevator
+unit_150,Centrifuge
+unit_151,Centrifuge
+unit_152,Centrifuge
+unit_164,Door Controls
+unit_188,Empty Tunnel
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVE: CLEAR ALL ROOMS/INTRO ROOM/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_221_text,The weapons lab established on planet Ghutana has been developing new ways to kill bugs using various chemical substances.
+briefing_trigger_334_text,"But carelessness toward the Arachnid test subjects has led to disaster. Someone failed to follow proper safety protocols, and vengeful Bugs have quickly taken over the place."
+briefing_trigger_314_text,"An M.I. detachment has just descended into the facility. While the mishap is unfortunate, the situation does provide an excellent opportunity to field test some of these new chemical weapons. When life gives you pests, make pesticide."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: CLEAR ALL ROOMS/PITS ROOM/BEGIN ============== ",
+// 4.propagandist,
+briefing_trigger_404_text,"Some of the test subjects are still locked safely within enclosed basins. But to deal with the security breach, protocol demands all Arachnid life forms within the facility must be destroyed."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: CLEAR ALL ROOMS/HIVE ROOM/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_402_text,It appears the Arachnids have caused considerable damage to the facility and have dug their way into local tunnel systems.
+briefing_trigger_407_text,The M.I. will have to smoke them out of these caves.
+,
+,
+,
+,
+"// ============== /OBJECTIVE: CLEAR ALL ROOMS/BOILER ROOM/ENTER CORRIDOR ============== ",
+// 4.propagandist,
+briefing_trigger_403_text,"There is a hall of large centrifuges just around the corner, used for the refinement of deadly chemicals. Security footage also reveals a strong Arachnid presence crawling around these machines."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: REACH GATE/BEGIN ============== ",
+// 4.propagandist,
+briefing_trigger_245_text,"Just as the all-clear was given for the interior of the chemical weapons lab, reports have come in of an Arachnid horde heading for the facility's main gate."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: DEFEAT OUTDOOR ATTACKS/TRIGGERS/SUCCESS ============== ",
+// 4.propagandist,
+briefing_trigger_246_text,"The Arachnid threat inside and around the lab has finally been eliminated. It may take time to replenish the required test subjects and scientists, but these new chemical weapons have certainly proven their effectiveness."
+,
+,
+,
+,
+"// ============== /OBJECTIVE: DEFEAT OUTDOOR ATTACKS/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_98_text,It looks like the facility was cleared just in time. The thin line of troopers holding the outside gate will need all the help they can get.
+,
+,
+,
+,
+"// ============== /REINFORCE POINTS/BRIEFING ============== ",
+// 4.propagandist,
+briefing_trigger_244_text,The facility can be accessed through several top-side landing platforms. These are intended for the shipping of supplies and personnel but may now prove useful to deploy reinforcements.
+,
+,
+,
+,
+"// ============== /DEFEAT/LOST ALL UNITS ============== ",
+// 4.propagandist,
+briefing_trigger_406_text,The M.I. has failed to secure the chemical lab using the very weapons that were being developed there. The best answer to the Bug threat clearly remains hot lead and explosive firepower.
+,
+,
+,
+// TRIGGER TEXTS,
+// 5.ANNOUNCER,
+speech_trigger_250,Use the Gas Canister ability
+,
+// 5.ANNOUNCER,
+speech_trigger_256,Clear the Hive
+,
+// 5.ANNOUNCER,
+speech_trigger_103,Kill all Chariot Bugs
+,
+// 5.ANNOUNCER,
+speech_trigger_117,Use Dropships to reinforce
+,
+// 5.ANNOUNCER,
+speech_trigger_123,Destroy the Nest
+,
+// 5.ANNOUNCER,
+speech_trigger_124,Capture the terminal
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_105,Kill all Warrior Bugs
+,
+// 5.ANNOUNCER,
+speech_trigger_201,Access terminal
+,
+// 5.ANNOUNCER,
+speech_trigger_118,Use Dropships to reinforce
+,
+// 5.ANNOUNCER,
+speech_trigger_143,Reach the main gate
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_251,Chemical Troopers are immune to poison gas
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_562,Use Dropships to reinforce
+,
+,

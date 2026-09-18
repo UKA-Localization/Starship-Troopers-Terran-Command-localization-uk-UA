@@ -1,0 +1,26 @@
+﻿// NAME,
+scenario_name,Radioactive Residue
+,
+// DESCRIPTION,
+scenario_descr,"To support the next step in the Hercules Program, pheromone samples must be extracted from irradiated Bug corpses at a long-abandoned nuclear facility. Destroyed in a violent termination, the radioactive ruins must be navigated with care—and with the necessary protective gear."
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_0,hive_b
+unit_4,hive_a
+unit_8,base_a
+unit_9,base_b
+unit_50,$incursion_west
+unit_51,$incursion_north
+unit_85,$sam_site
+unit_104,$hive_marker_2x2
+unit_115,destroyed_reactor
+unit_116,polluted_area
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

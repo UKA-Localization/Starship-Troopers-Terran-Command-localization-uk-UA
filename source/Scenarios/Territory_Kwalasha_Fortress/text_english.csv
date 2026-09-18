@@ -1,0 +1,21 @@
+﻿// NAME,
+scenario_name,Fort Tunis
+,
+// DESCRIPTION,
+scenario_descr,Fort Tunis fell shortly after Fort Meru during the Arachnid suprise attack on Kwalasha. The time has come to take it back.
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_81,#Camera start
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+speech_trigger_13,Capture to open gate
+,
+speech_trigger_14,Capture to open gate
+,
+,

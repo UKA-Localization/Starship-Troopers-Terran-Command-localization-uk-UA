@@ -1,0 +1,518 @@
+// Lava DLC - VIDEO SUBTITLES,
+,
+sub_warm_welcome_0,"Vilon Station, a major commercial hub operated by HephaeStar Corporation, orbits the planet of Gehenna."
+sub_warm_welcome_1,"While rich in the elements that fuel galactic trade and transportation, this hellworld is an extremely hostile environment."
+sub_warm_welcome_2,"Among streams of molten lava and volcanic ash storms, human civilization faces an even greater threat: Arachnids."
+sub_warm_welcome_3,"Vilon Station director Riya Patel, has appealed to the Sky Marshal for help. And her call has been answered!"
+sub_warm_welcome_4,"A detachment of Mobile Infantry has arrived to help our valued corporate ally with their Bug problem."
+sub_warm_welcome_5,"Give ’em hell, troopers!"
+,
+sub_lead_sample_0,"Industrial expansion on planet Gehenna is guided by scientific expeditions into the hellish landscape."
+sub_lead_sample_1,"These undertakings to collect samples from the volcanic soil are under constant Arachnid threat."
+sub_lead_sample_2,"But now the Mobile Infantry has commenced operations on the planet, and will safeguard its people!"
+,
+sub_trophy_hunt_0,"Planet Gehenna, where the cowardly Bugs hide beneath the surface, building hives to block vital mining activity."
+sub_trophy_hunt_1,"Extensive networks of Bug tunnels stretch out deeply below the volcanic mountains."
+sub_trophy_hunt_2,"To wipe them out for good, every Bug hole needs to be swept clean with lead and determination."
+,
+sub_dragon_island_0,"Dragon Island, scenically located in a lake of lava, was recently overrun by Arachnids."
+sub_dragon_island_1,"Valuable industrial facilities were lost, and hellish monstrosities have since nested in their ruins."
+sub_dragon_island_2,"The place has become a launch point for Bug attacks on surrounding facilities."
+sub_dragon_island_3,"But now, with the arrival of the Mobile Infantry, it is time to take back Dragon Island!"
+,
+sub_blazing_trail_0,"Hellworld Gehenna! Under cover of an ash storm, the infernal Bugs have launched a major assault down from the volcanic mountains!"
+sub_blazing_trail_1,"To hold the line, the Sky Marshal has personally ordered more Mobile Infantry be sent to this vital planet."
+sub_blazing_trail_2,"Hang on, Gehenna! The good guys are coming!"
+,
+sub_central_access_0,"We’re driving back the Bugs on Gehenna. The Mobile Infantry has put a halt to the Arachnid offensive and are taking back what is ours."
+sub_central_access_1,"A key refinery remains Bug-infested, but not for long. With newly-arrived reinforcements, we've finally got the strength to wipe them out."
+sub_central_access_2,"Time to smash the Bugs and turn the fuel tap back on!"
+,
+sub_flash_point_0,"Victory on Gehenna! Bug resistance there has been smashed, thanks to the efforts of our brave troopers!"
+sub_flash_point_1,"Now the Mobile Infantry will establish a permanent garrison on the planet, to ensure our fuel supplies remain secure!"
+,
+sub_lava_outro_0,"Bugs! Vicious... Feral... Beasts..."
+sub_lava_outro_1,"But, like any other beast, they can be captured and studied."
+sub_lava_outro_2,"A promising research program under Colonel Carl Jenkins is probing new ways to understand Bug behavior..."
+sub_lava_outro_3,"...so that one day they can be subdued...perhaps even controlled..."
+sub_lava_outro_4,"Are you looking to invest in a better tomorrow?"
+sub_lava_outro_5,"Consider HephaeStar Corporation, the industrial giant that keeps the galactic economy flourishing."
+sub_lava_outro_6,"Our fleet of star transporters and refueling hubs form an essential backbone of commercial space travel and transportation."
+sub_lava_outro_7,"HephaeStar, forging forward… throughout the galaxy."
+sub_lava_outro_8,"HephaeStar Corporation shares are officially warranted by the United Citizen Federation government."
+,
+unit_2000,Patrol Buggy
+unit_2001,Rippler Bugs
+unit_2002,Rhino Bug
+unit_2003,Robotics Operator
+unit_2003_descr,"Electronics and robotics specialist capable of operating various automated weapons, calling in reinforcements and constructing HMG Turrets."
+unit_2004,Auto Turret
+unit_2005,Spider Mine
+unit_2006,Recon Drone
+unit_2010,Electro-Mortar
+unit_2010_descr,"Short range but effective against concentrated masses of enemies. Indirect fire.
+Requires electricity"
+unit_2011,Electro-Cannon
+unit_2011_descr,"Long range anti-armor cannon. Low rate of fire makes it ineffetive against large numbers of enemies.
+Requires electricity"
+unit_2012,Electro-Turret (AA)
+unit_2012_descr,"Strong against lightly armored enemies. Overheats after endured firing. Can fire at aerial targets.
+Requires electricity"
+unit_2013,Electro-Generator
+unit_2013_descr,"Generates electricity to power nearby electro devices and turrets."
+unit_2014,Spike Nest
+unit_2015,Firefly Nest
+unit_2016,Firefly Bug
+unit_2019,Field Artillery
+unit_2020,Electro-Flamer
+unit_2021,Electro-Battery
+unit_2022,Battlecruiser
+unit_2025,Sandworm
+unit_2026,Storm Shield
+unit_2027,Aegis Bug
+unit_2028,Storm Shield
+unit_2029,Storm Shelter
+unit_2030,Storm Hunters
+unit_2031,Storm Shield (Incomplete)
+unit_2032,Storm Hunters (Burried)
+unit_2033,Storm Critters
+unit_2022,Orbital Corvette
+unit_2022_descr,Can be moved across the map very quickly to provide heavy fire support.
+unit_2016,Pyrofly
+unit_2016_descr,"The Pyrofly is a flying Arachnid that can hover and spray an area with a burning substance. Due to its thick exoskeleton, the Bug is difficult to destroy with standard rifle fire."
+unit_2100,Minerals Cart
+unit_2101,Volcano (Small)
+unit_2102,Lava Geyser
+unit_2103,Lava Geyser
+unit_2104,Lava Geyser (Closed)
+unit_2105,Immolator
+unit_2105_descr,"The Immolator ejects an incendiary substance that burns through flesh with ease. It is known to burst into flames when mortally wounded, causing it to charge forward before exploding in a big ball of fire.
+These monstrosities must be approached with excessive firepower - or preferably with armored units to absorb the fire and shockwave."
+unit_2106,Mk.II Marauder
+unit_2107,Volcano (Medium)
+unit_2108,Volcano (Large)
+unit_2109,Guard Grenadier Bug
+unit_2110,Stinger Nest
+unit_2111,Command Station
+unit_2112,Command Station (Destroyed)
+unit_2113,Pulse Stryder
+unit_2113_descr,Medium armor. Effective against air units
+unit_2017_descr,Medium armor. Melee unit.
+unit_2019,Hover Gun
+unit_2035,Hover Gun (Deployed)
+unit_2114,Penal Squad
+unit_2114_descr,"Cheap infantry unit, weak in close combat. Can upgrade to Rifle Troopers when it reaches experience level 3."
+unit_2115,King Tanker
+unit_2116,Goliath Artillery
+unit_2116_descr,Very long range artillery.
+unit_2117,Command Station
+unit_2118,Command Station
+unit_4_descr,The best way to hold a position is steel and concrete.
+unit_2120,Technicians
+unit_2120_descr,"Unarmed, cheap construction unit."
+unit_2121,Assault Marines
+unit_2121_descr,Heavily armored and shielded infantry. Best used in the frontline to absorb damage.
+unit_2122,Resource Prospector (On)
+unit_2123,Tear Gas
+unit_2124,Powered Suit Sniper
+unit_2124_descr,Long range with medium armor piercing capability. Slow rate of fire.
+unit_141,Terminal (Disabled)
+unit_2125,Pumping Station
+unit_2036,Radio Mainframe
+unit_2037,Driller
+unit_2038,Bug Tunnel
+unit_2039,Bug Tunnel (Closed)
+unit_2040,Radio Facility
+unit_2041,Gate Tall (Closed)
+unit_2042,Gate Tall (Open)
+unit_2043,Gate Taller (Closed)
+unit_2044,Gate Taller (Open)
+unit_2045,Resource Prospector (Off)
+unit_2046,Pumping Station (Active)
+unit_2050,Frag Mercs (Shotgun)
+unit_2050_descr,"The mercenaries carry weapons that are effective against medium armored targets and can fire both fragmentation rounds in 'shotgun' mode or canister grenades in 'grenade' mode."
+unit_2054,Cooling Vent
+unit_2055,Cooling Vent (Off)
+unit_2056,Heat Reactor
+unit_2057,Captain Zhao
+unit_2058,Thermal Driller
+unit_2059,Thermal Driller (On)
+unit_2060,Thermal Driller (Hot)
+unit_2061,Burster Bug
+unit_2062,Burster Bug
+unit_2063,Burster Bug Dead
+unit_2064,Engineering Biped
+unit_2064_descr,"While its drilling arm can deal significant damage, these resilient bipeds are most useful to protect more vulnerable assets against enemy fire and attacks."
+unit_2065,Frag Mercs (Grenade)
+unit_2065_descr,"The mercenaries carry weapons that are effective against medium armored targets and can fire both fragmentation rounds in 'shotgun' mode or canister grenades in 'grenade' mode."
+unit_2066,Pyrofly Fire
+unit_2067,Shredder Merc
+unit_2067_descr,"These mercenaries are referred to after the nickname of their weapon: A portable minigun capable of shredding enemies to pieces. The weapon is effective against light to medium armored targets, but tends to overheat after sustained fire."
+unit_2068,Cargo Freighter
+unit_2069,Powered Suit Incinerators
+unit_2069_descr,"These elite troopers carry advanced flamethrowers that are very effective in close range combat and wear powered armor suits, which offer excellent mobility and protection."
+unit_2070,Nuke
+unit_2071,Nuke (Armed)
+unit_2072,Nuclear Engineers
+unit_2073,Fleet Beacon
+unit_2074,Wall Vent (Opened)
+unit_2075,Wall Vent (Closed)
+unit_2076,Invisible Carrier x2
+unit_2077,Firefighters
+unit_2078,Extinguishable Fire
+unit_2079,Station Crew
+unit_2080,Mercenary Captain
+unit_2081,Shredder Merc (Tripod)
+unit_2082,Powered Suit Officer
+unit_2082_descr,"This officer wears the same advanced exoskeleton armor as the elite powered suit troopers. It provides excellent mobility and protection in order to direct fire missions and call in reinforcements in the hottest of battlegrounds."
+unit_2083,The Director
+unit_2084,Invisible Repairable
+unit_2085,Chair Scientist
+unit_2086,Chair Crew
+unit_2087,Chair Trooper
+unit_2088,Pumping Station (Destroyed)
+unit_2089,Engineers
+unit_2090,Stinger Nest (Destroyed)
+unit_2091,Frag Mine
+unit_2092,Fire Mine
+unit_2018,Stingers
+unit_2018_descr,"A small, fragile Bug that launches heated projectiles. They may not appear very threatening individually but are often encountered in numbers, especially around their towering nests."
+unit_2093,Shredder Fire Pool
+unit_2094,Waste Incinerator
+unit_2095,Waste Incinerator (Destroyed)
+unit_2096,Bug Vent
+unit_2097,Bug Vent (Collapsed)
+unit_2098,Pheromone Carrier
+unit_2099,Rifle Mercs
+unit_2099_descr,These mercenary units are armed with rifles and grenades. They excel at mid-range combat.
+unit_2126,Immolator Bug
+unit_2127,Fire Lancer
+unit_2128,Bomberbee
+unit_2128_descr,"These small flying Arachnids will dive into their enemy and detonate on impact. The violent explosion can rip a man in half and punch through armor plating."
+unit_2129,Sedated Bugs
+unit_2130,Engineering Biped (Empty)
+unit_163,DR-8 Skyhook (Grounded)
+unit_2131,Frag Mine (Burried)
+unit_2132,Frag Mine (Burried)
+unit_81,HMG Tower
+unit_2133,Smog Cloud
+unit_2134,Nuke Construction Site
+unit_156,Rioters
+unit_111,Supply Cache
+unit_164,Supply Cache
+unit_165,Frag Mine
+unit_2139,Shredder Lair
+unit_2140,Empty Lair
+unit_2141,DR-8 Skyhook
+unit_2142,Prospector
+unit_2144,Prisoners
+unit_2103,Prospector (Destroyed)
+,
+landscape_lava,Lava
+landscape_lava_underground,Lava Underground
+landscape_heaven_one,Vilon Station
+landscape_space_station,Space Station
+,
+threat_sparkersmutation,Immolators
+threat_dronesmutation,Drones
+threat_plasmaguardmutation,Guard Grenadiers
+threat_ripplersmutation,Ripplers
+threat_mitesmutation,Stingers
+threat_kingtankermutation,King Tankers
+threat_fireflymutation,Pyroflies
+threat_spikerdefensemutation,Spikers
+threat_firehoppermutation,Bomberbees
+threat_rhinosmutation,Rhino Bugs
+threat_burrowdefensemutation,Defense in Depth
+,
+invasion_wave_target_none,None
+invasion_wave_target_unit,Unit
+invasion_wave_target_location,Location
+invasion_wave_target_nearest,Nearest Radio Station
+invasion_wave_target_AITask,Custom AI Task
+,
+trigger_effect_78,Offensive pause
+trigger_effect_79,Unit Lifetime change
+,
+ability_ap_clips_title,Armor Piercing Clips
+ability_ap_clips_descr,Loads a 5 shot AP clip with increased anti-armor effectiveness.
+,
+scenario_category_skirmish,Skirmish Mode
+scenario_category_lava,Campaign: Gehenna
+,
+pause_menu_achievements,Achievements
+,
+hivestatusextended_collapsed,Collapsed
+hivestatusextended_unoccupied,Unoccupied
+hivestatusextended_dormant,Dormant
+hivestatusextended_active,Active
+hivestatusextended_cleared,Cleared
+hivestatusextended_occupied,Occupied
+hivestatus_collapsed,Collapsed
+hivestatus_unoccupied,Unoccupied
+hivestatus_dormant,Dormant
+hivestatus_active,Active
+,
+idlebehaviourtypes_holdfire,Hold Fire
+idlebehaviourtypes_holdposition,Hold Position
+idlebehaviourtypes_aggressive,Aggressive
+,
+newstates_alive,Alive
+newstates_deployed,Deployed
+newstates_orbit,Orbit
+newstates_dead,Dead
+newstates_removed,Removed
+,
+spawnerselectmodes_all,All
+spawnerselectmodes_allactive,All active
+spawnerselectmodes_random,Random
+spawnerselectmodes_randomactive,Random active
+,
+what_triggers,Triggers
+what_folders,Folders
+,
+modes_enable,Enable Trigger
+modes_execute,Execute Trigger
+,
+actions_start,Start
+actions_stop,Stop
+actions_scroll,Scroll
+,
+removemanner_remove,Remove
+removemanner_kill,Kill
+removemanner_Undeploy,Undeploy
+,
+component_modes_add,Add component
+component_modes_remove,Remove component
+,
+combat_stance_default,Default
+combat_stance_aggressive,Aggressive
+combat_stance_holdposition,Hold position
+combat_stance_defendposition,Defend position
+combat_stance_holdfire,Hold fire
+,
+text_bubble_location,Location marker
+text_bubble_unit,Unit marker
+text_bubble_speech,Speech bubble
+,
+,
+briefing_game_speed_normal,Normal
+briefing_game_speed_slowmotion,Slow motion
+briefing_game_speed_paused,Paused
+,
+effects_reveal,Reveal area
+effects_cover,Cover area
+,
+fedflix_category_storm,The Storm
+,
+,
+control_groups_info_title,Unit Control Groups: Keys
+control_groups_info_text,"Units can be assigned to control groups using the following key commands:
+
+CTRL + #: 					Set Control Group
+SHIFT + #: 					Add to Control Group
+ALT + #: 						Set Control Group, without removing from other groups
+SHIFT + ALT + #: 		Add to Control Group, without removing from other groups
+
+CTRL + #
+Control group # will contain ONLY the currently selected units, these units are also REMOVED from all other groups
+
+SHIFT + #
+Currently selected units are ADDED to controlgroup #, these units are also REMOVED from all other groups
+
+ALT + #
+Control group # will contain ONLY the currently selected units, these units are NOT removed from other groups
+
+SHIFT + ALT #
+Currently selected units are ADDED to controlgroup #, these units are NOT removed from other groups"
+,
+button_workshop,Community Content
+tooltip_open_workshop,Play unofficial scenarios created by the community
+,
+button_editor_new_scenario,New Scenario
+button_editor_edit_scenario,Edit
+button_editor_play_scenario,Play
+,
+workshop_intro_title,STEAM WORKSHOP CONTENT
+workshop_intro_text,"Welcome to the Steam Workshop content display!
+
+The creative and skilled members of the Terran Command community have generously created and shared this content for everyone to enjoy.
+
+Do you feel the call of creativity burning within you? Do you long to craft magnificent scenarios that will inspire and uplift the spirit of your fellow troopers? Then waste no time, and access the scenario editor through the main menu!"
+workshop_intro_disclaimer,"Disclaimer:
+The scenarios available in this screen are not endorsed nor supported by The Artistocrats and Slitherine Ltd.
+User generated content is not officially supported by TriStar Pictures, Inc."
+workshop_button_more_content,More content
+workshop_close_tooltip,Go back to main menu
+workshop_more_content_tooltip,Visit the Steam Workshop Home page
+workshop_tab_subscribed,Subscribed
+workshop_tab_played,Played
+workshop_tab_most_popular,Most popular
+workshop_tab_most_subscribed,Most subscribed
+workshop_tab_most_recent,Most recent
+workshop_button_subscribe,Subscribe
+workshop_button_unsubscribe,Unsubscribe
+workshop_button_launch,Launch
+workshop_button_launch_tooltip,Subscribe and launch this scenario
+workshop_button_item_more,More
+workshop_button_item_more_tooltip,Visit the Steam Workshop page for this item
+,
+wiki_frag_troopers_title,Frag Mercs
+wiki_frag_troopers_descr,"The mercenaries carry weapons that can fire both fragmentation rounds in direct fire mode or canister grenades in indirect fire mode."
+wiki_frag_troopers_traits,"• Can clear Hives
+• Unit rate of fire is not affected by casualties
+• Unit can switch between 'shotgun' and 'grenade' fire mode
+  [Shotgun Mode]
+    • Does not block friendly fire
+    • Weapon deals pass-through damage
+  [Grenade Mode]
+    • Can fire over units and elevations"
+ability_switch_frag_indirect_title,Grenade Mode
+ability_switch_frag_indirect_descr,Switch to firing explosive grenades. Can fire over friendly units. Weak in close combat.
+ability_switch_frag_direct_title,Shotgun Mode
+ability_switch_frag_direct_descr,Switch to firing fragmentation rounds. Effective in close combat. Does not block friendly fire.
+ability_frag_mine_deploy_title,Fragmentation Mine
+ability_frag_mine_deploy_descr,"This proximity mine will explode when it detects nearby movement. The shrapnel does high damage and is effective against armored targets."
+ability_fire_mine_deploy_title,Incendiary Mine
+ability_fire_mine_deploy_descr,"This proximity mine will explode when it detects nearby movement. The resulting fire will burn for a few seconds while dealing damage and suppressing anything that moves through the flames."
+,
+wiki_shredder_title,Shredder Mercs
+wiki_shredder_traits,"• Minigun overheats in tripod mode
+• Cannot clear Hives"
+ability_shredder_turret_mode_title,Tripod Mode
+ability_shredder_turret_mode_descr,"Deploy the minigun on a tripod. This fixes the Shredder in position but significantly increases range, accuracy and rate of fire."
+ability_shredder_default_mode_title,Mobile Mode
+ability_shredder_default_mode_descr,"Use the minigun in portable mode. This allows the Shredder to move but decreases combat performance."
+ability_shredder_heated_rounds_title,Firestarter
+ability_shredder_heated_rounds_descr,Hose the target area with incendiary rounds to light it on fire.
+ability_shredder_heated_rounds_requiresUnitType,Can only be used in tripod mode
+ability_shredder_stimpack_title,Stimpack
+ability_shredder_stimpack_descr,Enhancement drug that boosts strength and focus but leaves the user exhausted after the effect expires.
+ability_shredder_stimpack_requiresUnitType,Can only be used in mobile mode
+wiki_stinger_bugs_traits,"• Can climb outpost walls
+• Often spawn from Stinger Nests"
+,
+wiki_sparker_bug_traits,"• Is immune to fire damage
+• Initiates a suicidal charge attack when mortally wounded"
+,
+wiki_fire_hopper_bugs_traits,"• Explodes after dive attack"
+,
+wiki_firefly_bugs_traits,"• Sprays target area with burning substance"
+,
+wiki_mech_engineer_traits,"• Is immune to fire damage,
+• Does not block friendly fire
+• Can construct defensive turrets
+• Cannot clear Hives",
+ability_mech_engineer_default_title,Self-Repair
+ability_mech_engineer_default_descr,"This ability will gradually repair damage to the biped, but reduces movement and attack speed."
+ability_mech_engineer_elite_1_title,Dirty Fumes
+ability_mech_engineer_elite_1_descr,This idles the biped and generates a thick black smog. Anything cought in this asphyxiating cloud will be suppressed.
+ability_mech_engineer_elite_2_title,Fire Trail
+ability_mech_engineer_elite_2_descr,Drop a trail of fire that can burn and suppress anything that crosses it.
+,
+wiki_rifle_mercs_title,Rifle Mercs
+wiki_rifle_mercs_traits,"• Can clear Hives"
+,
+wiki_power_flamers_traits,"• Weapon deals pass-through damage
+• Can clear Hives"
+,
+wiki_power_officer_traits,"• Does not block friendly fire
+• Can fire through friendly units
+• Can be used to call in reinforcements
+• Cannot have more than one of this type deployed"
+,
+,
+,
+tooltip_funds,Funds: Required to hire mercenaries
+population_points_type_funds,Funds
+notification_funds_change,Funds
+,
+reinforcement_disabled_info,Reinforcements are currently unavailable
+,
+news_banner_breaking,Breaking news
+news_banner_lava_dlc,War on planet Gehenna !
+news_banner_button,Find out more
+,
+kwalasha_campaign_name,Kwalasha
+kwalasha_campaign_description,"The mining industries on planet Kwalasha are key for fleet construction and must be protected against a growing Bug threat."
+gehenna_campaign_name,Gehenna
+gehenna_campaign_description,"Arachnids on Gehenna are disrupting the flow of fuel to Vilon Station, a vital trade hub orbiting the planet."
+,
+ability_activate_demolition_charge_title,Activate Charge
+ability_activate_demolition_charge_descr,Set the charge to detonate after 3 seconds.
+ability_demolition_charge_descr,Place a powerful demolition charge which can be manually set to explode after 3 seconds.
+ability_incendiary_strike_title,Incendiary Strike
+ability_incendiary_strike_descr,A squadron of TAC Fighters will be called in to drop fire bombs. Drag-click to set strike direction.
+ability_contact_grenade_title,Contact-Fuze Grenade
+ability_contact_grenade_descr,This hand grenade explodes on impact. It causes significant damage and suppression and is effective even against armored targets.
+ability_merc_grenade_title,Double-Charge Grenade
+ability_merc_grenade_descr,"This hand grenade has two charges: The first detonates on impact and is effective against armored targets, the second charge explodes shortly after and has a wider blast radius."
+,
+//Achievements,
+achievement_warm_welcome_kills_fire_grenade_title,Fight fire with fire
+achievement_warm_welcome_kills_fire_grenade_descr,"Kill 10 Bugs the Combat Engineers' ""M7 Incendiary Grenades"""
+achievement_warm_welcome_extinguish_fires_within_time_title,Blitz the blaze
+achievement_warm_welcome_extinguish_fires_within_time_descr,Extinguish all fires within 3 minutes
+,
+achievement_lead_by_sample_kill_stingers_shotgun_mode_title,Up close and personal
+achievement_lead_by_sample_kill_stingers_shotgun_mode_descr,"Kill 20 Stingers with the Rifle Troopers' ""Shotgun Suppression"" ability"
+achievement_lead_by_sample_kills_stinger_nests_demolition_charge_title,Demolition derby
+achievement_lead_by_sample_kills_stinger_nests_demolition_charge_descr,"Kill 2 Stinger Nests with the Combat Engineers' ""Demolition Charge"" ability"
+,
+achievement_trophy_hunt_merc_grenade_kills_title,Double kill
+achievement_trophy_hunt_merc_grenade_kills_descr,"Kill a Tiger Bug with the first detonation of the Mercenaries' ""Double-Charge Grenade"" and another one with the second"
+achievement_trophy_hunt_kills_fire_mines_title,Pyrotechnician
+achievement_trophy_hunt_kills_fire_mines_descr,"Kill 15 Bugs with the Frag Mercs' ""Fire Mine"" ability"
+,
+achievement_dragon_island_kills_frag_mines_title,What you reap is what you sow
+achievement_dragon_island_kills_frag_mines_descr,Use Frag Mines to kill 15 Bugs
+achievement_dragon_island_kills_shredder_fire_spread_title,Bring the heat
+achievement_dragon_island_kills_shredder_fire_spread_descr,"Kill 20 Bugs with the Shredder Mercs' ""Firestarter"" ability"
+,
+achievement_blazing_trail_kills_engineering_biped_title,Drill instructor
+achievement_blazing_trail_kills_engineering_biped_descr,Kill 10 Immolator Bugs with the Engineering Biped's drill attack
+achievement_blazing_trail_mkii_troopers_kill_pyroflies_title,Shooting stars
+achievement_blazing_trail_mkii_troopers_kill_pyroflies_descr,Kill 15 Pyroflies with Mk.II Troopers
+,
+achievement_central_access_construct_turrets_title,Stake a claim
+achievement_central_access_construct_turrets_descr,Construct 5 turrets within the walls of the central facility
+achievement_central_access_kills_engineering_biped_fire_trail_title,Trailblazer
+achievement_central_access_kills_engineering_biped_fire_trail_descr,"Kill 15 Bugs with the Engineering Bipeds' ""Fire Trail"" ability"
+,
+achievement_flash_point_power_flamers_kills_title,Fire team
+achievement_flash_point_power_flamers_kills_descr,Kill 25 enemies with the Powered Suit Incinerators' flamethrowers
+achievement_flash_point_elite_flame_marauder_title,Ultimate arsonist
+achievement_flash_point_elite_flame_marauder_descr,Gain an elite M-11 Marauder (Flamethrower)
+,
+achievement_global_finish_lava_campaign_title,One hell of a ride
+achievement_global_finish_lava_campaign_descr,Complete the Raising Hell campaign
+,
+unit_23_descr,"The Morita Mk II rifle provides excellent medium to long range fire support against light to medium armored targets with its underslung grenade launcher, but these units must be kept out of close combat engagements.
+The weapon has also proven to be effective against aerial targets."
+,
+unit_51,Frag Mine
+unit_52,Frag Mine
+unit_143,Frag Mine
+unit_41,Fire Mine
+unit_49,Fire Mine
+unit_144,Fire Mine
+,
+tooltip_workshop_feedback_not_supported,Sending feedback for Steam Workshop scenarios is not supported.
+achievement_info_unit_unlocked_later,(Unit is unlocked later in the scenario)
+achievement_info_already_completed,Already completed in previous playthrough
+,
+dialog_play_kwalasha_first_title,Learn to play: Kwalasha Campaign
+dialog_play_kwalasha_first_text,"To learn the basic game mechanics you should play the Kwalasha campaign before the currently selected campaign.
+
+Are you sure you want to continue with the currently selected campaign instead?"
+,
+scenario_category_challenges_lava,"Challenges: Gehenna"
+scenario_category_challenges_kwalasha,"Challenges: Kwalasha"
+scenario_category_challenges_chemical,"Challenges: Chemical Experiments"
+,
+unitclass_construction,Construction
+unitclass_station,Station
+unitclass_platform,Platform
+unitclass_device,Device
+unitclass_cavern,Cavern
+unitclass_marker,Marker

@@ -1,0 +1,203 @@
+﻿// NAME,
+scenario_name,[15] Bowels of the Beast
+,
+// DESCRIPTION,
+scenario_descr,"As the M.I. flag is raised over the center of Federatsiyagrad, reports indicate that the Arachnids have established an elaborate network of tunnels and colonies below the city's surface.
+
+Before total victory can be declared, our troopers must venture underground and carry out a thorough cleansing of the remaining bug infestation."
+,
+// OBJECTIVES,
+objective_2_0_title,Clear the sewers
+objective_2_1_title,Prevent Drones from escaping
+objective_2_3_title,Destroy all Brood Nests
+objective_2_10_title,Block the Metro exit
+objective_2_8_title,Seize 2 Ammunition Stashes
+objective_2_9_title,Defend Platform
+objective_2_2_title,Clear the Maintenance Bay
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_173,Tunnel
+unit_268,Elevator
+unit_274,SubwayExit
+unit_281,Metro Escape
+unit_284,Wave marker
+unit_285,Wave marker
+unit_286,Stairway Escape
+unit_288,Wave marker
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/CLEAR  SEWERS/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_64_text,"Damn, it stinks to high hell down here."
+//,
+// 3.victor yarrow,
+briefing_trigger_67_text,Consider the aroma an incentive to finish this quickly. We can’t hold the city while bugs keep popping up from below ground.
+//,
+// 2.ava cortez,
+briefing_trigger_405_text,Command wants all these tunnels cleared out. Do a full sweep.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR  SEWERS/OBJECTIVE ============== ",
+// 2.ava cortez,
+briefing_trigger_89_text,Let’s move. We’ll rendezvous with the other squads along the way.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CLEAR  SEWERS/CHATTER ============== ",
+// 2.ava cortez,
+briefing_trigger_676_text,What am I stepping in right now?
+//,
+// 3.victor yarrow,
+briefing_trigger_677_text,"If it makes you feel better, that’s mostly industrial wastewater. Only a small percentage is raw sewage."
+//,
+// 2.ava cortez,
+briefing_trigger_678_text,I’ll still take sewers over bug caves any day. At least human tunnels come with a map.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/MAINT BAY/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_409_text,Maintenance bay’s dead ahead.
+briefing_trigger_99_text,Bravo team got overrun there. Survivors have barricaded themselves in.
+briefing_trigger_102_text,Clear the bay and open the gate to make contact.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/BROOD NESTS/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_111_text,"Bugs have been busy, they’re expanding the tunnels."
+briefing_trigger_112_text,Destroy every nest down there or we’ll have to do this all over again.
+briefing_trigger_113_text,"Fry those nests! Use flamethrowers, grenades, loose matches… just get to work!"
+briefing_trigger_115_text,And keep your eyes open – all hell is going to break loose real soon.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STOP BUG ESCAPE/TRIGGERS/FINAL MIGRATION/BRIEFING: DEFEND METRO ============== ",
+// 3.victor yarrow,
+briefing_trigger_180_text,Control has remotely sealed that stairway. The bugs won't be getting out through there any more.
+briefing_trigger_179_text,We've detected the main bug force is on the move. Significant numbers are coming your way.
+briefing_trigger_187_text,They'll be heading for the metro exit. They cannot be allowed to escape!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STOP BUG ESCAPE/TRIGGERS/CHECK SUCCESS ============== ",
+// 3.victor yarrow,
+briefing_trigger_251_text,Great work. Even Bugs don't want to suffer those kind of losses. The survivors are retreating back into the sewers.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STOP BUG ESCAPE/TRIGGERS/DEBRIEFING ============== ",
+// 3.victor yarrow,
+briefing_trigger_418_text,"The bugs’ hold on the city has been broken. Good work, Major"
+//,
+// 2.ava cortez,
+briefing_trigger_419_text,You’re certain about that?
+//,
+// 3.victor yarrow,
+briefing_trigger_420_text,Psychics are always certain.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STOP BUG ESCAPE/TRIGGERS/FAIL ============== ",
+// 3.victor yarrow,
+briefing_trigger_572_text,Too many have escaped! They've slipped through your fingers.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/STOP BUG ESCAPE/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_1_text,Seismics have detected a large number of bugs moving in your direction.
+//,
+// 3.victor yarrow,
+briefing_trigger_453_text,"Mostly drones, but some larger types as well.  Seems to be preparation for an attack against the surface."
+//,
+// 2.ava cortez,
+briefing_trigger_220_text,"We’ll stop them down here, before they can hit topside."
+briefing_trigger_156_text,Set up defenses. Ready the kill zone.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SEIZE SUPPLY/BRIEFING ============== ",
+// 2.ava cortez,
+briefing_trigger_672_text,Use those ammo stashes to get some defenses set up. We'll give those Bugs a warm welcome.
+,
+,
+,
+,
+"// ============== /EVENTS/COUNTER ATTACK AFTER 2ND HIVE/COUNTER WARNING ============== ",
+// 2.ava cortez,
+briefing_trigger_140_text,Motion trackers detect additional bug attacks coming in.
+,
+,
+,
+,
+"// ============== /EVENTS/SPAWN ENGINEERS2 ============== ",
+// 2.ava cortez,
+briefing_trigger_605_text,We've got another squad of combat engineers on the way.
+,
+,
+,
+,
+"// ============== /EVENTS/SCRIPT: METRO STATION ============== ",
+// 2.ava cortez,
+briefing_trigger_451_text,Looks like they're holed up in the Metro system. Clever - they can hide but still move around the city.
+//,
+// 3.victor yarrow,
+briefing_trigger_452_text,"Mass transit is the fastest way to travel, even for bugs."
+,
+,
+,
+,
+"// ============== /DEFEAT/DEFEAT - NO TROOPS ============== ",
+// 0.hawthorne,
+briefing_trigger_932_text,All friendly teams are down. Abort the mission.
+,
+,
+,
+// TRIGGER TEXTS,
+,
+// 5.ANNOUNCER,
+speech_trigger_709,Access the door terminal
+,
+// 5.ANNOUNCER,
+speech_trigger_811,Destroy Brood Nest
+,
+// 5.ANNOUNCER,
+speech_trigger_812,Destroy Brood Nest
+,
+// 5.ANNOUNCER,
+speech_trigger_813,Destroy Brood Nest
+,
+,
+,
+timer_trigger_545_descr,DRONE WAVE ARRIVAL
+,
+// 5.ANNOUNCER,
+speech_trigger_569,Prevent escape
+,
+// 5.ANNOUNCER,
+speech_trigger_824,Prepare defenses
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_580,Block the metro exit
+,
+timer_trigger_579_descr,DRONE WAVE ARRIVAL
+,
+,
+,

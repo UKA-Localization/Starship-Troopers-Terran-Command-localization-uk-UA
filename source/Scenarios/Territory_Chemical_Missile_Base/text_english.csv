@@ -1,0 +1,25 @@
+﻿// NAME,
+scenario_name,Rocket Research
+,
+// DESCRIPTION,
+scenario_descr,"The remote planet of Ghutana serves as a testing ground for the Federation's experimental weapons programs. Just ahead of a scheduled missile launch, an Arachnid horde has overrun the primary rocket research facility. The Bugs must be cleared from the area swiftly to avoid further delays in the missile test timetable."
+,
+// OBJECTIVES,
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_14,$turrets_point
+unit_16,station_with_missile
+unit_17,station_not_missile
+unit_88,$incursion_a
+unit_139,$incursion_b
+unit_143,introMarker
+unit_144,launchersMarker
+unit_145,buildingsMarker
+unit_150,$big_missile
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+// TRIGGER TEXTS,
+,

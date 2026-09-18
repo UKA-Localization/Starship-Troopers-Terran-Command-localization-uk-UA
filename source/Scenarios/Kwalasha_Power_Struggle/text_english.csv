@@ -1,0 +1,247 @@
+﻿// NAME,
+scenario_name,[6] Power Struggle
+,
+// DESCRIPTION,
+scenario_descr,"While the Mobile Infantry has been occupied with driving the Bugs out of caves and mining tunnels, the Arachnids have broken into the main hydro-electric power plant in the sector.
+
+To restore power and prevent long-term damage to the Kwalashan industry and civilian infrastructure, liberating the facility is now the primary objective."
+,
+// OBJECTIVES,
+objective_2_3_title,Select a base for deployment
+objective_2_0_title,Repair 2 Power Turbines
+objective_2_5_title,Status Turbine A
+objective_2_6_title,Status Turbine B
+objective_2_11_title,Clear 3 Bug Hives
+objective_2_1_title,Repair the Power Core
+objective_2_4_title,Capture the Security Center
+objective_2_13_title,Kill 10 Tiger Bugs to unlock Mk II Troopers
+objective_2_12_title,Deploy at least 2 squads of Mk II Troopers to deal with Tiger Bugs
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_196,Power Turbine A
+unit_496,Security Center
+unit_551,Power Turbine B
+unit_609,rooftopA
+unit_610,rooftopB
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/CHOOSE DEPLOYMENT STATION/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_714_text,Bugs are holed up tight inside the power station.  Gonna be a real nightmare to pry them outta there.
+//,
+// 1.ava advisor,
+briefing_trigger_681_text,"Point taken, Colonel, but your mission is to root out the bug infestation and secure vital machinery around the facility."
+briefing_trigger_682_text,Initial priorities are the damaged power turbines.  They'll have to be repaired by your combat engineers - but getting to them won't be easy.
+briefing_trigger_483_text,"There are three possible insertion points for your force: The Northwest, in front of the main entrance..."
+briefing_trigger_487_text,"... to the east, at the end of the dam..."
+briefing_trigger_488_text,"... or to the south, by the storage tanks. The team on the ground has to make the call on how to proceed."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/REPAIR POWER TURBINES/TRIGGERS/TURBINE STATUS/DIALOGUE: PROGRESS REPORT ============== ",
+// 1.ava advisor,
+briefing_trigger_549_text,Command is asking for a progress report.
+//,
+// 0.hawthorne,
+briefing_trigger_822_text,We've just got one turbine up and running.  Moving to the next one now
+//,
+// 1.ava advisor,
+briefing_trigger_823_text,You might have to pick up the pace.  Brass is feeling the pressure.
+//,
+// 0.hawthorne,
+briefing_trigger_824_text,"OK OK, we'll step on it."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/REPAIR POWER TURBINES/TRIGGERS/SUCCESS ============== ",
+// 1.ava advisor,
+briefing_trigger_522_text,The tech heads here report enough turbines are operational.  Good job.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/REPAIR POWER TURBINES/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_504_text,"OK, we'll start the battle from here.  Get some Engineers out to those turbines.  We need them up and running."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/REPAIR POWER CORE/TRIGGERS/SUCCESS ============== ",
+// 0.hawthorne,
+briefing_trigger_687_text,The center of the power plant is secure!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/REPAIR POWER CORE/TRIGGERS/FAIL ============== ",
+// 0.hawthorne,
+briefing_trigger_768_text,The core temperature has reached critical levels! Meltdown is imminent!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/REPAIR POWER CORE/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_806_text,Heat signatures from the center of the station indicate the power core is starting to overheat. It must have been damaged when the bugs breached the facility. You have to reach it before the reactor goes into meltdown!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/REPAIR POWER CORE/IS CENTRAL HIVE ARACHNID? ============== ",
+// 0.hawthorne,
+briefing_trigger_684_text,Intel reports a large scale bug infestation in the center of the power station. You'll need to muster a strong force to clean that up.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE SECURITY CENTER/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_690_text,"Intel shows a security building here. If you recapture it, we can gain access to the facility's security cameras."
+//,
+// 0.hawthorne,
+briefing_trigger_828_text,It would be useful to know what we're sticking our noses into
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CAPTURE SECURITY CENTER/SUCCESS ============== ",
+// 1.ava advisor,
+briefing_trigger_692_text,Security center's ours.  I've got cameras are coming online now
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR BUG HIVES/TRIGGERS/SUCCESS BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_741_text,Intelligence calculates that the Bug forces have been sufficiently weakened.  You're instructed to concentrate on the remaining mission objectives.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: CLEAR BUG HIVES/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_734_text,The bugs are getting pretty pissed. We have to take out those bug caves and cut down their numbers.
+//,
+// 1.ava advisor,
+briefing_trigger_825_text,Understood. Command is allocating extra resources to your strike force.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBJECTIVE: UNLOCK HEAVY TROOPERS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_666_text,These big Tiger bugs sure are tough bastards.  We're gonna need some heavier firepower to punch through.
+//,
+// 1.ava advisor,
+briefing_trigger_826_text,Request's been granted.  Troopers armed with Morita IIs are dropping now.
+//,
+// 0.hawthorne,
+briefing_trigger_733_text,Get an ammo dump set up to support deployment of these squads.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/VICTORY/VICTORY BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_727_text,Great work. Station is back up and running and power's being restored as we speak. Instructions are to leave any Bug stragglers to the follow up crews.
+//,
+// 0.hawthorne,
+briefing_trigger_829_text,That's the best news I've heard all day. I'm going to get me a hot shower and a cold beer - not necessarily in that order
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEAT: ALL UNITS LOST/FAIL ============== ",
+// 0.hawthorne,
+briefing_trigger_835_text,"Shit, this operation is a complete Charlie Foxtrot. Mission failed."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBSOLETE/OBJECTIVE: BUILD ROOFTOP TURRETS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_854_text,Construct turrets in the center to suppress the bug tunnels!
+,
+,
+,
+,
+"// ============== /OBJECTIVES/OBSOLETE/OBJECTIVE: BUILD TURRETS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_809_text,Command didn't give us enough troops to keep the whole sector secured. Use gun turrets to support both defensive and offensive operations.
+,
+,
+,
+// TRIGGER TEXTS,
+dialog_trigger_463_title,Deployment Selection
+dialog_trigger_463_text,Are you sure you want to deploy around the selected Comm station?
+,
+dialog_trigger_475_title,Deployment Selection
+dialog_trigger_475_text,Are you sure you want to deploy around the selected Comm station?
+,
+dialog_trigger_476_title,Deployment Selection
+dialog_trigger_476_text,Are you sure you want to deploy around the selected Comm station?
+,
+// 5.ANNOUNCER,
+speech_trigger_518,Repair the Power Turbine
+,
+// 5.ANNOUNCER,
+speech_trigger_520,Repair the Power Turbine
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_884,Choose deployment station
+,
+// 5.ANNOUNCER,
+speech_trigger_885,Choose deployment station
+,
+// 5.ANNOUNCER,
+speech_trigger_886,Choose deployment station
+,
+// 5.ANNOUNCER,
+speech_trigger_896,Repair
+,
+timer_trigger_767_descr,CORE MELTDOWN
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_706,Camera activated!
+,
+// 5.ANNOUNCER,
+speech_trigger_707,Camera activated!
+,
+// 5.ANNOUNCER,
+speech_trigger_708,Camera activated!
+,
+// 5.ANNOUNCER,
+speech_trigger_906,Capture the Security Center
+,
+// 5.ANNOUNCER,
+speech_trigger_711,Cameras can be rotated
+,
+,
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_873,Construct turrets here
+,
+// 5.ANNOUNCER,
+speech_trigger_874,Construct turrets here
+,
+// 5.ANNOUNCER,
+speech_trigger_875,Construct turrets here
+,
+// 5.ANNOUNCER,
+speech_trigger_876,Construct turrets here
+,
+,
+,

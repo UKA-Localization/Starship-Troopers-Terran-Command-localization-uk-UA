@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.tsv text eol=lf
+*.ttf binary
+*.png binary
+*.jpg binary
+# файли гри зберігаємо побайтово (UTF-8, CRLF, багаторядкові значення в лапках)
+source/**/*.csv -text
+source/**/*.txt -text

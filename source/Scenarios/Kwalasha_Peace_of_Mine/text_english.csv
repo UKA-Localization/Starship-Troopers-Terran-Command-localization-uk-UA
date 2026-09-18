@@ -1,0 +1,257 @@
+﻿// NAME,
+scenario_name,[3] Peace of Mine
+,
+// DESCRIPTION,
+scenario_descr,"Following the annihilation of countless Bug hives, Terran Command has decided to focus its assets toward reactivating vital ore mines and assuring the safety of mining personnel.
+
+An abandoned outpost amongst the mining facilities has been reclaimed and fortified. This old base will serve as the staging point from which the Mobile Infantry will mop up any remaining Arachnid colonies."
+,
+// OBJECTIVES,
+objective_2_7_title,Do not lose the central base
+objective_2_21_title,Defeat the attack wave
+objective_2_11_title,Reopen First Mining Shaft
+objective_2_2_title,Reopen all Mining Shafts
+objective_2_19_title,Collect at least 2 Materiel Caches
+objective_2_22_title,Construct 4 HMG Turrets in the central base
+,
+// UNIT NAMES,
+// Note: Don't translate names starting with #,
+unit_2,Mining Shaft
+unit_343,#First Miner Drop
+unit_351,Mining Shaft
+unit_424,Central Base
+unit_448,Mining Shaft
+unit_502,Mining Shaft
+unit_526,West Drop Site
+unit_606,N Drop Site
+unit_607,Small Attacks Spawn
+unit_611,NE Drop Site
+unit_620,#cam start
+unit_641,#First Miner Drop 2
+,
+// SPAWNED UNIT NAMES,
+,
+///// BRIEFING TEXTS,
+,
+"// ============== /OBJECTIVES/DEFEND THE BASE/TRIGGERS/SUCCESS ============== ",
+// 1.ava advisor,
+briefing_trigger_988_text,The Mine is operational. Command appreciates your efforts.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE BASE/TRIGGERS/FAIL ============== ",
+// 0.hawthorne,
+briefing_trigger_986_text,The Main Base has been lost. The mission's over...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/DEFEND THE BASE/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1312_text,"Welcome to Mineville, Lieutenant."
+briefing_trigger_1313_text,"Bugs made a mess of the Kwals' attempts to defend this base, we're here to do a better job of it."
+briefing_trigger_1318_text,The flyboys report some serious bug activity out to the East.
+briefing_trigger_1319_text,"Our mission is to get these miners back into their holes, not to go play in the dust with Archie. We'll ice them as they come at the walls."
+briefing_trigger_1448_text,"Organise your defences and call down some extra bodies. Keep those bugs outside the walls, Lieutenant!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ATTACK WAVES/TRIGGERS/REGULAR ATTACK WAVES/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_1423_text,"Be advised, another major bug attack is coming in from the East."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ATTACK WAVES/TRIGGERS/REGULAR ATTACK WAVES/ADVICE: BUILD TURRETS ============== ",
+// 0.hawthorne,
+briefing_trigger_1277_text,"Engineers, set up HMG turrets. Pronto!"
+,
+,
+,
+,
+"// ============== /OBJECTIVES/ATTACK WAVES/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_261_text,I smell trouble. Get this base ready for what’s coming.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECURE FIRST MINE/PLAYER TRIES TO BREAK TRIGGER ORDER/SKIP ============== ",
+// 1.ava advisor,
+briefing_trigger_1684_text,We’re sending the first group of miners into shaft 1.
+//,
+// 0.hawthorne,
+briefing_trigger_1685_text,This place has more bugs than a Shreveport picnic in July.
+//,
+// 1.ava advisor,
+briefing_trigger_1686_text,Command believes the risk is acceptable. Mining operations have been delayed long enough.
+//,
+// 0.hawthorne,
+briefing_trigger_1687_text,"We need more time, damn it."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECURE FIRST MINE/EVENT: MINERS ARRIVE AND DIE/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_294_text,We’re sending the first group of miners into shaft 1.
+//,
+// 0.hawthorne,
+briefing_trigger_1263_text,"Secure, my ass. This place has more bugs than a Shreveport picnic in July."
+//,
+// 1.ava advisor,
+briefing_trigger_1264_text,Command believes the risk is acceptable. Mining operations have been delayed long enough.
+//,
+// 0.hawthorne,
+briefing_trigger_1488_text,"We need more time, damn it."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECURE FIRST MINE/START MINERS EVENT ============== ",
+// 1.ava advisor,
+briefing_trigger_1663_text,That area’s been declared secure.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECURE FIRST MINE/BRIEFING ============== ",
+// 1.ava advisor,
+briefing_trigger_1266_text,There’s been an incident... at the mine.
+//,
+// 0.hawthorne,
+briefing_trigger_1267_text,"Oh, was it bugs? The bugs I said were definitely down there?"
+//,
+// 1.ava advisor,
+briefing_trigger_1270_text,We expected attacks. That’s why you’re there.
+briefing_trigger_1271_text,"Clear the site of bugs, try to minimize disruption to the mining operation."
+//,
+// 0.hawthorne,
+briefing_trigger_1272_text,And protect the miners...
+//,
+// 1.ava advisor,
+briefing_trigger_1273_text,Of course! That too...
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECURE ALL MINES/TRIGGERS/SELECTOR: MINE CAPTURE BRIEFINGS/SECOND MINE ============== ",
+// 0.hawthorne,
+briefing_trigger_1547_text,"Ok, this mineshaft is clear."
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECURE ALL MINES/TRIGGERS/SELECTOR: MINE CAPTURE BRIEFINGS/THIRD MINE ============== ",
+// 0.hawthorne,
+briefing_trigger_1548_text,This mine’s safe now.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/SECURE ALL MINES/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1060_text,"Alright, that Mining Shaft is operational again."
+briefing_trigger_1341_text,There's three others around here that Command wants up and running ASAP.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CAPTURE MATERIEL CACHES/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1541_text,Grab any materiel caches you can find! We need that equipment to keep the Bugs out of our base.
+,
+,
+,
+,
+"// ============== /OBJECTIVES/CONSTRUCT HMG TURRETS/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1794_text,Use whatever materiel we have available to strengthen our base defenses!
+,
+,
+,
+,
+"// ============== /EVENTS & DIALOGS - OBSOLETE/DIALOG: CAPTURE BASES - REMOVED/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1475_text,"Intelligence reports that there are Kwal Comm bases nearby, used to provide logistical support to the mines."
+//,
+// 1.ava advisor,
+briefing_trigger_1477_text,"Command is collecting eager volunteers to operate those mines, but those bases are needed for dropship insertion."
+//,
+// 0.hawthorne,
+briefing_trigger_1478_text,You heard the officer. Get a scouting party together and start getting those bases back online.
+,
+,
+,
+,
+"// ============== /EVENTS & DIALOGS - OBSOLETE/DEPLOY 2X M6 GRINDER/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1275_text,Hoppers overhead!
+,
+,
+,
+,
+"// ============== /EVENTS/RADIO OPERATOR DELIVERY/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1467_text,We're going to need to reinforce those units in the mountains. Call in some Radio Operators to help out.
+,
+,
+,
+,
+"// ============== /EVENTS/GRINDERS DELIVERY/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1724_text,If Fleet won’t keep the skies clear then call HQ to deploy some Grinders!
+,
+,
+,
+,
+"// ============== /WIKI/PRIORITY TARGETTING GRINDER/BRIEFING ============== ",
+// 0.hawthorne,
+briefing_trigger_1821_text,"Inform the Grinder crews about their targeting priorities: Hoppers get top billing, no exceptions!"
+,
+,
+,
+// TRIGGER TEXTS,
+timer_trigger_262_descr,ATTACK WAVE
+,
+,
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_1695,Clear the mine
+,
+// 5.ANNOUNCER,
+speech_trigger_1696,Clear the mine
+,
+// 5.ANNOUNCER,
+speech_trigger_1697,Clear the mine
+,
+speech_trigger_1747,Capture
+,
+speech_trigger_1748,Capture
+,
+speech_trigger_1749,Capture
+,
+speech_trigger_1750,Capture
+,
+speech_trigger_1751,Capture
+,
+// 5.ANNOUNCER,
+speech_trigger_1703,Clear the mine
+,
+,
+// 5.ANNOUNCER,
+speech_trigger_1689,Gates can be opened
+,
+// 5.ANNOUNCER,
+speech_trigger_1690,Gates can be opened
+,
+,
+timer_trigger_1805_descr,ATTACK INCOMING
+,
+,
+,
+,
