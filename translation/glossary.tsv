@@ -284,7 +284,7 @@ kwalashan	Kwalashan	Kwalashans	квалашанин			Назва мешканц�
 fort_meru	Fort Meru		форт Меру			Військовий форт, падіння якого передує контратаці людства.	Локації	fuzzy	
 federatsiyagrad	Federatsiyagrad		Федераціяград			Столиця Kwalasha, під якою розташована мережа каналізаційних труб і тунелів.	Локації	fuzzy	
 psychic_operative	Psychic Operative	Psychic Operatives	псі-оперативник			Спеціалізовані оперативники Федерації, які виявляють методи отримання розвідданих у розділі Razor Ridge.	Юніти Федерації	fuzzy	
-sky_marshal	Sky Marshal	Sky Mashal	небесний маршал			Найвище військово-політичне звання Федерації, носій якого наказує утримувати оборону в розділі Guardians of Steel.	Загальне	fuzzy	
+sky_marshal	Sky Marshal	Sky Mashal	небесний маршал			Найвище звання Федерації, головнокомандувач (як у фільмі «Зоряний десант»); у грі — посада без імені: «небесний маршал наказав…».	Персонажі		
 kwalashan_miners_union	Kwalashan Miners’ Union		Профспілка шахтарів Квалаші			Очолювана Thomas Rees профспілкова організація шахтарів Квалаші, пов’язана з місією Prison Break.	Фракції	fuzzy	
 military_command	Military Command		Військове командування			Військове командування, яке керує конфліктом із орбітального штабу та оцінює оборону Fort Meru.	Фракції	fuzzy	
 m_i	M.I.	M.I|MI	МП			Скорочена назва Mobile Infantry, що мобілізується для фінального штурму.	Фракції	fuzzy	mobile_infantry
@@ -354,7 +354,7 @@ minerals_cart	Minerals Cart		візок для мінералів			Візок �
 volcano_small	Volcano (Small)		вулкан (малий)			Малий різновид вулкана як об’єкта середовища в Lava DLC.	Локації	fuzzy	
 lava_geyser	Lava Geyser		лавовий гейзер			Лавовий гейзер як об’єкт середовища в Lava DLC.	Локації	fuzzy	
 lava_geyser_closed	Lava Geyser (Closed)		лавовий гейзер (закритий)			Закритий стан лавового гейзера як об’єкта середовища в Lava DLC.	Локації	fuzzy	
-immolator	Immolator	Immolators|Immolator Bugs	спалювач			Тип арахніда в Lava DLC, який вивергає запальну речовину та вибухає після смертельного поранення.	Арахніди	fuzzy	
+immolator	Immolator	Immolators|Immolator Bugs	спалювач			Арахнід з Lava DLC: вивергає запальну речовину і спалахує при загибелі (Immolator Bug).	Арахніди		
 volcano_medium	Volcano (Medium)		вулкан (середній)			Середній різновид вулкана як об’єкта середовища в Lava DLC.	Локації	fuzzy	
 volcano_large	Volcano (Large)		вулкан (великий)			Великий різновид вулкана як об’єкта середовища в Lava DLC.	Локації	fuzzy	
 guard_grenadier_bug	Guard Grenadier Bug		вартовий жук-гренадер			Охоронний різновид арахніда Grenadier у Lava DLC.	Арахніди	fuzzy	
@@ -397,7 +397,7 @@ station_crew	Station Crew		персонал станції			Персонал с
 mercenary_captain	Mercenary Captain		капітан найманців			Командир найманців, представлений як окремий тип юніта в Lava DLC.	Юніти Федерації	fuzzy	
 shredder_merc	Shredder Merc	Shredder Mercs	найманець-шматувальник			Найманець із портативною скорострільною зброєю, представлений у Lava DLC.	Юніти Федерації	fuzzy	
 cargo_freighter	Cargo Freighter		вантажний корабель			Вантажний транспортний корабель, представлений як окремий юніт у Lava DLC.	Юніти Федерації	fuzzy	
-powered_suit_incinerator	Powered Suit Incinerator	Powered Suit Incinerators	вогнеметник у силовому костюмі			Елітний підрозділ бійців у силових костюмах з вогнеметами, представлений у Lava DLC.	Юніти Федерації	fuzzy	
+powered_suit_incinerator	Powered Suit Incinerator	Powered Suit Incinerators	вогнеметник у силовій броні			Елітний підрозділ бійців у силових костюмах з вогнеметами, представлений у Lava DLC.	Юніти Федерації		
 shredder_merc_tripod	Shredder Merc (Tripod)		найманець-шматувальник (тринога)			Найманий бойовий юніт на тринозі з доповнення Lava DLC.	Юніти Федерації	fuzzy	
 powered_suit_officer	Powered Suit Officer		офіцер у силовому костюмі			Офіцер Федерації в силовому костюмі з доповнення Lava DLC.	Юніти Федерації	fuzzy	
 the_director	The Director		Директор			Персонаж із титулом директора, пов'язаний із доповненням Lava DLC.	Персонажі	fuzzy	
@@ -409,7 +409,7 @@ frag_mine	Frag Mine	Frag Mines	уламкова міна			Вибухова мі
 fire_mine	Fire Mine		запалювальна міна			Запалювальна міна, представлена серед об’єктів і озброєння Lava DLC.	Зброя і техніка	fuzzy	
 stinger	Stinger	Stingers	жаляк			Дрібний дистанційний юніт Арахнідів, який випускає розігріті снаряди та часто перебуває біля високих гнізд у Lava DLC.	Арахніди	fuzzy	
 shredder_fire_pool	Shredder Fire Pool		вогняна калюжа шредера			Вогняна небезпечна зона або ефект, пов’язаний із Shredder у Lava DLC.	Механіки	fuzzy	
-waste_incinerator	Waste Incinerator		спалювач відходів			Промисловий об’єкт для спалювання відходів, представлений у Lava DLC.	Зброя і техніка	fuzzy	
+waste_incinerator	Waste Incinerator		сміттєспалювач			Споруда Lava DLC (є варіант «Destroyed»).	Зброя і техніка		
 bug_vent	Bug Vent	Bug Vents	жуковий отвір			Отвір або споруда Арахнідів, через яку з’являються їхні юніти в Lava DLC.	Арахніди	fuzzy	
 empty_lair	Empty Lair		порожнє лігво			Порожнє лігво арахнідів як окремий об’єкт у Lava DLC.	Арахніди	fuzzy	
 prospector	Prospector	Prospectors	розвідник надр			Шахтарський юніт Федерації у Lava DLC.	Юніти Федерації	fuzzy	
@@ -745,7 +745,7 @@ grenade	Grenade	Grenades	граната			Тип вибухової зброї, 
 control_station	Control Station		станція керування			Контрольна станція, яку потрібно захопити в місії Kwalasha 3.	Локації	fuzzy	
 incursion_point	Incursion Point		точка вторгнення			Об’єкт режиму Territory Mode, пов’язаний із появою або вторгненням сил Arachnid.	Арахніди	fuzzy	
 dam	Dam		дамба			Стратегічна дамба в секторі, контроль над якою потрібно відновити в межах завдання.	Локації	fuzzy	
-incinerator	Incinerator	Incinerators	спалювач			Окремий тип ворожого арахніда, якого потрібно знищити в бойовому завданні.	Арахніди	fuzzy	
+incinerator	Incinerator	Incinerators	вогнеметник			Вогнеметник у силовій броні (Powered Suit Incinerator); у Territory Mode — і як ворожий юніт ренегатів («Destroy the Incinerators»). Не арахнід.	Юніти Федерації		
 sandstorm	Sandstorm		піщана буря			Sandstorm — погодний ефект, що обмежує видимість і доступність повітряної техніки в територіальній місії.	Механіки	fuzzy	
 storm	Storm	storms	буря			Погодна механіка місії, поточний стан якої показано в рядку цілі.	Механіки	fuzzy	
 fed_intel	Fed Intel	Fed Intel's	розвідка Федерації			Скорочена назва розвідувальної служби Федерації, що повідомляє про очікувану появу ворогів у навчанні територіального режиму.	Фракції	fuzzy	
