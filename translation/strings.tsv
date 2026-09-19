@@ -564,130 +564,130 @@ Language/english.csv	language_tooltip_russian	Переключение игры 
 Language/english.csv	language_tooltip_chinese	将游戏语言更改为简体中文			DON'T TRANSLATE	-	command|technical
 Language/english.csv	language_tooltip_polish	Zmień język gry na polski			DON'T TRANSLATE	-	command|technical
 Language/english.csv	language_tooltip_portuguese	Altera idioma do jogo para português brasileiro			DON'T TRANSLATE	-	command|technical
-Language/english_0.csv	faction_gaia	Environment				environment	-
-Language/english_0.csv	faction_renegades	Renegades				renegades	-
-Language/english_0.csv	faction_federation	Federation				federation	-
-Language/english_0.csv	faction_arachnid	Arachnid				arachnid	-
-Language/english_0.csv	unit_0	Rifle Troopers			UNIT TYPES	rifle_trooper	-
-Language/english_0.csv	unit_0_descr	Armed with Morita assault rifles, these squads form the backbone of the Mobile Infantry. They are effective in close to medium range combat against unarmored targets.			UNIT TYPES	morita_assault_rifle|mobile_infantry	-
-Language/english_0.csv	unit_1	Warrior			UNIT TYPES	warrior	-
-Language/english_0.csv	unit_2	Radio Operator			UNIT TYPES	radio_operator	-
-Language/english_0.csv	unit_2_descr	Radio communications are vital to the operations of the Federation Army. These units can call in reinforcements to strengthen any position on the battlefield they are deployed in.			UNIT TYPES	federation	-
-Language/english_0.csv	unit_3	Radio Station *			UNIT TYPES	radio_station	-
-Language/english_0.csv	unit_4	Steel Bunker			UNIT TYPES	steel_bunker	-
-Language/english_0.csv	unit_5	TAC Fighters			UNIT TYPES	tac_fighter	-
-Language/english_0.csv	unit_6	Hopper			UNIT TYPES	hopper	-
-Language/english_0.csv	unit_7	Intel Bugs			UNIT TYPES	intel_bug	-
-Language/english_0.csv	unit_8	Wavebreaker Mortar			UNIT TYPES	wavebreaker_mortar	-
-Language/english_0.csv	unit_9	HMG Turret			UNIT TYPES	hmg_turret	-
-Language/english_0.csv	unit_9_descr	This turret's twin machine guns are effective against lightly armored targets. The barrels tend to overheat from sustained fire however, resulting in a substantial cooldown time.			UNIT TYPES	-	technical
-Language/english_0.csv	unit_10	Powered Suit Troopers			UNIT TYPES	powered_suit_trooper	-
-Language/english_0.csv	unit_10_descr	These elite troopers are wearing powered armor suits, which offer excellent protection, mobility and the capacity to carry various types of heavy weapons.			UNIT TYPES	-	technical
-Language/english_0.csv	unit_11	Tiger			UNIT TYPES	tiger	-
-Language/english_0.csv	unit_12	Tanker			UNIT TYPES	tanker	-
-Language/english_0.csv	unit_13	Scorpion Bug			UNIT TYPES	scorpion_bug	-
-Language/english_0.csv	unit_14	Plasma Bug			UNIT TYPES	plasma_bug	-
-Language/english_0.csv	unit_15	Plasma Grenadier			UNIT TYPES	plasma_grenadier	-
-Language/english_0.csv	unit_16	Bombardier			UNIT TYPES	bombardier	-
-Language/english_0.csv	unit_17	Brain Bug			UNIT TYPES	brain_bug	-
-Language/english_0.csv	unit_18	M11 Marauder (Flamethrower)			UNIT TYPES	m11_marauder_flamethrower	technical
-Language/english_0.csv	unit_25	M11 Marauder (Howitzer)			UNIT TYPES	m11_marauder_howitzer	technical
-Language/english_0.csv	unit_40	M11 Marauder (Gatling Gun)			UNIT TYPES	m11_marauder_gatling_gun	technical
-Language/english_0.csv	unit_18_descr	The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Equipped with a M2A 5-2 Flamethrower and Morita Cross Heavy Machine Gun, it possesses unmatched close-range firepower.			UNIT TYPES	vehicle|m11_marauder|m2a_5_2_flamethrower|morita_cross_heavy_machine_gun	technical|propaganda
-Language/english_0.csv	unit_25_descr	The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Its M779 Ultralight-weight Howitzer complements its Morita Cross Heavy Machine Gun with long-range strike capability against heavily armored targets.			UNIT TYPES	vehicle|m11_marauder|morita_cross_heavy_machine_gun|m779_ultralight_weight_howitzer	technical|propaganda
-Language/english_0.csv	unit_40_descr	The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Its M648 Vulcan Rotary Cannon can suppress and eradicate a wide range of adversaries while its Morita Cross Heavy Machine gun provides additional firepower.			UNIT TYPES	vehicle|m11_marauder|morita_cross_heavy_machine_gun|m648_vulcan_rotary_cannon	technical|propaganda
-Language/english_0.csv	unit_19	Royal Guard			UNIT TYPES	royal_guard	-
-Language/english_0.csv	unit_20	Capture Site			UNIT TYPES	capture_site	-
-Language/english_0.csv	unit_21	Rocket Troopers			UNIT TYPES	rocket_trooper	-
-Language/english_0.csv	unit_21_descr	To counter heavily armored threats, the M55 Rocket Launcher is armed standard with an armor-piercing warhead. Additional types of warheads are also available to experienced 'Rocket Troopers'.			UNIT TYPES	rocket_trooper|m55_rocket_launcher	technical
-Language/english_0.csv	unit_22	Powered Suit Troopers (Rocket)			UNIT TYPES	powered_suit_trooper	-
-Language/english_0.csv	unit_23	Mk II Troopers			UNIT TYPES	mk_ii_trooper	-
-Language/english_0.csv	unit_23_descr	The Morita Mk II rifle provides excellent medium to long range fire support against light to medium armored targets with its underslung grenade launcher, but these units must be kept out of close combat engagements.			UNIT TYPES	morita_mk_ii_rifle	technical|command
-Language/english_0.csv	unit_24	Powered Suit Troopers (Rocket)			UNIT TYPES	powered_suit_trooper	-
-Language/english_0.csv	unit_27	Marker Flare			UNIT TYPES	marker_flare	-
-Language/english_0.csv	unit_29	Drop Site			UNIT TYPES	drop_site	-
-Language/english_0.csv	unit_30	GK-16 MLAS			UNIT TYPES	gk_16_mlas	-
-Language/english_0.csv	unit_31	Satellite Station *			UNIT TYPES	satellite_station	-
-Language/english_0.csv	unit_32	GK-22 Heavy Gecko			UNIT TYPES	gk_22_heavy_gecko	-
-Language/english_0.csv	unit_33	Powered Suit Troopers (SAW)			UNIT TYPES	powered_suit_trooper|saw	-
-Language/english_0.csv	unit_34	Sensor Array			UNIT TYPES	sensor_array	-
-Language/english_0.csv	unit_35	Snipers			UNIT TYPES	sniper	-
-Language/english_0.csv	unit_35_descr	Snipers are trained to hit targets over a long range with impeccable accuracy. They excel against fragile targets such as Spitters and Hoppers but can also serve effectively as scouts.			UNIT TYPES	sniper|spitter|hopper	-
-Language/english_0.csv	unit_36	Powered Suit Troopers (SAW)			UNIT TYPES	powered_suit_trooper|saw	-
-Language/english_0.csv	unit_37	Powered Suit Troopers			UNIT TYPES	powered_suit_trooper	-
-Language/english_0.csv	unit_38	DR-4 Viking			UNIT TYPES	dr_4_viking	-
-Language/english_0.csv	unit_42	Combat Engineers			UNIT TYPES	combat_engineer	-
-Language/english_0.csv	unit_42_descr	Combat Engineers can construct various defensive structures and weapons. For personal defense and offensive tasks, they wield a short range flamethrower that can stun and burn anything in its path.			UNIT TYPES	combat_engineer	-
-Language/english_0.csv	unit_43	Powered Suit Troopers (ENG)			UNIT TYPES	powered_suit_trooper	-
-Language/english_0.csv	unit_44	Personnel			UNIT TYPES	-	-
-Language/english_0.csv	unit_45	Bug Hive			UNIT TYPES	bug_hive	-
-Language/english_0.csv	unit_46	Scientists			UNIT TYPES	scientist	-
-Language/english_0.csv	unit_47	Psi Ops			UNIT TYPES	psi_ops	-
-Language/english_0.csv	unit_48	Elite Guard			UNIT TYPES	elite_guard	-
-Language/english_0.csv	unit_49	Cargo Truck			UNIT TYPES	cargo_truck	-
-Language/english_0.csv	unit_50	Chariot Bug			UNIT TYPES	chariot_bug	-
-Language/english_0.csv	unit_51	Proximity Mines			UNIT TYPES	proximity_mine	-
-Language/english_0.csv	unit_52	Barricade			UNIT TYPES	barricade	-
-Language/english_0.csv	unit_53	Wavebreaker (Destroyed)			UNIT TYPES	wavebreaker	-
-Language/english_0.csv	unit_54	Collapsed Hive			UNIT TYPES	collapsed_hive	-
-Language/english_0.csv	unit_55	God Bug			UNIT TYPES	god_bug	propaganda|solemn
-Language/english_0.csv	unit_56	Bug Hive			UNIT TYPES	bug_hive	-
-Language/english_0.csv	unit_57	Collapsed Hive			UNIT TYPES	collapsed_hive	-
-Language/english_0.csv	unit_58	Militia			UNIT TYPES	militia	-
-Language/english_0.csv	unit_59	Civilians			UNIT TYPES	civilian	-
-Language/english_0.csv	unit_61	Demolition Charge			UNIT TYPES	demolition_charge	technical
-Language/english_0.csv	unit_62	Bug Tunnel			UNIT TYPES	bug_tunnel	-
-Language/english_0.csv	unit_63	Brood Nest			UNIT TYPES	brood_nest	-
-Language/english_0.csv	unit_64	Colonists			UNIT TYPES	colonist	-
-Language/english_0.csv	unit_65	Camera Crew			UNIT TYPES	camera_crew	-
-Language/english_0.csv	unit_66	M11 Honor Guard			UNIT TYPES	m11_honor_guard	-
-Language/english_0.csv	unit_67	Rocket Launcher Turret			UNIT TYPES	rocket_launcher_turret	technical
-Language/english_0.csv	unit_67_descr	This turret-mounted rocket launch is effective against heavily armored targets but has a low rate of fire.			UNIT TYPES	rocket_launcher_turret	technical
-Language/english_0.csv	unit_68	Grenade Launcher Turret			UNIT TYPES	grenade_launcher_turret	technical
-Language/english_0.csv	unit_68_descr	This turret-mounted grenade launcher is effective against tightly packed groups of light to medium armored targets.			UNIT TYPES	grenade_launcher_turret	technical
-Language/english_0.csv	unit_69	Drop Pod			UNIT TYPES	drop_pod	-
-Language/english_0.csv	unit_70	TAC Bombers			UNIT TYPES	tac_bomber	-
-Language/english_0.csv	unit_71	Spider Cluster Mines			UNIT TYPES	spider_cluster_mine	technical
-Language/english_0.csv	unit_72	Explosive Barrels			UNIT TYPES	explosive_barrel	-
-Language/english_0.csv	unit_73	Searchlight			UNIT TYPES	searchlight	-
-Language/english_0.csv	unit_74	Tunnel Exit			UNIT TYPES	tunnel_exit	-
-Language/english_0.csv	unit_75	Flag			UNIT TYPES	flag	-
-Language/english_0.csv	unit_76	Capture Point			UNIT TYPES	capture_point	-
-Language/english_0.csv	unit_77	Drone			UNIT TYPES	drone	-
-Language/english_0.csv	unit_78	Invisible Carrier			UNIT TYPES	invisible_carrier	-
-Language/english_0.csv	unit_79	Noise Maker			UNIT TYPES	noise_maker	-
-Language/english_0.csv	unit_80	Gate (Destroyed)			UNIT TYPES	gate_destroyed	-
-Language/english_0.csv	unit_81	Laser Squad			UNIT TYPES	laser_squad	-
-Language/english_0.csv	unit_82	Infested Trooper			UNIT TYPES	infested_trooper	-
-Language/english_0.csv	unit_83	Tactical Officer			UNIT TYPES	tactical_officer	-
-Language/english_0.csv	unit_83_descr	Thoroughly trained in military leadership and the values of the Federation, an officer of the Mobile Infantry can boost the performance of other troopers.			UNIT TYPES	federation|mobile_infantry|infantry	propaganda
-Language/english_0.csv	unit_86	Bug Lair			UNIT TYPES	bug_lair	-
-Language/english_0.csv	unit_87	Collapsed Tunnel			UNIT TYPES	collapsed_tunnel	-
-Language/english_0.csv	unit_88	Gate (Closed)			UNIT TYPES	gate_closed	-
-Language/english_0.csv	unit_89	Gate (Open)			UNIT TYPES	gate_open	-
-Language/english_0.csv	unit_90	Powered Suit Troopers (ENG)			UNIT TYPES	powered_suit_trooper|eng	technical
-Language/english_0.csv	unit_91	Door (Closed)			UNIT TYPES	door_closed	-
-Language/english_0.csv	unit_92	Door (Open)			UNIT TYPES	door_open	-
-Language/english_0.csv	unit_93	Brood Nest (Collapsed)			UNIT TYPES	brood_nest	-
-Language/english_0.csv	unit_94	Scorpion Bugs (Burrowed)			UNIT TYPES	scorpion_bug	-
-Language/english_0.csv	unit_95	HMG Tower			UNIT TYPES	hmg_tower	-
-Language/english_0.csv	unit_98	HMG Tower (Destroyed)			UNIT TYPES	hmg_tower	-
-Language/english_0.csv	unit_28	Spitter Bugs			UNIT TYPES	spitter	-
-Language/english_0.csv	unit_41	Proximity Mines			UNIT TYPES	proximity_mine	-
-Language/english_0.csv	unit_26	Fire Small			UNIT TYPES	fire_small	-
-Language/english_0.csv	unit_96	Fire Medium			UNIT TYPES	fire_medium	-
-Language/english_0.csv	unit_97	Fire Large			UNIT TYPES	fire_large	-
-Language/english_0.csv	unit_99	TAC Fighter			UNIT TYPES	tac_fighter	-
-Language/english_0.csv	unit_100	Delivery Platform			UNIT TYPES	delivery_platform	-
-Language/english_0.csv	unit_103	Wavebreaker Battery			UNIT TYPES	wavebreaker|wavebreaker_battery	-
-Language/english_0.csv	unit_104	DR-4 Viking			UNIT TYPES	dr_4_viking	-
-Language/english_0.csv	unit_106	DR-4 Viking			UNIT TYPES	dr_4_viking	-
-Language/english_0.csv	unit_107	Marker			UNIT TYPES	-	-
-Language/english_0.csv	unit_108	Supply Depot			UNIT TYPES	supply|supply_depot	-
-Language/english_0.csv	unit_110	Ammunition Cache			UNIT TYPES	ammunition_cache	-
-Language/english_0.csv	unit_111	Supplies Cache			UNIT TYPES	supply|supplies_cache	-
-Language/english_0.csv	unit_112	Radio Post *			UNIT TYPES	radio_post	-
-Language/english_0.csv	unit_113	DR-8 Skyhook			UNIT TYPES	dr_8_skyhook	-
+Language/english_0.csv	faction_gaia	Environment	Нейтральні	fuzzy		environment	-
+Language/english_0.csv	faction_renegades	Renegades	Ренегати	unresolved		renegades	-
+Language/english_0.csv	faction_federation	Federation	Федерація	unresolved		federation	-
+Language/english_0.csv	faction_arachnid	Arachnid	Арахніди	unresolved		arachnid	-
+Language/english_0.csv	unit_0	Rifle Troopers	Стрільці	unresolved	UNIT TYPES	rifle_trooper	-
+Language/english_0.csv	unit_0_descr	Armed with Morita assault rifles, these squads form the backbone of the Mobile Infantry. They are effective in close to medium range combat against unarmored targets.	Озброєні штурмовими гвинтівками Morita, ці загони становлять основу Мобільної піхоти. Ефективні проти неброньованих цілей на близькій і середній дистанції.	unresolved	UNIT TYPES	morita_assault_rifle|mobile_infantry	-
+Language/english_0.csv	unit_1	Warrior	Воїн	unresolved	UNIT TYPES	warrior	-
+Language/english_0.csv	unit_2	Radio Operator	Радист	unresolved	UNIT TYPES	radio_operator	-
+Language/english_0.csv	unit_2_descr	Radio communications are vital to the operations of the Federation Army. These units can call in reinforcements to strengthen any position on the battlefield they are deployed in.	Радіозв'язок життєво важливий для операцій армії Федерації. Ці бійці можуть викликати поповнення для зміцнення будь-якої позиції, на якій їх розгорнуто.	unresolved	UNIT TYPES	federation	-
+Language/english_0.csv	unit_3	Radio Station *	Радіостанція *	unresolved	UNIT TYPES	radio_station	-
+Language/english_0.csv	unit_4	Steel Bunker	Сталевий бункер	unresolved	UNIT TYPES	steel_bunker	-
+Language/english_0.csv	unit_5	TAC Fighters	Винищувачі TAC	unresolved	UNIT TYPES	tac_fighter	-
+Language/english_0.csv	unit_6	Hopper	Хопер	unresolved	UNIT TYPES	hopper	-
+Language/english_0.csv	unit_7	Intel Bugs	Жуки-розвідники	unresolved	UNIT TYPES	intel_bug	-
+Language/english_0.csv	unit_8	Wavebreaker Mortar	Міномет Wavebreaker	fuzzy	UNIT TYPES	wavebreaker_mortar	-
+Language/english_0.csv	unit_9	HMG Turret	Важка кулеметна турель	fuzzy	UNIT TYPES	hmg_turret	-
+Language/english_0.csv	unit_9_descr	This turret's twin machine guns are effective against lightly armored targets. The barrels tend to overheat from sustained fire however, resulting in a substantial cooldown time.	Спарені кулемети цієї турелі ефективні проти легкоброньованих цілей. Однак від тривалого вогню стволи перегріваються, що суттєво збільшує час охолодження.	fuzzy	UNIT TYPES	-	technical
+Language/english_0.csv	unit_10	Powered Suit Troopers	Бійці у силовій броні	unresolved	UNIT TYPES	powered_suit_trooper	-
+Language/english_0.csv	unit_10_descr	These elite troopers are wearing powered armor suits, which offer excellent protection, mobility and the capacity to carry various types of heavy weapons.	Ці елітні бійці носять силові костюми, що забезпечують чудовий захист, мобільність і дають змогу нести різні види важкого озброєння.	fuzzy	UNIT TYPES	-	technical
+Language/english_0.csv	unit_11	Tiger	Тигр	unresolved	UNIT TYPES	tiger	-
+Language/english_0.csv	unit_12	Tanker	Танкер	unresolved	UNIT TYPES	tanker	-
+Language/english_0.csv	unit_13	Scorpion Bug	Жук-скорпіон	unresolved	UNIT TYPES	scorpion_bug	-
+Language/english_0.csv	unit_14	Plasma Bug	Плазмовий жук	unresolved	UNIT TYPES	plasma_bug	-
+Language/english_0.csv	unit_15	Plasma Grenadier	Плазмовий гренадер	unresolved	UNIT TYPES	plasma_grenadier	-
+Language/english_0.csv	unit_16	Bombardier	Бомбардир	unresolved	UNIT TYPES	bombardier	-
+Language/english_0.csv	unit_17	Brain Bug	Мозковий жук	unresolved	UNIT TYPES	brain_bug	-
+Language/english_0.csv	unit_18	M11 Marauder (Flamethrower)	M11 «Мародер» (вогнемет)	fuzzy	UNIT TYPES	m11_marauder_flamethrower	technical
+Language/english_0.csv	unit_25	M11 Marauder (Howitzer)	M11 «Мародер» (гаубиця)	fuzzy	UNIT TYPES	m11_marauder_howitzer	technical
+Language/english_0.csv	unit_40	M11 Marauder (Gatling Gun)	M11 «Мародер» (кулемет Гатлінга)	fuzzy	UNIT TYPES	m11_marauder_gatling_gun	technical
+Language/english_0.csv	unit_18_descr	The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Equipped with a M2A 5-2 Flamethrower and Morita Cross Heavy Machine Gun, it possesses unmatched close-range firepower.	Двонога бойова машина M11 Babar «Мародер» — вершина людських збройових технологій. Оснащена вогнеметом M2A 5-2 і важким кулеметом Morita Cross, вона має неперевершену вогневу міць на близькій дистанції.	unresolved	UNIT TYPES	vehicle|m11_marauder|m2a_5_2_flamethrower|morita_cross_heavy_machine_gun	technical|propaganda
+Language/english_0.csv	unit_25_descr	The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Its M779 Ultralight-weight Howitzer complements its Morita Cross Heavy Machine Gun with long-range strike capability against heavily armored targets.	Двонога бойова машина M11 Babar «Мародер» — вершина людських збройових технологій. Надлегка гаубиця M779 доповнює важкий кулемет Morita Cross, даючи змогу бити здалеку по важкоброньованих цілях.	unresolved	UNIT TYPES	vehicle|m11_marauder|morita_cross_heavy_machine_gun|m779_ultralight_weight_howitzer	technical|propaganda
+Language/english_0.csv	unit_40_descr	The M11 Babar 'Marauder' bipedal battle vehicle is the pinnacle of human weapons technology. Its M648 Vulcan Rotary Cannon can suppress and eradicate a wide range of adversaries while its Morita Cross Heavy Machine gun provides additional firepower.	Двонога бойова машина M11 Babar «Мародер» — вершина людських збройових технологій. Роторна гармата M648 Vulcan пригнічує та винищує найрізноманітніших ворогів, а важкий кулемет Morita Cross забезпечує додаткову вогневу міць.	unresolved	UNIT TYPES	vehicle|m11_marauder|morita_cross_heavy_machine_gun|m648_vulcan_rotary_cannon	technical|propaganda
+Language/english_0.csv	unit_19	Royal Guard	Королівський вартовий	unresolved	UNIT TYPES	royal_guard	-
+Language/english_0.csv	unit_20	Capture Site	Об'єкт захоплення	unresolved	UNIT TYPES	capture_site	-
+Language/english_0.csv	unit_21	Rocket Troopers	Ракетники	unresolved	UNIT TYPES	rocket_trooper	-
+Language/english_0.csv	unit_21_descr	To counter heavily armored threats, the M55 Rocket Launcher is armed standard with an armor-piercing warhead. Additional types of warheads are also available to experienced 'Rocket Troopers'.	Для боротьби з важкоброньованими загрозами ракетна установка M55 штатно споряджена бронебійною боєголовкою. Досвідченим ракетникам доступні й інші типи боєголовок.	unresolved	UNIT TYPES	rocket_trooper|m55_rocket_launcher	technical
+Language/english_0.csv	unit_22	Powered Suit Troopers (Rocket)	Бійці у силовій броні (ракетники)	unresolved	UNIT TYPES	powered_suit_trooper	-
+Language/english_0.csv	unit_23	Mk II Troopers	Бійці Mk II	unresolved	UNIT TYPES	mk_ii_trooper	-
+Language/english_0.csv	unit_23_descr	The Morita Mk II rifle provides excellent medium to long range fire support against light to medium armored targets with its underslung grenade launcher, but these units must be kept out of close combat engagements.	Гвинтівка Morita Mk II із підствольним гранатометом забезпечує чудову вогневу підтримку на середній і великій дистанції проти легко- та середньоброньованих цілей, але цих бійців слід тримати подалі від ближнього бою.	unresolved	UNIT TYPES	morita_mk_ii_rifle	technical|command
+Language/english_0.csv	unit_24	Powered Suit Troopers (Rocket)	Бійці у силовій броні (ракетники)	unresolved	UNIT TYPES	powered_suit_trooper	-
+Language/english_0.csv	unit_27	Marker Flare	Сигнальна ракета	unresolved	UNIT TYPES	marker_flare	-
+Language/english_0.csv	unit_29	Drop Site	Зона висадки	unresolved	UNIT TYPES	drop_site	-
+Language/english_0.csv	unit_30	GK-16 MLAS	GK-16 MLAS	unresolved	UNIT TYPES	gk_16_mlas	-
+Language/english_0.csv	unit_31	Satellite Station *	Супутникова станція *	unresolved	UNIT TYPES	satellite_station	-
+Language/english_0.csv	unit_32	GK-22 Heavy Gecko	GK-22 Heavy Gecko	fuzzy	UNIT TYPES	gk_22_heavy_gecko	-
+Language/english_0.csv	unit_33	Powered Suit Troopers (SAW)	Бійці у силовій броні (АЗВ)	unresolved	UNIT TYPES	powered_suit_trooper|saw	-
+Language/english_0.csv	unit_34	Sensor Array	Сенсорний комплекс	unresolved	UNIT TYPES	sensor_array	-
+Language/english_0.csv	unit_35	Snipers	Снайпери	unresolved	UNIT TYPES	sniper	-
+Language/english_0.csv	unit_35_descr	Snipers are trained to hit targets over a long range with impeccable accuracy. They excel against fragile targets such as Spitters and Hoppers but can also serve effectively as scouts.	Снайпери навчені влучати в цілі на великій дистанції з бездоганною точністю. Вони особливо ефективні проти вразливих цілей, як-от плювачі й хопери, а також добре виконують роль розвідників.	unresolved	UNIT TYPES	sniper|spitter|hopper	-
+Language/english_0.csv	unit_36	Powered Suit Troopers (SAW)	Бійці у силовій броні (АЗВ)	unresolved	UNIT TYPES	powered_suit_trooper|saw	-
+Language/english_0.csv	unit_37	Powered Suit Troopers	Бійці у силовій броні	unresolved	UNIT TYPES	powered_suit_trooper	-
+Language/english_0.csv	unit_38	DR-4 Viking	DR-4 Viking	fuzzy	UNIT TYPES	dr_4_viking	-
+Language/english_0.csv	unit_42	Combat Engineers	Бойові інженери	unresolved	UNIT TYPES	combat_engineer	-
+Language/english_0.csv	unit_42_descr	Combat Engineers can construct various defensive structures and weapons. For personal defense and offensive tasks, they wield a short range flamethrower that can stun and burn anything in its path.	Бойові інженери можуть зводити різні оборонні споруди й установлювати зброю. Для самозахисту та штурмових завдань вони використовують вогнемет малої дальності, що оглушує та спалює все на своєму шляху.	unresolved	UNIT TYPES	combat_engineer	-
+Language/english_0.csv	unit_43	Powered Suit Troopers (ENG)	Бійці у силовій броні (ІНЖ)	unresolved	UNIT TYPES	powered_suit_trooper	-
+Language/english_0.csv	unit_44	Personnel	Персонал	fuzzy	UNIT TYPES	-	-
+Language/english_0.csv	unit_45	Bug Hive	Вулик жуків	unresolved	UNIT TYPES	bug_hive	-
+Language/english_0.csv	unit_46	Scientists	Науковці	unresolved	UNIT TYPES	scientist	-
+Language/english_0.csv	unit_47	Psi Ops	Псі-оперативник	unresolved	UNIT TYPES	psi_ops	-
+Language/english_0.csv	unit_48	Elite Guard	Елітний гвардієць	unresolved	UNIT TYPES	elite_guard	-
+Language/english_0.csv	unit_49	Cargo Truck	Вантажівка	unresolved	UNIT TYPES	cargo_truck	-
+Language/english_0.csv	unit_50	Chariot Bug	Жук-колісниця	unresolved	UNIT TYPES	chariot_bug	-
+Language/english_0.csv	unit_51	Proximity Mines	Міни наближення	unresolved	UNIT TYPES	proximity_mine	-
+Language/english_0.csv	unit_52	Barricade	Барикада	unresolved	UNIT TYPES	barricade	-
+Language/english_0.csv	unit_53	Wavebreaker (Destroyed)	Wavebreaker (зруйнований)	unresolved	UNIT TYPES	wavebreaker	-
+Language/english_0.csv	unit_54	Collapsed Hive	Зруйнований вулик	unresolved	UNIT TYPES	collapsed_hive	-
+Language/english_0.csv	unit_55	God Bug	Жук-бог	unresolved	UNIT TYPES	god_bug	propaganda|solemn
+Language/english_0.csv	unit_56	Bug Hive	Вулик жуків	unresolved	UNIT TYPES	bug_hive	-
+Language/english_0.csv	unit_57	Collapsed Hive	Зруйнований вулик	unresolved	UNIT TYPES	collapsed_hive	-
+Language/english_0.csv	unit_58	Militia	Ополченець	unresolved	UNIT TYPES	militia	-
+Language/english_0.csv	unit_59	Civilians	Цивільні	unresolved	UNIT TYPES	civilian	-
+Language/english_0.csv	unit_61	Demolition Charge	Підривний заряд	unresolved	UNIT TYPES	demolition_charge	technical
+Language/english_0.csv	unit_62	Bug Tunnel	Тунель жуків	unresolved	UNIT TYPES	bug_tunnel	-
+Language/english_0.csv	unit_63	Brood Nest	Гніздо розплоду	unresolved	UNIT TYPES	brood_nest	-
+Language/english_0.csv	unit_64	Colonists	Колоністи	unresolved	UNIT TYPES	colonist	-
+Language/english_0.csv	unit_65	Camera Crew	Знімальна група	unresolved	UNIT TYPES	camera_crew	-
+Language/english_0.csv	unit_66	M11 Honor Guard	M11 Honor Guard	fuzzy	UNIT TYPES	m11_honor_guard	-
+Language/english_0.csv	unit_67	Rocket Launcher Turret	Ракетна турель	unresolved	UNIT TYPES	rocket_launcher_turret	technical
+Language/english_0.csv	unit_67_descr	This turret-mounted rocket launch is effective against heavily armored targets but has a low rate of fire.	Турельний ракетомет ефективний проти важкоброньованих цілей, але має низький темп стрільби.	unresolved	UNIT TYPES	rocket_launcher_turret	technical
+Language/english_0.csv	unit_68	Grenade Launcher Turret	Гранатометна турель	unresolved	UNIT TYPES	grenade_launcher_turret	technical
+Language/english_0.csv	unit_68_descr	This turret-mounted grenade launcher is effective against tightly packed groups of light to medium armored targets.	Турельний гранатомет ефективний проти щільних груп легко- та середньоброньованих цілей.	unresolved	UNIT TYPES	grenade_launcher_turret	technical
+Language/english_0.csv	unit_69	Drop Pod	Десантна капсула	unresolved	UNIT TYPES	drop_pod	-
+Language/english_0.csv	unit_70	TAC Bombers	Бомбардувальники TAC	unresolved	UNIT TYPES	tac_bomber	-
+Language/english_0.csv	unit_71	Spider Cluster Mines	Касетні міни Spider	unresolved	UNIT TYPES	spider_cluster_mine	technical
+Language/english_0.csv	unit_72	Explosive Barrels	Вибухові бочки	unresolved	UNIT TYPES	explosive_barrel	-
+Language/english_0.csv	unit_73	Searchlight	Прожектор	unresolved	UNIT TYPES	searchlight	-
+Language/english_0.csv	unit_74	Tunnel Exit	Вихід із тунелю	unresolved	UNIT TYPES	tunnel_exit	-
+Language/english_0.csv	unit_75	Flag	Прапор	unresolved	UNIT TYPES	flag	-
+Language/english_0.csv	unit_76	Capture Point	Точка захоплення	unresolved	UNIT TYPES	capture_point	-
+Language/english_0.csv	unit_77	Drone	Трутень	fuzzy	UNIT TYPES	drone	-
+Language/english_0.csv	unit_78	Invisible Carrier	Невидимий носій	unresolved	UNIT TYPES	invisible_carrier	-
+Language/english_0.csv	unit_79	Noise Maker	Шумова приманка	unresolved	UNIT TYPES	noise_maker	-
+Language/english_0.csv	unit_80	Gate (Destroyed)	Ворота (зруйновані)	unresolved	UNIT TYPES	gate_destroyed	-
+Language/english_0.csv	unit_81	Laser Squad	Лазерний загін	unresolved	UNIT TYPES	laser_squad	-
+Language/english_0.csv	unit_82	Infested Trooper	Заражений піхотинець	unresolved	UNIT TYPES	infested_trooper	-
+Language/english_0.csv	unit_83	Tactical Officer	Тактичний офіцер	unresolved	UNIT TYPES	tactical_officer	-
+Language/english_0.csv	unit_83_descr	Thoroughly trained in military leadership and the values of the Federation, an officer of the Mobile Infantry can boost the performance of other troopers.	Вишколений у військовому командуванні та цінностях Федерації офіцер Мобільної піхоти підвищує ефективність інших бійців.	unresolved	UNIT TYPES	federation|mobile_infantry|infantry	propaganda
+Language/english_0.csv	unit_86	Bug Lair	Лігво жуків	unresolved	UNIT TYPES	bug_lair	-
+Language/english_0.csv	unit_87	Collapsed Tunnel	Завалений тунель	unresolved	UNIT TYPES	collapsed_tunnel	-
+Language/english_0.csv	unit_88	Gate (Closed)	Ворота (зачинені)	unresolved	UNIT TYPES	gate_closed	-
+Language/english_0.csv	unit_89	Gate (Open)	Ворота (відчинені)	unresolved	UNIT TYPES	gate_open	-
+Language/english_0.csv	unit_90	Powered Suit Troopers (ENG)	Бійці у силовій броні (ІНЖ)	unresolved	UNIT TYPES	powered_suit_trooper|eng	technical
+Language/english_0.csv	unit_91	Door (Closed)	Двері (зачинені)	unresolved	UNIT TYPES	door_closed	-
+Language/english_0.csv	unit_92	Door (Open)	Двері (відчинені)	unresolved	UNIT TYPES	door_open	-
+Language/english_0.csv	unit_93	Brood Nest (Collapsed)	Гніздо розплоду (обвалене)	unresolved	UNIT TYPES	brood_nest	-
+Language/english_0.csv	unit_94	Scorpion Bugs (Burrowed)	Жуки-скорпіони (зариті)	unresolved	UNIT TYPES	scorpion_bug	-
+Language/english_0.csv	unit_95	HMG Tower	Важка кулеметна башта	unresolved	UNIT TYPES	hmg_tower	-
+Language/english_0.csv	unit_98	HMG Tower (Destroyed)	Важка кулеметна башта (зруйнована)	unresolved	UNIT TYPES	hmg_tower	-
+Language/english_0.csv	unit_28	Spitter Bugs	Плювачі	unresolved	UNIT TYPES	spitter	-
+Language/english_0.csv	unit_41	Proximity Mines	Міни наближення	unresolved	UNIT TYPES	proximity_mine	-
+Language/english_0.csv	unit_26	Fire Small	Малий вогонь	unresolved	UNIT TYPES	fire_small	-
+Language/english_0.csv	unit_96	Fire Medium	Середній вогонь	unresolved	UNIT TYPES	fire_medium	-
+Language/english_0.csv	unit_97	Fire Large	Велике полум'я	unresolved	UNIT TYPES	fire_large	-
+Language/english_0.csv	unit_99	TAC Fighter	Винищувач TAC	unresolved	UNIT TYPES	tac_fighter	-
+Language/english_0.csv	unit_100	Delivery Platform	Платформа доставки	unresolved	UNIT TYPES	delivery_platform	-
+Language/english_0.csv	unit_103	Wavebreaker Battery	Батарея Wavebreaker	unresolved	UNIT TYPES	wavebreaker|wavebreaker_battery	-
+Language/english_0.csv	unit_104	DR-4 Viking	DR-4 Viking	fuzzy	UNIT TYPES	dr_4_viking	-
+Language/english_0.csv	unit_106	DR-4 Viking	DR-4 Viking	fuzzy	UNIT TYPES	dr_4_viking	-
+Language/english_0.csv	unit_107	Marker	Маркер	fuzzy	UNIT TYPES	-	-
+Language/english_0.csv	unit_108	Supply Depot	Склад припасів	unresolved	UNIT TYPES	supply|supply_depot	-
+Language/english_0.csv	unit_110	Ammunition Cache	Сховок боєприпасів	unresolved	UNIT TYPES	ammunition_cache	-
+Language/english_0.csv	unit_111	Supplies Cache	Сховок припасів	unresolved	UNIT TYPES	supply|supplies_cache	-
+Language/english_0.csv	unit_112	Radio Post *	Радіопост *	unresolved	UNIT TYPES	radio_post	-
+Language/english_0.csv	unit_113	DR-8 Skyhook	DR-8 Skyhook	fuzzy	UNIT TYPES	dr_8_skyhook	-
 Language/english_0.csv	unit_114	Marines			UNIT TYPES	marine	-
 Language/english_0.csv	unit_118	Battery Bomb			UNIT TYPES	battery_bomb	-
 Language/english_0.csv	unit_119	Traffic Gate (Open)			UNIT TYPES	gate_open|traffic_gate	technical
@@ -4146,65 +4146,65 @@ Scenarios/Chemical_Reaction/text_english.csv	speech_trigger_118	Use Dropships to
 Scenarios/Chemical_Reaction/text_english.csv	speech_trigger_143	Reach the main gate			місія «Chemical Reaction» (Chemical_Reaction); 5.ANNOUNCER	gate	command
 Scenarios/Chemical_Reaction/text_english.csv	speech_trigger_251	Chemical Troopers are immune to poison gas			місія «Chemical Reaction» (Chemical_Reaction); 5.ANNOUNCER	chemical_troopers	-
 Scenarios/Chemical_Reaction/text_english.csv	speech_trigger_562	Use Dropships to reinforce			місія «Chemical Reaction» (Chemical_Reaction); 5.ANNOUNCER	dropship|reinforce	command
-Scenarios/Kwalasha_Airfield/text_english.csv	scenario_name	[17] Fly or Die			місія «[17] Fly or Die» (Kwalasha_Airfield); NAME	fly_or_die	joke
-Scenarios/Kwalasha_Airfield/text_english.csv	scenario_descr	Clearly identifying the potential threat of our overwhelming air power, the Arachnids have attacked and overrun the Fleet air base on Kwalasha.\n\nTo assure the enemy does not regain any momentum, M.I. troopers are eager to reclaim the facility and get their Fleet comrades back in the air.			місія «[17] Fly or Die» (Kwalasha_Airfield); DESCRIPTION	arachnid|fleet|kwalasha|m_i	briefing|propaganda
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_0_title	Capture the Flight Control Tower			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	control_tower	command
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_6_title	Secure all Satellite Stations			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	satellite_station	command
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_7_title	Clear all Arachnids around the Flight Control Tower			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	arachnid|cleared|control_tower	command
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_9_title	Kill 250 Arachnids			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	arachnid	command
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_10_title	Survive the final wave			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	-	command|urgent
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_11_title	Satellite Station rewards:			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	satellite_station	-
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_1_title	• Hangars Section: Unlock the Fleet Liaison			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	fleet_liaison|fleet|liaison|hangar|hangars_section	-
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_1_details	Provides Fleet Relays for air strikes			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	fleet|fleet_relay	-
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_4_title	• Warehouse Section: Unlock M9 Sledgehammers			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	warehouse_section|m9_sledgehammer	command
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_4_details	Provides Support Center			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	support_center	-
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_5_title	• Power Plant Section: Unlock M6 Jaegers			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	power_plant|power_plant_section|m6_jaeger	command
-Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_5_details	Provides Power Plant and activates all Searchlights			місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	power_plant	-
-Scenarios/Kwalasha_Airfield/text_english.csv	unit_431	Satellite Station			місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	satellite_station	-
-Scenarios/Kwalasha_Airfield/text_english.csv	unit_738	Power Spawn 1			місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	-	technical
-Scenarios/Kwalasha_Airfield/text_english.csv	unit_739	Power Spawn 2			місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	-	technical
-Scenarios/Kwalasha_Airfield/text_english.csv	unit_778	Weapon Storage Station			місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	weapon_storage_station	-
-Scenarios/Kwalasha_Airfield/text_english.csv	unit_835	TAC Killers Spawn			місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	tac	technical
-Scenarios/Kwalasha_Airfield/text_english.csv	unit_882	Hangars Station			місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	hangars_station	-
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_3_text	How the hell did bugs get through the perimeter line? Those defences were iron tight!			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	bug	urgent|rude|briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_11_text	Perhaps, but this air base certainly wasn’t designed to repel an attack.			місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	-	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_29_text	Why establish an airbase here anyway?  These aircraft could be safe in orbit – now they’re just asking to be attacked.			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	aircraft	sarcasm|briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_339_text	I’m sure Command had their reasons.			місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	-	sarcasm|briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_468_text	Power troopers are dropping to secure an initial landing spot.			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	power_trooper	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_718_text	It's going to be a long night.			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	threat|briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_491_text	There are Bug Lairs around the tower. Take them all out.			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	bug_lair|bug	command
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_463_text	Hangars secured! Get those strikes rolling!			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	command|excited
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_452_text	Main power plant back online!			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	power_plant	excited|technical
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_465_text	That area has been declared secure.			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_430_text	The tower area has been secured. Main force ready to drop.			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_436_text	Next we'll have to clear the rest of the airfield, including the Power Plant, ...			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	power_plant|cleared	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_496_text	... the Hangars...			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	hangar	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_497_text	... and the Warehouse area.			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	warehouse	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_498_text	Once that's done, we hold onto it no matter what the Bugs throw at us.			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	bug	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_604_text	It looks like they have finally had enough!			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	excited
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_352_text	Excellent work, but there’s no time to rest. Get to the shuttles, I have another task for you.			місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	-	command|briefing|urgent
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_353_text	You have another task, Colonel?			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_354_text	On the Sky Marshal’s orders, of course.			місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	sky_marshal	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_630_text	They’re coming from every direction. Stay on your toes.			місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	-	urgent|command|briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_631_text	Maintain a 360-degree watch! You see an enemy, move to intercept!			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	command|briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_907_text	Another attack is on its way!			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	urgent|briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_908_text	Bugs detected, heading your way!			місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	bug	urgent|briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_358_text	Congratulations on a most convincing performance. The trap has been sprung!			місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	-	briefing|excited
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_359_text	I’m not sure I understand...?			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	-
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_360_text	This airfield was just bait. Command created a target the Bugs could not resist to lure them out of their holes. Let them through the front line to be exposed out in the open.			місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	bug	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_361_text	But what about the aircraft? If they were destroyed...			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	aircraft	urgent
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_362_text	They were never going to fly in the first place.  We built empty shells, fakes.  The real ones are airborne right now.  For once, it’s the Bugs who have underestimated us.			місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	bug	briefing|propaganda
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_364_text	Next time you pull a stunt like this, I would appreciate being kept in the loop. Anyway, at least the plan worked. If the Federation wanted a target rich environment, they’ve got it.			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	environment|federation	sarcasm|briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_877_text	Well that did not go to plan.			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	sarcasm
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_441_text	As predicted, the bugs are expending maximum effort to retake the airfield.			місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	bug	briefing
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_374_text	Damn it, protect those birds!			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	command|urgent|rude
-Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_375_text	Defend those aircraft!			місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	aircraft	command|urgent
-Scenarios/Kwalasha_Airfield/text_english.csv	timer_trigger_481_descr	ATTACK INCOMING			місія «[17] Fly or Die» (Kwalasha_Airfield); TRIGGER TEXTS	-	urgent
-Scenarios/Kwalasha_Airfield/text_english.csv	timer_trigger_606_descr	ATTACK INCOMING			місія «[17] Fly or Die» (Kwalasha_Airfield); TRIGGER TEXTS	-	urgent
-Scenarios/Kwalasha_Airfield/text_english.csv	timer_trigger_607_descr	ATTACK INCOMING			місія «[17] Fly or Die» (Kwalasha_Airfield); TRIGGER TEXTS	-	urgent
-Scenarios/Kwalasha_Airfield/text_english.csv	speech_trigger_696	Warehouse Section			місія «[17] Fly or Die» (Kwalasha_Airfield); 5.ANNOUNCER	warehouse_section|warehouse	-
-Scenarios/Kwalasha_Airfield/text_english.csv	speech_trigger_697	Power Plant			місія «[17] Fly or Die» (Kwalasha_Airfield); 5.ANNOUNCER	power_plant	-
-Scenarios/Kwalasha_Airfield/text_english.csv	speech_trigger_698	Hangars Section			місія «[17] Fly or Die» (Kwalasha_Airfield); 5.ANNOUNCER	hangar|hangars_section	-
+Scenarios/Kwalasha_Airfield/text_english.csv	scenario_name	[17] Fly or Die	[17] Лети або помри	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); NAME	fly_or_die	joke
+Scenarios/Kwalasha_Airfield/text_english.csv	scenario_descr	Clearly identifying the potential threat of our overwhelming air power, the Arachnids have attacked and overrun the Fleet air base on Kwalasha.\n\nTo assure the enemy does not regain any momentum, M.I. troopers are eager to reclaim the facility and get their Fleet comrades back in the air.	Правильно оцінивши загрозу нашої нищівної авіації, арахніди атакували й захопили базу Флоту на Квалаші.\n\nЩоб ворог не перехопив ініціативу, бійці МП рвуться відбити об'єкт і повернути побратимів із Флоту в небо.	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); DESCRIPTION	arachnid|fleet|kwalasha|m_i	briefing|propaganda
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_0_title	Capture the Flight Control Tower	Захопіть диспетчерську вежу	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	control_tower	command
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_6_title	Secure all Satellite Stations	Захопіть усі супутникові станції	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	satellite_station	command
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_7_title	Clear all Arachnids around the Flight Control Tower	Зачистьте арахнідів біля диспетчерської вежі	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	arachnid|cleared|control_tower	command
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_9_title	Kill 250 Arachnids	Знищте 250 арахнідів	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	arachnid	command
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_10_title	Survive the final wave	Переживіть останню хвилю	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	-	command|urgent
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_11_title	Satellite Station rewards:	Нагороди за супутникові станції:	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	satellite_station	-
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_1_title	• Hangars Section: Unlock the Fleet Liaison	• Сектор ангарів: відкриває офіцера зв'язку з Флотом	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	fleet_liaison|fleet|liaison|hangar|hangars_section	-
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_1_details	Provides Fleet Relays for air strikes	Надає ретранслятори Флоту для авіаударів	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	fleet|fleet_relay	-
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_4_title	• Warehouse Section: Unlock M9 Sledgehammers	• Складський сектор: відкриває M9 Sledgehammer	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	warehouse_section|m9_sledgehammer	command
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_4_details	Provides Support Center	Надає центр підтримки	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	support_center	-
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_5_title	• Power Plant Section: Unlock M6 Jaegers	• Сектор електростанції: відкриває M6 Jaeger	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	power_plant|power_plant_section|m6_jaeger	command
+Scenarios/Kwalasha_Airfield/text_english.csv	objective_2_5_details	Provides Power Plant and activates all Searchlights	Надає електростанцію й вмикає всі прожектори	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); OBJECTIVES	power_plant	-
+Scenarios/Kwalasha_Airfield/text_english.csv	unit_431	Satellite Station	Супутникова станція	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	satellite_station	-
+Scenarios/Kwalasha_Airfield/text_english.csv	unit_738	Power Spawn 1	Точка появи енергії 1	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	-	technical
+Scenarios/Kwalasha_Airfield/text_english.csv	unit_739	Power Spawn 2	Точка появи енергії 2	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	-	technical
+Scenarios/Kwalasha_Airfield/text_english.csv	unit_778	Weapon Storage Station	Станція зберігання зброї	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	weapon_storage_station	-
+Scenarios/Kwalasha_Airfield/text_english.csv	unit_835	TAC Killers Spawn	Точка появи винищувачів TAC	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	tac	technical
+Scenarios/Kwalasha_Airfield/text_english.csv	unit_882	Hangars Station	Станція ангарів	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); UNIT NAMES; Don't translate names starting with #	hangars_station	-
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_3_text	How the hell did bugs get through the perimeter line? Those defences were iron tight!	Як, у біса, жуки прорвали Периметр? Оборона була неприступною!	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	bug	urgent|rude|briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_11_text	Perhaps, but this air base certainly wasn’t designed to repel an attack.	Можливо, але ця авіабаза точно не була розрахована на відбиття атаки.	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	-	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_29_text	Why establish an airbase here anyway?  These aircraft could be safe in orbit – now they’re just asking to be attacked.	Навіщо взагалі будувати тут авіабазу? Ці літальні апарати були б у безпеці на орбіті, а тут самі напрошуються на атаку.	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	aircraft	sarcasm|briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_339_text	I’m sure Command had their reasons.	Певен, командування мало свої причини.	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	-	sarcasm|briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_468_text	Power troopers are dropping to secure an initial landing spot.	Бійці в силовій броні висаджуються, щоб захопити початковий плацдарм.	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	power_trooper	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_718_text	It's going to be a long night.	Ніч буде довгою.	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	threat|briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_491_text	There are Bug Lairs around the tower. Take them all out.	Навколо вежі є лігва жуків. Знищте їх усі.	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	bug_lair|bug	command
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_463_text	Hangars secured! Get those strikes rolling!	Ангари захоплено! Починайте авіаудари!	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	command|excited
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_452_text	Main power plant back online!	Головна електростанція знову працює!	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	power_plant	excited|technical
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_465_text	That area has been declared secure.	Цю ділянку оголошено безпечною.	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_430_text	The tower area has been secured. Main force ready to drop.	Район вежі захоплено. Основні сили готові до висадки.	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_436_text	Next we'll have to clear the rest of the airfield, including the Power Plant, ...	Далі треба зачистити решту аеродрому, зокрема електростанцію, ...	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	power_plant|cleared	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_496_text	... the Hangars...	... ангари...	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	hangar	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_497_text	... and the Warehouse area.	... і складську ділянку.	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	warehouse	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_498_text	Once that's done, we hold onto it no matter what the Bugs throw at us.	Після цього утримуємо його, хоч би що кинули проти нас жуки.	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	bug	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_604_text	It looks like they have finally had enough!	Схоже, з них нарешті досить!	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	excited
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_352_text	Excellent work, but there’s no time to rest. Get to the shuttles, I have another task for you.	Чудова робота, але відпочивати ніколи. До шатлів — у мене для вас нове завдання.	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	-	command|briefing|urgent
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_353_text	You have another task, Colonel?	Ще одне завдання, полковнику?	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_354_text	On the Sky Marshal’s orders, of course.	За наказом небесного маршала, звісно.	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	sky_marshal	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_630_text	They’re coming from every direction. Stay on your toes.	Вони наступають з усіх боків. Будьте напоготові.	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	-	urgent|command|briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_631_text	Maintain a 360-degree watch! You see an enemy, move to intercept!	Кругове спостереження! Побачите ворога — перехопіть!	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	command|briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_907_text	Another attack is on its way!	Наближається нова атака!	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	urgent|briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_908_text	Bugs detected, heading your way!	Виявлено жуків, прямують до вас!	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	bug	urgent|briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_358_text	Congratulations on a most convincing performance. The trap has been sprung!	Вітаю з надзвичайно переконливою виставою. Пастка спрацювала!	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	-	briefing|excited
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_359_text	I’m not sure I understand...?	Не певен, що розумію...	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	-
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_360_text	This airfield was just bait. Command created a target the Bugs could not resist to lure them out of their holes. Let them through the front line to be exposed out in the open.	Цей аеродром був лише наживкою. Командування створило ціль, перед якою жуки не могли встояти, щоб виманити їх із нір. Їм дали пройти крізь передову й вийти на відкриту місцевість.	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	bug	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_361_text	But what about the aircraft? If they were destroyed...	Але як же літальні апарати? Якби їх знищили...	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	aircraft	urgent
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_362_text	They were never going to fly in the first place.  We built empty shells, fakes.  The real ones are airborne right now.  For once, it’s the Bugs who have underestimated us.	Вони й не мали злетіти. Ми збудували порожні муляжі. Справжні апарати вже в повітрі. Цього разу жуки недооцінили нас.	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	bug	briefing|propaganda
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_364_text	Next time you pull a stunt like this, I would appreciate being kept in the loop. Anyway, at least the plan worked. If the Federation wanted a target rich environment, they’ve got it.	Наступного разу, коли утнете таке, прошу тримати мене в курсі. Хай там як, план спрацював. Федерація хотіла вдосталь цілей — вона їх отримала.	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	environment|federation	sarcasm|briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_877_text	Well that did not go to plan.	Що ж, усе пішло не за планом.	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	sarcasm
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_441_text	As predicted, the bugs are expending maximum effort to retake the airfield.	Як і передбачалося, жуки кидають усі сили, щоб відбити аеродром.	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 3.victor yarrow	bug	briefing
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_374_text	Damn it, protect those birds!	Дідько, захистіть ці пташки!	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	-	command|urgent|rude
+Scenarios/Kwalasha_Airfield/text_english.csv	briefing_trigger_375_text	Defend those aircraft!	Захищайте літальні апарати!	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 2.ava cortez	aircraft	command|urgent
+Scenarios/Kwalasha_Airfield/text_english.csv	timer_trigger_481_descr	ATTACK INCOMING	НАБЛИЖАЄТЬСЯ АТАКА	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); TRIGGER TEXTS	-	urgent
+Scenarios/Kwalasha_Airfield/text_english.csv	timer_trigger_606_descr	ATTACK INCOMING	НАБЛИЖАЄТЬСЯ АТАКА	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); TRIGGER TEXTS	-	urgent
+Scenarios/Kwalasha_Airfield/text_english.csv	timer_trigger_607_descr	ATTACK INCOMING	НАБЛИЖАЄТЬСЯ АТАКА	fuzzy	місія «[17] Fly or Die» (Kwalasha_Airfield); TRIGGER TEXTS	-	urgent
+Scenarios/Kwalasha_Airfield/text_english.csv	speech_trigger_696	Warehouse Section	Складський сектор	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 5.ANNOUNCER	warehouse_section|warehouse	-
+Scenarios/Kwalasha_Airfield/text_english.csv	speech_trigger_697	Power Plant	Електростанція	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 5.ANNOUNCER	power_plant	-
+Scenarios/Kwalasha_Airfield/text_english.csv	speech_trigger_698	Hangars Section	Сектор ангарів	unresolved	місія «[17] Fly or Die» (Kwalasha_Airfield); 5.ANNOUNCER	hangar|hangars_section	-
 Scenarios/Kwalasha_Burning_Skies/text_english.csv	scenario_name	[9] Burning Skies			місія «[9] Burning Skies» (Kwalasha_Burning_Skies); NAME	burning|burning_skies	-
 Scenarios/Kwalasha_Burning_Skies/text_english.csv	scenario_descr	Following the fall of Fort Meru during the new Arachnid offensive, Terran Command has vowed to take back the initiative and recover all lost territory.\n\nA massive fleet of dropships has gathered and is now en route to carry our troopers back into the battlefield.			місія «[9] Burning Skies» (Kwalasha_Burning_Skies); DESCRIPTION	arachnid|dropship|fleet|fort_meru|terran_command|territory_mode	briefing|solemn
 Scenarios/Kwalasha_Burning_Skies/text_english.csv	objective_2_13_title	Defend and secure the crash sites			місія «[9] Burning Skies» (Kwalasha_Burning_Skies); OBJECTIVES	-	command
