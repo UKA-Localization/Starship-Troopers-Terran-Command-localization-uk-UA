@@ -1,19 +1,18 @@
-"""Збирає локалізацію в build/StreamingAssets/ і (за потреби) ставить у гру.
+"""Збирає локалізацію в build/StreamingAssets/ (і, за потреби, архів для Releases). У гру нічого не копіює.
 
     python tools/build.py                    # build/StreamingAssets/{Language,Scenarios}
     python tools/build.py --drafts           # включити чернетки (status непорожній)
-    python tools/build.py --install          # скопіювати в <гра>/Starship Troopers_Data/StreamingAssets/
-    python tools/build.py --uninstall        # видалити ukrainian*, повернути languages.txt
     python tools/build.py --zip              # build/STTC-uk-UA-<версія>.zip для Releases
 
 Для кожного файлу source/ створюється файл цільової мови з тією ж структурою (коментарі, роздільники, порядок),
 у якому перекладені рядки підставлено, а неперекладені лишено англійською. languages.txt — оригінал + рядок
-«8 = ukrainian». При --install оригінальний languages.txt зберігається поруч як languages.txt.orig.
+«8 = ukrainian». Встановлення в гру — вручну (README, «Встановлення») або інсталятором.
 """
 from __future__ import annotations
 
 import argparse
 import shutil
+import subprocess
 import sys
 import zipfile
 from pathlib import Path
@@ -21,7 +20,6 @@ from pathlib import Path
 import sttc
 
 OUT_DIR = sttc.BUILD_DIR / "StreamingAssets"
-BACKUP_SUFFIX = ".orig"
 
 
 def load_translations(drafts: bool) -> dict[str, dict[str, str]]:
@@ -72,54 +70,11 @@ def build(drafts: bool) -> dict[str, int]:
     return stats
 
 
-def game_root(game: Path) -> Path:
-    base = game / sttc.STREAMING_ASSETS
-    if not (base / sttc.LANGUAGES_TXT).exists():
-        sys.exit(f"не знайдено {base / sttc.LANGUAGES_TXT}; вкажіть теку гри через --game")
-    return base
-
-
-def install(game: Path) -> int:
-    base = game_root(game)
-    lang = base / sttc.LANGUAGES_TXT
-    backup = lang.with_name(lang.name + BACKUP_SUFFIX)
-    if not backup.exists():
-        shutil.copyfile(lang, backup)
-    n = 0
-    for p in OUT_DIR.rglob("*"):
-        if p.is_file():
-            dst = base / p.relative_to(OUT_DIR)
-            dst.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(p, dst)
-            n += 1
-    return n
-
-
-def uninstall(game: Path) -> int:
-    base = game_root(game)
-    n = 0
-    for p in list(base.glob(f"Language/{sttc.TARGET_LANG}*.csv")) + list(base.glob(f"Scenarios/*/text_{sttc.TARGET_LANG}.csv")):
-        p.unlink()
-        n += 1
-    lang = base / sttc.LANGUAGES_TXT
-    backup = lang.with_name(lang.name + BACKUP_SUFFIX)
-    if backup.exists():
-        shutil.move(backup, lang)
-    else:
-        # резервної копії нема — прибрати наш рядок зі списку мов
-        text = lang.read_text(encoding="utf-8")
-        lines = [ln for ln in text.splitlines() if ln.split("=")[-1].strip() != sttc.TARGET_LANG]
-        lang.write_text("\r\n".join(lines) + "\r\n", encoding="utf-8", newline="")
-    return n
-
-
 def make_zip() -> Path:
-    version = "dev"
     try:
-        import subprocess
         version = subprocess.check_output(["git", "describe", "--tags", "--always"], cwd=sttc.ROOT, text=True).strip()
-    except Exception:
-        pass
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        version = "dev"
     path = sttc.BUILD_DIR / f"STTC-uk-UA-{version}.zip"
     with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
         for p in sorted(OUT_DIR.rglob("*")):
@@ -131,23 +86,12 @@ def make_zip() -> Path:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--drafts", action="store_true", help="включити чернетки")
-    ap.add_argument("--install", action="store_true", help="поставити в гру")
-    ap.add_argument("--uninstall", action="store_true", help="прибрати з гри")
     ap.add_argument("--zip", action="store_true", help="зібрати архів для Releases")
-    ap.add_argument("--game", default=str(sttc.GAME_DIR_DEFAULT), help="тека гри")
     args = ap.parse_args()
-
-    if args.uninstall:
-        n = uninstall(Path(args.game))
-        print(f"прибрано з гри: {n} файлів, languages.txt повернуто")
-        return 0
 
     s = build(args.drafts)
     print(f"build/StreamingAssets: {s['files']} файлів, перекладено {s['translated']} з {s['entries']} рядків"
           + (" (з чернетками)" if args.drafts else ""))
-    if args.install:
-        n = install(Path(args.game))
-        print(f"встановлено в гру: {n} файлів (Options → Language → Українська, потім перезапуск)")
     if args.zip:
         print(f"архів: {make_zip()}")
     return 0

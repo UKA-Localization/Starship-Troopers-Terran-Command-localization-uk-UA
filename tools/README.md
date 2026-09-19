@@ -6,17 +6,16 @@ Python 3.11+, без сторонніх пакетів. Лише адаптер�
 |---|---|
 | `sttc.py` | спільний код: шляхи гри, список файлів (`Language/english*.csv`, `Scenarios/*/text_english.csv`, `languages.txt`), парсер/серіалізатор CSV гри (коментарі `//`, багаторядкові значення в лапках, CRLF/LF, BOM, дублікати ключів), читання/запис `strings.tsv` |
 | `extract.py` | оновлює `translation/strings.tsv` (з колонкою `context`) із `source/`, зберігаючи наявні переклади; `--from-game` спершу копіює свіжі файли з гри в `source/`; `--refresh-context` перегенерує контексти |
-| `build.py` | збирає локалізацію в `build/StreamingAssets/`: `Language/ukrainian*.csv` за тією ж розбивкою, що `english*.csv`, `Scenarios/*/text_ukrainian.csv`, `Language/languages.txt` з доданим `8 = ukrainian`, ключі `language_ukrainian` для назви мови в меню; `--drafts` включає чернетки; `--install` / `--uninstall` — покласти в гру (оригінальний `languages.txt` → `languages.txt.orig`) або прибрати (видалити `ukrainian*`, повернути `languages.txt`); `--zip` — архів `build/STTC-uk-UA-<git describe>.zip` для Releases; `assets/**` копіюється в збірку за тим самим шляхом |
+| `build.py` | збирає локалізацію в `build/StreamingAssets/`: `Language/ukrainian*.csv` за тією ж розбивкою, що `english*.csv`, `Scenarios/*/text_ukrainian.csv`, `Language/languages.txt` з доданим `8 = ukrainian`, ключі `language_ukrainian` для назви мови в меню; `--drafts` включає чернетки; `--zip` — архів `build/STTC-uk-UA-<git describe>.zip` для Releases; `assets/**` копіюється в збірку за тим самим шляхом. У гру нічого не копіює — встановлення вручну (README) або інсталятором |
 
 ```bash
 python tools/extract.py --from-game     # після оновлення гри: оновити source/ і strings.tsv
-python tools/build.py --install         # зібрати локалізацію і поставити в гру (Options -> Language -> Українська)
-python tools/build.py --drafts --install   # те саме, з чернетками
-python tools/build.py --uninstall       # прибрати з гри
+python tools/build.py                   # зібрати локалізацію в build/StreamingAssets/ (лише готові переклади)
+python tools/build.py --drafts          # те саме, з чернетками
 python tools/build.py --zip             # архів для Releases
 ```
 
-Тека гри типово `C:\Program Files (x86)\Steam\steamapps\common\Starship Troopers - Terran Command`; інша — через `--game`. Усі шляхи файлів у `source/` і в колонці `file` — відносно `Starship Troopers_Data\StreamingAssets\`.
+Тека гри типово `C:\Program Files (x86)\Steam\steamapps\common\Starship Troopers - Terran Command`; інша для `extract.py` — через `--game`. Усі шляхи файлів у `source/` і в колонці `file` — відносно `Starship Troopers_Data\StreamingAssets\`.
 
 ## Формат файлів гри
 

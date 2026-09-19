@@ -28,7 +28,9 @@
 
 Після оновлення гри Steam може повернути оригінальний `languages.txt` — тоді достатньо знову розпакувати архів (файли `ukrainian*.csv` оновлення не чіпають).
 
-З репозиторію: `python tools/build.py --install` збирає локалізацію і кладе її в гру (оригінальний `languages.txt` зберігається поруч як `languages.txt.orig`), `--uninstall` прибирає (видаляє `ukrainian*` і повертає `languages.txt`); `--drafts` включає й невичитані чернетки (`status` непорожній), інакше беруться лише готові переклади.
+Видалення: прибрати `Language\ukrainian*.csv` і `Scenarios\*\text_ukrainian.csv`, повернути оригінальний `languages.txt` (Steam → Properties → Installed Files → Verify integrity).
+
+З репозиторію: `python tools/build.py` збирає ті самі файли в `build/StreamingAssets/` (`--drafts` включає й невичитані чернетки, інакше беруться лише готові переклади; `--zip` — архів для Releases); у гру збірка не копіюється — встановлення вручну, як вище.
 
 ## Гілки
 
