@@ -739,8 +739,7 @@ xm11_k_annihilator	XM11-K Annihilator	XM11-K	XM11-K «Анігілятор»			�
 power_battery	Power Battery		енергетичний акумулятор			Місійний енергетичний пристрій, який потрібно зарядити в місії Chemical 9.	Технології	fuzzy	
 mining_tunnel	Mining Tunnel		шахтарський тунель			Шахтарський тунель, що є цільовою локацією місії Kwalasha 1.	Локації	fuzzy	
 hq	HQ		штаб			Штаб (headquarters): командування, що видає ресурси й накази гравцеві; не плутати з Hive Queen.	Фракції	fuzzy	
-very_important_person	Very Important Person		дуже важлива особа				Механіки	fuzzy	
-vip	VIP		ДВО			Позначення важливої особи, яку належить знайти та врятувати в місії Kwalasha 2.	Механіки	fuzzy	very_important_person
+vip	VIP		VIP			Важлива персона (збитий генерал у місії Kwalasha 2); усталене VIP латиницею, повної назви в текстах гри немає.	Механіки		
 hydro_plant	Hydro Plant	hydro-plant	гідроелектростанція			Гідроелектростанція, яку захищають і зачищають у місії Kwalasha 3.	Локації	fuzzy	
 grenade	Grenade	Grenades	граната			Тип вибухової зброї, який відкривається через панель технологій у місії Kwalasha 3.	Зброя і техніка	fuzzy	
 control_station	Control Station		станція керування			Контрольна станція, яку потрібно захопити в місії Kwalasha 3.	Локації	fuzzy	
