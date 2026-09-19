@@ -20,7 +20,7 @@ fix/typos        ●───●───●
 2. Виберіть файл/місію в issues (або створіть issue, щоб ніхто не робив те саме паралельно).
 3. Від `main` створіть гілку `translate/<назва-файлу-або-місії>` або `fix/<коротко-що>`.
 4. Перекладайте у [translation/strings.tsv](translation/strings.tsv): заповнюйте колонку `translation`, колонки `file`, `key`, `original` не чіпайте. `source/` не редагується.
-5. Перевірте в грі: `python tools/build.py --install` (з `--drafts`, щоб побачити й чернетки), у грі Options → Language → Українська → перезапуск.
+5. Перевірте в грі: `python tools/build.py --drafts` (з чернетками), скопіюйте вміст `build/StreamingAssets/` у `<тека гри>\Starship Troopers_Data\StreamingAssets\` (див. README, «Встановлення»), у грі Options → Language → Українська → перезапуск.
 6. Відкрийте PR **у `main`**. В описі вкажіть, що перекладено і чи є спірні місця.
 
 ## Правила для PR

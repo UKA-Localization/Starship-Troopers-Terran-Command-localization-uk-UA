@@ -10,5 +10,5 @@
 - `translation/strings.tsv` — 7 165 рядків для перекладу (4 061 інтерфейс, 3 104 місії; 96 службових назв редактора з `#` не перекладаються) з колонкою `context` (розділ файлу, коментарі `//,INFO:`, назва місії).
 - `tools/sttc.py` — парсер/серіалізатор CSV гри з побайтовим відтворенням (перевірено на всіх 108 файлах), дублікати ключів у файлі отримують суфікс `#2`.
 - `tools/extract.py` — витягування рядків із гри (`--from-game`) у `strings.tsv` зі збереженням наявних перекладів; змінений оригінал → чернетка.
-- `tools/build.py` — збірка `build/StreamingAssets/` (`ukrainian*.csv`, `text_ukrainian.csv`, `languages.txt` з `8 = ukrainian`, ключі `language_ukrainian` для меню), `--drafts`, `--install`/`--uninstall` з резервною копією `languages.txt.orig`, `--zip`.
+- `tools/build.py` — збірка `build/StreamingAssets/` (`ukrainian*.csv`, `text_ukrainian.csv`, `languages.txt` з `8 = ukrainian`, ключі `language_ukrainian` для меню), `--drafts`, `--zip`; у гру не копіює — встановлення вручну або інсталятором.
 - `publish/` — шаблон нотаток до релізу, картка КУЛІ, посібник Steam (uk/en).
