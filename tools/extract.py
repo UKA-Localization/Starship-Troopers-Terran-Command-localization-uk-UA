@@ -38,8 +38,16 @@ def copy_from_game(game: Path) -> int:
     return len(files)
 
 
+FRAME = re.compile(r"^#+\s*(.*?)\s*#+,?$")   # «// #### Розділ ####»
+
+
 def _comment_text(raw: str) -> str:
-    return raw[2:].strip().strip("#*/, ").strip()
+    text = raw[2:].strip().rstrip(",").strip()
+    m = FRAME.match(text)
+    if m:
+        return m.group(1).strip()
+    # «#» усередині лишаємо: «Don't translate names starting with #» — це зміст примітки
+    return text.strip("*/, ").strip()
 
 
 def extract_rows(rel: Path) -> list[dict[str, str]]:
@@ -64,6 +72,8 @@ def extract_rows(rel: Path) -> list[dict[str, str]]:
             continue
         if r.key in sttc.SKIP_KEYS or not r.value.strip():
             continue
+        if r.value.startswith("#"):
+            continue   # службові назви редактора/камер («#cam start»): «Don't translate names starting with #»
         parts = []
         if is_scenario:
             parts.append(f"місія «{scenario_name}» ({scenario})" if scenario_name else f"місія {scenario}")
