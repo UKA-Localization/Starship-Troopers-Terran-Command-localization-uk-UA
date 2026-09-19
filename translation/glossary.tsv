@@ -2,7 +2,7 @@ id	term	variants	translation	stem	forms	note	category	status	short_of
 environment	Environment					Нейтральна фракція об’єктів довкілля в переліку фракцій гри.	Фракції	new	
 renegades	Renegades					Ворожа людська фракція ренегатів у переліку фракцій гри.	Фракції	new	
 federation	Federation	Federation's|Federation’s|Fed				Людська фракція Федерації в переліку фракцій гри.	Фракції	new	
-arachnid	Arachnid	Arachnids|Arachnid's|Arachnids'				Фракція арахнідів у переліку фракцій гри.	Фракції	new	
+arachnid	Arachnid	Arachnids|Arachnid's|Arachnids'|Arachnids’				Фракція арахнідів у переліку фракцій гри.	Фракції	new	
 rifle_trooper	Rifle Trooper	Rifle Troopers				Базовий стрілецький загін Мобільної піхоти, зазначений у розділі типів юнітів.	Юніти Федерації	new	
 morita_assault_rifle	Morita Assault Rifle	Morita assault rifles				Штатна штурмова гвинтівка стрілецьких загонів Мобільної піхоти.	Зброя і техніка	new	
 mobile_infantry	Mobile Infantry					Військове формування Федерації, до якого належать стрілецькі загони.	Фракції	new	
@@ -30,7 +30,7 @@ los	LOS					Скорочення назви механіки видимості,
 federal_archives	Federal Archives					Власна назва внутрішньоігрового архіву Федерації, доступного з редакторського меню.	Загальне	new	
 supply_point	Supply Point	Supply Points				Ігровий ресурс, що визначає обсяг постачання, використаний розміщеними підрозділами.	Механіки	new	
 supply_cap	Supply Cap					Граничне значення ресурсу постачання, доступного для розміщення підрозділів.	Механіки	new	
-dropship	Dropship	dropships				Транспортний літальний апарат для доставки підкріплень у розділі редактора.	Зброя і техніка	new	
+dropship	Dropship	dropships|Dropship's				Транспортний літальний апарат для доставки підкріплень у розділі редактора.	Зброя і техніка	new	
 air_blockade	Air Blockade					Air Blockade — стан обмеження повітряних операцій, про запровадження якого повідомляє редактор.	Механіки	new	
 plasma	Plasma	Plasmas				Plasma — виявлений запуск плазмового боєприпасу, про який гравця попереджає редактор.	Зброя і техніка	new	
 elite_status	Elite Status					Elite Status — рівень розвитку юніта, про досягнення якого повідомляє редактор.	Механіки	new	
@@ -71,7 +71,7 @@ mutation	Mutation					Механіка мутацій, яку вимикає ц�
 victory_point	Victory Point						Механіки	new	
 vp	VP					Скорочена назва переможної точки, захоплення якої активує подію тригера.	Механіки	new	victory_point
 game_tick	Game Tick					Тригер сценарної системи, що спрацьовує під час чергового циклу оновлення гри.	Механіки	new	
-bug_hive	Bug Hive					Споруда Арахнідів у розділі типів юнітів.	Арахніди	new	
+bug_hive	Bug Hive	Bug Hives				Споруда Арахнідів у розділі типів юнітів.	Арахніди	new	
 scientist	Scientist	Scientists				Тип цивільного наукового персоналу Федерації у розділі типів юнітів.	Юніти Федерації	new	
 psi_ops	Psi Ops					Спеціалізований псіонічний підрозділ Федерації у розділі типів юнітів.	Юніти Федерації	new	
 elite_guard	Elite Guard					Елітний бойовий підрозділ Федерації у розділі типів юнітів.	Юніти Федерації	new	
@@ -96,7 +96,7 @@ spitter	Spitter	Spitters|Spitter Bugs|Spitter Bug				Тип арахніда, н
 dr_4_viking	DR-4 Viking					Бойова машина Федерації, зазначена як окремий тип юніта в розділі UNIT TYPES.	Юніти Федерації	new	
 combat_engineer	Combat Engineer	Combat Engineers				Інженерний піхотний юніт Федерації, представлений у розділі UNIT TYPES.	Юніти Федерації	new	
 bombardier	Bombardier	Bombardiers|Bombardier Bugs				Артилерійський тип Arachnid у розділі типів юнітів.	Арахніди	new	
-brain_bug	Brain Bug	Brain|Brain bug’s|Brain's|Brain Bugs				Спеціалізований тип Arachnid у розділі типів юнітів.	Арахніди	new	
+brain_bug	Brain Bug	Brain|Brain bug’s|Brain's|Brain Bugs|Brain Bug's				Спеціалізований тип Arachnid у розділі типів юнітів.	Арахніди	new	
 m11_marauder_flamethrower	M11 Marauder (Flamethrower)					Варіант бойової машини Federation із вогнеметним озброєнням у розділі типів юнітів.	Юніти Федерації	new	
 m11_marauder_howitzer	M11 Marauder (Howitzer)					Варіант бойової машини Federation із гаубичним озброєнням у розділі типів юнітів.	Юніти Федерації	new	
 m11_marauder_gatling_gun	M11 Marauder (Gatling Gun)					Варіант бойової машини Federation із роторною гарматою у розділі типів юнітів.	Юніти Федерації	new	
@@ -411,7 +411,7 @@ fire_mine	Fire Mine					Запалювальна міна, представле�
 stinger	Stinger	Stingers				Дрібний дистанційний юніт Арахнідів, який випускає розігріті снаряди та часто перебуває біля високих гнізд у Lava DLC.	Арахніди	new	
 shredder_fire_pool	Shredder Fire Pool					Вогняна небезпечна зона або ефект, пов’язаний із Shredder у Lava DLC.	Механіки	new	
 waste_incinerator	Waste Incinerator					Промисловий об’єкт для спалювання відходів, представлений у Lava DLC.	Зброя і техніка	new	
-bug_vent	Bug Vent					Отвір або споруда Арахнідів, через яку з’являються їхні юніти в Lava DLC.	Арахніди	new	
+bug_vent	Bug Vent	Bug Vents				Отвір або споруда Арахнідів, через яку з’являються їхні юніти в Lava DLC.	Арахніди	new	
 empty_lair	Empty Lair					Порожнє лігво арахнідів як окремий об’єкт у Lava DLC.	Арахніди	new	
 prospector	Prospector	Prospectors				Шахтарський юніт Федерації у Lava DLC.	Юніти Федерації	new	
 pheromone_carrier	Pheromone Carrier					Спеціалізований арахнідський юніт із матеріалів Lava DLC.	Арахніди	new	
@@ -430,7 +430,7 @@ collapsed	Collapsed					Стан вулика арахнідів у розшир
 unoccupied	Unoccupied					Стан вулика арахнідів у розширеному індикаторі стану вулика.	Механіки	new	
 dormant	Dormant					Стан вулика арахнідів у розширеному індикаторі стану вулика.	Механіки	new	
 active	Active					Стан вулика арахнідів у розширеному індикаторі стану вулика.	Механіки	new	
-cleared	Cleared	clear				Стан вулика арахнідів у розширеному індикаторі стану вулика.	Механіки	new	
+cleared	Cleared	clear|clearing|clearing out				Стан вулика арахнідів у розширеному індикаторі стану вулика.	Механіки	new	
 occupied	Occupied					Стан вулика арахнідів у розширеному індикаторі стану вулика.	Механіки	new	
 armor_piercing_clips	Armor Piercing Clips					Назва здібності, що споряджає боєць бронебійною обоймою в Lava DLC.	Здібності	new	
 ap	AP					Скорочення властивості бронебійних боєприпасів в описі здібності Armor Piercing Clips.	Механіки	new	armor_piercing
@@ -455,14 +455,14 @@ dirty_fumes	Dirty Fumes					Елітна здібність інженерног
 fire_trail	Fire Trail					Елітна здібність інженерного двоногого бойового юніта, що залишає вогняний слід у Lava DLC.	Здібності	new	
 incendiary_strike	Incendiary Strike					Здібність Lava DLC, що викликає авіаційний удар запалювальними бомбами.	Здібності	new	
 contact_fuze_grenade	Contact-Fuze Grenade					Ручна граната з контактним підривачем, яка вибухає під час удару об ціль.	Зброя і техніка	new	
-mercenary	Mercenary	Mercenaries				Підрозділ найманців, чия гранатна здібність використовується в умові досягнення.	Юніти Федерації	new	
+mercenary	Mercenary	Mercenaries|mercs				Підрозділ найманців, чия гранатна здібність використовується в умові досягнення.	Юніти Федерації	new	
 raising_hell	Raising Hell					Назва кампанії, проходження якої є умовою цього досягнення.	Загальне	new	
 chemical_experiments	Chemical Experiments					Назва окремої категорії ігрових випробувань.	Механіки	new	
 varuna	Varuna					Назва міста та кампанії з доповнення Metropolis DLC.	Локації	new	
 metropolis	Metropolis					Назва міського типу місцевості в доповненні Metropolis DLC.	Локації	new	
 metropolis_underground	Metropolis Underground					Назва підземного міського типу місцевості в доповненні Metropolis DLC.	Локації	new	
 urban_onslaught	Urban Onslaught					Офіційна назва доповнення, пов’язаного з кампанією Varuna.	Загальне	new	
-mahanagar	Mahanagar	Mahanagar's				Назва одного з найбільших міст Federation, де розгортається кампанія Varuna.	Локації	new	
+mahanagar	Mahanagar	Mahanagar's|Mahanagar’s				Назва одного з найбільших міст Federation, де розгортається кампанія Varuna.	Локації	new	
 materiel	Materiel					Назва ігрового ресурсу, що використовується для забезпечення підрозділів у Metropolis DLC.	Механіки	new	
 police_squad	Police Squad					Підрозділ поліції Федерації з Metropolis DLC, що використовує допоміжні дрони.	Юніти Федерації	new	
 detainer_drone	Detainer Drone	detainer drones				Допоміжні дрони Police Squad у Metropolis DLC, які відволікають ворожі атаки.	Юніти Федерації	new	
@@ -472,7 +472,7 @@ mortar_turret	Mortar Turret					Стаціонарна оборонна туре
 heavy_gun_turret	Heavy Gun Turret					Оборонна артилерійська турель Федерації з доповнення Metropolis DLC.	Юніти Федерації	new	
 ballistic_missile_turret	Ballistic Missile Turret	Ballistic Missile Turrets				Далекобійна ракетна турель Федерації з доповнення Metropolis DLC.	Юніти Федерації	new	
 sentinel_drone	Sentinel Drone					Окремий тип сторожового безпілотного юніта з доповнення Metropolis DLC.	Юніти Федерації	new	
-riot_shield_squad	Riot Shield Squad					Важкоброньований поліцейський загін зі щитами з доповнення Metropolis DLC.	Юніти Федерації	new	
+riot_shield_squad	Riot Shield Squad	Riot Shield Squads				Важкоброньований поліцейський загін зі щитами з доповнення Metropolis DLC.	Юніти Федерації	new	
 braced	Braced					Бойовий стан Riot Shield Squad, зазначений у назві варіанта юніта.	Механіки	new	
 peacekeeper_biped	Peacekeeper Biped	Peacekeeper				Двоногий командний юніт сил правопорядку з доповнення Metropolis.	Юніти Федерації	new	
 peacekeeper_drone	Peacekeeper Drone					Безпілотний юніт сил правопорядку з доповнення Metropolis.	Юніти Федерації	new	
@@ -488,13 +488,13 @@ m23_rainmaker	M23 Rainmaker					Бойовий юніт Федерації з д
 rainmaker_drone	Rainmaker Drone					Безпілотний бойовий юніт Федерації з доповнення Metropolis.	Юніти Федерації	new	
 a_12_pegasus	A-12 Pegasus					Ударний літальний апарат Федерації з доповнення Metropolis.	Юніти Федерації	new	
 rocket_pod	Rocket Pod	rocket pods				Ракетне озброєння літального апарата A-12 Pegasus для ураження стійких наземних цілей.	Зброя і техніка	new	
-j_a_c_trooper	J.A.C. Trooper					Піхотний юніт Федерації з реактивним спорядженням і штурмовою гарматою в доповненні Metropolis.	Юніти Федерації	new	
+j_a_c_trooper	J.A.C. Trooper	J.A.C. Troopers				Піхотний юніт Федерації з реактивним спорядженням і штурмовою гарматою в доповненні Metropolis.	Юніти Федерації	new	
 jumpjet_assault_cannon_trooper	Jumpjet Assault Cannon Trooper					Піхотні юніти Федерації для боротьби із середньоброньованими цілями в доповненні Metropolis.	Юніти Федерації	new	
 recoilless_rifle	Recoilless Rifle					Основна зброя юніта Jumpjet Assault Cannon Trooper, пострілу якої можуть перешкоджати дружні підрозділи.	Зброя і техніка	new	
 jumpjet_suit	Jumpjet Suit					Реактивне спорядження юніта Jumpjet Assault Cannon Trooper, яке дає змогу швидко змінювати позицію.	Зброя і техніка	new	
 elevator_entrance	Elevator Entrance					Вхід до ліфта як об'єкт місцевості в доповненні Metropolis.	Локації	new	
 control_tower	Control Tower					Керівна башта як об'єкт місцевості в доповненні Metropolis.	Локації	new	
-burster	Burster	Bursters				Burster — тип арахніда з Metropolis DLC, що викидає вибухову речовину та вибухає після загибелі.	Арахніди	new	
+burster	Burster	Bursters|Burster Bugs				Burster — тип арахніда з Metropolis DLC, що викидає вибухову речовину та вибухає після загибелі.	Арахніди	new	
 criminal	Criminal	Criminals				Criminal — тип людського бойового юніта в Metropolis DLC.	Загальне	new	
 m7_cyclone	M7 Cyclone	M7				M7 Cyclone — мобільна бойова платформа в Metropolis DLC.	Зброя і техніка	new	
 range_mid_range	Range (mid-range)					Range (mid-range) — характеристика дальності вогню, що описує роль M23 Rainmaker у вогневій підтримці.	Механіки	new	
@@ -543,7 +543,7 @@ fed_net	FED NET					Назва інформаційної мережі, що т�
 ganda_river	Ganda River					Річка, на якій збудоване острівне місто Mahanagar.	Локації	new	
 kayla_keys	Kayla Keys					Офіцер місцевої поліції Mahanagar, яка забезпечує правосуддя в цьому сценарії.	Персонажі	new	
 governor_govac	Governor Govac					Губернатор Mahanagar, який подав у відставку після невдалої операції.	Персонажі	new	
-starport	Starport					Космопорт, який Mobile Infantry має відбити в межах цього сценарію.	Локації	new	
+starport	Starport	starport's				Космопорт, який Mobile Infantry має відбити в межах цього сценарію.	Локації	new	
 drop_turret	Drop Turret					Розгортна автоматична турель, що використовується як бойовий об’єкт Федерації.	Зброя і техніка	new	
 instant_spawn_marker	Instant Spawn Marker					Службовий маркер миттєвої появи юнітів у сценаріях гри.	Механіки	new	
 m4a_grinder	M4A Grinder	M4A Grinder's				Легка збройна платформа Федерації з чотирма кулеметами.	Юніти Федерації	new	
@@ -639,7 +639,7 @@ cliffhanger	Cliffhanger					Назва першої навчальної міс�
 sand_castle	Sand Castle					Назва другої навчальної місії в розділі власних територіальних місій.	Загальне	new	
 prestige	Prestige	Prestige Points				Ігровий ресурс, який здобувають за проходження місій і використовують для розблокування косметичних елементів у розділі територій.	Механіки	new	
 desert_dam	Desert Dam					Назва пустельної дамби та пов’язаного з нею навчального сценарію.	Локації	new	
-technology	Technology	Technologies				Ігрові технології, які відкриваються як винагорода за проходження місії.	Технології	new	
+technology	Technology	Technologies|Techologies				Ігрові технології, які відкриваються як винагорода за проходження місії.	Технології	new	
 depot	Depot					Споруда в режимі Territory Mode, яку можна розформувати та замінити іншим її типом.	Зброя і техніка	new	
 arachnid_threat_level	Arachnid Threat Level					Показник загрози фракції Arachnid у режимі Territory Mode.	Механіки	new	
 resource	Resource	Resources				Ігровий ресурс режиму Territory Mode, який витрачається на придбання та розвиток сил.	Механіки	new	
@@ -695,7 +695,7 @@ armed_command_station	Armed Command Station					Технологія укріп�
 hemostasis_steel	Hemostasis Steel					Технологія, пов’язана з автоматичним відновленням броні.	Технології	new	
 missile_hangar	Missile Hangar					Ракетний ангар, який потрібно зачистити в місії Chemical 1.	Локації	new	
 eradicator_squad	Eradicator Squad	Eradicator squads				Загони Федерації типу Eradicator Squad, які не можна втратити в місії Chemical 1.	Юніти Федерації	new	
-ghutana	Ghutana	Ghutana's				Планета, на якій відбувається місія Chemical 1.	Локації	new	
+ghutana	Ghutana	Ghutana's|Ghutana’s				Планета, на якій відбувається місія Chemical 1.	Локації	new	
 doctor_kraus	Doctor Kraus					Керівник місцевого відділу досліджень і розробок у місії Chemical 1.	Персонажі	new	
 eradicator	Eradicator					Тип загонів Федерації, чиї боєприпаси спричиняють швидкий внутрішній некроз локалізованим випромінюванням.	Юніти Федерації	new	
 pheromone_silo	Pheromone Silo	pheromone silos				Споруда для забезпечення роботи програми керування в місії Chemical 1.	Технології	new	
@@ -922,7 +922,7 @@ knights_in_powered_armor	Knights in Powered Armor					Назва випробу�
 lethal_propellant	Lethal Propellant					Назва місії Chemical_Lethal_Propellant.	Загальне	new	
 road_tunnel	Road Tunnel					Назва тунельного об’єкта на карті місії Lethal Propellant.	Локації	new	
 chemical_reaction	Chemical Reaction					Назва місії, присвяченої аварії в лабораторії хімічної зброї.	Загальне	new	
-elevator	Elevator					Іменований інтерактивний об'єкт пересування, зазначений у розділі назв юнітів місії Chemical Reaction.	Загальне	new	
+elevator	Elevator	Elevator's				Іменований інтерактивний об'єкт пересування, зазначений у розділі назв юнітів місії Chemical Reaction.	Загальне	new	
 centrifuge	Centrifuge					Технологічне обладнання, представлене як окремий об’єкт у місії «Chemical Reaction».	Технології	new	
 security_system	Security System					Системний об’єкт комплексу, пов’язаний із безпекою в місії «Chemical Reaction».	Технології	new	
 door_controls	Door Controls					Інтерактивний системний об’єкт для керування дверима в місії «Chemical Reaction».	Технології	new	
@@ -1061,7 +1061,7 @@ charlie	Charlie					Позивний однієї з команд Федерац
 bravo	Bravo					Позивний однієї з команд Федерації, затриманої у своєму секторі в місії Brain Drain.	Юніти Федерації	new	
 brain_drain	Brain Drain					Назва дев’ятої сюжетної місії в сценарії Metropolis_Brain_Lair.	Загальне	new	
 verhaegen	Verhaegen	Verhaegen’s				Персонаж, який разом із Keys спускається до підземного лігва у фінальній битві.	Персонажі	new	
-keys	Keys					Персонаж, який разом із Verhaegen спускається до підземного лігва у фінальній битві.	Персонажі	new	
+keys	Keys	Keys’				Персонаж, який разом із Verhaegen спускається до підземного лігва у фінальній битві.	Персонажі	new	
 kayla	Kayla					Персонаж, до якого за умовою завдання потрібно привести Verhaegen.	Персонажі	new	
 factory_entrance	Factory Entrance					Іменована точка входу до фабрики в місії «Burning Bridges».	Локації	new	
 highway_blockade	Highway Blockade					Іменована заблокована ділянка шосе в місії «Burning Bridges».	Локації	new	
@@ -1072,3 +1072,67 @@ park_base	Park Base					Названа база в районі парку в м
 stand_for_the_fallen	Stand for the Fallen					Назва місії у сценарії Metropolis_Challenge_1.	Загальне	new	
 memorial_base	Memorial Base					База біля військового меморіалу, яку гравець повинен захистити в місії Stand for the Fallen.	Локації	new	
 honshu_bridge	Honshu Bridge					Honshu Bridge — міст, через який ворожі орди прямують до місця оборони в місії «Stand for the Fallen».	Локації	new	
+circuit_breaker	Circuit Breaker					Назва місії-сценарію Metropolis_Challenge_2.	Загальне	new	
+power_transformer	Power Transformer	power transformers				Енергетичні споруди, відключення яких спричиняє перегрів і вибух об’єкта в місії Circuit Breaker.	Технології	new	
+tightening_the_noose	Tightening the Noose					Назва восьмої сюжетної місії в розділі Metropolis_City.	Загальне	new	
+liberty_square	Liberty Square					Міська площа в Mahanagar, на якій необхідно заснувати базу.	Локації	new	
+rooftop_site	Rooftop Site					Назва майданчика на даху, представленого як іменований об'єкт карти в розділі назв юнітів.	Локації	new	
+flood_pump	Flood Pump	Flood Pumps				Насосне обладнання, яке потрібно ввімкнути на водоочисній станції в місії «Changing Tides».	Технології	new	
+sewers_door	Sewers Door					Інтерактивні двері каналізації в місії «Changing Tides».	Технології	new	
+changing_tides	Changing Tides					Назва шостої сюжетної місії у сценарії Metropolis_Police_Station.	Загальне	new	
+sewers	Sewers					Ділянка каналізаційної системи в місії «[6] Changing Tides».	Локації	new	
+weapons_storage	Weapons Storage					Приміщення для зберігання озброєння в поліцейській дільниці місії «[6] Changing Tides».	Локації	new	
+station_entrance	Station Entrance					Вхід до станції як позначена ділянка місії «Railway Rendezvous».	Локації	new	
+railway_rendezvous	Railway Rendezvous					Назва другої сюжетної місії, пов’язаної із залізничною станцією в північному районі міста.	Загальне	new	
+railway_station	Railway Station					Залізнична станція, позначена тригерним текстом у місії «[2] Railway Rendezvous».	Локації	new	
+traffic_stop	Traffic Stop					Назва місії 3 у сценарії Metropolis_Retreat.	Загальне	new	
+gunship	Gunship	Gunships				Бойові літальні апарати Федерації, які наказано спрямувати проти Plasma Bugs у місії «Death from Above».	Юніти Федерації	new	
+police_hq	Police HQ					Штаб поліції, який потрібно захопити в місії «Death from Above».	Локації	new	
+police_department	Police Department					Будівля поліцейського відділку, позначена як ігровий об'єкт у місії «[1] Protect and Serve».	Локації	new	
+protect_and_serve	Protect and Serve					Назва першої місії розділу Metropolis_Slums.	Загальне	new	
+federation_judiciary	Federation Judiciary					Судова установа Federation, згадана під час переговорів із нападником у місії «Protect and Serve».	Фракції	new	
+bug_war	Bug War					Тривала війна проти арахнідів, через яку цивільному не повертають вкладені кошти.	Загальне	new	
+police_station	Police Station					Будівля, яку потрібно захищати в місії «Protect and Serve».	Локації	new	
+riot_shield	Riot Shield	Riot Shields				Захисне спорядження бійців Федерації, носіїв якого наказують виставити попереду проти Tanker.	Зброя і техніка	new	
+operation_kick_bug_ass	Operation "Kick Bug Ass"					Назва військової операції, поновленої в місії «[7] Flight Control».	Загальне	new	
+flight_control	Flight Control					Назва сьомої місії кампанії, пов’язаної з поверненням контролю над Starport у Mahanagar.	Загальне	new	
+subway_hive	Subway Hive					Структура Arachnid у метро, яку потрібно зачистити під час місії Flight Control.	Арахніди	new	
+flight_control_room	Flight Control Room					Приміщення керування польотами на Starport, яке потрібно захопити й утримати в цій місії.	Локації	new	
+super_hive	Super Hive					Особливий тип вулика арахнідів, про атаку якого попереджає тригер місії «Starport Sweep».	Арахніди	new	
+starport_sweep	Starport Sweep					Назва місії в сценарії Skirmish_TunnelWorks.	Загальне	new	
+federal_intelligence	Federal Intelligence					Розвідувальна служба Федерації, яка повідомляє про придатні до використання апарати в місії «Starport Sweep».	Фракції	new	
+editor_demo_defense	Editor Demo Defense					Назва демонстраційної місії-шаблону, пов’язаної із системою тригерів редактора сценаріїв.	Загальне	new	
+unto_the_breach	Unto the Breach					Назва місії Territory_Chemical_Breach у сценарній кампанії гри.	Загальне	new	
+editor_demo_attack	Editor Demo Attack					Назва демонстраційної місії для перевірки системи тригерів редактора сценаріїв.	Загальне	new	
+central_centrifuge	Central Centrifuge					Назва місії та центральної центрифуги, навколо якої відбувається сценарій Territory_Chemical_Centrifuge.	Локації	new	
+impact_analysis	Impact Analysis					Назва місії у сценарії Territory_Chemical_Crater.	Загальне	new	
+pollution_pit	Pollution Pit					Назва місії та звалища токсичних, ядерних і біологічних відходів, де досліджують мутації арахнідів.	Локації	new	
+rocket_research	Rocket Research					Назва місії про дослідницький ракетний комплекс на планеті Ghutana.	Загальне	new	
+high_security_prison	High Security Prison					Назва в’язниці суворого режиму та місії у сценарії Territory_Chemical_Prison.	Локації	new	
+radioactive_residue	Radioactive Residue					Назва місії в сценарії Territory_Chemical_Radioactive.	Загальне	new	
+live_fire_facility	Live Fire Facility					Назва випробувального комплексу та місії, де утримують живі зразки Arachnid.	Локації	new	
+airbase_interruption	Airbase Interruption					Назва місії у сценарії Territory_Kwalasha_Airfield.	Загальне	new	
+smoke_trail	Smoke Trail					Назва місії в сценарії Territory_Chemical_Trail.	Локації	new	
+fata_morgana	Fata Morgana					Назва місії в сценарії Territory_Kwalasha_Beach.	Загальне	new	
+pressure_point	Pressure Point					Назва місії, пов’язаної зі сценарієм Territory_Kwalasha_Dam.	Локації	new	
+cliffort	Cliffort					Віддалене шахтарське поселення, з якого надійшов сигнал лиха в місії «Sand Castle».	Локації	new	
+delta_fall	Delta Fall					Назва місії в кампанії Territory_Kwalasha_Delta5.	Загальне	new	
+fort_tunis	Fort Tunis					Fort Tunis — фортеця та місце дії місії Territory_Kwalasha_Fortress.	Локації	new	
+omega_outpost	Omega Outpost					Назва форпосту та місії в сценарії Territory_Kwalasha_Outpost.	Локації	new	
+sniper_scope_mk_ii	Sniper Scope Mk.II					Технологічне вдосконалення для снайперських підрозділів, яке потрібно розблокувати в місії Cliffhanger.	Технології	new	
+urban_planning	Urban Planning					Назва місії Territory_Kwalasha_Urban.	Загальне	new	
+new_xhon	New Xhon					Місто, захоплене Арахнідами в місії Urban Planning.	Локації	new	
+desertification	Desertification					Назва місії в сценарії Territory_Kwalasha_Sweep.	Загальне	new	
+volcanic_vantage	Volcanic Vantage					Назва сценарію та вулканічної місцевості в місії Territory_Lava_Big_Volcano.	Локації	new	
+water_war	Water War					Назва місії у сценарії Territory_Kwalasha_Water.	Локації	new	
+hellhole	Hellhole					Назва місії та сектора в сценарії Territory_Lava_Hell_Hole.	Локації	new	
+lake_lava	Lake Lava					Назва місії та вулканічного озера, навколо якого розташована Pumping Station.	Локації	new	
+ash_industry	Ash Industry					Назва місії та промислової території у сценарії Territory_Lava_Industry.	Локації	new	
+mount_magma	Mount Magma					Назва вулканічної локації та місії у сценарії Territory_Lava_Volcano.	Локації	new	
+fire_lanes	Fire Lanes					Назва місії в сценарії Territory_Lava_Merc_Base.	Локації	new	
+ground_zero	Ground Zero					Назва місії та пов’язаної з нею зони в сценарії Territory_Metropolis_Crater.	Локації	new	
+freight_harbor	Freight Harbor					Назва місії та вантажної гавані в сценарії Territory_Metropolis_Harbor.	Локації	new	
+highway_hickup	Highway Hickup					Назва місії в сценарії Territory_Metropolis_Highways.	Загальне	new	
+hospital_district	Hospital District					Назва району та місії Territory_Metropolis_Hospital.	Локації	new	
+sports_district	Sports District					Назва міського району та місії в сценарії Territory_Metropolis_Sports.	Локації	new	
+party_crash	Party Crash					Назва місії у сценарії Territory_Metropolis_Neon.	Загальне	new	
