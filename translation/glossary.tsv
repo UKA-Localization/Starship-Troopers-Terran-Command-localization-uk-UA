@@ -97,10 +97,10 @@ dr_4_viking	DR-4 Viking		DR-4 «Вікінг»			Бойова машина Фе�
 combat_engineer	Combat Engineer	Combat Engineers	бойовий інженер			Інженерний піхотний юніт Федерації, представлений у розділі UNIT TYPES.	Юніти Федерації	fuzzy	
 bombardier	Bombardier	Bombardiers|Bombardier Bugs	бомбардир			Артилерійський тип Arachnid у розділі типів юнітів.	Арахніди	fuzzy	
 brain_bug	Brain Bug	Brain|Brain bug’s|Brain's|Brain Bugs|Brain Bug's	мозковий жук			Спеціалізований тип Arachnid у розділі типів юнітів.	Арахніди	fuzzy	
-m11_marauder_flamethrower	M11 Marauder (Flamethrower)		M11 «Мародер» (вогнемет)			Варіант бойової машини Federation із вогнеметним озброєнням у розділі типів юнітів.	Юніти Федерації	fuzzy	
-m11_marauder_howitzer	M11 Marauder (Howitzer)		M11 «Мародер» (гаубиця)			Варіант бойової машини Federation із гаубичним озброєнням у розділі типів юнітів.	Юніти Федерації	fuzzy	
-m11_marauder_gatling_gun	M11 Marauder (Gatling Gun)		M11 «Мародер» (гармата Гатлінга)			Варіант бойової машини Federation із роторною гарматою у розділі типів юнітів.	Юніти Федерації	fuzzy	
-m11_marauder	M11 Marauder	M11 Babar 'Marauder'|M11 Marauder's	M11 «Мародер»			Повне позначення двоногої бойової машини Federation, описаної в розділі типів юнітів.	Юніти Федерації	fuzzy	
+m11_marauder_flamethrower	M11 Marauder (Flamethrower)		M11 «Мародер» (вогнемет)			Варіант бойової машини Federation із вогнеметним озброєнням у розділі типів юнітів.	Юніти Федерації		
+m11_marauder_howitzer	M11 Marauder (Howitzer)		M11 «Мародер» (гаубиця)			Варіант бойової машини Federation із гаубичним озброєнням у розділі типів юнітів.	Юніти Федерації		
+m11_marauder_gatling_gun	M11 Marauder (Gatling Gun)		M11 «Мародер» (кулемет Гатлінга)			Варіант бойової машини Federation із роторною гарматою у розділі типів юнітів.	Юніти Федерації		
+m11_marauder	M11 Marauder	M11 Babar 'Marauder'|M11 Marauder's	M11 «Мародер»			Повне позначення двоногої бойової машини Federation, описаної в розділі типів юнітів.	Юніти Федерації		
 m2a_5_2_flamethrower	M2A 5-2 Flamethrower		вогнемет M2A 5-2			Вогнемет ближньої дії, яким оснащено відповідний варіант M11 Marauder.	Зброя і техніка	fuzzy	
 morita_cross_heavy_machine_gun	Morita Cross Heavy Machine Gun		важкий кулемет Morita Cross			Важкий кулемет, установлений на M11 Marauder як додаткове озброєння.	Зброя і техніка	fuzzy	
 m779_ultralight_weight_howitzer	M779 Ultralight-weight Howitzer		надлегка гаубиця M779			Легка далекобійна гаубиця відповідного варіанта M11 Marauder.	Зброя і техніка	fuzzy	
@@ -209,7 +209,7 @@ crippling_shot	Crippling Shot		Калічний постріл			Назва зд
 mx_90_grenade	MX-90 Grenade	MX-90 Grenades	граната MX-90			Модель ручної гранати, яку юніт може кинути по ворогах у розділі THREAT TYPES.	Зброя і техніка	fuzzy	
 action_mode	Action mode		Бойовий режим			Назва режиму, що підвищує швидкість руху й темп вогню юніта ціною дальності в розділі THREAT TYPES.	Здібності	fuzzy	
 mx_113_incendiary_drop_charge	MX-113 Incendiary Drop Charge		запалювальний скидний заряд MX-113			Високотехнологічний запалювальний підривний заряд, який застосовує Marauder.	Зброя і техніка	fuzzy	
-marauder	Marauder	Marauders	мародер			Бойовий юніт Федерації, навколо якого спрацьовує запалювальний вибух заряду.	Юніти Федерації	fuzzy	
+marauder	Marauder	Marauders	мародер			Бойовий юніт Федерації, навколо якого спрацьовує запалювальний вибух заряду.	Юніти Федерації		
 orbital_strike	Orbital Strike		Орбітальний удар			Здібність виклику тривалого орбітального обстрілу вказаної ділянки.	Здібності	fuzzy	
 place_drop_zone	Place Drop Zone	Place a drop zone	Розмістити зону висадки			Здібність розміщення зони висадки для виклику підкріплень.	Здібності	fuzzy	
 drop_zone	Drop Zone		зона висадки			Зона висадки, через яку гравець може викликати підкріплення.	Механіки	fuzzy	
@@ -278,7 +278,7 @@ fednet_tv	FedNet TV	FedNet	ФедНет ТБ			Федераційна телев
 the_battle_of_klendathu	The Battle of Klendathu		Битва за Клендату			Названа битва на Klendathu, якій присвячено вступний спеціальний випуск у розділі ARACHNIDS.	Загальне	fuzzy	
 kwalasha	Kwalasha	Kwalasha’s	Квалаша			Планета, на якій відбуваються події основної кампанії Campaign: Kwalasha.	Локації	fuzzy	
 challenge_points	Challenge Points		очки випробувань			Ігрові очки випробувань, які надаються як винагорода за виконання цілі.	Механіки	fuzzy	
-gatling_gun	Gatling Gun		кулемет Гатлінга			Gatling Gun — озброєння окремого варіанта M11 Marauder.	Зброя і техніка	fuzzy	
+gatling_gun	Gatling Gun		кулемет Гатлінга			Gatling Gun — озброєння окремого варіанта M11 Marauder.	Зброя і техніка		
 bug	Bug	Bugs|Bugs'|Bug's|bugs’	жук			Поширена назва ворожих арахнідів, присутність яких зафіксовано на поверхні Kwalasha.	Арахніди	fuzzy	
 kwalashan	Kwalashan	Kwalashans	квалашанин			Назва мешканців планети Kwalasha, пов’язаних із її гірничою промисловістю.	Загальне	fuzzy	
 fort_meru	Fort Meru		форт Меру			Військовий форт, падіння якого передує контратаці людства.	Локації	fuzzy	
@@ -355,7 +355,6 @@ volcano_small	Volcano (Small)		вулкан (малий)			Малий різно
 lava_geyser	Lava Geyser		лавовий гейзер			Лавовий гейзер як об’єкт середовища в Lava DLC.	Локації	fuzzy	
 lava_geyser_closed	Lava Geyser (Closed)		лавовий гейзер (закритий)			Закритий стан лавового гейзера як об’єкта середовища в Lava DLC.	Локації	fuzzy	
 immolator	Immolator	Immolators|Immolator Bugs	спалювач			Тип арахніда в Lava DLC, який вивергає запальну речовину та вибухає після смертельного поранення.	Арахніди	fuzzy	
-mk_ii_marauder	Mk.II Marauder		мародер Mk. II			Модифікація Mk.II бойового юніта Marauder у Lava DLC.	Юніти Федерації	fuzzy	
 volcano_medium	Volcano (Medium)		вулкан (середній)			Середній різновид вулкана як об’єкта середовища в Lava DLC.	Локації	fuzzy	
 volcano_large	Volcano (Large)		вулкан (великий)			Великий різновид вулкана як об’єкта середовища в Lava DLC.	Локації	fuzzy	
 guard_grenadier_bug	Guard Grenadier Bug		вартовий жук-гренадер			Охоронний різновид арахніда Grenadier у Lava DLC.	Арахніди	fuzzy	
@@ -678,7 +677,7 @@ weapons_grade_prosthetics	Weapons-Grade Prosthetics		протези військ
 grenade_pouches	Grenade Pouches		гранатні підсумки			Технологія першого рівня, що відкриває здібності з ручними гранатами в режимі територій.	Технології	fuzzy	
 flak_vests	Flak Vests		протиосколкові жилети			Технологія посилення броні інженерних та інших піхотних підрозділів у режимі територій.	Технології	fuzzy	
 fleet_mechanic	Fleet Mechanic	Fleet Mechanics	механік Флоту			Ремонтно-технічний підрозділ Флоту, якому ця технологія підвищує броню.	Юніти Федерації	fuzzy	
-marauder_parts_storage	Marauder Parts Storage		склад запчастин Marauder			Технологія зберігання запчастин, яка зменшує витрати постачання підрозділів Marauder у режимі територій.	Технології	fuzzy	
+marauder_parts_storage	Marauder Parts Storage		склад запчастин «Мародер»			Технологія зберігання запчастин, яка зменшує витрати постачання підрозділів Marauder у режимі територій.	Технології		
 advanced_crate_stacking	Advanced Crate Stacking		удосконалене штабелювання ящиків			Технологія вдосконаленого складування, яка збільшує постачання від Supply Depot у режимі територій.	Технології	fuzzy	
 shell_fragmentation_sleeve	Shell Fragmentation Sleeve		осколкова оболонка снаряда			Технологія модифікації артилерійського снаряда в режимі територій.	Технології	fuzzy	
 rainmaker_deploy_mode	Rainmaker Deploy Mode		режим розгортання Rainmaker			Технологія, що дає M23 Rainmaker змогу переходити в режим розгортання.	Технології	fuzzy	
@@ -913,7 +912,7 @@ ammunition_pod	Ammunition Pod		капсула боєприпасів			Здіб�
 quad_mg_turret	Quad MG Turret		чотириствольна кулеметна турель			Quad MG Turret — стаціонарний вогневий юніт Федерації з чотирма кулеметами у розділі прототипів юнітів.	Юніти Федерації	fuzzy	
 mg	MG	MG's|MGs	кулемет			MG (machine gun) — кулемет; у назвах турелей — «кулеметна турель» (Quad MG Turret → чотириствольна кулеметна турель).	Зброя і техніка		machine_gun
 corvette_liaison	Corvette Liaison		офіцер зв'язку з корветом			Corvette Liaison — офіцерський юніт Федерації, який забезпечує зв’язок з Orbital Corvette.	Юніти Федерації	fuzzy	
-marauder_mk_ii	Marauder Mk-II		Marauder Mk-II			Marauder Mk-II — окрема модифікація бойового юніта Marauder у розділі прототипів юнітів.	Юніти Федерації	fuzzy	
+marauder_mk_ii	Marauder Mk-II	Mk.II Marauder	«Мародер» Mk-II			Marauder Mk-II — окрема модифікація бойового юніта Marauder у розділі прототипів юнітів.	Юніти Федерації		
 tac_minigun_strikes	TAC Minigun Strikes		удари з мініганів TAC			TAC Minigun Strikes — назва здібності з кулеметними ударами у розділі прототипів юнітів.	Здібності	fuzzy	
 tac_cannon_strikes	TAC Cannon Strikes		гарматні удари TAC			TAC Cannon Strikes — назва здібності з гарматними ударами у розділі прототипів юнітів.	Здібності	fuzzy	
 galactic_war	Galactic War		Галактична війна			Galactic War — складова Territory Mode, у якій проходження місій відкриває нагороди та ігровий вміст.	Механіки	fuzzy	
