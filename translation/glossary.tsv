@@ -14,7 +14,7 @@ tac_fighter	TAC Fighter	TAC Fighters	винищувач TAC			Бойові лі�
 hopper	Hopper	Hoppers|Hopper Bugs	хопер			Летючий бойовий арахнід, зазначений у розділі типів юнітів.	Арахніди	fuzzy	
 intel_bug	Intel Bug	Intel Bugs	жук-розвідник			Спеціалізований тип арахнідів, пов’язаний із розвідданими та зазначений у розділі типів юнітів.	Арахніди	fuzzy	
 wavebreaker_mortar	Wavebreaker Mortar		міномет «Хвилелом»			Мінометний юніт Федерації, у розділі типів юнітів.	Юніти Федерації	fuzzy	
-hmg_turret	HMG Turret	HMG Turrets	турель HMG			Оборонна турель Федерації зі спареними кулеметами; HMG — heavy machine gun.	Юніти Федерації	fuzzy	
+hmg_turret	HMG Turret	HMG Turrets	важка кулеметна турель			Оборонна турель Федерації зі спареними важкими кулеметами (HMG — heavy machine gun).	Юніти Федерації		
 powered_suit_trooper	Powered Suit Trooper	Powered Suit Troopers	боєць у силовій броні			Елітна піхота Федерації в силовій броні з важким озброєнням, у розділі типів юнітів.	Юніти Федерації	fuzzy	
 tiger	Tiger	Tiger Bugs|Tiger Bug|Tigers	тигр			Бойовий арахнід, у розділі типів юнітів.	Арахніди	fuzzy	
 tanker	Tanker	Tanker Bugs|Tanker Bug|Tankers|Tanker's	танкер			Важкий бойовий арахнід, у розділі типів юнітів.	Арахніди	fuzzy	
@@ -141,7 +141,7 @@ gate_open	Gate (Open)		ворота (відчинені)			Відкритий в
 eng	ENG		ІНЖ			Скорочене позначення інженерного варіанта Powered Suit Trooper.	Загальне	fuzzy	
 door_closed	Door (Closed)		двері (зачинені)			Закритий варіант дверей, представлений як окремий тип ігрового об’єкта.	Загальне	fuzzy	
 door_open	Door (Open)		двері (відчинені)			Відкритий варіант дверей, представлений як окремий тип ігрового об’єкта.	Загальне	fuzzy	
-hmg_tower	HMG Tower		башта HMG			Оборонна башта з важким кулеметом у розділі типів юнітів.	Зброя і техніка	fuzzy	
+hmg_tower	HMG Tower		важка кулеметна башта			Оборонна башта з важким кулеметом у розділі типів юнітів.	Зброя і техніка	fuzzy	
 fire_small	Fire Small		малий вогонь			Малий варіант ігрового об’єкта вогню в розділі типів юнітів.	Механіки	fuzzy	
 fire_medium	Fire Medium		середній вогонь			Середній варіант ігрового об’єкта вогню в розділі типів юнітів.	Механіки	fuzzy	
 fire_large	Fire Large		велике полум'я			Великий варіант ігрового об’єкта вогню в розділі типів юнітів.	Механіки	fuzzy	
@@ -867,7 +867,7 @@ sawmaster	SawMaster		SawMaster			Юніт Федерації з пиляльни
 phosphorus_strike	Phosphorus Strike		Фосфорний удар			Здібність повітряного удару із застосуванням фосфорних бомб у Jungle DLC.	Здібності	fuzzy	
 perimeter_defense_drop	Perimeter Defense Drop		Десантувати периметрову оборону			Здібність повітряного розгортання оборонних турелей по периметру.	Здібності	fuzzy	
 deploy_machine_gun	Deploy Machine Gun		Розгорнути кулемет			Здібність із розділу Jungle DLC, що тимчасово розгортає кулемет для вогневої підтримки.	Здібності	fuzzy	
-machine_gun	Machine Gun		кулемет			Стаціонарна зброя в розділі Jungle DLC, яку тимчасово розгортають для прямої вогневої підтримки.	Зброя і техніка	fuzzy	
+machine_gun	Machine Gun		кулемет			Стаціонарна зброя в розділі Jungle DLC, яку тимчасово розгортають для прямої вогневої підтримки.	Зброя і техніка		
 deploy_light_mortar	Deploy Light Mortar		Розгорнути легкий міномет			Здібність із розділу Jungle DLC, що тимчасово розгортає легкий міномет для непрямої вогневої підтримки.	Здібності	fuzzy	
 activate_infiltrator	Activate Infiltrator		Задіяти диверсанта			Здібність із розділу Jungle DLC, що тимчасово розгортає елітного бійця на вибраній позиції.	Здібності	fuzzy	
 throw_flare_grenade	Throw Flare Grenade		Кинути сигнальну гранату			Здібність із розділу Jungle DLC, що дає змогу кинути піротехнічну гранату для приваблення ворогів.	Здібності	fuzzy	
@@ -911,7 +911,7 @@ tac_cluster_strike	TAC Cluster Strike	TAC Cluster Strikes	касетний уд�
 construction_support_pod	Construction Support Pod		капсула будівельної підтримки			Здібність виклику капсули підтримки будівництва в розділі прототипів юнітів.	Здібності	fuzzy	
 ammunition_pod	Ammunition Pod		капсула боєприпасів			Здібність виклику капсули з боєприпасами в розділі прототипів юнітів.	Здібності	fuzzy	
 quad_mg_turret	Quad MG Turret		чотириствольна кулеметна турель			Quad MG Turret — стаціонарний вогневий юніт Федерації з чотирма кулеметами у розділі прототипів юнітів.	Юніти Федерації	fuzzy	
-mg	MG	MG's|MGs	К			MG — скорочення назви озброєння у складі Quad MG Turret.	Зброя і техніка	fuzzy	machine_gun
+mg	MG	MG's|MGs	кулемет			MG (machine gun) — кулемет; у назвах турелей — «кулеметна турель» (Quad MG Turret → чотириствольна кулеметна турель).	Зброя і техніка		machine_gun
 corvette_liaison	Corvette Liaison		офіцер зв'язку з корветом			Corvette Liaison — офіцерський юніт Федерації, який забезпечує зв’язок з Orbital Corvette.	Юніти Федерації	fuzzy	
 marauder_mk_ii	Marauder Mk-II		Marauder Mk-II			Marauder Mk-II — окрема модифікація бойового юніта Marauder у розділі прототипів юнітів.	Юніти Федерації	fuzzy	
 tac_minigun_strikes	TAC Minigun Strikes		удари з мініганів TAC			TAC Minigun Strikes — назва здібності з кулеметними ударами у розділі прототипів юнітів.	Здібності	fuzzy	
