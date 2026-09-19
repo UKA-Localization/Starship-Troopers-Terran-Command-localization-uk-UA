@@ -16,7 +16,7 @@
 | Розділ (Category) | Modding or Configuration |
 | Теги | Modding or Configuration, Localization |
 | Видимість | Public |
-| Обкладинка | `../screenshots/01.jpg` (вибір мови) або окрема 16:9 |
+| Обкладинка (preview) | `preview.jpg` — 1920×1080: екран режимів гри (комікс-плакати українською) з прапором України в правому нижньому куті |
 | Скриншоти в посібнику | `../screenshots/01.jpg`, `05.jpg`, `10.jpg`, `13.jpg` |
 
 ## Оновлення
