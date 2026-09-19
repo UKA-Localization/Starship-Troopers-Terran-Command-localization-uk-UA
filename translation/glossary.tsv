@@ -748,7 +748,7 @@ dam	Dam		дамба			Стратегічна дамба в секторі, ко�
 incinerator	Incinerator	Incinerators	вогнеметник			Вогнеметник у силовій броні (Powered Suit Incinerator); у Territory Mode — і як ворожий юніт ренегатів («Destroy the Incinerators»). Не арахнід.	Юніти Федерації		
 sandstorm	Sandstorm		піщана буря			Sandstorm — погодний ефект, що обмежує видимість і доступність повітряної техніки в територіальній місії.	Механіки	fuzzy	
 storm	Storm	storms	буря			Погодна механіка місії, поточний стан якої показано в рядку цілі.	Механіки	fuzzy	
-fed_intel	Fed Intel	Fed Intel's	розвідка Федерації			Скорочена назва розвідувальної служби Федерації, що повідомляє про очікувану появу ворогів у навчанні територіального режиму.	Фракції	fuzzy	
+fed_intel	Fed Intel	Fed Intel's	Федрозвідка			Розмовне від Federal Intelligence; зведення в Territory Mode («Федрозвідка очікує…»).	Фракції		federal_intelligence
 the_eradicators	The Eradicators		Винищувачі			Назва бойової групи та доповнення, пов’язаних із хімічною кампанією на Ghutana.	Механіки	fuzzy	
 the_eradicators_dlc	The Eradicators DLC		DLC «Винищувачі»			Назва доповнення з хімічною тематикою, до якого належать матеріали розділу ChemicalDLCLines.	Загальне	fuzzy	
 horde_handler	Horde Handler	Horde Handlers|Horde Handlers'	погонич орди			Спеціалізований підрозділ Федерації, що керує зграєю одурманених арахнідів у доповненні The Eradicators DLC.	Юніти Федерації	fuzzy	
@@ -971,7 +971,7 @@ supply_drop	Supply Drop		скидання припасів			Механіка д
 hole_patrol	Hole Patrol		Патруль нір			Назва місії кампанії на Kwalasha, пов’язаної із зачисткою підземних Hive у секторі Delta IV.	Загальне	fuzzy	
 bug_hole	Bug Hole	bug holes	нора жуків			Входи до підземних колоній Arachnid, виявлені вздовж важливої дороги в секторі Delta IV.	Арахніди	fuzzy	
 supply_base	Supply Base		база постачання			База постачання, до якої потрібно дістатися під час місії Hole Patrol.	Локації	fuzzy	
-archie	Archie		арах			Розмовне прізвисько арахнідів, ужите Готорном щодо ворожих сил у місії «Hole Patrol».	Арахніди	fuzzy	
+archie	Archie		жучара			Солдатський сленг для арахнідів (Archie ← Arachnid), збірне: «Archie comes» → «жучари йдуть».	Арахніди		
 in_deep_trouble	In Deep Trouble		У глибокій халепі			Назва сьомої місії кампанії на Kwalasha.	Загальне	fuzzy	
 drill	Drill		бурова установка			Промислова бурова установка, яку потрібно захопити в місії «In Deep Trouble».	Технології	fuzzy	
 mining_shaft	Mining Shaft	Mining Shafts	шахтний ствол			Назва шахтного об’єкта в місії «Peace of Mine».	Локації	fuzzy	
@@ -1011,7 +1011,7 @@ maintenance_bay	Maintenance Bay		ремонтний відсік			Іменов�
 psychic	Psychic	Psychics	екстрасенс			Фахівці Федерації з психічними здібностями, про яких згадує Віктор Ярроу в місії «Bowels of the Beast».	Юніти Федерації	fuzzy	
 bravo_team	Bravo Team		група «Браво»			Названа група бійців Федерації, яку переповнили вороги в технічній зоні місії «Bowels of the Beast».	Юніти Федерації	fuzzy	
 mental_issues	Mental Issues		Проблеми з головою			Назва місії 11 у сценарії Kwalasha_Silent_Night.	Загальне	fuzzy	
-military_intelligence	Military Intelligence		військова розвідка			Розвідувальна служба Федерації, офіцера якої необхідно евакуювати в місії Mental Issues.	Фракції	fuzzy	
+military_intelligence	Military Intelligence		Військова розвідка			Окремий рід військ Федерації (як у фільмі — Карл Дженкінс); не плутати з Федеральною розвідкою.	Фракції		
 radio_entrance	Radio Entrance		вхід до радіоцентру			Назва входу до радіооб’єкта на карті місії «Mental Issues».	Локації	fuzzy	
 victor_evac	Victor Evac		евакопункт «Віктор»			Назва точки евакуації з позивним Victor на карті місії «Mental Issues».	Локації	fuzzy	
 tide_breaker	Tide Breaker		Злам хвилі			Назва місії 8 у кампанії Kwalasha.	Загальне	fuzzy	
@@ -1064,7 +1064,7 @@ kayla	Kayla		Кайла			Персонаж, до якого за умовою з
 factory_entrance	Factory Entrance		вхід до фабрики			Іменована точка входу до фабрики в місії «Burning Bridges».	Локації	fuzzy	
 highway_blockade	Highway Blockade		блокпост на шосе			Іменована заблокована ділянка шосе в місії «Burning Bridges».	Локації	fuzzy	
 burning_bridges	Burning Bridges		Спалюючи мости			Назва четвертої сюжетної місії в розділі Metropolis_Bridges.	Загальне	fuzzy	
-mpd	MPD		MPD			Скорочена назва організації, що діє разом із Mobile Infantry у місії Burning Bridges; повну назву в цих рядках не наведено.	Фракції	fuzzy	
+mpd	MPD		ДПМ			Mahanagar Police Department — Департамент поліції Маханагара; на карті — «Police Department».	Фракції		police_department
 ganda	Ganda		Ґанда			Місцевість або водойма, куди відтісняють арахнідів у місії «Burning Bridges».	Локації	fuzzy	
 park_base	Park Base		база в парку			Названа база в районі парку в місії «Stand for the Fallen».	Локації	fuzzy	
 stand_for_the_fallen	Stand for the Fallen		За полеглих			Назва місії у сценарії Metropolis_Challenge_1.	Загальне	fuzzy	
@@ -1086,7 +1086,7 @@ railway_station	Railway Station		залізнична станція			Залі�
 traffic_stop	Traffic Stop		Зупинка руху			Назва місії 3 у сценарії Metropolis_Retreat.	Загальне	fuzzy	
 gunship	Gunship	Gunships	літак вогневої підтримки			Бойові літальні апарати Федерації, які наказано спрямувати проти Plasma Bugs у місії «Death from Above».	Юніти Федерації	fuzzy	
 police_hq	Police HQ		штаб поліції			Штаб поліції, який потрібно захопити в місії «Death from Above».	Локації	fuzzy	
-police_department	Police Department		департамент поліції			Будівля поліцейського відділку, позначена як ігровий об'єкт у місії «[1] Protect and Serve».	Локації	fuzzy	
+police_department	Police Department		Департамент поліції			Будівля поліцейського відділку, позначена як ігровий об'єкт у місії «[1] Protect and Serve».	Локації		
 protect_and_serve	Protect and Serve		Захищати й служити			Назва першої місії розділу Metropolis_Slums.	Загальне	fuzzy	
 federation_judiciary	Federation Judiciary		Судова служба Федерації			Судова установа Federation, згадана під час переговорів із нападником у місії «Protect and Serve».	Фракції	fuzzy	
 bug_war	Bug War		війна з жуками			Тривала війна проти арахнідів, через яку цивільному не повертають вкладені кошти.	Загальне	fuzzy	
@@ -1098,7 +1098,7 @@ subway_hive	Subway Hive		вулик у метро			Структура Arachnid 
 flight_control_room	Flight Control Room		диспетчерська польотів			Приміщення керування польотами на Starport, яке потрібно захопити й утримати в цій місії.	Локації	fuzzy	
 super_hive	Super Hive		супервулик			Особливий тип вулика арахнідів, про атаку якого попереджає тригер місії «Starport Sweep».	Арахніди	fuzzy	
 starport_sweep	Starport Sweep		Зачистка космопорту			Назва місії в сценарії Skirmish_TunnelWorks.	Загальне	fuzzy	
-federal_intelligence	Federal Intelligence		федеральна розвідка			Розвідувальна служба Федерації, яка повідомляє про придатні до використання апарати в місії «Starport Sweep».	Фракції	fuzzy	
+federal_intelligence	Federal Intelligence		Федеральна розвідка			Цивільна розвідка Федерації; розмовно — Fed Intel.	Фракції		
 editor_demo_defense	Editor Demo Defense		Демонстрація оборони в редакторі			Назва демонстраційної місії-шаблону, пов’язаної із системою тригерів редактора сценаріїв.	Загальне	fuzzy	
 unto_the_breach	Unto the Breach		До пролому			Назва місії Territory_Chemical_Breach у сценарній кампанії гри.	Загальне	fuzzy	
 editor_demo_attack	Editor Demo Attack		Демонстрація атаки в редакторі			Назва демонстраційної місії для перевірки системи тригерів редактора сценаріїв.	Загальне	fuzzy	
