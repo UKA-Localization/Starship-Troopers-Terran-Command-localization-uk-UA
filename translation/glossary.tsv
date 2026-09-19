@@ -1,5 +1,5 @@
 id	term	variants	translation	stem	forms	note	category	status	short_of
-environment	Environment		довкілля			Нейтральна фракція об’єктів довкілля в переліку фракцій гри.	Фракції	fuzzy	
+environment	Environment		Нейтральні			Нейтральна сторона в списку фракцій (об’єкти без власника: гейзери, споруди); у меню редактора.	Фракції		
 renegades	Renegades		ренегати			Ворожа людська фракція ренегатів у переліку фракцій гри.	Фракції	fuzzy	
 federation	Federation	Federation's|Federation’s|Fed	Федерація			Людська фракція Федерації в переліку фракцій гри.	Фракції	fuzzy	
 arachnid	Arachnid	Arachnids|Arachnid's|Arachnids'|Arachnids’	арахнід			Фракція арахнідів у переліку фракцій гри.	Фракції	fuzzy	
@@ -13,7 +13,7 @@ steel_bunker	Steel Bunker		сталевий бункер			Оборонна сп
 tac_fighter	TAC Fighter	TAC Fighters	винищувач TAC			Бойові літальні апарати Федерації, подані в розділі типів юнітів.	Зброя і техніка	fuzzy	
 hopper	Hopper	Hoppers|Hopper Bugs	хопер			Летючий бойовий арахнід, зазначений у розділі типів юнітів.	Арахніди	fuzzy	
 intel_bug	Intel Bug	Intel Bugs	жук-розвідник			Спеціалізований тип арахнідів, пов’язаний із розвідданими та зазначений у розділі типів юнітів.	Арахніди	fuzzy	
-wavebreaker_mortar	Wavebreaker Mortar		міномет «Хвилелом»			Мінометний юніт Федерації, у розділі типів юнітів.	Юніти Федерації	fuzzy	
+wavebreaker_mortar	Wavebreaker Mortar		міномет Wavebreaker			Мінометний юніт Федерації, у розділі типів юнітів.	Юніти Федерації		
 hmg_turret	HMG Turret	HMG Turrets	важка кулеметна турель			Оборонна турель Федерації зі спареними важкими кулеметами (HMG — heavy machine gun).	Юніти Федерації		
 powered_suit_trooper	Powered Suit Trooper	Powered Suit Troopers	боєць у силовій броні			Елітна піхота Федерації в силовій броні з важким озброєнням, у розділі типів юнітів.	Юніти Федерації	fuzzy	
 tiger	Tiger	Tiger Bugs|Tiger Bug|Tigers	тигр			Бойовий арахнід, у розділі типів юнітів.	Арахніди	fuzzy	
@@ -87,13 +87,13 @@ marker_flare	Marker Flare		сигнальна ракета			Сигнальни�
 drop_site	Drop Site	drop sites|dropsite	зона висадки			Позначена зона висадки, наведена в розділі типів юнітів.	Локації	fuzzy	
 gk_16_mlas	GK-16 MLAS		GK-16 MLAS			Позначення військової системи GK-16 у розділі типів юнітів; MLAS є скороченням, повне розшифрування не встановлено.	Зброя і техніка	fuzzy	
 satellite_station	Satellite Station	Satellite Stations	супутникова станція			Супутникова станція або споруда, наведена як окремий об'єкт у розділі типів юнітів.	Локації	fuzzy	
-gk_22_heavy_gecko	GK-22 Heavy Gecko		GK-22 «Важкий гекон»			Бойова машина Федерації, зазначена як окремий тип юніта в розділі UNIT TYPES.	Юніти Федерації	fuzzy	
+gk_22_heavy_gecko	GK-22 Heavy Gecko		GK-22 Heavy Gecko			Бойова машина Федерації, зазначена як окремий тип юніта в розділі UNIT TYPES.	Юніти Федерації		
 squad_automatic_weapon	Squad Automatic Weapon	squad automatic weapons	автоматична зброя відділення			Повна назва ручної автоматичної зброї загону, призначеної для ураження броньованих цілей.	Зброя і техніка	fuzzy	
 saw	SAW		АЗВ			Скорочена назва озброєння, яким оснащено цей варіант Powered Suit Trooper у розділі UNIT TYPES.	Зброя і техніка	fuzzy	squad_automatic_weapon
 sensor_array	Sensor Array		сенсорний комплекс			Сенсорна установка Федерації, представлена як окремий тип юніта або споруди в розділі UNIT TYPES.	Юніти Федерації	fuzzy	
 sniper	Sniper	Snipers	снайпер			Далекобійний піхотний юніт Федерації з високою точністю в розділі UNIT TYPES.	Юніти Федерації	fuzzy	
 spitter	Spitter	Spitters|Spitter Bugs|Spitter Bug	плювач			Тип арахніда, наведений в описі Sniper як вразлива ціль.	Арахніди	fuzzy	
-dr_4_viking	DR-4 Viking		DR-4 «Вікінг»			Бойова машина Федерації, зазначена як окремий тип юніта в розділі UNIT TYPES.	Юніти Федерації	fuzzy	
+dr_4_viking	DR-4 Viking		DR-4 Viking			Бойова машина Федерації, зазначена як окремий тип юніта в розділі UNIT TYPES.	Юніти Федерації		
 combat_engineer	Combat Engineer	Combat Engineers	бойовий інженер			Інженерний піхотний юніт Федерації, представлений у розділі UNIT TYPES.	Юніти Федерації	fuzzy	
 bombardier	Bombardier	Bombardiers|Bombardier Bugs	бомбардир			Артилерійський тип Arachnid у розділі типів юнітів.	Арахніди	fuzzy	
 brain_bug	Brain Bug	Brain|Brain bug’s|Brain's|Brain Bugs|Brain Bug's	мозковий жук			Спеціалізований тип Arachnid у розділі типів юнітів.	Арахніди	fuzzy	
@@ -117,7 +117,7 @@ bug_tunnel	Bug Tunnel		тунель жуків			Тунель Арахнідів
 brood_nest	Brood Nest	Brood Nests	гніздо розплоду			Гніздо Арахнідів як окремий тип споруди в розділі типів юнітів.	Арахніди	fuzzy	
 colonist	Colonist	Colonists	колоніст			Цивільний юніт Федерації, зазначений у розділі типів юнітів.	Юніти Федерації	fuzzy	
 camera_crew	Camera Crew		знімальна група			Знімальна група як окремий юніт у розділі типів юнітів.	Юніти Федерації	fuzzy	
-m11_honor_guard	M11 Honor Guard		M11 «Почесна варта»			Елітний бойовий юніт Федерації у розділі типів юнітів.	Юніти Федерації	fuzzy	
+m11_honor_guard	M11 Honor Guard		M11 Honor Guard			Елітний бойовий юніт Федерації у розділі типів юнітів.	Юніти Федерації		
 rocket_launcher_turret	Rocket Launcher Turret	Rocket Launcher Turrets	ракетна турель			Стаціонарна ракетна турель, призначена для ураження важкоброньованих цілей.	Зброя і техніка	fuzzy	
 grenade_launcher_turret	Grenade Launcher Turret		гранатометна турель			Стаціонарна гранатометна турель для ураження щільних груп легких і середньоброньованих цілей.	Зброя і техніка	fuzzy	
 drop_pod	Drop Pod		десантна капсула			Десантна капсула Федерації, зазначена як окремий тип юніта.	Зброя і техніка	fuzzy	
@@ -127,7 +127,7 @@ explosive_barrel	Explosive Barrel	Explosive Barrels	вибухова бочка	
 searchlight	Searchlight		прожектор			Освітлювальний об’єкт, зазначений у розділі типів юнітів.	Зброя і техніка	fuzzy	
 tunnel_exit	Tunnel Exit		вихід із тунелю			Вихід з підземного тунелю Арахнідів, зазначений у розділі типів юнітів.	Арахніди	fuzzy	
 flag	Flag		прапор			Ігровий об’єкт-позначка, зазначений у розділі типів юнітів.	Механіки	fuzzy	
-drone	Drone	Drone Bugs|Drones	трутень			Базовий бойовий юніт Арахнідів, зазначений у розділі типів юнітів.	Арахніди	fuzzy	
+drone	Drone	Drone Bugs|Drones	трутень			Трутень — робоча/базова каста арахнідів; механічні дрони Федерації (Recon, Detainer, Sentinel, Bomber, Kamikaze) — «дрон».	Арахніди		
 invisible_carrier	Invisible Carrier		невидимий носій			Невидимий службовий юніт-носій, зазначений у розділі типів юнітів.	Загальне	fuzzy	
 noise_maker	Noise Maker		шумова приманка			Пристрій для створення шуму або відволікання ворога, зазначений у розділі типів юнітів.	Зброя і техніка	fuzzy	
 gate_destroyed	Gate (Destroyed)		ворота (зруйновані)			Зруйнований варіант ігрового об’єкта Gate у розділі типів юнітів.	Загальне	fuzzy	
@@ -157,7 +157,7 @@ supply_depot	Supply Depot	Supply Depots	склад припасів			Об’є�
 ammunition_cache	Ammunition Cache		сховок боєприпасів			Ігровий сховок боєприпасів, зазначений у розділі типів юнітів.	Загальне	fuzzy	
 supplies_cache	Supplies Cache		сховок припасів			Ігровий сховок припасів, зазначений у розділі типів юнітів.	Загальне	fuzzy	
 radio_post	Radio Post		радіопост			Ігровий радіопост або об’єкт зв’язку, зазначений у розділі типів юнітів.	Загальне	fuzzy	
-dr_8_skyhook	DR-8 Skyhook		DR-8 «Небесний гак»			Юніт Федерації моделі DR-8, зазначений у розділі типів юнітів.	Юніти Федерації	fuzzy	
+dr_8_skyhook	DR-8 Skyhook		DR-8 Skyhook			Юніт Федерації моделі DR-8, зазначений у розділі типів юнітів.	Юніти Федерації		
 prison_guard	Prison Guard	Prison Guards	тюремний охоронець			Prison Guard — тип охоронного юніта в розділі UNIT TYPES.	Юніти Федерації	fuzzy	
 power_turbine	Power Turbine	power turbines	енергетична турбіна			Power Turbine — енергетична споруда, визначена як тип юніта в розділі UNIT TYPES.	Технології	fuzzy	
 shock_node	Shock Node		електрошоковий вузол			Shock Node — оборонний вузол, що створює електричні ударні хвилі, у розділі UNIT TYPES.	Технології	fuzzy	
@@ -170,8 +170,8 @@ prisoner	Prisoner	Prisoners	полонений			Полонені, предст�
 rioter	Rioter	Rioters	бунтівник			Учасники заворушень, представлені як окремий тип юніта в розділі UNIT TYPES.	Загальне	fuzzy	
 camera	Camera	Cameras	камера			Камера спостереження, зазначена як окремий тип об’єкта в розділі UNIT TYPES.	Зброя і техніка	fuzzy	
 baka_bug	Baka Bug		жук бака			Тип бойового арахніда в розділі типів юнітів.	Арахніди	fuzzy	
-adr_4_thor	ADR-4 Thor		ADR-4 «Тор»			Модель бойового юніта Федерації в розділі типів юнітів.	Юніти Федерації	fuzzy	
-rdr_4_odin	RDR-4 Odin		RDR-4 «Одін»			Модель бойового юніта Федерації в розділі типів юнітів.	Юніти Федерації	fuzzy	
+adr_4_thor	ADR-4 Thor		ADR-4 Thor			Модель бойового юніта Федерації в розділі типів юнітів.	Юніти Федерації		
+rdr_4_odin	RDR-4 Odin		RDR-4 Odin			Модель бойового юніта Федерації в розділі типів юнітів.	Юніти Федерації		
 fleet_relay	Fleet Relay	Fleet Relays	ретранслятор Флоту			Будівля платформи, пов’язана з розгортанням сил Fleet.	Технології	fuzzy	
 ammo_dump	Ammo Dump		склад боєприпасів			Будівля платформи для забезпечення боєприпасами та розгортання доступних підрозділів.	Технології	fuzzy	
 rocket_depot	Rocket Depot		ракетний склад			Будівля платформи, пов’язана з ракетним озброєнням і розгортанням доступних підрозділів.	Технології	fuzzy	
@@ -358,7 +358,7 @@ immolator	Immolator	Immolators|Immolator Bugs	спалювач			Арахнід 
 volcano_medium	Volcano (Medium)		вулкан (середній)			Середній різновид вулкана як об’єкта середовища в Lava DLC.	Локації	fuzzy	
 volcano_large	Volcano (Large)		вулкан (великий)			Великий різновид вулкана як об’єкта середовища в Lava DLC.	Локації	fuzzy	
 guard_grenadier_bug	Guard Grenadier Bug		вартовий жук-гренадер			Охоронний різновид арахніда Grenadier у Lava DLC.	Арахніди	fuzzy	
-stinger_nest	Stinger Nest	Stinger Nests	гніздо жалників			Споруда арахнідів, пов’язана з породженням або розміщенням повітряних бойових істот у Lava DLC.	Арахніди	fuzzy	
+stinger_nest	Stinger Nest	Stinger Nests	гніздо жалників			Споруда арахнідів, пов’язана з породженням або розміщенням повітряних бойових істот у Lava DLC.	Арахніди		
 command_station	Command Station	Command Stations	командна станція			Командна споруда Федерації, представлена як окремий ігровий об’єкт у Lava DLC.	Технології	fuzzy	
 pulse_stryder	Pulse Stryder		імпульсний страйдер			Бойовий юніт Федерації середнього класу, призначений для боротьби з повітряними цілями в Lava DLC.	Юніти Федерації	fuzzy	
 hover_gun	Hover Gun		ширяюча гармата			Мобільна вогнева установка Федерації, що може переходити в розгорнутий стан у Lava DLC.	Зброя і техніка	fuzzy	
@@ -384,7 +384,7 @@ thermal_driller	Thermal Driller		термобур			Термальна буро�
 burster_bug	Burster Bug		жук-підривник			Різновид бойового арахніда, показаний у відеосубтитрах Lava DLC.	Арахніди	fuzzy	
 engineering_biped	Engineering Biped	Engineering Bipeds	інженерний біпед			Інженерний двоногий юніт, показаний у відеосубтитрах Lava DLC.	Юніти Федерації	fuzzy	
 king_tanker	King Tanker	King Tankers	королівський танкер			Особливий важкий бойовий різновид арахнідів у Lava DLC.	Арахніди	fuzzy	
-goliath_artillery	Goliath Artillery		артилерія «Голіаф»			Далекобійний артилерійський підрозділ Федерації у Lava DLC.	Юніти Федерації	fuzzy	
+goliath_artillery	Goliath Artillery		артилерія Goliath			Далекобійний артилерійський підрозділ Федерації у Lava DLC.	Юніти Федерації		
 technician	Technician	Technicians	технік			Неозброєний будівельний підрозділ Федерації у Lava DLC.	Юніти Федерації	fuzzy	
 assault_marine	Assault Marine	Assault Marines	штурмовий морпіх			Важкоброньований штурмовий підрозділ Федерації для бою на передовій у Lava DLC.	Юніти Федерації	fuzzy	
 nuke	Nuke	nukes	ядерний заряд			Ядерний боєприпас у стані готовності до застосування в Lava DLC.	Зброя і техніка	fuzzy	
@@ -407,7 +407,7 @@ chair_trooper	Chair Trooper		боєць у кріслі			Сценічний в�
 engineer	Engineer	Engineers	інженер			Інженерні юніти Федерації з доповнення Lava DLC.	Юніти Федерації	fuzzy	
 frag_mine	Frag Mine	Frag Mines	уламкова міна			Вибухова міна, представлена серед об’єктів і озброєння Lava DLC.	Зброя і техніка	fuzzy	
 fire_mine	Fire Mine		запалювальна міна			Запалювальна міна, представлена серед об’єктів і озброєння Lava DLC.	Зброя і техніка	fuzzy	
-stinger	Stinger	Stingers	жаляк			Дрібний дистанційний юніт Арахнідів, який випускає розігріті снаряди та часто перебуває біля високих гнізд у Lava DLC.	Арахніди	fuzzy	
+stinger	Stinger	Stingers	жалник			Дрібний дистанційний юніт Арахнідів, який випускає розігріті снаряди та часто перебуває біля високих гнізд у Lava DLC.	Арахніди		
 shredder_fire_pool	Shredder Fire Pool		вогняна калюжа шредера			Вогняна небезпечна зона або ефект, пов’язаний із Shredder у Lava DLC.	Механіки	fuzzy	
 waste_incinerator	Waste Incinerator		сміттєспалювач			Споруда Lava DLC (є варіант «Destroyed»).	Зброя і техніка		
 bug_vent	Bug Vent	Bug Vents	жуковий отвір			Отвір або споруда Арахнідів, через яку з’являються їхні юніти в Lava DLC.	Арахніди	fuzzy	
@@ -461,7 +461,7 @@ varuna	Varuna		Варуна			Назва міста та кампанії з д�
 metropolis	Metropolis		мегаполіс			Назва міського типу місцевості в доповненні Metropolis DLC.	Локації	fuzzy	
 metropolis_underground	Metropolis Underground		підземелля мегаполіса			Назва підземного міського типу місцевості в доповненні Metropolis DLC.	Локації	fuzzy	
 urban_onslaught	Urban Onslaught		Міський наступ			Офіційна назва доповнення, пов’язаного з кампанією Varuna.	Загальне	fuzzy	
-mahanagar	Mahanagar	Mahanagar's|Mahanagar’s	Маханаґар			Назва одного з найбільших міст Federation, де розгортається кампанія Varuna.	Локації	fuzzy	
+mahanagar	Mahanagar	Mahanagar's|Mahanagar’s	Маханагар			Назва одного з найбільших міст Federation, де розгортається кампанія Varuna.	Локації		
 materiel	Materiel		матеріальні засоби			Назва ігрового ресурсу, що використовується для забезпечення підрозділів у Metropolis DLC.	Механіки	fuzzy	
 police_squad	Police Squad		поліцейський загін			Підрозділ поліції Федерації з Metropolis DLC, що використовує допоміжні дрони.	Юніти Федерації	fuzzy	
 detainer_drone	Detainer Drone	detainer drones	дрон-затримувач			Допоміжні дрони Police Squad у Metropolis DLC, які відволікають ворожі атаки.	Юніти Федерації	fuzzy	
@@ -473,9 +473,9 @@ ballistic_missile_turret	Ballistic Missile Turret	Ballistic Missile Turrets	ту
 sentinel_drone	Sentinel Drone		дрон-сторож			Окремий тип сторожового безпілотного юніта з доповнення Metropolis DLC.	Юніти Федерації	fuzzy	
 riot_shield_squad	Riot Shield Squad	Riot Shield Squads	загін зі спецщитами			Важкоброньований поліцейський загін зі щитами з доповнення Metropolis DLC.	Юніти Федерації	fuzzy	
 braced	Braced		в оборонній стійці			Бойовий стан Riot Shield Squad, зазначений у назві варіанта юніта.	Механіки	fuzzy	
-peacekeeper_biped	Peacekeeper Biped	Peacekeeper	біпед «Миротворець»			Двоногий командний юніт сил правопорядку з доповнення Metropolis.	Юніти Федерації	fuzzy	
-peacekeeper_drone	Peacekeeper Drone		дрон «Миротворець»			Безпілотний юніт сил правопорядку з доповнення Metropolis.	Юніти Федерації	fuzzy	
-bomber_drone	Bomber Drone		дрон-бомбардувальник			Летючий бомбардувальний різновид арахніда з доповнення Metropolis.	Арахніди	fuzzy	
+peacekeeper_biped	Peacekeeper Biped	Peacekeeper	біпед Peacekeeper			Двоногий командний юніт сил правопорядку з доповнення Metropolis.	Юніти Федерації		
+peacekeeper_drone	Peacekeeper Drone		дрон Peacekeeper			Безпілотний юніт сил правопорядку з доповнення Metropolis.	Юніти Федерації		
+bomber_drone	Bomber Drone		дрон-бомбардувальник			Летючий бомбардувальний різновид арахніда з доповнення Metropolis.	Юніти Федерації		
 sgt_kayla_keys	Sgt. Kayla Keys		сержант Кайла Кіз			Персонаж у званні сержанта, пов’язаний із кампанією доповнення Metropolis.	Персонажі	fuzzy	
 hornet	Hornet	Hornets	шершень			Летючий різновид арахніда, представлений у доповненні Metropolis.	Арахніди	fuzzy	
 drawbridge	Drawbridge	Drawbridge (Up)|Drawbridge (Down)|drawbridges	розвідний міст			Інтерактивний розвідний міст у піднятому стані в Metropolis DLC.	Загальне	fuzzy	
@@ -483,9 +483,9 @@ materiel_cache	Materiel Cache		сховище матеріальних засо�
 reinforcements_door	Reinforcements Door		двері підкріплень			Двері в Metropolis DLC, через які прибувають підкріплення.	Загальне	fuzzy	
 materiel_depot	Materiel Depot	Materiel Depot (Destroyed)|Materiel Depots|Materiel Depot(Empty)	склад матеріальних засобів			Об’єкт зберігання ресурсу Materiel у Metropolis DLC.	Механіки	fuzzy	
 sam_site	SAM Site	SAM Sites	позиція ЗРК			Позиція зенітно-ракетного озброєння в Metropolis DLC; SAM є скороченням.	Зброя і техніка	fuzzy	
-m23_rainmaker	M23 Rainmaker		M23 «Дощотворець»			Бойовий юніт Федерації з доповнення Metropolis.	Юніти Федерації	fuzzy	
-rainmaker_drone	Rainmaker Drone		дрон «Заклинач дощу»			Безпілотний бойовий юніт Федерації з доповнення Metropolis.	Юніти Федерації	fuzzy	
-a_12_pegasus	A-12 Pegasus		A-12 «Пегас»			Ударний літальний апарат Федерації з доповнення Metropolis.	Юніти Федерації	fuzzy	
+m23_rainmaker	M23 Rainmaker		M23 Rainmaker			Бойовий юніт Федерації з доповнення Metropolis.	Юніти Федерації		
+rainmaker_drone	Rainmaker Drone		дрон Rainmaker			Безпілотний бойовий юніт Федерації з доповнення Metropolis.	Юніти Федерації		
+a_12_pegasus	A-12 Pegasus		A-12 Pegasus			Ударний літальний апарат Федерації з доповнення Metropolis.	Юніти Федерації		
 rocket_pod	Rocket Pod	rocket pods	ракетний блок			Ракетне озброєння літального апарата A-12 Pegasus для ураження стійких наземних цілей.	Зброя і техніка	fuzzy	
 j_a_c_trooper	J.A.C. Trooper	J.A.C. Troopers	боєць РШГ			Піхотний юніт Федерації з реактивним спорядженням і штурмовою гарматою в доповненні Metropolis.	Юніти Федерації	fuzzy	
 jumpjet_assault_cannon_trooper	Jumpjet Assault Cannon Trooper		боєць із реактивною штурмовою гарматою			Піхотні юніти Федерації для боротьби із середньоброньованими цілями в доповненні Metropolis.	Юніти Федерації	fuzzy	
@@ -495,7 +495,7 @@ elevator_entrance	Elevator Entrance		вхід до ліфта			Вхід до л
 control_tower	Control Tower		диспетчерська вежа			Керівна башта як об'єкт місцевості в доповненні Metropolis.	Локації	fuzzy	
 burster	Burster	Bursters|Burster Bugs	жук-підривник			Burster — тип арахніда з Metropolis DLC, що викидає вибухову речовину та вибухає після загибелі.	Арахніди	fuzzy	
 criminal	Criminal	Criminals	злочинець			Criminal — тип людського бойового юніта в Metropolis DLC.	Загальне	fuzzy	
-m7_cyclone	M7 Cyclone	M7	M7 «Циклон»			M7 Cyclone — мобільна бойова платформа в Metropolis DLC.	Зброя і техніка	fuzzy	
+m7_cyclone	M7 Cyclone	M7	M7 Cyclone			M7 Cyclone — мобільна бойова платформа в Metropolis DLC.	Зброя і техніка		
 range_mid_range	Range (mid-range)		дальність (середня)			Range (mid-range) — характеристика дальності вогню, що описує роль M23 Rainmaker у вогневій підтримці.	Механіки	fuzzy	
 deployed_mode	Deployed Mode		Розгорнутий режим			Deployed Mode — розгорнутий режим роботи M23 Rainmaker із підвищеною дальністю та темпом вогню.	Здібності	fuzzy	
 hornet_tanker	Hornet Tanker	Hornet Tankers	танкер-шершень			Симбіотичний бойовий юніт, утворений поєднанням великого арахніда з гніздом летючих арахнідів у Metropolis DLC.	Арахніди	fuzzy	
@@ -513,14 +513,14 @@ holographic_decoy	Holographic Decoy	holographic decoys	голографічна 
 booster_jump	Booster Jump		Реактивний стрибок			Здібність мобільності техніки з доповнення Metropolis DLC для подолання перешкод і перепадів висоти.	Здібності	fuzzy	
 booster_bash	Booster Bash		Реактивний таран			Атакувальна стрибкова здібність техніки з доповнення Metropolis DLC.	Здібності	fuzzy	
 repair_module	Repair Module		Ремонтний модуль			Постійно встановлювана ремонтна здібність-модуль техніки з доповнення Metropolis DLC.	Здібності	fuzzy	
-cyclone	Cyclone	Cyclones	«Циклон»			Бойова машина Федерації з доповнення Metropolis DLC, для якої встановлюється Repair Module.	Юніти Федерації	fuzzy	
+cyclone	Cyclone	Cyclones	Cyclone			Бойова машина Федерації з доповнення Metropolis DLC, для якої встановлюється Repair Module.	Юніти Федерації		
 jumpjet	Jumpjet		Стрибковий ранець			Здібність мобільності J.A.C. Trooper з доповнення Metropolis DLC для переміщення на височини.	Здібності	fuzzy	
 parting_gift	Parting Gift		Прощальний подарунок			Здібність Marksman у доповненні Metropolis для передислокації з залишенням вибухового пристрою.	Здібності	fuzzy	
 reduced_propellant_clip	Reduced Propellant Clip		Обойма зі зменшеним зарядом			Здібність у доповненні Metropolis, що дозволяє вести навісний вогонь вибуховими снарядами.	Здібності	fuzzy	
 rocket_barrage	Rocket Barrage		Ракетний залп			Здібність бойового літального апарата в доповненні Metropolis, що випускає повний залп некерованих ракет.	Здібності	fuzzy	
 executioner_missile	Executioner Missile		Ракета «Кат»			Ракетна здібність бойового літального апарата в доповненні Metropolis, що самонаводиться на ворожий юніт.	Здібності	fuzzy	
 showstopper_bomb	Showstopper Bomb		Бомба «Зірка шоу»			Бомбова здібність бойового літального апарата в доповненні Metropolis із відкладеним вибухом.	Здібності	fuzzy	
-rainmaker	Rainmaker		«Заклинач дощу»			Ракетний бойовий юніт Федерації з мобільним і розгорнутим режимами в доповненні Metropolis DLC.	Юніти Федерації	fuzzy	
+rainmaker	Rainmaker		Rainmaker			Ракетний бойовий юніт Федерації з мобільним і розгорнутим режимами в доповненні Metropolis DLC.	Юніти Федерації		
 red_carpet_barrage	Red Carpet Barrage		Залп «Червона доріжка»			Здібність юніта Rainmaker, що створює щільний загороджувальний обстріл шрапнеллю.	Здібності	fuzzy	
 drone_shield	Drone Shield		Щит дронів			Постійне захисне вдосконалення Rainmaker, що створює групу повітряних Drone.	Здібності	fuzzy	
 crowd_dispersion_gas	Crowd Dispersion Gas		Газ для розгону натовпу			Здібність Peacekeeper Biped у Metropolis DLC, що випускає навколо юніта отруйний газ.	Здібності	fuzzy	
@@ -545,19 +545,19 @@ governor_govac	Governor Govac		губернатор Говак			Губерна�
 starport	Starport	starport's	космопорт			Космопорт, який Mobile Infantry має відбити в межах цього сценарію.	Локації	fuzzy	
 drop_turret	Drop Turret		десантна турель			Розгортна автоматична турель, що використовується як бойовий об’єкт Федерації.	Зброя і техніка	fuzzy	
 instant_spawn_marker	Instant Spawn Marker		маркер миттєвої появи			Службовий маркер миттєвої появи юнітів у сценаріях гри.	Механіки	fuzzy	
-m4a_grinder	M4A Grinder	M4A Grinder's	M4A «М'ясорубка»			Легка збройна платформа Федерації з чотирма кулеметами.	Юніти Федерації	fuzzy	
-m9a_sledgehammer_assault	M9A Sledgehammer (Assault)		M9A «Кувалда» (штурмовий)			Штурмовий варіант двоногої бойової платформи Федерації для непрямої вогневої підтримки.	Юніти Федерації	fuzzy	
+m4a_grinder	M4A Grinder	M4A Grinder's	M4A Grinder			Легка збройна платформа Федерації з чотирма кулеметами.	Юніти Федерації		
+m9a_sledgehammer_assault	M9A Sledgehammer (Assault)		M9A Sledgehammer (штурмовий)			Штурмовий варіант двоногої бойової платформи Федерації для непрямої вогневої підтримки.	Юніти Федерації		
 hunter_killer_merc	Hunter-Killer Merc		найманець-мисливець			Найманий бойовий юніт далекого бою, назва якого подана в розділі юнітів.	Юніти Федерації	fuzzy	
 fortis_e_pulse_trooper	Fortis E-Pulse Trooper	Fortis E-Pulse Troopers	боєць E-Pulse Fortis			Варіант юніта E-Pulse Trooper у захисному спорядженні Fortis.	Юніти Федерації	fuzzy	
-m6a_jaeger	M6A Jaeger	M6A Jaegers	M6A «Єгер»			Легкоброньований двоногий бойовий юніт Федерації з потужною протиброньовою гарматою.	Юніти Федерації	fuzzy	
-kamikaze_drone	Kamikaze Drone		дрон-камікадзе			Самознищуваний різновид Drone у розділі юнітів арахнідів.	Арахніди	fuzzy	
-m9a_sledgehammer	M9A Sledgehammer		M9A «Кувалда»			Облоговий бойовий юніт або варіант техніки Федерації у конфігурації Siege.	Юніти Федерації	fuzzy	
+m6a_jaeger	M6A Jaeger	M6A Jaegers	M6A Jaeger			Легкоброньований двоногий бойовий юніт Федерації з потужною протиброньовою гарматою.	Юніти Федерації		
+kamikaze_drone	Kamikaze Drone		дрон-камікадзе			Самознищуваний різновид Drone у розділі юнітів арахнідів.	Юніти Федерації		
+m9a_sledgehammer	M9A Sledgehammer		M9A Sledgehammer			Облоговий бойовий юніт або варіант техніки Федерації у конфігурації Siege.	Юніти Федерації		
 siege	Siege	Siege Mode	облоговий режим			Облогова конфігурація або режим юніта M9A Sledgehammer.	Механіки	fuzzy	
 general	General	Generals	генерал			Командний юніт Федерації, названий за військовим званням.	Юніти Федерації	fuzzy	
 damaged	Damaged		пошкоджений			Стан пошкодженої версії юніта Wavebreaker Mortar.	Механіки	fuzzy	
 raged	Raged		розлючений			Стан люті, застосований до юніта Ravager.	Механіки	fuzzy	
 burning	Burning		палаючий			Стан горіння, застосований до юніта Immolator.	Механіки	fuzzy	
-drone_nest	Drone Nest	Drone Nests	гніздо дронів			Гніздо арахнідів, пов’язане з появою або розміщенням юнітів Drone.	Арахніди	fuzzy	
+drone_nest	Drone Nest	Drone Nests	гніздо трутнів			Гніздо арахнідів, пов’язане з появою або розміщенням юнітів Drone.	Арахніди		
 sniper_turret	Sniper Turret		снайперська турель			Стаціонарна оборонна турель Федерації для ведення снайперського вогню.	Юніти Федерації	fuzzy	
 heavy_weapon_depot	Heavy Weapon Depot		склад важкого озброєння			Назва споруди-депо важкого озброєння Федерації.	Зброя і техніка	fuzzy	
 flamethrower_turret	Flamethrower Turret		вогнеметна турель			Назва оборонної турелі з вогнеметним озброєнням.	Зброя і техніка	fuzzy	
@@ -567,7 +567,7 @@ deploy_firewall	Deploy Firewall		Розгорнути вогняну стіну	
 launch_drop_turret	Launch Drop Turret		Запустити скидну турель			Назва здібності мінометного механізованого юніта для запуску контейнера з туреллю.	Здібності	fuzzy	
 engine_overcharge	Engine Overcharge		Перевантаження двигуна			Здібність завислого бойового юніта, що тимчасово підіймає його над перешкодами.	Здібності	fuzzy	
 abort_engine_overcharge	Abort Engine Overcharge		Припинити перевантаження двигуна			Здібність-команда для дострокового припинення підсилення двигуна завислого бойового юніта.	Здібності	fuzzy	
-grinder	Grinder	Grinders	«М'ясорубка»			Завислий бойовий юніт Федерації, який після зниження до стандартної висоти знову може рухатися.	Юніти Федерації	fuzzy	
+grinder	Grinder	Grinders	Grinder			Завислий бойовий юніт Федерації, який після зниження до стандартної висоти знову може рухатися.	Юніти Федерації		
 indirect_fire_barrage	Indirect Fire Barrage		Залп непрямим вогнем			Елітна здібність завислого бойового юніта, що обстрілює вибрану область непрямим вогнем.	Здібності	fuzzy	
 flamethrower	Flamethrower	flamethrowers	вогнемет			Основне озброєння цього варіанта M11 Marauder для боротьби з численними легкими й середніми цілями.	Зброя і техніка	fuzzy	
 howitzer	Howitzer		гаубиця			Далекобійне озброєння одного з варіантів M11 Marauder з потужним пострілом і низькою скорострільністю.	Зброя і техніка	fuzzy	
@@ -576,7 +576,7 @@ mercenary_camp	Mercenary Camp	Mercenary camps	табір найманців			Т
 liaison	Liaison	Liaison's	зв'язковий			Юніт зв'язку Федерації, який викликає авіаційні й орбітальні удари та має постійний винищувальний ескорт.	Юніти Федерації	fuzzy	
 overcharge_mode	Overcharge Mode		режим перевантаження			Overcharge Mode — режим роботи елітного HMG-юніта, у якому ця здібність недоступна.	Механіки	fuzzy	
 hellraiser	Hellraiser		Пекельник			Hellraiser — здібність елітного HMG-юніта, пов’язана з перевантаженням двигуна та скиданням пального.	Здібності	fuzzy	
-sledgehammer	Sledgehammer		«Кувалда»			Sledgehammer — мінометний двоногий бойовий юніт Федерації, який у режимі Siege веде обстріл важкими снарядами.	Юніти Федерації	fuzzy	
+sledgehammer	Sledgehammer		Sledgehammer			Sledgehammer — мінометний двоногий бойовий юніт Федерації, який у режимі Siege веде обстріл важкими снарядами.	Юніти Федерації		
 assault_mode	Assault Mode		штурмовий режим			Assault Mode — мобільний бойовий режим мінометного меха для дій на передовій.	Механіки	fuzzy	
 proximity_defense	Proximity Defense		Ближній захист			Захисна здібність найманців, яка розгортає приманки та перемикає юніт у режим швидкого вогню.	Здібності	fuzzy	
 wolf_pack	Wolf Pack		Вовча зграя			Здібність найманця, яка розгортає двох додаткових супровідних Drone для посилення захисту.	Здібності	fuzzy	
@@ -599,7 +599,7 @@ personal_space_enforcement	Personal space enforcement		Охорона особи
 field_barricade	Field Barricade	Field Barricades	польова барикада			Польові загородження Fortis E-Pulse Trooper, отримана якими шкода враховується для досягнення.	Здібності	fuzzy	
 drilling_biped	Drilling Biped		бурова двонога машина			Drilling Biped — збільшена броньована двонога машина, представлена в місії 5.	Зброя і техніка	fuzzy	
 incendiary_bomb	Incendiary Bomb		запалювальна бомба			Incendiary Bomb — здібність цього варіанта M11 Marauder, яка підпалює ділянку навколо місця падіння боєприпасу.	Здібності	fuzzy	
-pegasus	Pegasus		«Пегас»			Pegasus — ударний літальний апарат Федерації для атак наземних цілей, описаний у матеріалі про місію 8.	Юніти Федерації	fuzzy	
+pegasus	Pegasus		Pegasus			Pegasus — ударний літальний апарат Федерації для атак наземних цілей, описаний у матеріалі про місію 8.	Юніти Федерації		
 gather_point	Gather Point		точка збору			Призначена гравцем точка, до якої автоматично прямують щойно придбані юніти.	Механіки	fuzzy	
 reinforce	Reinforce		Поповнити			Ігрова дія поповнення військ, яку можна швидко активувати для юнітів із відповідною здібністю.	Здібності	fuzzy	
 battle_group	Battle Group	Battle Groups|Battlegroup	бойова група			Ігрові набори доступних військ і можливостей, розраховані на різні стилі гри.	Механіки	fuzzy	
@@ -619,10 +619,10 @@ death_from_above	Death From Above		Смерть з небес			Унікальн
 give_em_hell	Give'em Hell		Задайте їм жару			Унікальна косметична емблема для майданчиків висадки в розділі територіальних косметичних предметів.	Загальне	fuzzy	
 law_liberty	Law & Liberty		Закон і свобода			Унікальна косметична емблема для майданчиків висадки в розділі територіальних косметичних предметів.	Загальне	fuzzy	
 silent_death	Silent Death		Тиха смерть			Унікальна косметична емблема для майданчиків висадки в розділі територіальних косметичних предметів.	Загальне	fuzzy	
-dr_4_desert_viking	DR-4 Desert Viking		DR-4 «Пустельний вікінг»			Унікальний косметичний варіант десантного корабля в розділі територіальних косметичних предметів.	Зброя і техніка	fuzzy	
-dr_4_dragonship	DR-4 Dragonship		DR-4 «Драконоліт»			Унікальний косметичний варіант десантного корабля в розділі територіальних косметичних предметів.	Зброя і техніка	fuzzy	
+dr_4_desert_viking	DR-4 Desert Viking		DR-4 Desert Viking			Унікальний косметичний варіант десантного корабля в розділі територіальних косметичних предметів.	Зброя і техніка		
+dr_4_dragonship	DR-4 Dragonship		DR-4 Dragonship			Унікальний косметичний варіант десантного корабля в розділі територіальних косметичних предметів.	Зброя і техніка		
 police_dropship	Police Dropship		поліцейський десантний корабель			Унікальний косметичний варіант десантного корабля в розділі територіальних косметичних предметів.	Зброя і техніка	fuzzy	
-the_fumigator	The Fumigator		«Фумігатор»			Унікальний косметичний варіант десантного корабля в розділі територіальних косметичних предметів.	Зброя і техніка	fuzzy	
+the_fumigator	The Fumigator		Fumigator			Унікальний косметичний варіант десантного корабля в розділі територіальних косметичних предметів.	Зброя і техніка		
 lava_lake	Lava Lake		Лавове озеро			Назва сценарію або поля бою в користувацькому режимі Territory.	Локації	fuzzy	
 dual_districts	Dual Districts		Два райони			Назва сценарію або поля бою в користувацькому режимі Territory.	Локації	fuzzy	
 chemical_compound	Chemical Compound		Хімічний комплекс			Назва сценарію або поля бою в користувацькому режимі Territory.	Локації	fuzzy	
@@ -699,7 +699,7 @@ doctor_kraus	Doctor Kraus		доктор Краус			Керівник місце
 eradicator	Eradicator		ліквідатор			Тип загонів Федерації, чиї боєприпаси спричиняють швидкий внутрішній некроз локалізованим випромінюванням.	Юніти Федерації	fuzzy	
 pheromone_silo	Pheromone Silo	pheromone silos	феромонний резервуар			Споруда для забезпечення роботи програми керування в місії Chemical 1.	Технології	fuzzy	
 fuel_cell	Fuel Cell	fuel cells	паливний елемент			Транспортований технологічний вантаж для заправлення пускової системи в місії Chemical 1.	Технології	fuzzy	
-hydra	Hydra	Hydra's	Гідра			Особливий арахнідський організм, який є ціллю у місії Chemical 10.	Арахніди	fuzzy	
+hydra	Hydra	Hydra's	гідра			Особливий арахнідський організм, який є ціллю у місії Chemical 10.	Арахніди		
 eggs_cluster	Eggs Cluster		кладка яєць			Скупчення яєць арахнідів, яке потрібно захопити у місії Chemical 10.	Арахніди	fuzzy	
 neural_link	neural-link	Neural Link	нейронний зв'язок			Експериментальна технологія нейронного керування арахнідом у межах місії Chemical 10.	Технології	fuzzy	
 hercules_program	Hercules Program		програма «Геркулес»			Дослідницька програма зі створення системи керування арахнідом, успіх якої оголошують у фіналі місії Chemical 10.	Технології	fuzzy	
@@ -712,12 +712,12 @@ kraus	Kraus		Краус			Персонаж, який готує активаці
 d_i_m_dart	D.I.M. Dart	dart|Darts|Mind Control Dart	дротик D.I.M.			Спеціальний снаряд D.I.M. Dart Launcher, призначений для проникнення в нервовий стовбур Hydra в місії Chemical 10.	Зброя і техніка	fuzzy	
 buzzer_nest	Buzzer Nest	Buzzer Nests	гніздо дзижчальників			Споруди арахнідів, які потрібно знищити в місії Chemical 2.	Арахніди	fuzzy	
 bug_cage	Bug Cage	Bug Cages	клітка для жуків			Споруди для утримання арахнідів, які потрібно збудувати в місії Chemical 2.	Технології	fuzzy	
-xm3_c_alchemist	XM3-C Alchemist	XM3-C Alchemist bipeds|XM3-C Alchemists	XM3-C «Алхімік»			Спеціалізований двоногий юніт Федерації для застосування токсичних речовин у місії Chemical 2.	Юніти Федерації	fuzzy	
+xm3_c_alchemist	XM3-C Alchemist	XM3-C Alchemist bipeds|XM3-C Alchemists	XM3-C Alchemist			Спеціалізований двоногий юніт Федерації для застосування токсичних речовин у місії Chemical 2.	Юніти Федерації		
 nest	Nest	nests	гніздо			Споруда арахнідів, яку знищують під час завдання в місії Chemical 2.	Арахніди	fuzzy	
 soil_extractor	Soil Extractor		екстрактор ґрунту			Пристрій для видобування зразків ґрунту, який потрібно розмістити в місії Chemical 2.	Технології	fuzzy	
-alchemist	Alchemist	Alchemist bipeds	«Алхімік»			Новий двоногий бойовий юніт Федерації з токсичною зброєю, який наказано розгорнути в місії Chemical 2.	Юніти Федерації	fuzzy	
+alchemist	Alchemist	Alchemist bipeds	Alchemist			Новий двоногий бойовий юніт Федерації з токсичною зброєю, який наказано розгорнути в місії Chemical 2.	Юніти Федерації		
 buzzer	Buzzer	Buzzers|Buzzer Bugs|Buzzer Drones	дзижчальник			Летючий бойовий різновид Арахнідів, здатний прориватися крізь прогалини в обороні.	Арахніди	fuzzy	
-xm3_a_raycaster	XM3-A Raycaster	XM3-A Raycaster biped|XM3-A Raycasters	XM3-A «Променемет»			Двонога бойова машина, яку відкривають у місії Chemical 3.	Зброя і техніка	fuzzy	
+xm3_a_raycaster	XM3-A Raycaster	XM3-A Raycaster biped|XM3-A Raycasters	XM3-A Raycaster			Двонога бойова машина, яку відкривають у місії Chemical 3.	Зброя і техніка		
 central_station	Central Station		Центральна станція			Названа станція, яку потрібно захопити в місії Chemical 4.	Локації	fuzzy	
 missile_mastery	Missile Mastery		ракетна майстерність			Технологія, яку потрібно розблокувати в місії Chemical 4.	Технології	fuzzy	
 missile_monitor	Missile Monitor		ракетний координатор			Спеціалізований підрозділ Федерації, який потрібно розгорнути в місії Chemical 4.	Юніти Федерації	fuzzy	
@@ -735,7 +735,7 @@ ghutana_high_security_prison	Ghutana High Security Prison		В'язниця су�
 powered_suit_irradiator	Powered Suit Irradiator	Powered Suit Irradiators	опромінювач силового костюма			Спеціальне озброєння Powered Suit, яке відкривається в місії Chemical 8.	Зброя і техніка	fuzzy	
 pheromone_disruptor_grenade	Pheromone Disruptor grenade	Pheromone Disruptor grenades	феромонна дезорієнтувальна граната			Феромонні гранати спеціального призначення, які випробовують у місії Chemical 8.	Зброя і техніка	fuzzy	
 pheromone_disruptor	Pheromone Disruptor		феромонний дезорієнтатор			Експериментальна феромонна речовина в гранатах, що змінює розпізнавання цілей Арахнідами в місії Chemical 8.	Технології	fuzzy	
-xm11_k_annihilator	XM11-K Annihilator	XM11-K	XM11-K «Анігілятор»			Бойовий юніт Федерації на шасі Marauder з ядерним реактором, який у місії Chemical 9 використовують для заряджання батарейного масиву.	Юніти Федерації	fuzzy	
+xm11_k_annihilator	XM11-K Annihilator	XM11-K	XM11-K Annihilator			Бойовий юніт Федерації на шасі Marauder з ядерним реактором, який у місії Chemical 9 використовують для заряджання батарейного масиву.	Юніти Федерації		
 power_battery	Power Battery		енергетичний акумулятор			Місійний енергетичний пристрій, який потрібно зарядити в місії Chemical 9.	Технології	fuzzy	
 mining_tunnel	Mining Tunnel		шахтарський тунель			Шахтарський тунель, що є цільовою локацією місії Kwalasha 1.	Локації	fuzzy	
 hq	HQ		штаб			Штаб (headquarters): командування, що видає ресурси й накази гравцеві; не плутати з Hive Queen.	Фракції	fuzzy	
@@ -760,13 +760,13 @@ irradiated_corpse	Irradiated Corpse		опромінений труп			Окре�
 radiation_drone	Radiation Drone		радіаційний дрон			Спеціалізований бойовий дрон із розділу ChemicalDLCLines.	Зброя і техніка	fuzzy	
 reactor_booster	Reactor Booster		Підсилювач реактора			Іменована здатність або підсилення реактора в розділі ChemicalDLCLines.	Здібності	fuzzy	
 rocket_launcher	Rocket Launcher		ракетомет			Багатоствольна ракетна зброя загону Missile Specialist для боротьби з важкозахищеними цілями.	Зброя і техніка	fuzzy	
-xm9_b_overseer	XM9-B Overseer	XM9-B Overseer's	XM9-B «Наглядач»			Важка двонога бойова машина з феромонним озброєнням у розділі ChemicalDLCLines.	Зброя і техніка	fuzzy	
+xm9_b_overseer	XM9-B Overseer	XM9-B Overseer's	XM9-B Overseer			Важка двонога бойова машина з феромонним озброєнням у розділі ChemicalDLCLines.	Зброя і техніка		
 fortis_e_pulse_92_troopers	Fortis E-Pulse 92 Troopers		бійці в костюмах Fortis з E-Pulse 92			Підрозділ бійців Федерації у розділі ChemicalDLCLines, оснащений костюмами Fortis і зброєю E-Pulse 92.	Юніти Федерації	fuzzy	
 fortis	Fortis	'Fortis'	Fortis			Модель бронекостюма, якою оснащено підрозділ у розділі ChemicalDLCLines.	Зброя і техніка	fuzzy	
 e_pulse_92	E-Pulse 92		E-Pulse 92			Модель енергетичної зброї підрозділу у розділі ChemicalDLCLines.	Зброя і техніка	fuzzy	
 mass_pheromone_emitter	Mass Pheromone Emitter		масовий феромонний випромінювач			Різновид технології Pheromone Emitter у матеріалах Chemical DLC.	Технології	fuzzy	
 battery_array	Battery Array		акумуляторний масив			Технологічний об’єкт із матеріалів Chemical DLC.	Технології	fuzzy	
-buzzer_drone	Buzzer Drone		дрон-дзижчальник			Малий крилатий різновид арахніда з матеріалів Chemical DLC.	Арахніди	fuzzy	
+buzzer_drone	Buzzer Drone		трутень-дзижчальник			Малий крилатий різновид арахніда з матеріалів Chemical DLC.	Арахніди		
 remote_specimen_termination	Remote Specimen Termination		Дистанційна ліквідація зразків			Здібність із розділу ChemicalDLCLines для дистанційного знищення всіх прикріплених до загону зразків.	Здібності	fuzzy	
 spitter_escort	Spitter Escort		Супровід плювачів			Здібність із розділу ChemicalDLCLines для заміни супроводу загону на далекобійних арахнідів.	Здібності	fuzzy	
 warrior_escort	Warrior Escort		Супровід воїнів			Здібність із розділу ChemicalDLCLines для заміни супроводу загону на витриваліших арахнідів.	Здібності	fuzzy	
@@ -812,7 +812,7 @@ launch_tactical_nuke_missile	Launch Tactical Nuke Missile		Запустити т
 tactical_nuke_missile	Tactical Nuke Missile		тактична ядерна ракета			Тактична ядерна ракета малої потужності для запуску з ракетної установки в розділі Chemical DLC.	Зброя і техніка	fuzzy	
 launch_poison_gas_missile	Launch Poison Gas Missile		Запустити ракету з отруйним газом			Здібність запуску ракети з отруйним газом із ракетної установки в розділі Chemical DLC.	Здібності	fuzzy	
 launch_cluster_missiles	Launch Cluster Missiles		Запустити касетні ракети			Здібність залпового запуску касетних ракет із ракетної установки в розділі Chemical DLC.	Здібності	fuzzy	
-drugged_drone	Drugged Drone	Drugged Drones	одурманений дрон			Окремий різновид одурманених бойових жуків у розділі Chemical DLC.	Арахніди	fuzzy	
+drugged_drone	Drugged Drone	Drugged Drones	одурманений трутень			Окремий різновид одурманених бойових жуків у розділі Chemical DLC.	Арахніди		
 d_i_m	D.I.M.		D.I.M.			Скорочена назва технології, мініатюризованої для впливу на великих арахнідів у місії Chemical 7.	Технології	fuzzy	
 mass_emitter	Mass Emitter		масовий випромінювач			Споруджувана машина та ціль місії Chemical 9, до будівельного майданчика якої наближається командир.	Технології	fuzzy	
 xm3_a	XM3-A	XM3-A's	XM3-A			Скорочене позначення юніта Федерації, якому належить здібність Reactor Drop; повна назва невідома.	Юніти Федерації	fuzzy	
@@ -841,7 +841,7 @@ field_radio	Field Radio		польова радіостанція			Будова�
 air_support_operator	Air Support Operator		оператор авіапідтримки			Підрозділ підтримки Федерації, який будує радіостанції та застосовує здібності вогневої підтримки в JungleDLCLines.	Юніти Федерації	fuzzy	
 grenade_launcher	Grenade Launcher	Grenade Launchers	гранатомет			Озброєння цього варіанта M11 Marauder у JungleDLCLines.	Зброя і техніка	fuzzy	
 25t_sawmaster	25t SawMaster		25t SawMaster			Важка машина Федерації для вирубування рослинності та оборони передової в JungleDLCLines.	Юніти Федерації	fuzzy	
-thermite_drone	Thermite Drone		термітний трутень			Назва різновиду арахніда Thermite Drone у розділі Jungle DLC.	Арахніди	fuzzy	
+thermite_drone	Thermite Drone		термітний трутень			Назва різновиду арахніда Thermite Drone у розділі Jungle DLC.	Арахніди		
 m4t_thumper	M4T Thumper		M4T Thumper			Назва легкої мінометної бойової платформи M4T Thumper у розділі Jungle DLC.	Юніти Федерації	fuzzy	
 m6t_ribault	M6T Ribault		M6T Ribault			Назва двоногого протиброньового бойового юніта M6T Ribault у розділі Jungle DLC.	Юніти Федерації	fuzzy	
 light_machine_gun	Light Machine Gun		ручний кулемет			Назва легкої кулеметної зброї Light Machine Gun у розділі Jungle DLC.	Зброя і техніка	fuzzy	
@@ -894,7 +894,7 @@ undeploy_the_m23_t	Undeploy the M23-T		Згорнути M23-T			Здібніст
 tunneler	Tunneler	Tunnelers	тунельник			Тип арахнідів, пов’язаний із підземним пересуванням у розділі загроз мутацій.	Арахніди	fuzzy	
 manpad_trooper	MANPAD Trooper	MANPAD Troopers	боєць із ПЗРК			Підрозділ Федерації, озброєний переносними зенітними ракетними комплексами.	Юніти Федерації	fuzzy	
 man_portable_air_defense_system	Man-portable air-defense system		переносний зенітний ракетний комплекс			Переносна ракетна система наведення, якою озброєно MANPAD Troopers.	Зброя і техніка	fuzzy	
-m7b_thunderbolt	M7B Thunderbolt		M7B «Блискавка»			Іменована модель бойової техніки Федерації в розділі прототипів юнітів.	Зброя і техніка	fuzzy	
+m7b_thunderbolt	M7B Thunderbolt		M7B Thunderbolt			Іменована модель бойової техніки Федерації в розділі прототипів юнітів.	Зброя і техніка		
 tac_wing_director_miniguns	TAC Wing Director (Miniguns)	TAC Wing Director(Miniguns)	оператор авіакрила TAC (мінігани)			Варіант оператора авіаційної підтримки Федерації, який наводить групу з мініганами.	Юніти Федерації	fuzzy	
 exosuit_assault_marine	Exosuit Assault Marine	Exosuit Assault Marines	штурмовий морпіх в екзокостюмі			Варіант Assault Marine Федерації, оснащений бойовим екзокостюмом.	Юніти Федерації	fuzzy	
 marine_mechanic	Marine Mechanic	Marine Mechanics	механік морської піхоти			Наземний технічний підрозділ Федерації, який готує аеродроми та оборонні споруди.	Юніти Федерації	fuzzy	
@@ -959,7 +959,7 @@ gatekeeper	Gatekeeper		Вартовий брами			Назва місії 18 у
 material	Material		матеріал			Ігровий ресурс, який додатково нараховується за знищення ворогів у місії Gatekeeper.	Механіки	fuzzy	
 guardians_of_steel	Guardians of Steel		Вартові сталі			Назва місії 13 у сценарії Kwalasha_Guardians.	Загальне	fuzzy	
 purification_plant	Purification Plant		очисна станція			Purification Plant — промисловий об’єкт на південному сході, через який пролягає обхідний маршрут у місії «Guardians of Steel».	Локації	fuzzy	
-m11_babar	M11 Babar	M11 Babars	M11 «Бабар»			Важка бойова машина Федерації, яку використовують у місії «Guardians of Steel».	Зброя і техніка	fuzzy	
+m11_babar	M11 Babar	M11 Babars	M11 Babar			Важка бойова машина Федерації, яку використовують у місії «Guardians of Steel».	Зброя і техніка		
 rico	Rico		Ріко			Генерал Федерації, який позичив загону юніти Marauder для місії «Guardians of Steel».	Персонажі	fuzzy	
 evacuation_point	Evacuation Point		точка евакуації			Позначена точка евакуації в завданні місії «Guardians of Steel».	Локації	fuzzy	
 operation_guillotine	Operation Guillotine		Операція «Гільйотина»			Назва операції та місії на Kwalasha.	Загальне	fuzzy	
