@@ -14,7 +14,7 @@
 
 Основний канал поширення. Тег `<версія-гри>-<номер>` (напр. `6.5.0-1`), архів `STTC-uk-UA-<тег>.zip` з текою
 `StreamingAssets/` усередині (`Language/languages.txt`, `Language/ukrainian*.csv`, `Scenarios/*/text_ukrainian.csv`),
-нотатки — за `github-release.md` (розділ із `CHANGELOG.md`). Архів робить `python tools/build.py --zip` з `main` без чернеток.
+нотатки — за `github-release.md` (розділ із `CHANGELOG.md`). Архів робить `python tools/build.py --zip` з `main`; поки переклад — чернетка, реліз позначається pre-release і збирається з `--drafts --zip` (інакше в архіві не буде перекладів).
 
 ## Steam
 

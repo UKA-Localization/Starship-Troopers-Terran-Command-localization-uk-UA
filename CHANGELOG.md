@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+## [6.5.0-1] — 2026-09-19
+
+Перший реліз: повна чернетка перекладу для Starship Troopers: Terran Command v6.5.0. Усі 7 165 рядків мають `status=fuzzy`/`unresolved` — не вичитано.
+
 ### Added
 - Скелет репозиторію: документація, порожній глосарій, стиль, `pipeline.toml` за схемою [localization-pipeline-uk-UA](https://github.com/UKA-Localization/localization-pipeline-uk-UA) (плейсхолдери `{N}`, теги rich text, підписи `[…]`, переноси; групування: місія — блок, інтерфейс — за розділом), CI (GitHub Actions: актуальність `strings.tsv`, збірка).
 - Оригінальні тексти гри v6.5.0 (`source/`: 24 файли `Language/english*.csv`, `languages.txt`, 84 файли `Scenarios/*/text_english.csv`).
