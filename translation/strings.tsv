@@ -1022,7 +1022,7 @@ Language/english_1.csv	new_campaign_description	Discover the career for you and 
 Language/english_1.csv	new_campaign_difficulty	Campaign Difficulty	Складність кампанії	fuzzy	ARACHNIDS	-	-
 Language/english_1.csv	new_campaign_playername	Division Name 	Назва дивізії 	fuzzy	ARACHNIDS	-	-
 Language/english_1.csv	new_campaign_playername_default	6th Infantry Division	6-та піхотна дивізія	unresolved	ARACHNIDS	infantry	-
-Language/english_1.csv	new_campaign_start_button	Enlist Now	Вступайте!		ARACHNIDS	-	propaganda|command
+Language/english_1.csv	new_campaign_start_button	Enlist Now	Вступайте!	fuzzy	ARACHNIDS	-	propaganda|command
 Language/english_1.csv	new_campaign_back_button	Go back	Назад	fuzzy	ARACHNIDS	-	command
 Language/english_1.csv	button_credits	Credits	Автори	fuzzy	ARACHNIDS	-	-
 Language/english_1.csv	credits_developed_by	 Developed by	 Розробники	fuzzy	ARACHNIDS	-	-
