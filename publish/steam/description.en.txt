@@ -1,0 +1,1 @@
+Ukrainian localization: UI, units, technologies, the Federal Archives, every mission of the campaigns, Territory mode and DLCs. Two-minute install — extract into the game folder, pick the language in Options. Draft, proofreading in progress.
