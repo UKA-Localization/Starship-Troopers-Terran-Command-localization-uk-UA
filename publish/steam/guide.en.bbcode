@@ -1,28 +1,40 @@
 [h1]Ukrainian Localization for Starship Troopers: Terran Command[/h1]
-Unofficial Ukrainian translation: UI, units, abilities, technologies, achievements, mission briefings and objectives. Game version: [b]v6.5.0[/b].
+Unofficial Ukrainian translation: UI, units, abilities, technologies, achievements, the Federal Archives, briefings, objectives and dialogue of every mission across the three campaigns, Territory mode, trials and all DLCs — 7,165 strings. Game version: [b]v6.5.0[/b].
+
+The game supports extra languages out of the box, so the localization adds Ukrainian as a separate language in the menu next to the official ones. No original file is modified except one line appended to the language list; switch back to any other language at any time.
+
+[b]Current version is a draft:[/b] everything is translated, proofreading is in progress. Expect rough spots — please report them (link at the bottom).
 
 [h2]Installation[/h2]
 [olist]
-[*]Download the latest release archive: [url=https://github.com/UKA-Localization/Starship-Troopers-Terran-Command-localization-uk-UA/releases]GitHub Releases[/url].
-[*]Extract it into the game folder so that the files land in
-[code]<game folder>\Starship Troopers_Data\StreamingAssets\[/code]
-(by default [code]C:\Program Files (x86)\Steam\steamapps\common\Starship Troopers - Terran Command\Starship Troopers_Data\StreamingAssets\[/code]). [b]Language\languages.txt[/b] gets replaced — that is expected: it has the Ukrainian entry added.
-[*]Launch the game: [b]Options → Language → Українська[/b], then restart the game.
+[*]Download the latest release archive: [url=https://github.com/UKA-Localization/Starship-Troopers-Terran-Command-localization-uk-UA/releases/latest]GitHub Releases[/url] (file [b]STTC-uk-UA-<version>.zip[/b], ~300 KB).
+[*]Open the game folder: in your Steam library right-click the game → [b]Manage → Browse local files[/b]. By default it is
+[code]C:\Program Files (x86)\Steam\steamapps\common\Starship Troopers - Terran Command[/code]
+[*]Extract the archive so that the files land in
+[code]Starship Troopers_Data\StreamingAssets\[/code]
+The archive already contains a [b]StreamingAssets[/b] folder, so extract it into [b]Starship Troopers_Data[/b] and confirm replacing [b]Language\languages.txt[/b] (it only has the Ukrainian entry added — that is expected).
+[*]Launch the game: [b]Options → Language → Українська[/b]. The game asks for a restart — restart it.
 [/olist]
 
+To verify: [b]Starship Troopers_Data\StreamingAssets\Language[/b] should contain [b]ukrainian.csv[/b], [b]ukrainian_0.csv[/b] … and [b]languages.txt[/b] whose last line is [b]8 = ukrainian[/b].
+
+[h2]After a game update or file verification[/h2]
+A game update or "Verify integrity of game files" restores the original [b]languages.txt[/b], so Ukrainian disappears from the list while the translation files stay in place. Just extract the archive again (step 3).
+
 [h2]Uninstall[/h2]
-Delete [b]Language\ukrainian*.csv[/b] and [b]Scenarios\*\text_ukrainian.csv[/b], then restore the original [b]languages.txt[/b] (Steam → Properties → Installed Files → Verify integrity).
+Delete [b]Language\ukrainian*.csv[/b] and [b]Scenarios\*\text_ukrainian.csv[/b] inside [b]StreamingAssets[/b], then restore [b]languages.txt[/b] via Steam: [b]Properties → Installed Files → Verify integrity of game files[/b].
 
 [h2]Known issues[/h2]
 [list]
-[*]A game update may restore the original languages.txt, so Ukrainian disappears from the list. Extract the archive again.
-[*]The language flag icon next to "Українська" may be missing — the icons are baked into the game assets.
+[*]No flag next to "Українська" in the language list — flag icons are baked into the game assets and cannot be added from outside. Does not affect the translation.
+[*]A few button labels may slightly overflow due to longer Ukrainian words; being fixed during proofreading.
+[*]Vehicle designations (M23 Rainmaker, A-12 Pegasus, XM11-K Annihilator) are kept in Latin as model names; the exception is "Мародер" (Marauder), after the Ukrainian title of the film.
 [/list]
 
 [h2]What's new[/h2]
-_(CHANGELOG.md section for the current release)_
+[b]6.5.0-1[/b] — first release: complete draft translation for game v6.5.0 (7,165 strings), a 1,135-term glossary aligned with the Ukrainian translation of Starship Troopers.
 
 [h2]Bugs & suggestions[/h2]
-[url=https://github.com/UKA-Localization/Starship-Troopers-Terran-Command-localization-uk-UA/issues]GitHub Issues[/url]. You can help with proofreading without any technical skills — see the repository.
+[url=https://github.com/UKA-Localization/Starship-Troopers-Terran-Command-localization-uk-UA/issues]GitHub Issues[/url] — tell us which line and what is wrong (a screenshot helps). You can help with proofreading without any technical skills — see the [url=https://github.com/UKA-Localization/Starship-Troopers-Terran-Command-localization-uk-UA]repository[/url].
 
 UKA Localization
