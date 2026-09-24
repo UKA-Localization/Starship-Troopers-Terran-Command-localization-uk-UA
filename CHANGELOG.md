@@ -4,6 +4,9 @@
 
 ## [Unreleased]
 
+### Fixed
+- Гра більше не вилітає з критичним збоєм на місіях «Operation Guillotine» і «The Perimeter».
+
 ## [6.5.0-1] — 2026-09-19
 
 Перший реліз: повна чернетка перекладу для Starship Troopers: Terran Command v6.5.0. Усі 7 165 рядків мають `status=fuzzy`/`unresolved` — не вичитано.
