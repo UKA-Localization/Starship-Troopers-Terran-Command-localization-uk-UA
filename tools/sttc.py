@@ -100,6 +100,14 @@ class GameCsv:
         return [r for r in self.rows if r.kind == "entry"]
 
 
+def unquote_comment(raw: str) -> str:
+    """Коментар у грі буває загорнутий у лапки: «"// ==== /INTRO ==== ",» — знімає обгортку, решту лишає як є."""
+    s = raw.strip()
+    if s.startswith('"//'):
+        return s.rstrip(",").strip().strip('"')
+    return s
+
+
 def _split_logical_lines(text: str) -> list[str]:
     """Ділить текст на логічні рядки: перенос усередині значення в лапках не розриває рядок."""
     lines, buf, in_quotes, i, n = [], [], False, 0, len(text)
@@ -143,7 +151,7 @@ def parse_game_csv(data: bytes) -> GameCsv:
     doc.trailing_newline = text.endswith("\n")
     seen: dict[str, int] = {}
     for raw in _split_logical_lines(text):
-        if raw.startswith("//"):
+        if unquote_comment(raw).startswith("//"):
             doc.rows.append(Row("comment", raw))
             continue
         if raw.strip() in ("", ","):

@@ -42,7 +42,7 @@ FRAME = re.compile(r"^#+\s*(.*?)\s*#+,?$")   # «// #### Розділ ####»
 
 
 def _comment_text(raw: str) -> str:
-    text = raw[2:].strip().rstrip(",").strip()
+    text = sttc.unquote_comment(raw)[2:].strip().rstrip(",").strip()
     m = FRAME.match(text)
     if m:
         return m.group(1).strip()
