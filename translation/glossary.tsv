@@ -545,7 +545,7 @@ governor_govac	Governor Govac		губернатор Говак			Губерна�
 starport	Starport	starport's	космопорт			Космопорт, який Mobile Infantry має відбити в межах цього сценарію.	Локації	fuzzy	
 drop_turret	Drop Turret		десантна турель			Розгортна автоматична турель, що використовується як бойовий об’єкт Федерації.	Зброя і техніка	fuzzy	
 instant_spawn_marker	Instant Spawn Marker		маркер миттєвої появи			Службовий маркер миттєвої появи юнітів у сценаріях гри.	Механіки	fuzzy	
-m4a_grinder	M4A Grinder	M4A Grinder's	M4A Grinder			Легка збройна платформа Федерації з чотирма кулеметами.	Юніти Федерації		
+m4a_grinder	M4A Grinder	M4A Grinder's	M4A Grinder			Легка збройна платформа Федерації з чотирма кулеметами.	Юніти Федерації	rework	
 m9a_sledgehammer_assault	M9A Sledgehammer (Assault)		M9A Sledgehammer (штурмовий)			Штурмовий варіант двоногої бойової платформи Федерації для непрямої вогневої підтримки.	Юніти Федерації		
 hunter_killer_merc	Hunter-Killer Merc		найманець-мисливець			Найманий бойовий юніт далекого бою, назва якого подана в розділі юнітів.	Юніти Федерації	fuzzy	
 fortis_e_pulse_trooper	Fortis E-Pulse Trooper	Fortis E-Pulse Troopers	боєць E-Pulse Fortis			Варіант юніта E-Pulse Trooper у захисному спорядженні Fortis.	Юніти Федерації	fuzzy	
@@ -567,7 +567,7 @@ deploy_firewall	Deploy Firewall		Розгорнути вогняну стіну	
 launch_drop_turret	Launch Drop Turret		Запустити скидну турель			Назва здібності мінометного механізованого юніта для запуску контейнера з туреллю.	Здібності	fuzzy	
 engine_overcharge	Engine Overcharge		Перевантаження двигуна			Здібність завислого бойового юніта, що тимчасово підіймає його над перешкодами.	Здібності	fuzzy	
 abort_engine_overcharge	Abort Engine Overcharge		Припинити перевантаження двигуна			Здібність-команда для дострокового припинення підсилення двигуна завислого бойового юніта.	Здібності	fuzzy	
-grinder	Grinder	Grinders	Grinder			Завислий бойовий юніт Федерації, який після зниження до стандартної висоти знову може рухатися.	Юніти Федерації		
+grinder	Grinder	Grinders	Grinder			Завислий бойовий юніт Федерації, який після зниження до стандартної висоти знову може рухатися.	Юніти Федерації	rework	
 indirect_fire_barrage	Indirect Fire Barrage		Залп непрямим вогнем			Елітна здібність завислого бойового юніта, що обстрілює вибрану область непрямим вогнем.	Здібності	fuzzy	
 flamethrower	Flamethrower	flamethrowers	вогнемет			Основне озброєння цього варіанта M11 Marauder для боротьби з численними легкими й середніми цілями.	Зброя і техніка	fuzzy	
 howitzer	Howitzer		гаубиця			Далекобійне озброєння одного з варіантів M11 Marauder з потужним пострілом і низькою скорострільністю.	Зброя і техніка	fuzzy	
